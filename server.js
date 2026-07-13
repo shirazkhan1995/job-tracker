@@ -77,6 +77,7 @@ const server = http.createServer(async (req, res) => {
       const jobs = jobList();
       return send(res, 200, {
         running: !!refreshing,
+        canRefresh: true,
         lastRunAt: state.lastRunAt || null,
         counts: {
           active: jobs.filter(j => j.active).length,

@@ -14,6 +14,8 @@ concurrency: scrape
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,6 +26,11 @@ jobs:
         run: node discover.js
       - name: Run tracker
         run: node tracker.js
+      - name: Push jobs to Postgres
+        if: env.DATABASE_URL != ''
+        run: |
+          npm install --no-audit --no-fund
+          node scripts/push-db.js
       - name: Commit updated data
         run: |
           git config user.name "job-tracker-bot"
