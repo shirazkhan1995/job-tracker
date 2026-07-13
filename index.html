@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Tracker</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1a1d21; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #2563eb; --accent-soft: #dbeafe;
+    --green: #16a34a; --green-soft: #dcfce7; --amber: #b45309; --amber-soft: #fef3c7;
+    --red: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --card: #171a21; --text: #e7e9ee; --muted: #9299a6;
+      --line: #262b36; --accent: #60a5fa; --accent-soft: #1e3a5f;
+      --green: #4ade80; --green-soft: #14351f; --amber: #fbbf24; --amber-soft: #3a2c0a;
+      --red: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 20px 16px 80px; }
+  header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  h1 { font-size: 20px; margin: 0; flex: 1; }
+  .btn { border: 1px solid var(--line); background: var(--card); color: var(--text);
+         border-radius: 8px; padding: 7px 14px; cursor: pointer; font-size: 14px; }
+  .btn:hover { border-color: var(--accent); }
+  .btn[disabled] { opacity: .5; cursor: wait; }
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
+  .tab { border: 1px solid var(--line); background: var(--card); color: var(--muted);
+         border-radius: 999px; padding: 5px 14px; cursor: pointer; font-size: 13.5px; }
+  .tab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+  .search { flex: 1; min-width: 200px; border: 1px solid var(--line); background: var(--card);
+            color: var(--text); border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+  .chip { border: 1px solid var(--line); background: var(--card); color: var(--muted);
+          border-radius: 999px; padding: 4px 11px; cursor: pointer; font-size: 12.5px; }
+  .chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+          padding: 14px 16px; margin-bottom: 10px; }
+  .card.expired { opacity: .55; }
+  .title-row { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  a.job { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 16px; }
+  a.job:hover { text-decoration: underline; }
+  a.job.visited-seen { color: var(--muted); font-weight: 500; }
+  .co { color: var(--text); font-weight: 500; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 4px;
+          overflow: hidden; text-overflow: ellipsis; }
+  .badges { display: inline-flex; gap: 6px; }
+  .badge { font-size: 11.5px; border-radius: 5px; padding: 2px 7px; white-space: nowrap; }
+  .b-ww { background: var(--accent-soft); color: var(--accent); }
+  .b-visa { background: var(--amber-soft); color: var(--amber); }
+  .b-new { background: var(--green-soft); color: var(--green); font-weight: 600; }
+  .b-exp { background: transparent; color: var(--red); border: 1px solid var(--red); }
+  .row2 { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+  .terms { color: var(--muted); font-size: 12.5px; }
+  .apply-btn { border: 1px solid var(--line); background: transparent; color: var(--muted);
+               border-radius: 7px; padding: 5px 12px; cursor: pointer; font-size: 13px; }
+  .apply-btn.on { background: var(--green-soft); color: var(--green); border-color: var(--green); }
+  .empty { text-align: center; color: var(--muted); padding: 50px 0; }
+  .statusbar { color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job Tracker</h1>
+    <button class="btn" id="refreshBtn" onclick="refresh()">↻ Refresh jobs</button>
+  </header>
+  <div class="statusbar" id="statusbar"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="filters">
+    <input class="search" id="search" placeholder="Search title, company, location…" oninput="render()">
+    <span class="chip" data-f="ww" onclick="toggleChip(this)">🌍 Worldwide/APAC</span>
+    <span class="chip" data-f="visa" onclick="toggleChip(this)">🛂 Visa/relocation</span>
+  </div>
+  <div id="list"></div>
+</div>
+<script>
+let JOBS = [];
+let TAB = "new";
+let MODE = "api"; // "api" (local server.js) or "static" (GitHub Pages + localStorage)
+const CHIPS = { ww: false, visa: false };
+const LS_KEY = "jobtracker-state";
+
+function lsState() { try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch { return {}; } }
+function lsSave(s) { localStorage.setItem(LS_KEY, JSON.stringify(s)); }
+
+const TABS = [
+  ["new", "New"], ["seen", "Seen"], ["applied", "Applied"],
+  ["active", "All active"], ["expired", "Expired"],
+];
+
+function fmtDate(s) {
+  if (!s) return "—";
+  const d = new Date(s);
+  return isNaN(d) ? "—" : d.toISOString().slice(0, 10);
+}
+
+function inTab(j) {
+  if (TAB === "new") return j.active && !j.seen && !j.applied;
+  if (TAB === "seen") return j.active && j.seen && !j.applied;
+  if (TAB === "applied") return j.applied;
+  if (TAB === "active") return j.active;
+  if (TAB === "expired") return !j.active;
+  return true;
+}
+
+function render() {
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const counts = {
+    new: JOBS.filter(j => j.active && !j.seen && !j.applied).length,
+    seen: JOBS.filter(j => j.active && j.seen && !j.applied).length,
+    applied: JOBS.filter(j => j.applied).length,
+    active: JOBS.filter(j => j.active).length,
+    expired: JOBS.filter(j => !j.active).length,
+  };
+  document.getElementById("tabs").innerHTML = TABS.map(([id, label]) =>
+    `<span class="tab ${TAB === id ? "on" : ""}" onclick="TAB='${id}';render()">${label} (${counts[id]})</span>`
+  ).join("");
+
+  let rows = JOBS.filter(inTab);
+  if (CHIPS.ww) rows = rows.filter(j => j.worldwide);
+  if (CHIPS.visa) rows = rows.filter(j => j.relocation);
+  if (q) rows = rows.filter(j =>
+    (j.title + " " + j.company + " " + j.location).toLowerCase().includes(q));
+  rows.sort((a, b) => (b.postedAt || Date.parse(b.firstSeenAt) || 0) - (a.postedAt || Date.parse(a.firstSeenAt) || 0));
+
+  document.getElementById("list").innerHTML = rows.length ? rows.map(card).join("") :
+    `<div class="empty">Nothing here. ${TAB === "new" ? "You're all caught up 🎉" : ""}</div>`;
+}
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function card(j) {
+  const loc = j.location.length > 110 ? j.location.slice(0, 107) + "…" : j.location;
+  const isNew = j.active && !j.seen && !j.applied;
+  return `<div class="card ${j.active ? "" : "expired"}">
+    <div class="title-row">
+      <a class="job ${j.seen ? "visited-seen" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener"
+         onclick="markSeen('${esc(j.key).replace(/'/g, "\\'")}')">${esc(j.title)}</a>
+      <span class="co">${esc(j.company)}</span>
+      <span class="badges">
+        ${isNew ? '<span class="badge b-new">NEW</span>' : ""}
+        ${j.worldwide ? '<span class="badge b-ww">🌍 Worldwide/APAC</span>' : ""}
+        ${j.relocation ? '<span class="badge b-visa">🛂 Visa/relocation</span>' : ""}
+        ${!j.active ? '<span class="badge b-exp">expired ' + fmtDate(j.expiredAt) + "</span>" : ""}
+      </span>
+    </div>
+    <div class="meta">📍 ${esc(loc)} · posted ${fmtDate(j.postedAt)} · via ${esc(j.source)}${j.salary ? " · 💰 " + esc(j.salary) : ""}</div>
+    <div class="row2">
+      <span class="terms">matched: ${esc((j.matched || []).join(", "))}</span>
+      <button class="apply-btn ${j.applied ? "on" : ""}"
+        onclick="toggleApplied('${esc(j.key).replace(/'/g, "\\'")}', ${!j.applied})">
+        ${j.applied ? "✓ Applied " + fmtDate(j.appliedAt) : "Mark applied"}</button>
+    </div>
+  </div>`;
+}
+
+async function api(path, body) {
+  const r = await fetch(path, body
+    ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }
+    : undefined);
+  return r.json();
+}
+
+async function loadStatic() {
+  MODE = "static";
+  document.getElementById("refreshBtn").style.display = "none";
+  const [jobsRaw, state] = await Promise.all([
+    fetch("data/jobs.json").then(r => r.json()),
+    fetch("data/state.json").then(r => r.json()).catch(() => ({})),
+  ]);
+  const user = lsState();
+  JOBS = Object.values(jobsRaw).map(j => ({
+    ...j,
+    seen: !!user[j.key]?.seenAt, seenAt: user[j.key]?.seenAt || null,
+    applied: !!user[j.key]?.appliedAt, appliedAt: user[j.key]?.appliedAt || null,
+  }));
+  const active = JOBS.filter(j => j.active).length;
+  document.getElementById("statusbar").textContent =
+    `${active} open jobs · last scan: ${state.lastRunAt ? new Date(state.lastRunAt).toLocaleString() : "unknown"} · updates daily via GitHub Actions`;
+  render();
+}
+
+async function load() {
+  try {
+    const [jobsRes, status] = await Promise.all([api("/api/jobs"), api("/api/status")]);
+    JOBS = jobsRes.jobs;
+    document.getElementById("statusbar").textContent =
+      `${status.counts.active} open jobs · last scan: ${status.lastRunAt ? new Date(status.lastRunAt).toLocaleString() : "never"}` +
+      (status.running ? " · ⏳ scan in progress…" : "");
+    document.getElementById("refreshBtn").disabled = status.running;
+    render();
+    if (status.running) setTimeout(load, 5000);
+  } catch {
+    await loadStatic(); // no API — running on GitHub Pages
+  }
+}
+
+function markSeen(key) {
+  if (MODE === "static") {
+    const s = lsState();
+    s[key] = { ...s[key], seenAt: s[key]?.seenAt || new Date().toISOString() };
+    lsSave(s);
+  } else {
+    api("/api/jobs/seen", { key });
+  }
+  const j = JOBS.find(x => x.key === key);
+  if (j) { j.seen = true; setTimeout(render, 200); }
+}
+
+async function toggleApplied(key, applied) {
+  if (MODE === "static") {
+    const s = lsState();
+    s[key] = { ...s[key], seenAt: s[key]?.seenAt || new Date().toISOString() };
+    s[key].appliedAt = applied ? (s[key].appliedAt || new Date().toISOString()) : null;
+    lsSave(s);
+  } else {
+    await api("/api/jobs/applied", { key, applied });
+  }
+  const j = JOBS.find(x => x.key === key);
+  if (j) { j.applied = applied; j.appliedAt = applied ? new Date().toISOString() : null; j.seen = true; }
+  render();
+}
+
+async function refresh() {
+  document.getElementById("refreshBtn").disabled = true;
+  await api("/api/refresh", {});
+  setTimeout(load, 3000);
+}
+
+function toggleChip(el) {
+  CHIPS[el.dataset.f] = !CHIPS[el.dataset.f];
+  el.classList.toggle("on");
+  render();
+}
+
+load();
+</script>
+</body>
+</html>

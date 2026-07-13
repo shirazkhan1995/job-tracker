@@ -1,0 +1,4 @@
+node_modules/
+data/userstate.json
+data/cron.log
+*.log
