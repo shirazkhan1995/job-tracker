@@ -2,7 +2,10 @@ name: scrape
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # daily ~09:00 PKT — run tracker
+    # 4x daily, timed for IST (UTC+5:30): 05:00, 11:00, 17:00, 23:00 IST.
+    # The 05:00 IST run captures the full US workday's postings.
+    # (:30 offset avoids GitHub's congested top-of-hour scheduling.)
+    - cron: "30 5,11,17,23 * * *"
     - cron: "0 3 * * 0"   # Sundays — deep board discovery first
   workflow_dispatch:
 
