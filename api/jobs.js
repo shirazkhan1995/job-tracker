@@ -26,6 +26,8 @@ module.exports = async (req, res) => {
     seenAt: r.seen_at,
     applied: !!r.applied_at,
     appliedAt: r.applied_at,
+    dismissed: !!r.dismissed_at,
+    dismissedAt: r.dismissed_at,
   }));
   res.setHeader("Cache-Control", "no-store");
   res.status(200).json({ jobs });

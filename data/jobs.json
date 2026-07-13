@@ -8,16 +8,14 @@
     "source": "jobicy",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1783825917000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -30,16 +28,13 @@
     "source": "jobicy",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1783509003000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -57,10 +52,8 @@
     ],
     "salary": "",
     "postedAt": 1782382003000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -78,10 +71,8 @@
     ],
     "salary": "",
     "postedAt": 1782134490000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -123,8 +114,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "upstart|senior software engineer, unsecured installments": {
     "key": "upstart|senior software engineer, unsecured installments",
@@ -143,8 +134,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "kubikware|node.js & react tech lead (latam, remote)": {
     "key": "kubikware|node.js & react tech lead (latam, remote)",
@@ -176,16 +167,13 @@
     "source": "himalayas",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "110000-140000 CAD",
     "postedAt": 1783971454000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -223,10 +211,8 @@
     ],
     "salary": "",
     "postedAt": 1783703672000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -244,10 +230,8 @@
     ],
     "salary": "",
     "postedAt": 1783949309000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -344,16 +328,13 @@
     "source": "greenhouse:twilio",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1779726234000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -366,16 +347,13 @@
     "source": "greenhouse:webflow",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1759415767000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -388,16 +366,13 @@
     "source": "greenhouse:embrace",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1749758774000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -411,16 +386,14 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1777011809000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -437,10 +410,8 @@
     ],
     "salary": "",
     "postedAt": 1768407411000,
-    "worldwide": true,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -457,10 +428,8 @@
     ],
     "salary": "",
     "postedAt": 1778596894000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -477,10 +446,8 @@
     ],
     "salary": "",
     "postedAt": 1772825661000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -493,16 +460,13 @@
     "source": "greenhouse:smithrx",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781207279000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -523,8 +487,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "binance|web/app test engineer": {
     "key": "binance|web/app test engineer",
@@ -539,10 +503,8 @@
     ],
     "salary": "",
     "postedAt": 1783310650234,
-    "worldwide": true,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -563,8 +525,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "netomi|sde ii - frontend": {
     "key": "netomi|sde ii - frontend",
@@ -584,8 +546,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "captivateiq|fullstack software engineer - poland": {
     "key": "captivateiq|fullstack software engineer - poland",
@@ -604,8 +566,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "captivateiq|manager, quality engineering and delivery": {
     "key": "captivateiq|manager, quality engineering and delivery",
@@ -620,10 +582,8 @@
     ],
     "salary": "",
     "postedAt": 1775503193106,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -636,16 +596,13 @@
     "source": "lever:tractian",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1773869201160,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -658,15 +615,12 @@
     "source": "ashby:wirescreen",
     "matched": [
       "playwright",
-      "cypress",
       "typescript"
     ],
     "salary": "$170K – $220K • Offers Equity",
     "postedAt": 1782419776740,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -679,16 +633,14 @@
     "source": "ashby:kong",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "CA$97,650 – CA$181,300",
     "postedAt": 1780506330025,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -701,16 +653,13 @@
     "source": "ashby:overview",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1779070921824,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -727,10 +676,8 @@
     ],
     "salary": "",
     "postedAt": 1780393506018,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -751,8 +698,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "belvo|data - scraping software engineer": {
     "key": "belvo|data - scraping software engineer",
@@ -767,10 +714,8 @@
     ],
     "salary": "",
     "postedAt": 1780937957143,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -783,15 +728,12 @@
     "source": "ashby:zip",
     "matched": [
       "playwright",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782140925322,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -804,16 +746,13 @@
     "source": "ashby:vapi",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "$180K – $280K • Offers Equity",
     "postedAt": 1779391596119,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -830,10 +769,8 @@
     ],
     "salary": "",
     "postedAt": 1713971450400,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -850,10 +787,8 @@
     ],
     "salary": "",
     "postedAt": 1713972898689,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -870,10 +805,8 @@
     ],
     "salary": "",
     "postedAt": 1713973567574,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -890,10 +823,8 @@
     ],
     "salary": "",
     "postedAt": 1714003217397,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -910,10 +841,8 @@
     ],
     "salary": "",
     "postedAt": 1714003351847,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -930,10 +859,8 @@
     ],
     "salary": "",
     "postedAt": 1714003502301,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -950,10 +877,8 @@
     ],
     "salary": "",
     "postedAt": 1714004490238,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -970,10 +895,8 @@
     ],
     "salary": "",
     "postedAt": 1714004875942,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -990,10 +913,8 @@
     ],
     "salary": "",
     "postedAt": 1714004933952,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1010,10 +931,8 @@
     ],
     "salary": "",
     "postedAt": 1715562858979,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1030,10 +949,8 @@
     ],
     "salary": "",
     "postedAt": 1743644887568,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1050,10 +967,8 @@
     ],
     "salary": "",
     "postedAt": 1742361679015,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1070,10 +985,8 @@
     ],
     "salary": "",
     "postedAt": 1762822881187,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1090,10 +1003,8 @@
     ],
     "salary": "",
     "postedAt": 1764914704602,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1110,10 +1021,8 @@
     ],
     "salary": "",
     "postedAt": 1776908946308,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1130,10 +1039,8 @@
     ],
     "salary": "",
     "postedAt": 1779846614049,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1155,8 +1062,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "reacher|full stack software engineer - canada": {
     "key": "reacher|full stack software engineer - canada",
@@ -1167,15 +1074,12 @@
     "source": "ashby:reacher",
     "matched": [
       "playwright",
-      "cypress",
       "typescript"
     ],
     "salary": "$75K – $110K • Offers Equity",
     "postedAt": 1773522941722,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1188,15 +1092,12 @@
     "source": "ashby:reacher",
     "matched": [
       "playwright",
-      "cypress",
       "typescript"
     ],
     "salary": "$60K – $85K • Offers Equity",
     "postedAt": 1773523147366,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1210,15 +1111,12 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795636327,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1232,15 +1130,12 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795715092,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1257,10 +1152,8 @@
     ],
     "salary": "",
     "postedAt": 1780082450919,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1277,10 +1170,8 @@
     ],
     "salary": "",
     "postedAt": 1779992329769,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1297,10 +1188,8 @@
     ],
     "salary": "",
     "postedAt": 1782229411617,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1314,15 +1203,12 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795243173,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1336,15 +1222,12 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795587528,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1358,15 +1241,12 @@
     "matched": [
       "playwright",
       "puppeteer",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795672293,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1379,16 +1259,14 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782219655683,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1401,16 +1279,14 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782219791084,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1423,16 +1299,14 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782219813960,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1445,16 +1319,14 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782219838768,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1467,16 +1339,14 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
-      "cypress",
+      "webdriverio",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782219872601,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1489,16 +1359,13 @@
     "source": "ashby:airapps",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "€47K – €59K",
     "postedAt": 1776432564066,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1519,8 +1386,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "airapps|qa engineer": {
     "key": "airapps|qa engineer",
@@ -1531,16 +1398,13 @@
     "source": "ashby:airapps",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "€44K – €56K",
     "postedAt": 1776432627302,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1553,16 +1417,13 @@
     "source": "recruitee:medmehealth",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "15000-65000 CAD",
     "postedAt": 1768416375000,
-    "worldwide": true,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1579,10 +1440,8 @@
     ],
     "salary": "",
     "postedAt": 1779974772000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1621,10 +1480,8 @@
     ],
     "salary": "",
     "postedAt": 1778530170000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1641,10 +1498,8 @@
     ],
     "salary": "",
     "postedAt": 1776981227000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1665,8 +1520,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "cribl|sr. software engineer - systems insights": {
     "key": "cribl|sr. software engineer - systems insights",
@@ -1685,8 +1540,8 @@
     "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-13T20:28:40.016Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-13T21:34:02.361Z"
   },
   "smartsheet|sr. software engineer i - automation experience (remote eligible in bulgaria)": {
     "key": "smartsheet|sr. software engineer i - automation experience (remote eligible in bulgaria)",
@@ -1697,15 +1552,12 @@
     "source": "greenhouse:smartsheet",
     "matched": [
       "playwright",
-      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1779183421000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1718,16 +1570,13 @@
     "source": "greenhouse:themotleyfool",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1780693223000,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1740,16 +1589,13 @@
     "source": "lever:jumpcloud",
     "matched": [
       "playwright",
-      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1780613771084,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1762,14 +1608,13 @@
     "source": "lever:3pillarglobal",
     "matched": [
       "playwright",
+      "webdriverio",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1780007717376,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   },
@@ -1787,10 +1632,83 @@
     ],
     "salary": "",
     "postedAt": 1783028705856,
-    "worldwide": false,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "esri|product engineer ii – web services": {
+    "key": "esri|product engineer ii – web services",
+    "title": "Product Engineer II – Web Services",
+    "company": "Esri",
+    "url": "https://www.esri.com/careers/5112871007?gh_jid=5112871007",
+    "location": "Vienna, Virginia, United States; Redlands, CA; Remote Eligible, US; Washington, DC",
+    "source": "greenhouse:esri",
+    "matched": [
+      "playwright",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1778535794000,
+    "firstSeenAt": "2026-07-13T21:34:02.361Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "affirm|software engineer ii, backend (test infra)": {
+    "key": "affirm|software engineer ii, backend (test infra)",
+    "title": "Software Engineer II, Backend (Test Infra)",
+    "company": "Affirm",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
+    "location": "Remote Canada; Remote Canada; Remote US",
+    "source": "greenhouse:affirm",
+    "matched": [
+      "playwright",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1783689908000,
+    "firstSeenAt": "2026-07-13T21:34:02.361Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "tether operations limited|senior qa engineer (100% remote worldwide)": {
+    "key": "tether operations limited|senior qa engineer (100% remote worldwide)",
+    "title": "Senior QA Engineer (100% Remote Worldwide)",
+    "company": "Tether Operations Limited",
+    "url": "https://careers.tether.io/o/senior-qa-engineer-100-remote-worldwide",
+    "location": "Remote job; United Kindom; Armagh City, Banbridge and Craigavon; United Kingdom",
+    "source": "recruitee:tether",
+    "matched": [
+      "playwright",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1780490216000,
+    "firstSeenAt": "2026-07-13T21:34:02.361Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "tether operations limited|senior qa engineer (100% remote)": {
+    "key": "tether operations limited|senior qa engineer (100% remote)",
+    "title": "Senior QA Engineer (100% Remote)",
+    "company": "Tether Operations Limited",
+    "url": "https://careers.tether.io/o/senior-qa-engineer-100-remote-22",
+    "location": "Remote job; Rio de Janeiro; Rio de Janeiro; Brazil",
+    "source": "recruitee:tether",
+    "matched": [
+      "playwright",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1780331151000,
+    "firstSeenAt": "2026-07-13T21:34:02.361Z",
+    "lastSeenAt": "2026-07-13T21:34:02.361Z",
     "active": true,
     "expiredAt": null
   }

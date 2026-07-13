@@ -8,6 +8,7 @@
     { "src": "/api/jobs", "dest": "/api/jobs.js" },
     { "src": "/api/jobs/seen", "dest": "/api/jobs/seen.js" },
     { "src": "/api/jobs/applied", "dest": "/api/jobs/applied.js" },
+    { "src": "/api/jobs/dismissed", "dest": "/api/jobs/dismissed.js" },
     { "src": "/api/status", "dest": "/api/status.js" },
     { "src": "/", "dest": "/index.html" }
   ]

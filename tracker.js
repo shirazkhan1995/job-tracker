@@ -97,47 +97,8 @@ function matchKeywords(text) {
   return matched;
 }
 
-const WORLDWIDE_RE = new RegExp(
-  CONFIG.location.worldwideTerms
-    .map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
-    .join("|"),
-  "i"
-);
-// word-boundary matching so "APAC/LATAM" hits but "asia" inside a word doesn't
-const PREFERRED_REGION_RE = new RegExp(
-  (CONFIG.location.preferredRegionTerms || [])
-    .map(t => `(?<![A-Za-z0-9])${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![A-Za-z0-9])`)
-    .join("|") || "$^",
-  "i"
-);
-
-// ---------- relocation / visa sponsorship detection ----------
-
-const RELOC_RE = new RegExp(
-  CONFIG.relocation.positive
-    .map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
-    .join("|"),
-  "gi"
-);
-const NEG_BEFORE_RE = /\b(no|not|unable|cannot|can'?t|won'?t|don'?t|doesn'?t|do not|does not|without|isn'?t|aren'?t)\b[^.!?]{0,60}$/i;
-const NEG_AFTER_RE = /^[^.!?]{0,60}\b(not available|unavailable|not offered|not provided|will not|won'?t be|cannot be|is not)\b/i;
-
-// true if the text advertises visa/relocation support and the mention is not
-// negated ("we are unable to offer visa sponsorship", "sponsorship: not available")
-function detectRelocation(text) {
-  RELOC_RE.lastIndex = 0;
-  let m;
-  while ((m = RELOC_RE.exec(text))) {
-    const before = text.slice(Math.max(0, m.index - 80), m.index);
-    const after = text.slice(m.index + m[0].length, m.index + m[0].length + 80);
-    if (NEG_BEFORE_RE.test(before) || NEG_AFTER_RE.test(after)) continue;
-    return true;
-  }
-  return false;
-}
-
 // ---------- normalized job shape ----------
-// { source, company, title, url, location, worldwide, postedAt(ms|null), matched[], salary }
+// { source, company, title, url, location, postedAt(ms|null), matched[], salary }
 
 function normKey(job) {
   return `${job.company}|${job.title}`.toLowerCase().replace(/\s+/g, " ").trim();
@@ -554,22 +515,10 @@ function classify(job) {
   if (!matched) return null;
   // no age filter: every job still listed on a board is open — the report
   // shows the posting date so freshness is visible
-
-  const isWorldwide = WORLDWIDE_RE.test(job.location);
-  // region often lives in the title, not the location field
-  // (e.g. "QA Automation Engineer (APAC/LATAM)" with location "Remote job")
-  const isPreferredRegion = PREFERRED_REGION_RE.test(job.location)
-    || PREFERRED_REGION_RE.test(job.title)
-    || /\bworldwide\b|\banywhere\b/i.test(job.title);
-  const priority = isWorldwide || isPreferredRegion;
   const isAggregator = !job.source.includes(":"); // ATS board sources are "ats:slug"
   const isRemote = isAggregator || job.remoteHint || /remote|anywhere/i.test(job.location);
-  const relocation = detectRelocation(job.text);
-  // onsite/hybrid jobs qualify when they offer relocation/visa support
-  if (!isRemote && !relocation) return null;
-  if (!priority && !relocation && !CONFIG.location.includeOtherRemote) return null;
-
-  return { ...job, matched: [...new Set(matched)], worldwide: priority, relocation };
+  if (!isRemote) return null;
+  return { ...job, matched: [...new Set(matched)] };
 }
 
 // ---------- report ----------
@@ -582,7 +531,7 @@ function renderJob(j) {
   const loc = j.location.length > 120 ? j.location.slice(0, 117) + "…" : j.location;
   const lines = [
     `### ${j.title} — ${j.company}`,
-    `- **Posted:** ${fmtDate(j.postedAt)} · **Location:** ${loc} · **Source:** ${j.source}${j.relocation ? " · 🛂 **visa/relocation support**" : ""}`,
+    `- **Posted:** ${fmtDate(j.postedAt)} · **Location:** ${loc} · **Source:** ${j.source}`,
     `- **Matched:** ${j.matched.join(", ")}${j.salary ? ` · **Salary:** ${j.salary}` : ""}`,
     `- **Link:** ${j.url}`,
     "",
@@ -591,28 +540,20 @@ function renderJob(j) {
 }
 
 function renderReport(dateStr, newJobs, stats, errors, firstRun) {
-  const byDate = (a, b) => (b.postedAt || 0) - (a.postedAt || 0);
-  const ww = newJobs.filter(j => j.worldwide).sort(byDate);
-  const reloc = newJobs.filter(j => !j.worldwide && j.relocation).sort(byDate);
-  const other = newJobs.filter(j => !j.worldwide && !j.relocation).sort(byDate);
+  const jobs = [...newJobs].sort((a, b) => (b.postedAt || 0) - (a.postedAt || 0));
+  const filterText =
+    `(${CONFIG.keywords.anyOf.join(" OR ")}) AND ` +
+    CONFIG.keywords.allOf.map(g => `(${g.join(" OR ")})`).join(" AND ");
   const out = [];
   out.push(`# Job Tracker Report — ${dateStr}`);
   out.push("");
-  out.push(`> Filter: (playwright OR puppeteer OR cypress) AND (javascript OR typescript) · remote · all open postings`);
+  out.push(`> Filter: ${filterText} · remote only · all open postings`);
   out.push(`> Scanned: ${stats.scanned} jobs from ${stats.sources} sources (${stats.boards} ATS boards polled, ${stats.newBoards} newly discovered)`);
   if (firstRun) out.push(`> First run — backfilling last ${CONFIG.maxAgeDays} days. Future runs report only newly seen jobs.`);
   out.push("");
-  out.push(`## 🌍 Remote — Worldwide / APAC (${ww.length})`);
+  out.push(`## 💼 New remote matches (${jobs.length})`);
   out.push("");
-  out.push(ww.length ? ww.map(renderJob).join("\n") : "_No new worldwide/APAC-remote matches today._\n");
-  out.push(`## 🛂 Visa sponsorship / relocation support (${reloc.length})`);
-  out.push("");
-  out.push(reloc.length ? reloc.map(renderJob).join("\n") : "_No new matches advertising visa/relocation support today._\n");
-  if (CONFIG.location.includeOtherRemote) {
-    out.push(`## 🏠 Remote — region-specific or unspecified (${other.length})`);
-    out.push("");
-    out.push(other.length ? other.map(renderJob).join("\n") : "_No new matches in this bucket today._\n");
-  }
+  out.push(jobs.length ? jobs.map(renderJob).join("\n") : "_No new matches today._\n");
   if (errors.length) {
     out.push(`## ⚠️ Source errors (${errors.length})`);
     out.push("");
@@ -733,7 +674,6 @@ async function main() {
       location: j.location, source: j.source,
       matched: j.matched, salary: j.salary || "",
       postedAt: j.postedAt || prev.postedAt || null,
-      worldwide: !!j.worldwide, relocation: !!j.relocation,
       firstSeenAt: prev.firstSeenAt || nowIso,
       lastSeenAt: nowIso,
       active: true, expiredAt: null,
@@ -767,8 +707,7 @@ async function main() {
   saveJSON(boardsFile, boards);
   saveJSON(stateFile, { ...state, lastRunAt: NOW });
 
-  const ww = newJobs.filter(j => j.worldwide).length;
-  console.log(`[4/4] Done. ${newJobs.length} new matching jobs (${ww} worldwide). Report: reports/${dateStr}.md`);
+  console.log(`[4/4] Done. ${newJobs.length} new matching jobs. Report: reports/${dateStr}.md`);
 }
 
 main().catch(e => { console.error("Fatal:", e); process.exit(1); });

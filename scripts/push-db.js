@@ -43,8 +43,10 @@ async function main() {
     CREATE TABLE IF NOT EXISTS user_state (
       key TEXT PRIMARY KEY,
       seen_at TIMESTAMPTZ,
-      applied_at TIMESTAMPTZ
+      applied_at TIMESTAMPTZ,
+      dismissed_at TIMESTAMPTZ
     )`;
+  await sql`ALTER TABLE user_state ADD COLUMN IF NOT EXISTS dismissed_at TIMESTAMPTZ`;
 
   const jobs = Object.values(JSON.parse(fs.readFileSync(path.join(ROOT, "data", "jobs.json"), "utf8")));
   const CHUNK = 20;

@@ -62,6 +62,13 @@
   .apply-btn.on { background: var(--green-soft); color: var(--green); border-color: var(--green); }
   .empty { text-align: center; color: var(--muted); padding: 50px 0; }
   .statusbar { color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .cb { width: 16px; height: 16px; accent-color: var(--accent); cursor: pointer;
+        flex-shrink: 0; align-self: center; }
+  .bulkbar { position: sticky; bottom: 12px; background: var(--card);
+             border: 1px solid var(--accent); border-radius: 12px; padding: 10px 16px;
+             display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+             box-shadow: 0 4px 18px rgba(0,0,0,.2); }
+  .bulkbar span { font-weight: 600; margin-right: auto; }
 </style>
 </head>
 <body>
@@ -74,16 +81,20 @@
   <div class="tabs" id="tabs"></div>
   <div class="filters">
     <input class="search" id="search" placeholder="Search title, company, location…" oninput="render()">
-    <span class="chip" data-f="ww" onclick="toggleChip(this)">🌍 Worldwide/APAC</span>
-    <span class="chip" data-f="visa" onclick="toggleChip(this)">🛂 Visa/relocation</span>
   </div>
   <div id="list"></div>
+  <div class="bulkbar" id="bulkbar" style="display:none">
+    <span id="bulkcount"></span>
+    <button class="btn" onclick="bulkAction('applied')">✓ Mark applied</button>
+    <button class="btn" onclick="bulkAction('dismissed')">✕ Not gonna apply</button>
+    <button class="btn" onclick="clearSelection()">Clear</button>
+  </div>
 </div>
 <script>
 let JOBS = [];
 let TAB = "new";
-let MODE = "api"; // "api" (local server.js) or "static" (GitHub Pages + localStorage)
-const CHIPS = { ww: false, visa: false };
+let MODE = "api"; // "api" (local server.js / Vercel) or "static" (GitHub Pages + localStorage)
+const SELECTED = new Set();
 const LS_KEY = "jobtracker-state";
 
 function lsState() { try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch { return {}; } }
@@ -91,7 +102,7 @@ function lsSave(s) { localStorage.setItem(LS_KEY, JSON.stringify(s)); }
 
 const TABS = [
   ["new", "New"], ["seen", "Seen"], ["applied", "Applied"],
-  ["active", "All active"], ["expired", "Expired"],
+  ["dismissed", "Not applying"], ["active", "All active"], ["expired", "Expired"],
 ];
 
 function fmtDate(s) {
@@ -101,10 +112,11 @@ function fmtDate(s) {
 }
 
 function inTab(j) {
-  if (TAB === "new") return j.active && !j.seen && !j.applied;
-  if (TAB === "seen") return j.active && j.seen && !j.applied;
+  if (TAB === "new") return j.active && !j.seen && !j.applied && !j.dismissed;
+  if (TAB === "seen") return j.active && j.seen && !j.applied && !j.dismissed;
   if (TAB === "applied") return j.applied;
-  if (TAB === "active") return j.active;
+  if (TAB === "dismissed") return j.dismissed;
+  if (TAB === "active") return j.active && !j.dismissed;
   if (TAB === "expired") return !j.active;
   return true;
 }
@@ -112,10 +124,11 @@ function inTab(j) {
 function render() {
   const q = document.getElementById("search").value.trim().toLowerCase();
   const counts = {
-    new: JOBS.filter(j => j.active && !j.seen && !j.applied).length,
-    seen: JOBS.filter(j => j.active && j.seen && !j.applied).length,
+    new: JOBS.filter(j => j.active && !j.seen && !j.applied && !j.dismissed).length,
+    seen: JOBS.filter(j => j.active && j.seen && !j.applied && !j.dismissed).length,
     applied: JOBS.filter(j => j.applied).length,
-    active: JOBS.filter(j => j.active).length,
+    dismissed: JOBS.filter(j => j.dismissed).length,
+    active: JOBS.filter(j => j.active && !j.dismissed).length,
     expired: JOBS.filter(j => !j.active).length,
   };
   document.getElementById("tabs").innerHTML = TABS.map(([id, label]) =>
@@ -123,14 +136,16 @@ function render() {
   ).join("");
 
   let rows = JOBS.filter(inTab);
-  if (CHIPS.ww) rows = rows.filter(j => j.worldwide);
-  if (CHIPS.visa) rows = rows.filter(j => j.relocation);
   if (q) rows = rows.filter(j =>
     (j.title + " " + j.company + " " + j.location).toLowerCase().includes(q));
   rows.sort((a, b) => (b.postedAt || Date.parse(b.firstSeenAt) || 0) - (a.postedAt || Date.parse(a.firstSeenAt) || 0));
 
   document.getElementById("list").innerHTML = rows.length ? rows.map(card).join("") :
     `<div class="empty">Nothing here. ${TAB === "new" ? "You're all caught up 🎉" : ""}</div>`;
+
+  const bar = document.getElementById("bulkbar");
+  bar.style.display = SELECTED.size ? "flex" : "none";
+  if (SELECTED.size) document.getElementById("bulkcount").textContent = `${SELECTED.size} selected`;
 }
 
 function esc(s) {
@@ -140,25 +155,33 @@ function esc(s) {
 
 function card(j) {
   const loc = j.location.length > 110 ? j.location.slice(0, 107) + "…" : j.location;
-  const isNew = j.active && !j.seen && !j.applied;
+  const isNew = j.active && !j.seen && !j.applied && !j.dismissed;
+  const k = esc(j.key).replace(/'/g, "\\'");
   return `<div class="card ${j.active ? "" : "expired"}">
     <div class="title-row">
+      <input type="checkbox" class="cb" ${SELECTED.has(j.key) ? "checked" : ""}
+        onchange="toggleSelect('${k}', this.checked)">
       <a class="job ${j.seen ? "visited-seen" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener"
-         onclick="markSeen('${esc(j.key).replace(/'/g, "\\'")}')">${esc(j.title)}</a>
+         onclick="markSeen('${k}')">${esc(j.title)}</a>
       <span class="co">${esc(j.company)}</span>
       <span class="badges">
         ${isNew ? '<span class="badge b-new">NEW</span>' : ""}
-        ${j.worldwide ? '<span class="badge b-ww">🌍 Worldwide/APAC</span>' : ""}
-        ${j.relocation ? '<span class="badge b-visa">🛂 Visa/relocation</span>' : ""}
+        ${j.dismissed ? '<span class="badge b-exp">not applying</span>' : ""}
         ${!j.active ? '<span class="badge b-exp">expired ' + fmtDate(j.expiredAt) + "</span>" : ""}
       </span>
     </div>
     <div class="meta">📍 ${esc(loc)} · posted ${fmtDate(j.postedAt)} · via ${esc(j.source)}${j.salary ? " · 💰 " + esc(j.salary) : ""}</div>
     <div class="row2">
       <span class="terms">matched: ${esc((j.matched || []).join(", "))}</span>
-      <button class="apply-btn ${j.applied ? "on" : ""}"
-        onclick="toggleApplied('${esc(j.key).replace(/'/g, "\\'")}', ${!j.applied})">
-        ${j.applied ? "✓ Applied " + fmtDate(j.appliedAt) : "Mark applied"}</button>
+      <span>
+        ${j.dismissed
+          ? `<button class="apply-btn" onclick="setDismissed('${k}', false)">↩ Restore</button>`
+          : `<button class="apply-btn ${j.applied ? "on" : ""}"
+               onclick="setApplied('${k}', ${!j.applied})">
+               ${j.applied ? "✓ Applied " + fmtDate(j.appliedAt) : "Mark applied"}</button>
+             <button class="apply-btn" title="Not gonna apply"
+               onclick="setDismissed('${k}', true)">✕</button>`}
+      </span>
     </div>
   </div>`;
 }
@@ -193,6 +216,7 @@ async function loadStatic() {
     ...j,
     seen: !!user[j.key]?.seenAt, seenAt: user[j.key]?.seenAt || null,
     applied: !!user[j.key]?.appliedAt, appliedAt: user[j.key]?.appliedAt || null,
+    dismissed: !!user[j.key]?.dismissedAt, dismissedAt: user[j.key]?.dismissedAt || null,
   }));
   const active = JOBS.filter(j => j.active).length;
   document.getElementById("statusbar").textContent =
@@ -229,7 +253,7 @@ function markSeen(key) {
   if (j) { j.seen = true; setTimeout(render, 200); }
 }
 
-async function toggleApplied(key, applied) {
+async function setApplied(key, applied, rerender = true) {
   if (MODE === "static") {
     const s = lsState();
     s[key] = { ...s[key], seenAt: s[key]?.seenAt || new Date().toISOString() };
@@ -240,6 +264,38 @@ async function toggleApplied(key, applied) {
   }
   const j = JOBS.find(x => x.key === key);
   if (j) { j.applied = applied; j.appliedAt = applied ? new Date().toISOString() : null; j.seen = true; }
+  if (rerender) render();
+}
+
+async function setDismissed(key, dismissed, rerender = true) {
+  if (MODE === "static") {
+    const s = lsState();
+    s[key] = { ...s[key] };
+    s[key].dismissedAt = dismissed ? (s[key].dismissedAt || new Date().toISOString()) : null;
+    lsSave(s);
+  } else {
+    await api("/api/jobs/dismissed", { key, dismissed });
+  }
+  const j = JOBS.find(x => x.key === key);
+  if (j) { j.dismissed = dismissed; j.dismissedAt = dismissed ? new Date().toISOString() : null; }
+  if (rerender) render();
+}
+
+function toggleSelect(key, checked) {
+  if (checked) SELECTED.add(key); else SELECTED.delete(key);
+  render();
+}
+
+function clearSelection() {
+  SELECTED.clear();
+  render();
+}
+
+async function bulkAction(kind) {
+  const keys = [...SELECTED];
+  await Promise.all(keys.map(k =>
+    kind === "applied" ? setApplied(k, true, false) : setDismissed(k, true, false)));
+  SELECTED.clear();
   render();
 }
 
@@ -247,12 +303,6 @@ async function refresh() {
   document.getElementById("refreshBtn").disabled = true;
   await api("/api/refresh", {});
   setTimeout(load, 3000);
-}
-
-function toggleChip(el) {
-  CHIPS[el.dataset.f] = !CHIPS[el.dataset.f];
-  el.classList.toggle("on");
-  render();
 }
 
 load();

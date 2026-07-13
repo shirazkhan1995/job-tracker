@@ -1,97 +1,61 @@
 # Job Tracker Report — 2026-07-13
 
-> Filter: (playwright OR puppeteer OR cypress) AND (javascript OR typescript) · remote · all open postings
-> Scanned: 37863 jobs from 1529 sources (1524 ATS boards polled, 60 newly discovered)
+> Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
+> Scanned: 40562 jobs from 1567 sources (1562 ATS boards polled, 42 newly discovered)
 
-## 🌍 Remote — Worldwide / APAC (0)
+## 💼 New remote matches (3)
 
-_No new worldwide/APAC-remote matches today._
-
-## 🛂 Visa sponsorship / relocation support (0)
-
-_No new matches advertising visa/relocation support today._
-
-## 🏠 Remote — region-specific or unspecified (9)
-
-### Sr. Software Engineer - Systems Insights — Cribl
-- **Posted:** 2026-07-07 · **Location:** Remote - United States; US - California · **Source:** greenhouse:cribl
-- **Matched:** cypress, typescript
-- **Link:** https://cribl.io/job-detail/?gh_jid=6109907004
-
-### Senior Quality Assurance Engineer — 3pillarglobal
-- **Posted:** 2026-07-02 · **Location:** United States; United States; US · **Source:** lever:3pillarglobal
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://jobs.lever.co/3pillarglobal/0796397a-c1f9-4e18-8967-6d4d9dbbdcd0
-
-### Senior Software Engineer — Cribl
-- **Posted:** 2026-06-08 · **Location:** Remote - United States; US - Washington · **Source:** greenhouse:cribl
-- **Matched:** cypress, typescript
-- **Link:** https://cribl.io/job-detail/?gh_jid=6010984004
-
-### Senior Software Engineer, Next.JS  — The Motley Fool
-- **Posted:** 2026-06-05 · **Location:** United States - Remote; United States - Remote · **Source:** greenhouse:themotleyfool
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/themotleyfool/jobs/5124035007
-
-### Senior Quality Engineer - India — jumpcloud
-- **Posted:** 2026-06-04 · **Location:** Bangalore, India - Remote; Bangalore, India - Remote; IN · **Source:** lever:jumpcloud
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://jobs.lever.co/jumpcloud/13a4bef2-d1de-4a7e-9c7d-3d0ec5e76a94
-
-### Senior QA Automation Engineer - Java / Selenium / AWS — 3pillarglobal
-- **Posted:** 2026-05-28 · **Location:** Mexico; Mexico; MX · **Source:** lever:3pillarglobal
+### Software Engineer II, Backend (Test Infra) — Affirm
+- **Posted:** 2026-07-10 · **Location:** Remote Canada; Remote Canada; Remote US · **Source:** greenhouse:affirm
 - **Matched:** playwright, typescript
-- **Link:** https://jobs.lever.co/3pillarglobal/ec398eef-cc03-4b62-abd2-540c3dc3b402
+- **Link:** https://job-boards.greenhouse.io/affirm/jobs/7727322003
 
-### Sr. Software Engineer I - Automation Experience (Remote Eligible in Bulgaria) — Smartsheet
-- **Posted:** 2026-05-19 · **Location:**  -REMOTE, BULGARIA-; Bulgaria · **Source:** greenhouse:smartsheet
-- **Matched:** playwright, cypress, typescript
-- **Link:** https://job-boards.greenhouse.io/smartsheet/jobs/7941862
+### Senior QA Engineer (100% Remote Worldwide) — Tether Operations Limited
+- **Posted:** 2026-06-03 · **Location:** Remote job; United Kindom; Armagh City, Banbridge and Craigavon; United Kingdom · **Source:** recruitee:tether
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://careers.tether.io/o/senior-qa-engineer-100-remote-worldwide
 
-### QA Automation Engineer — Backblaze External Website
-- **Posted:** 2026-05-11 · **Location:** Remote - Argentina; Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico; Remote - Argentina; Remote - Colombia … · **Source:** greenhouse:backblaze
-- **Matched:** playwright, javascript
-- **Link:** https://job-boards.greenhouse.io/backblaze/jobs/5204291008
+### Senior QA Engineer (100% Remote) — Tether Operations Limited
+- **Posted:** 2026-06-01 · **Location:** Remote job; Rio de Janeiro; Rio de Janeiro; Brazil · **Source:** recruitee:tether
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://careers.tether.io/o/senior-qa-engineer-100-remote-22
 
-### Sr. QA Automation Engineer — Backblaze External Website
-- **Posted:** 2026-04-23 · **Location:** Remote - Argentina; Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico; Remote - Argentina; Remote - Colombia … · **Source:** greenhouse:backblaze
-- **Matched:** playwright, javascript
-- **Link:** https://job-boards.greenhouse.io/backblaze/jobs/5193435008
+## ⚠️ Source errors (517)
 
-## ⚠️ Source errors (556)
-
-- recruitee/aveniq: HTTP 429
+- jobicy(webdriver.io): HTTP 404
+- jobicy(wdio): HTTP 404
 - recruitee/axi: HTTP 429
 - recruitee/azubi: HTTP 429
-- recruitee/backspielhaus: HTTP 429
 - recruitee/bacher: HTTP 429
-- recruitee/baeckermueller: HTTP 429
+- recruitee/backspielhaus: HTTP 429
 - recruitee/baeckergoertz: HTTP 429
-- recruitee/bakkergoedhartbroodspecialiteiten: HTTP 429
+- recruitee/baeckermueller: HTTP 429
 - recruitee/bakerstreet: HTTP 429
+- recruitee/bakkergoedhartbroodspecialiteiten: HTTP 429
 - recruitee/balchem: HTTP 429
 - recruitee/ballastnedam: HTTP 429
 - recruitee/bambuu: HTTP 429
-- recruitee/batitprotect: HTTP 429
 - recruitee/barentskrans: HTTP 429
+- recruitee/batitprotect: HTTP 429
 - recruitee/battassocies: HTTP 429
 - recruitee/bauersohnegmbhcokg: HTTP 429
 - recruitee/baxmetaal: HTTP 429
 - recruitee/bbtkanzlei: HTTP 429
-- recruitee/beinguser: HTTP 429
 - recruitee/beezzz: HTTP 429
+- recruitee/beinguser: HTTP 429
 - recruitee/benfatto: HTTP 429
 - recruitee/bergmanclinics: HTTP 429
 - recruitee/bernardgruppe: HTTP 429
 - recruitee/bettercollective: HTTP 429
-- recruitee/bildungsinstitutsud: HTTP 429
 - recruitee/bghaccountants: HTTP 429
+- recruitee/bildungsinstitutsud: HTTP 429
 - recruitee/biovian: HTTP 429
-- recruitee/biscuitinternational: HTTP 429
 - recruitee/biqh: HTTP 429
+- recruitee/biscuitinternational: HTTP 429
 - recruitee/bisnowmedia: HTTP 429
-- recruitee/bizziphone: HTTP 429
+- recruitee/8advisory: HTTP 429
 - recruitee/biximontreal: HTTP 429
+- recruitee/bizziphone: HTTP 429
 - recruitee/blocktech: HTTP 429
 - recruitee/bloem: HTTP 429
 - recruitee/bluecrux: HTTP 429
@@ -99,8 +63,8 @@ _No new matches advertising visa/relocation support today._
 - recruitee/blueskygroup: HTTP 429
 - recruitee/bluestonelogic: HTTP 429
 - recruitee/boekenvoordeel: HTTP 429
-- recruitee/bolster: HTTP 429
 - recruitee/bonial: HTTP 429
+- recruitee/bolster: HTTP 429
 - recruitee/brainstack: HTTP 429
 - recruitee/boschmanadvancedpackagingtechnology: HTTP 429
 - recruitee/brenger: HTTP 429
@@ -113,27 +77,27 @@ _No new matches advertising visa/relocation support today._
 - recruitee/camelbackventures: HTTP 429
 - recruitee/carbonbetter: HTTP 429
 - recruitee/careexpert: HTTP 429
-- recruitee/cavalryventures: HTTP 429
 - recruitee/carlfriedrik: HTTP 429
 - recruitee/cb: HTTP 429
+- recruitee/cavalryventures: HTTP 429
 - recruitee/cbsconsulting: HTTP 429
 - recruitee/ccmeurope: HTTP 429
 - recruitee/celebratecompany: HTTP 429
 - recruitee/centric: HTTP 429
-- recruitee/certus: HTTP 429
 - recruitee/cesi: HTTP 429
+- recruitee/certus: HTTP 429
 - recruitee/cfjobs: HTTP 429
 - recruitee/charbroil: HTTP 429
 - recruitee/chargerhelp: HTTP 429
-- recruitee/chorusone1: HTTP 429
 - recruitee/chmedia: HTTP 429
+- recruitee/chorusone1: HTTP 429
 - recruitee/chowco: HTTP 429
 - recruitee/churchdesk: HTTP 429
+- recruitee/civiltecengineering: HTTP 429
 - recruitee/cigusgmbh: HTTP 429
 - recruitee/claranetitalia: HTTP 429
-- recruitee/civiltecengineering: HTTP 429
-- recruitee/clario: HTTP 429
 - recruitee/claus: HTTP 429
+- recruitee/clario: HTTP 429
 - recruitee/clay: HTTP 429
 - recruitee/climeworks: HTTP 429
 - recruitee/cloudacademy: HTTP 429
@@ -149,89 +113,45 @@ _No new matches advertising visa/relocation support today._
 - recruitee/corygroup: HTTP 429
 - recruitee/coverworks: HTTP 429
 - recruitee/craftzing: HTTP 429
-- recruitee/cronimetenvirotec: HTTP 429
 - recruitee/creandum: HTTP 429
-- recruitee/cscfi: HTTP 429
+- recruitee/cronimetenvirotec: HTTP 429
 - recruitee/crunchanalyticscareers: HTTP 429
+- recruitee/cscfi: HTTP 429
 - recruitee/cticc: HTTP 429
 - recruitee/ctscompositetechnologiesystemegmbh: HTTP 429
 - recruitee/currentagruppe: HTTP 429
 - recruitee/dance: HTTP 429
-- recruitee/dckgroup: HTTP 429
 - recruitee/datanation: HTTP 429
+- recruitee/dckgroup: HTTP 429
 - recruitee/deephealth: HTTP 429
 - recruitee/deepsea: HTTP 429
 - recruitee/deluxeholidayhomes: HTTP 429
 - recruitee/delonghigroup: HTTP 429
 - recruitee/demoupcliplister: HTTP 429
 - recruitee/denieuwezaak: HTTP 429
-- recruitee/denjyskehaandvaerkerskole: HTTP 429
 - recruitee/depiergroep: HTTP 429
+- recruitee/denjyskehaandvaerkerskole: HTTP 429
 - recruitee/deutscheextraktkaffeegmbh: HTTP 429
 - recruitee/diebayerische: HTTP 429
 - recruitee/digitalbeatgmbh: HTTP 429
-- recruitee/dnata: HTTP 429
-- recruitee/doccheckgroup: HTTP 429
-- recruitee/dock: HTTP 429
-- recruitee/dommelvallei: HTTP 429
-- recruitee/doctenasa: HTTP 429
-- recruitee/dransay: HTTP 429
-- recruitee/dreizen: HTTP 429
-- recruitee/drsahingesundevitaminegmbhucokg: HTTP 429
-- recruitee/duckduckgo: HTTP 429
-- recruitee/earlyalpineacademy: HTTP 429
-- recruitee/ecconsultants: HTTP 429
-- recruitee/echobot: HTTP 429
-- recruitee/ecocert: HTTP 429
-- recruitee/ecolecentraledelyon: HTTP 429
-- recruitee/eerikkila: HTTP 429
-- recruitee/elan: HTTP 429
-- recruitee/elanza: HTTP 429
-- recruitee/elektrosupersaxoag: HTTP 429
-- recruitee/elephantdigital: HTTP 429
-- recruitee/eleqtron: HTTP 429
-- recruitee/elmleigh: HTTP 429
-- recruitee/eluscious: HTTP 429
-- recruitee/ember: HTTP 429
-- recruitee/enecoemobility: HTTP 429
-- recruitee/energyking: HTTP 429
-- recruitee/eneve: HTTP 429
-- recruitee/engworldwide: HTTP 429
-- recruitee/enseradesign: HTTP 429
-- recruitee/enspired: HTTP 429
-- recruitee/enterprise: HTTP 429
-- recruitee/entyre: HTTP 429
-- recruitee/envipco: HTTP 429
-- recruitee/enviemholdingbv: HTTP 429
-- recruitee/equalsmoney: HTTP 429
-- recruitee/epilot: HTTP 429
-- recruitee/equivity: HTTP 429
-- recruitee/equito: HTTP 429
-- recruitee/eraneos: HTTP 429
-- recruitee/eskandary: HTTP 429
-- recruitee/esns: HTTP 429
-- recruitee/eupagohub: HTTP 429
-- recruitee/eternalsungroupbv: HTTP 429
-- recruitee/eurosparcareers: HTTP 429
-- recruitee/evofenedex: HTTP 429
-- recruitee/evreuxportesdenormandie: HTTP 429
 - recruitee/exeon: HTTP 429
+- recruitee/evreuxportesdenormandie: HTTP 429
 - recruitee/fastems: HTTP 429
-- recruitee/fastned: HTTP 429
 - recruitee/farogruppe: HTTP 429
+- recruitee/ferillis: HTTP 429
+- recruitee/fastned: HTTP 429
 - recruitee/ferpalinfrastructure: HTTP 429
 - recruitee/ferryscanner: HTTP 429
 - recruitee/festgmbh: HTTP 429
 - recruitee/fidusheinenoord: HTTP 429
 - recruitee/fieldbuddy: HTTP 429
 - recruitee/fietsenwinkelnl: HTTP 429
-- recruitee/fineco: HTTP 429
-- recruitee/ferillis: HTTP 429
 - recruitee/fizor: HTTP 429
+- recruitee/fineco: HTTP 429
 - recruitee/floryn: HTTP 429
-- recruitee/focusentertainment: HTTP 429
 - recruitee/formelio: HTTP 429
 - recruitee/formofoodsgmbh: HTTP 429
+- recruitee/focusentertainment: HTTP 429
 - recruitee/forwardearth: HTTP 429
 - recruitee/framestore: HTTP 429
 - recruitee/francophoniecarrieres: HTTP 429
@@ -243,173 +163,173 @@ _No new matches advertising visa/relocation support today._
 - recruitee/gain: HTTP 429
 - recruitee/galeniccarriererecrutement: HTTP 429
 - recruitee/gardec: HTTP 429
-- recruitee/gartengold: HTTP 429
 - recruitee/gemeenteachtkarspelen: HTTP 429
-- recruitee/gerardbertrand: HTTP 429
+- recruitee/gartengold: HTTP 429
 - recruitee/gemeentelansingerland: HTTP 429
+- recruitee/gerardbertrand: HTTP 429
 - recruitee/germanzeroev: HTTP 429
 - recruitee/getontop: HTTP 429
 - recruitee/ggzoostbrabant: HTTP 429
 - recruitee/gieskerlaakmann: HTTP 429
-- recruitee/ginmon: HTTP 429
 - recruitee/globaljetluxembourg: HTTP 429
+- recruitee/ginmon: HTTP 429
 - recruitee/golmedgmbh: HTTP 429
 - recruitee/gpv: HTTP 429
 - recruitee/gpvaustria: HTTP 429
+- recruitee/gpvfinland: HTTP 429
 - recruitee/gpvgermany: HTTP 429
 - recruitee/gpvslovakia: HTTP 429
 - recruitee/gpvswitzerland: HTTP 429
-- recruitee/gpvfinland: HTTP 429
-- recruitee/greenpeacebelgium: HTTP 429
 - recruitee/greatminds: HTTP 429
+- recruitee/greenpeacebelgium: HTTP 429
 - recruitee/greyparrotai: HTTP 429
 - recruitee/gri: HTTP 429
 - recruitee/gridscale: HTTP 429
 - recruitee/griffinfundinginc: HTTP 429
-- recruitee/growprogress: HTTP 429
 - recruitee/groupemarval: HTTP 429
+- recruitee/growprogress: HTTP 429
 - recruitee/gtowizard: HTTP 429
-- recruitee/hainmueller: HTTP 429
 - recruitee/hacheundseelinger: HTTP 429
-- recruitee/hamelin: HTTP 429
+- recruitee/hainmueller: HTTP 429
 - recruitee/halbersbacherhospitalitygroup: HTTP 429
+- recruitee/hamelin: HTTP 429
 - recruitee/hardrockdigital: HTTP 429
 - recruitee/hascoinvest: HTTP 429
-- recruitee/hatchtech: HTTP 429
 - recruitee/hauptstadtfloss: HTTP 429
+- recruitee/hatchtech: HTTP 429
 - recruitee/hausfursicherheit: HTTP 429
+- recruitee/heattransformers: HTTP 429
+- recruitee/heliumdoc: HTTP 429
+- recruitee/heembouw: HTTP 429
+- recruitee/helloprint: HTTP 429
+- recruitee/hemeriagroup: HTTP 429
+- recruitee/hermosautomation: HTTP 429
+- recruitee/heydayfm: HTTP 429
+- recruitee/heydayhospitality: HTTP 429
+- recruitee/highspiritshospitality: HTTP 429
+- recruitee/hike2: HTTP 429
 - recruitee/hittechmultin: HTTP 429
+- recruitee/hived: HTTP 429
+- recruitee/holepunch: HTTP 429
+- recruitee/hometouch: HTTP 429
+- recruitee/hostaway: HTTP 429
+- recruitee/hotelgilze: HTTP 429
+- recruitee/hrspecialist: HTTP 429
+- recruitee/hudsonmanpower: HTTP 429
+- recruitee/huntsmen: HTTP 429
+- recruitee/huuuge: HTTP 429
+- recruitee/hygraph: HTTP 429
+- recruitee/ibexa: HTTP 429
+- recruitee/icftechhungary: HTTP 429
+- recruitee/icuitservices: HTTP 429
+- recruitee/ifp: HTTP 429
+- recruitee/igh: HTTP 429
+- recruitee/iliabeauty: HTTP 429
+- recruitee/imbgmbh: HTTP 429
+- recruitee/impactbrands: HTTP 429
+- recruitee/inepro: HTTP 429
+- recruitee/infinitaslearning1: HTTP 429
+- recruitee/infomedijidoo: HTTP 429
+- recruitee/idegogroup: HTTP 429
+- recruitee/ingestro: HTTP 429
+- recruitee/inforsht: HTTP 429
+- recruitee/innercrowd: HTTP 429
+- recruitee/innodatainc: HTTP 429
+- recruitee/innovativebeautygroup: HTTP 429
+- recruitee/innovamarketinsights: HTTP 429
+- recruitee/inretail: HTTP 429
+- recruitee/institutminestelecom: HTTP 429
+- recruitee/intent: HTTP 429
+- recruitee/intergas: HTTP 429
 - recruitee/internationalfoodconnectors: HTTP 429
 - recruitee/isc: HTTP 429
+- recruitee/internetwerving: HTTP 429
 - recruitee/isdglobal: HTTP 429
 - recruitee/isits: HTTP 429
 - recruitee/ism: HTTP 429
 - recruitee/ivpn: HTTP 429
-- recruitee/ixonbv: HTTP 429
 - recruitee/jcdecauxnederland: HTTP 429
-- recruitee/jedowski: HTTP 429
+- recruitee/ixonbv: HTTP 429
 - recruitee/jeranexbp: HTTP 429
+- recruitee/jedowski: HTTP 429
 - recruitee/jobs: HTTP 429
 - recruitee/jobsamericatoday: HTTP 429
 - recruitee/jobsatlanticlabsfoodlabs: HTTP 429
 - recruitee/jobsatlanticvcfoodlabs: HTTP 429
 - recruitee/jobsdeerns: HTTP 429
+- recruitee/jobsdrlauterbachklinik: HTTP 429
 - recruitee/jobspeakcoaching: HTTP 429
 - recruitee/johancruyfffoundation: HTTP 429
-- recruitee/jobsdrlauterbachklinik: HTTP 429
-- recruitee/johogroup: HTTP 429
 - recruitee/juliusbergerinternationalgmbh: HTTP 429
+- recruitee/johogroup: HTTP 429
 - recruitee/junolegal: HTTP 429
-- recruitee/justrussel: HTTP 429
 - recruitee/kaizo: HTTP 429
+- recruitee/justrussel: HTTP 429
 - recruitee/karriereboeckelsbestede: HTTP 429
 - recruitee/kb: HTTP 429
 - recruitee/kcoverseaseducation: HTTP 429
 - recruitee/keunecareers: HTTP 429
 - recruitee/kiesertrainingag: HTTP 429
-- recruitee/kimlundgrenassociatesinc: HTTP 429
 - recruitee/kodify: HTTP 429
+- recruitee/kimlundgrenassociatesinc: HTTP 429
 - recruitee/koklinikgmbh: HTTP 429
 - recruitee/koninklijkegazelle: HTTP 429
-- recruitee/kravet: HTTP 429
-- recruitee/koninklijktheatercarre: HTTP 429
 - recruitee/koninklijkeniesternsander: HTTP 429
+- recruitee/koninklijktheatercarre: HTTP 429
+- recruitee/kriegersteuerberatungsgesellschaft: HTTP 429
+- recruitee/kravet: HTTP 429
 - recruitee/kybunjoyaretail: HTTP 429
 - recruitee/lammhr: HTTP 429
-- recruitee/kriegersteuerberatungsgesellschaft: HTTP 429
 - recruitee/landlifecompany: HTTP 429
 - recruitee/lassnerkarriere: HTTP 429
-- recruitee/layerscaleadvisory: HTTP 429
 - recruitee/learned: HTTP 429
-- recruitee/leaseabike: HTTP 429
+- recruitee/layerscaleadvisory: HTTP 429
 - recruitee/leeruniek: HTTP 429
+- recruitee/leaseabike: HTTP 429
 - recruitee/lefebvresdu: HTTP 429
-- recruitee/lenskartcareers: HTTP 429
-- recruitee/lessonup: HTTP 429
 - recruitee/leydenjar: HTTP 429
-- recruitee/lfeddersenbaugesellschaftmbh: HTTP 429
-- recruitee/lg2: HTTP 429
-- recruitee/liebscherbracht: HTTP 429
-- recruitee/linkurious: HTTP 429
-- recruitee/lister: HTTP 429
-- recruitee/livezoku: HTTP 429
-- recruitee/livio: HTTP 429
-- recruitee/lleverage: HTTP 429
-- recruitee/lookup: HTTP 429
-- recruitee/londiscareers: HTTP 429
-- recruitee/m1: HTTP 429
-- recruitee/loyaltykey: HTTP 429
-- recruitee/machinelearningreply: HTTP 429
-- recruitee/madewithlove: HTTP 429
-- recruitee/maierheiztechnikgmbh: HTTP 429
-- recruitee/makersitegmbh: HTTP 429
-- recruitee/manual: HTTP 429
-- recruitee/manhattanspecialtycare: HTTP 429
-- recruitee/markmi: HTTP 429
-- recruitee/massimodutti: HTTP 429
-- recruitee/masterpiecestudio: HTTP 429
-- recruitee/mathrix: HTTP 429
-- recruitee/matera: HTTP 429
-- recruitee/mavienextgmbh: HTTP 429
-- recruitee/mayflower: HTTP 429
-- recruitee/mbio: HTTP 429
-- recruitee/meddy1: HTTP 429
-- recruitee/mcdglobalhealth: HTTP 429
-- recruitee/medactafrance: HTTP 429
-- recruitee/medecinssansfrontieressuisse: HTTP 429
-- recruitee/medecinssansfrontiereswaca: HTTP 429
-- recruitee/medialo: HTTP 429
-- recruitee/megagroupinternational: HTTP 429
-- recruitee/megaparticleinc: HTTP 429
-- recruitee/meiarchitectsplanners: HTTP 429
-- recruitee/melislogistics: HTTP 429
-- recruitee/merkur: HTTP 429
-- recruitee/merkurosiguranjedd: HTTP 429
-- recruitee/metamundo: HTTP 429
-- recruitee/mesosolutions: HTTP 429
-- recruitee/metrika: HTTP 429
-- recruitee/metr: HTTP 429
-- recruitee/mobilae1: HTTP 429
 - recruitee/metrocaring: HTTP 429
 - recruitee/momomedicalbv: HTTP 429
-- recruitee/mondaymerch: HTTP 429
 - recruitee/moneyhash: HTTP 429
+- recruitee/mondaymerch: HTTP 429
 - recruitee/monizze: HTTP 429
 - recruitee/motena: HTTP 429
+- recruitee/metamundo: HTTP 429
 - recruitee/movares: HTTP 429
 - recruitee/msf: HTTP 429
 - recruitee/mudwtr: HTTP 429
 - recruitee/mumc: HTTP 429
+- recruitee/mobilae1: HTTP 429
 - recruitee/myrunway: HTTP 429
 - recruitee/n2jsoft: HTTP 429
 - recruitee/namecheap: HTTP 429
 - recruitee/nationaalgroenfonds: HTTP 429
-- recruitee/natuvion: HTTP 429
 - recruitee/nationalsustainableagriculturecoalition: HTTP 429
+- recruitee/natuvion: HTTP 429
 - recruitee/nemenergy: HTTP 429
 - recruitee/netdata: HTTP 429
 - recruitee/newelec: HTTP 429
 - recruitee/nicsystemhausgmbh: HTTP 429
 - recruitee/nictiz: HTTP 429
-- recruitee/noackstatistik: HTTP 429
 - recruitee/nikin: HTTP 429
+- recruitee/noackstatistik: HTTP 429
 - recruitee/noderes: HTTP 429
 - recruitee/novacard: HTTP 429
 - recruitee/normectalentpool: HTTP 429
-- recruitee/ntm: HTTP 429
 - recruitee/novritschtrading: HTTP 429
-- recruitee/nvm: HTTP 429
+- recruitee/ntm: HTTP 429
 - recruitee/nts: HTTP 429
+- recruitee/nvm: HTTP 429
 - recruitee/nwbbank: HTTP 429
 - recruitee/nyrahealth: HTTP 429
 - recruitee/o2h: HTTP 429
 - recruitee/ockto: HTTP 429
 - recruitee/oceansofenergy: HTTP 429
-- recruitee/oead: HTTP 429
 - recruitee/odysseyhotelgroup: HTTP 429
+- recruitee/oead: HTTP 429
 - recruitee/oeadstudenthousing: HTTP 429
-- recruitee/oejab: HTTP 429
 - recruitee/ogcglobal: HTTP 429
+- recruitee/oejab: HTTP 429
 - recruitee/olsamgroup: HTTP 429
 - recruitee/on2it: HTTP 429
 - recruitee/onlinedialogue: HTTP 429
@@ -425,27 +345,27 @@ _No new matches advertising visa/relocation support today._
 - recruitee/pacifico: HTTP 429
 - recruitee/pacmed: HTTP 429
 - recruitee/palazzoversacedubai: HTTP 429
-- recruitee/parfumado: HTTP 429
 - recruitee/palebluedotrecruitment: HTTP 429
+- recruitee/parfumado: HTTP 429
 - recruitee/partejobs: HTTP 429
 - recruitee/passionfroot: HTTP 429
-- recruitee/payflows: HTTP 429
 - recruitee/pdkarriere: HTTP 429
+- recruitee/payflows: HTTP 429
 - recruitee/pelsrijcken: HTTP 429
 - recruitee/pensionworks: HTTP 429
 - recruitee/pexin: HTTP 429
 - recruitee/philabs: HTTP 429
 - recruitee/picard: HTTP 429
 - recruitee/pix: HTTP 429
-- recruitee/pmpg: HTTP 429
 - recruitee/pladisfrance: HTTP 429
+- recruitee/pmpg: HTTP 429
 - recruitee/polaroid: HTTP 429
 - recruitee/pragmaticcoders: HTTP 429
 - recruitee/prenosis: HTTP 429
-- recruitee/priestley: HTTP 429
 - recruitee/primeworks: HTTP 429
-- recruitee/primomarine: HTTP 429
+- recruitee/priestley: HTTP 429
 - recruitee/prinsenstichting: HTTP 429
+- recruitee/primomarine: HTTP 429
 - recruitee/prodigigroup: HTTP 429
 - recruitee/proindividuum: HTTP 429
 - recruitee/properfood: HTTP 429
@@ -462,46 +382,46 @@ _No new matches advertising visa/relocation support today._
 - recruitee/redsky: HTTP 429
 - recruitee/reiztech: HTTP 429
 - recruitee/reploidgroupag: HTTP 429
-- recruitee/rhpartners: HTTP 429
-- recruitee/rooysewissel: HTTP 429
 - recruitee/revelator: HTTP 429
+- recruitee/rhpartners: HTTP 429
 - recruitee/riverflex: HTTP 429
+- recruitee/rooysewissel: HTTP 429
 - recruitee/rosemanlabs: HTTP 429
 - recruitee/royallemkes: HTTP 429
 - recruitee/royalswinkels: HTTP 429
 - recruitee/royalwagenborg1: HTTP 429
 - recruitee/rudolfweber: HTTP 429
-- recruitee/rvibefluides: HTTP 429
 - recruitee/rupfindustries: HTTP 429
+- recruitee/rvibefluides: HTTP 429
 - recruitee/safesize: HTTP 429
 - recruitee/sahl: HTTP 429
 - recruitee/salesup: HTTP 429
-- recruitee/salzburgglobalseminar: HTTP 429
 - recruitee/samy1: HTTP 429
-- recruitee/santanagroup: HTTP 429
+- recruitee/salzburgglobalseminar: HTTP 429
 - recruitee/sanfrancisco: HTTP 429
-- recruitee/scheunpflugwirpflegen: HTTP 429
+- recruitee/santanagroup: HTTP 429
 - recruitee/savantzorg: HTTP 429
-- recruitee/secondhomejugendhilfegmbh: HTTP 429
 - recruitee/seafarnv: HTTP 429
+- recruitee/scheunpflugwirpflegen: HTTP 429
+- recruitee/secondhomejugendhilfegmbh: HTTP 429
 - recruitee/seenons: HTTP 429
 - recruitee/selfbillpro: HTTP 429
 - recruitee/seneosgmbh: HTTP 429
 - recruitee/sequra: HTTP 429
 - recruitee/share: HTTP 429
 - recruitee/sharecompanygroup: HTTP 429
-- recruitee/shippingtechnology: HTTP 429
 - recruitee/shipitmultimodallogistics: HTTP 429
+- recruitee/shippingtechnology: HTTP 429
 - recruitee/shopwareag: HTTP 429
 - recruitee/sidelineswap: HTTP 429
-- recruitee/signifly: HTTP 429
 - recruitee/silverein: HTTP 429
+- recruitee/signifly: HTTP 429
 - recruitee/simvia: HTTP 429
 - recruitee/siwaresystems: HTTP 429
 - recruitee/skfberlin: HTTP 429
 - recruitee/skkarriere: HTTP 429
-- recruitee/skytree: HTTP 429
 - recruitee/smartsupp: HTTP 429
+- recruitee/skytree: HTTP 429
 - recruitee/solease: HTTP 429
 - recruitee/sobinco: HTTP 429
 - recruitee/solvinity: HTTP 429
@@ -511,108 +431,111 @@ _No new matches advertising visa/relocation support today._
 - recruitee/sparcareers: HTTP 429
 - recruitee/sportakademiebaumann: HTTP 429
 - recruitee/sportschuledefcon: HTTP 429
-- recruitee/spotzer: HTTP 429
 - recruitee/spotlab: HTTP 429
+- recruitee/spotzer: HTTP 429
 - recruitee/spsschaltanlagentechnik: HTTP 429
 - recruitee/stacvalley: HTTP 429
-- recruitee/steinemann: HTTP 429
-- recruitee/statuscag: HTTP 429
-- recruitee/stibbebv: HTTP 429
-- recruitee/stichtingkwintes: HTTP 429
-- recruitee/stichtingdock: HTTP 429
-- recruitee/stichtingsprank: HTTP 429
-- recruitee/stichtingvoorieder1: HTTP 429
-- recruitee/strictbv: HTTP 429
-- recruitee/studentworks: HTTP 429
-- recruitee/successday: HTTP 429
-- recruitee/sudstarkegmbh: HTTP 429
-- recruitee/sulavaoy: HTTP 429
-- recruitee/suomenhumanistinenammattikorkeakouluoy: HTTP 429
-- recruitee/supremesportshospitality: HTTP 429
-- recruitee/surfly: HTTP 429
-- recruitee/sustainablecomfort: HTTP 429
-- recruitee/sverigesakassor: HTTP 429
-- recruitee/swisselect: HTTP 429
-- recruitee/swabianinstruments: HTTP 429
-- recruitee/symvaro: HTTP 429
-- recruitee/swlog: HTTP 429
-- recruitee/synapseanalytics: HTTP 429
-- recruitee/syrve: HTTP 429
-- recruitee/tabelpersonal: HTTP 429
-- recruitee/talk360: HTTP 429
-- recruitee/taledogmbh: HTTP 429
-- recruitee/taprootfoundation: HTTP 429
-- recruitee/techbizglobal: HTTP 429
-- recruitee/technicaengineeringgmbh: HTTP 429
-- recruitee/telstarmediagroep: HTTP 429
-- recruitee/teeturtle: HTTP 429
-- recruitee/tessan1: HTTP 429
-- recruitee/testimonials: HTTP 429
-- recruitee/tether: HTTP 429
-- recruitee/textmagic: HTTP 429
-- recruitee/theconfigteamcareers: HTTP 429
-- recruitee/thecareersteam: HTTP 429
-- recruitee/thelandbankinggroup: HTTP 429
-- recruitee/themortgagetalentnetwork: HTTP 429
-- recruitee/thesafetynetwork: HTTP 429
-- recruitee/thesalescentre: HTTP 429
-- recruitee/thirdway: HTTP 429
-- recruitee/timeoutstiftungggmbh: HTTP 429
 - recruitee/tiugotech: HTTP 429
-- recruitee/tinybeans: HTTP 429
 - recruitee/tkhomesolutions: HTTP 429
 - recruitee/tlrbv: HTTP 429
 - recruitee/tnp: HTTP 429
 - recruitee/trafilea: HTTP 429
 - recruitee/transferz: HTTP 429
-- recruitee/transperfect: HTTP 429
 - recruitee/tritilitylimited: HTTP 429
+- recruitee/transperfect: HTTP 429
 - recruitee/trustedshops: HTTP 429
-- recruitee/twisto: HTTP 429
 - recruitee/tweedekamer: HTTP 429
-- recruitee/tytantechnologiesgmbh: HTTP 429
+- recruitee/twisto: HTTP 429
 - recruitee/tysers: HTTP 429
 - recruitee/uhlenhaus: HTTP 429
+- recruitee/tytantechnologiesgmbh: HTTP 429
 - recruitee/umane: HTTP 429
-- recruitee/unitedalsaqergroup: HTTP 429
 - recruitee/umob: HTTP 429
-- recruitee/universegroup: HTTP 429
+- recruitee/unitedalsaqergroup: HTTP 429
 - recruitee/universitepantheonassas: HTTP 429
+- recruitee/universegroup: HTTP 429
 - recruitee/up42gmbh: HTTP 429
-- recruitee/urbanarrow: HTTP 429
-- recruitee/uturn: HTTP 429
 - recruitee/utilityprofit: HTTP 429
+- recruitee/urbanarrow: HTTP 429
 - recruitee/vacancies: HTTP 429
+- recruitee/uturn: HTTP 429
 - recruitee/vacaturesvandervalk: HTTP 429
 - recruitee/vanbeestbv: HTTP 429
-- recruitee/vandervenautos: HTTP 429
 - recruitee/vandervalkluxembourg: HTTP 429
+- recruitee/vandervenautos: HTTP 429
 - recruitee/vbkvacatures: HTTP 429
 - recruitee/vbtgroep: HTTP 429
 - recruitee/veaxo: HTTP 429
-- recruitee/vebegofacilityservices3: HTTP 429
 - recruitee/vebegolandscapingservices: HTTP 429
 - recruitee/vencomaticgroup: HTTP 429
 - recruitee/veratronag: HTTP 429
 - recruitee/verduurzaamvastgoed1: HTTP 429
 - recruitee/vertigis: HTTP 429
 - recruitee/vertuoza: HTTP 429
+- recruitee/vebegofacilityservices3: HTTP 429
 - recruitee/vervegroup: HTTP 429
 - recruitee/vesper: HTTP 429
-- recruitee/vicentra: HTTP 429
 - recruitee/viaamsterdam: HTTP 429
+- recruitee/vicentra: HTTP 429
 - recruitee/vilgain: HTTP 429
-- recruitee/virtual7jobs: HTTP 429
 - recruitee/vionfoodgroup: HTTP 429
+- recruitee/virtual7jobs: HTTP 429
+- recruitee/visionariesclub: HTTP 429
 - recruitee/virtualresource: HTTP 429
+- recruitee/viviq: HTTP 429
+- recruitee/vlyfoods: HTTP 429
+- recruitee/vpteam: HTTP 429
+- recruitee/vrzw: HTTP 429
+- recruitee/vsparticle: HTTP 429
+- recruitee/vxcompanydevelopmentpartnerbv: HTTP 429
+- recruitee/wacomeurope: HTTP 429
+- recruitee/wagenborgnedlift: HTTP 429
+- recruitee/wagenborgpassagiersdiensten: HTTP 429
+- recruitee/wakuli: HTTP 429
+- recruitee/warande: HTTP 429
 - recruitee/walibiholland: HTTP 429
+- recruitee/wearebit: HTTP 429
+- recruitee/werkenbijdeafm: HTTP 429
+- recruitee/wellsterhealthtechgroup: HTTP 429
+- recruitee/werkenbijfivoor: HTTP 429
+- recruitee/werkenbijdecantharel: HTTP 429
+- recruitee/werkenbijhiltermann: HTTP 429
+- recruitee/werkenbijons: HTTP 429
+- recruitee/werkenbijnedcargo: HTTP 429
+- recruitee/werkenbijstichtingmeerscholen: HTTP 429
+- recruitee/werkenbijvigogroep: HTTP 429
+- recruitee/werkenbijvnoncwmkb: HTTP 429
+- recruitee/webbtraders: HTTP 429
+- recruitee/werkenbijyouvia: HTTP 429
+- recruitee/westerhorstmann: HTTP 429
+- recruitee/whello: HTTP 429
+- recruitee/whofoundation: HTTP 429
+- recruitee/wiiw: HTTP 429
+- recruitee/wizdaa: HTTP 429
+- recruitee/wjgruppe: HTTP 429
+- recruitee/woonzorgnederland: HTTP 429
+- recruitee/woonplusschiedam: HTTP 429
+- recruitee/wordbank: HTTP 429
+- recruitee/wtt: HTTP 429
+- recruitee/xalution: HTTP 429
+- recruitee/wusthof: HTTP 429
+- recruitee/xebiapoland: HTTP 429
+- recruitee/xfive: HTTP 429
+- recruitee/xite: HTTP 429
+- recruitee/zadragruppe: HTTP 429
+- recruitee/yellowtail: HTTP 429
+- recruitee/zara: HTTP 429
 - recruitee/zarahome: HTTP 429
 - recruitee/zelh: HTTP 429
-- recruitee/zensai: HTTP 429
 - recruitee/zeromotorcycles: HTTP 429
+- recruitee/zensai: HTTP 429
 - recruitee/zonnehuisgroepamstelland: HTTP 429
 - recruitee/zpvgmbhcokg: HTTP 429
 - recruitee/zteam: HTTP 429
 - recruitee/maartenskliniek: HTTP 429
 - recruitee/lippepersonal: HTTP 429
+- recruitee/accenture: HTTP 429
 - recruitee/nmi: HTTP 429
+- recruitee/sintmaartenskliniek: HTTP 429
+- recruitee/davidjosephcompany: HTTP 429
+- recruitee/proficio: HTTP 429

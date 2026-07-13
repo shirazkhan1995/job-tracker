@@ -45,6 +45,8 @@ function jobList() {
     seenAt: user[j.key]?.seenAt || null,
     applied: !!user[j.key]?.appliedAt,
     appliedAt: user[j.key]?.appliedAt || null,
+    dismissed: !!user[j.key]?.dismissedAt,
+    dismissedAt: user[j.key]?.dismissedAt || null,
   }));
 }
 
@@ -81,7 +83,7 @@ const server = http.createServer(async (req, res) => {
         lastRunAt: state.lastRunAt || null,
         counts: {
           active: jobs.filter(j => j.active).length,
-          new: jobs.filter(j => j.active && !j.seen && !j.applied).length,
+          new: jobs.filter(j => j.active && !j.seen && !j.applied && !j.dismissed).length,
           applied: jobs.filter(j => j.applied).length,
           expired: jobs.filter(j => !j.active).length,
         },
@@ -101,6 +103,15 @@ const server = http.createServer(async (req, res) => {
       const user = loadJSON(USER_FILE, {});
       user[key] = { ...user[key], seenAt: user[key]?.seenAt || new Date().toISOString() };
       user[key].appliedAt = applied ? (user[key].appliedAt || new Date().toISOString()) : null;
+      saveJSON(USER_FILE, user);
+      return send(res, 200, { ok: true });
+    }
+    if (req.method === "POST" && url.pathname === "/api/jobs/dismissed") {
+      const { key, dismissed } = await readBody(req);
+      if (!key) return send(res, 400, { error: "key required" });
+      const user = loadJSON(USER_FILE, {});
+      user[key] = { ...user[key] };
+      user[key].dismissedAt = dismissed ? (user[key].dismissedAt || new Date().toISOString()) : null;
       saveJSON(USER_FILE, user);
       return send(res, 200, { ok: true });
     }

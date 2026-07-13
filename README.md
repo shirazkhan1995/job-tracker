@@ -2,15 +2,11 @@
 
 Daily tracker for remote jobs matching:
 
-> **("playwright" OR "puppeteer" OR "cypress") AND ("javascript" OR "typescript")**
+> **("playwright" OR "puppeteer" OR "webdriverio") AND ("javascript" OR "typescript")**
 
-Matching is **case-insensitive** with word boundaries, applied to the job title + full description. All open postings qualify regardless of posting age (the date is shown). Report sections, in order:
+Matching is **case-insensitive** with word boundaries, applied to the job title + full description. Remote jobs only; all open postings qualify regardless of posting age (the date is shown). Location judgment is left to you — the report/UI shows each job's location string.
 
-1. **🌍 Remote — Worldwide / APAC** — location (or job title, e.g. "QA Engineer (APAC/LATAM)") says worldwide/anywhere or APAC/Asia-Pacific (`location.preferredRegionTerms` in `config.json`).
-2. **🛂 Visa sponsorship / relocation support** — the description advertises visa sponsorship or a relocation package (negation-aware: "no visa sponsorship" doesn't count). These jobs are included **even if onsite**, since relocation is the point. Terms in `config.relocation.positive`.
-3. **🏠 Remote — region-specific or unspecified** — everything else remote.
-
-Jobs in section 1 that also offer relocation get a 🛂 tag inline.
+The web UI (Vercel) supports per-job and **bulk** actions: mark seen (automatic on click), applied, or "not gonna apply" (dismissed). State lives in Neon Postgres, synced across devices.
 
 ## Run
 

@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
     SELECT
       (SELECT max(last_seen_at) FROM jobs) AS last_run,
       count(*) FILTER (WHERE j.active) AS active,
-      count(*) FILTER (WHERE j.active AND s.seen_at IS NULL AND s.applied_at IS NULL) AS new,
+      count(*) FILTER (WHERE j.active AND s.seen_at IS NULL AND s.applied_at IS NULL AND s.dismissed_at IS NULL) AS new,
       count(*) FILTER (WHERE s.applied_at IS NOT NULL) AS applied,
       count(*) FILTER (WHERE NOT j.active) AS expired
     FROM jobs j LEFT JOIN user_state s USING (key)

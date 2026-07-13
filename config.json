@@ -1,27 +1,11 @@
 {
   "keywords": {
-    "anyOf": ["playwright", "puppeteer", "cypress"],
+    "anyOf": ["playwright", "puppeteer", "webdriverio", "webdriver.io", "wdio"],
     "allOf": [
       ["javascript", "typescript"]
     ]
   },
   "maxAgeDays": 60,
-  "location": {
-    "worldwideTerms": ["worldwide", "world wide", "anywhere", "work from anywhere", "global", "international"],
-    "preferredRegionTerms": ["apac", "asia pacific", "asia-pacific", "asia"],
-    "includeOtherRemote": true
-  },
-  "relocation": {
-    "positive": [
-      "visa sponsorship", "sponsorship available", "sponsor visa", "sponsor a visa",
-      "sponsor your visa", "sponsor work visa", "visa support", "visa assistance",
-      "visa and relocation", "relocation assistance", "relocation package",
-      "relocation support", "relocation bonus", "relocation budget",
-      "offer relocation", "relocation offered", "we offer relocation",
-      "work permit support", "immigration support", "immigration assistance",
-      "help with relocation", "we sponsor"
-    ]
-  },
   "himalayas": { "maxPages": 400 },
   "discoveryFetchCap": 40,
   "probeCapPerRun": 250,
