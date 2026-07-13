@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/api/jobs", "dest": "/api/jobs.js" },
+    { "src": "/api/jobs/seen", "dest": "/api/jobs/seen.js" },
+    { "src": "/api/jobs/applied", "dest": "/api/jobs/applied.js" },
+    { "src": "/api/status", "dest": "/api/status.js" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
