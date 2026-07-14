@@ -342,7 +342,35 @@
     "instabase",
     "subsplash",
     "alphasense",
-    "refinedscience"
+    "refinedscience",
+    "gostudent",
+    "dyopath",
+    "launchpotato",
+    "openteams",
+    "nearai",
+    "earnest",
+    "kiavi",
+    "sayari",
+    "qcentrix",
+    "crashplan",
+    "genea",
+    "freshprints",
+    "energyhub",
+    "eqtcorporation",
+    "gigaenergy",
+    "edgewoodpartnersinsurancecenter",
+    "oasissecurity",
+    "temporaltechnologies",
+    "datadog",
+    "inspiraeducation",
+    "lucenia",
+    "pingidentity",
+    "creativex",
+    "neighborsbank",
+    "arbitalhealth",
+    "digible",
+    "flowfuse",
+    "girleffect"
   ],
   "lever": [
     "aircall",
@@ -475,7 +503,23 @@
     "primeexecutiveoffice",
     "calstart",
     "goodleap",
-    "mendix"
+    "mendix",
+    "atomi",
+    "matillion",
+    "tsmg",
+    "familywellhealth",
+    "azul",
+    "laminarprojects",
+    "radformation",
+    "omnidian",
+    "clearcapital",
+    "coderio",
+    "scholarrock",
+    "applydigital",
+    "spreedly",
+    "kivaconfections",
+    "houzz",
+    "heartbeathealth"
   ],
   "ashby": [
     "clerk",
@@ -1001,7 +1045,10 @@
     "hatch",
     "circle",
     "cenosco",
-    "hirehangar"
+    "hirehangar",
+    "airtable",
+    "evolve",
+    "lyrahealth"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1744,6 +1791,7 @@
     "incentivio",
     "channext",
     "bakertilly",
-    "edc"
+    "edc",
+    "taskus"
   ]
 }
