@@ -7,6 +7,7 @@
   },
   "maxAgeDays": 60,
   "himalayas": { "maxPages": 400 },
+  "recruitee": { "concurrency": 2, "delayMs": 250 },
   "discoveryFetchCap": 40,
   "probeCapPerRun": 250,
   "requestTimeoutMs": 60000,

@@ -180,7 +180,8 @@ async function probeCompanies(companies, boards, probed, added) {
           known.add(key);
           return; // one live board per company is enough
         }
-        probed[key] = 1;
+        // only a definitive 404 is cached; rate-limits/timeouts retry next time
+        if (code === 404) probed[key] = 1;
       }
     }
   });

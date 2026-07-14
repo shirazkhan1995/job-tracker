@@ -36,15 +36,26 @@ function saveJSON(file, obj) {
   fs.writeFileSync(file, JSON.stringify(obj, null, 2));
 }
 
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
 async function getJSON(url, opts = {}) {
-  const ctl = new AbortController();
-  const t = setTimeout(() => ctl.abort(), CONFIG.requestTimeoutMs);
-  try {
-    const res = await fetch(url, { headers: UA, signal: ctl.signal, ...opts });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
-  } finally {
-    clearTimeout(t);
+  // retry rate-limits (429) and transient 5xx with backoff, honoring Retry-After
+  for (let attempt = 0; ; attempt++) {
+    const ctl = new AbortController();
+    const t = setTimeout(() => ctl.abort(), CONFIG.requestTimeoutMs);
+    try {
+      const res = await fetch(url, { headers: UA, signal: ctl.signal, ...opts });
+      if ((res.status === 429 || res.status === 503) && attempt < 3) {
+        res.body?.cancel?.();
+        const retryAfter = Number(res.headers.get("retry-after")) * 1000 || 0;
+        await sleep(Math.min(retryAfter || 1500 * 2 ** attempt + Math.random() * 500, 20000));
+        continue;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } finally {
+      clearTimeout(t);
+    }
   }
 }
 
@@ -147,7 +158,10 @@ async function fetchJobicy(errors) {
           text: `${x.jobTitle} ${stripHtml(x.jobDescription)}`,
         });
       }
-    } catch (e) { errors.push(`jobicy(${kw}): ${e.message}`); }
+    } catch (e) {
+      // a 404 just means the tag doesn't exist on Jobicy — not an error
+      if (e.message !== "HTTP 404") errors.push(`jobicy(${kw}): ${e.message}`);
+    }
   }
   return jobs;
 }
@@ -481,7 +495,8 @@ async function probeCompanyNames(jobs, boards, probed) {
           known.add(key);
           return;
         }
-        probed[key] = 1;
+        // only a definitive 404 is cached; rate-limits/timeouts retry another day
+        if (code === 404) probed[key] = 1;
       }
     }
   });
@@ -555,12 +570,34 @@ function renderReport(dateStr, newJobs, stats, errors, firstRun) {
   out.push("");
   out.push(jobs.length ? jobs.map(renderJob).join("\n") : "_No new matches today._\n");
   if (errors.length) {
-    out.push(`## ⚠️ Source errors (${errors.length})`);
+    const summarized = summarizeErrors(errors);
+    out.push(`## ⚠️ Source errors (${errors.length} total)`);
     out.push("");
-    for (const e of errors) out.push(`- ${e}`);
+    for (const e of summarized) out.push(`- ${e}`);
     out.push("");
   }
   return out.join("\n");
+}
+
+// collapse repeated per-board failures ("recruitee/foo: HTTP 429" x500) into
+// one line per ATS+error with a few example slugs
+function summarizeErrors(errors) {
+  const groups = new Map();
+  const rest = [];
+  for (const e of errors) {
+    const m = e.match(/^([a-z]+)\/(\S+): (.+)$/);
+    if (!m) { rest.push(e); continue; }
+    const gk = `${m[1]}: ${m[3]}`;
+    if (!groups.has(gk)) groups.set(gk, []);
+    groups.get(gk).push(m[2]);
+  }
+  const out = [...rest];
+  for (const [gk, slugs] of groups) {
+    out.push(slugs.length > 3
+      ? `${gk} — ${slugs.length} boards (e.g. ${slugs.slice(0, 3).join(", ")}); will retry next run`
+      : slugs.map(s => `${gk.split(":")[0]}/${s}: ${gk.split(": ")[1]}`).join("\n- "));
+  }
+  return out;
 }
 
 // ---------- main ----------
@@ -613,12 +650,23 @@ async function main() {
   ];
   console.log(`[3/4] Polling ${boardTasks.length} ATS boards directly...`);
   const boardErrors = [];
-  const boardJobs = (await pool(boardTasks, ({ ats, s }) =>
+  const boardWorker = ({ ats, s }) =>
     ats === "greenhouse" ? fetchGreenhouseBoard(s, boardErrors)
     : ats === "lever" ? fetchLeverBoard(s, boardErrors)
     : ats === "ashby" ? fetchAshbyBoard(s, boardErrors)
-    : fetchRecruiteeBoard(s, boardErrors)
-  )).flat();
+    : fetchRecruiteeBoard(s, boardErrors);
+  // all recruitee boards share one rate limiter (*.recruitee.com), so they get
+  // a dedicated slow lane while the other ATSes run at full concurrency
+  const recruiteeTasks = boardTasks.filter(t => t.ats === "recruitee");
+  const otherTasks = boardTasks.filter(t => t.ats !== "recruitee");
+  const boardJobs = (await Promise.all([
+    pool(otherTasks, boardWorker),
+    pool(recruiteeTasks, async task => {
+      const r = await boardWorker(task);
+      await sleep(CONFIG.recruitee.delayMs);
+      return r;
+    }, CONFIG.recruitee.concurrency),
+  ])).flat(2);
 
   // boards that 404 are dead slugs — remember so we don't retry forever
   for (const err of boardErrors) {
