@@ -417,7 +417,17 @@
     "pacificlegalfoundation",
     "hopskipdrive",
     "vannevarlabs",
-    "nice"
+    "nice",
+    "narvar",
+    "rebuilt",
+    "designedconveyorsystems",
+    "hypori",
+    "defuselabs",
+    "platformsh",
+    "siriuspoint",
+    "cresta",
+    "officespacesoftware",
+    "purestorage"
   ],
   "lever": [
     "aircall",
@@ -579,7 +589,14 @@
     "includedhealth",
     "xsolla",
     "fetchpackage",
-    "thetrevorproject"
+    "thetrevorproject",
+    "idmworks",
+    "americaatwork",
+    "epoch-ai",
+    "contentsquare",
+    "businesswire",
+    "swapcard",
+    "seven-starling"
   ],
   "ashby": [
     "clerk",
@@ -1114,7 +1131,9 @@
     "evolve",
     "lumos",
     "miro",
-    "purestorage"
+    "purestorage",
+    "colibri-group",
+    "egym"
   ],
   "invalid": [
     "greenhouse/redpandadata",
