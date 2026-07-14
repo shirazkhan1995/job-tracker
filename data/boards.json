@@ -260,7 +260,8 @@
     "vulncheck",
     "newsweek",
     "affirm",
-    "oshihealth"
+    "oshihealth",
+    "ignition"
   ],
   "lever": [
     "aircall",
@@ -1610,6 +1611,7 @@
     "accenture",
     "sintmaartenskliniek",
     "davidjosephcompany",
-    "proficio"
+    "proficio",
+    "devhub"
   ]
 }
