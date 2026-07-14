@@ -1,13 +1,42 @@
 {
   "keywords": {
-    "anyOf": ["playwright", "puppeteer", "webdriverio", "webdriver.io", "wdio"],
+    "anyOf": [
+      "playwright",
+      "puppeteer",
+      "webdriverio",
+      "webdriver.io",
+      "wdio"
+    ],
     "allOf": [
-      ["javascript", "typescript"]
+      [
+        "javascript",
+        "typescript"
+      ]
     ]
   },
   "maxAgeDays": 60,
-  "himalayas": { "maxPages": 400 },
-  "recruitee": { "concurrency": 2, "delayMs": 250 },
+  "himalayas": {
+    "maxPages": 400
+  },
+  "recruitee": {
+    "concurrency": 2,
+    "delayMs": 250
+  },
+  "smartrecruiters": {
+    "concurrency": 2,
+    "delayMs": 250,
+    "maxBoards": 20
+  },
+  "workable": {
+    "concurrency": 2,
+    "delayMs": 250,
+    "maxBoards": 60
+  },
+  "bamboohr": {
+    "concurrency": 3,
+    "delayMs": 200,
+    "maxBoards": 150
+  },
   "discoveryFetchCap": 40,
   "probeCapPerRun": 250,
   "requestTimeoutMs": 60000,

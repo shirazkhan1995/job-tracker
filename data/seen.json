@@ -725,46 +725,100 @@
     "company": "peek",
     "url": "https://jobs.ashbyhq.com/peek/a4bd5ea7-d564-48db-b1e8-56ddd7905dea"
   },
-  "sprypoint|senior sdet (software development engineer in test)": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
-    "title": "Senior SDET (Software Development Engineer in Test)",
-    "company": "SpryPoint",
-    "url": "https://himalayas.app/companies/sprypoint/jobs/senior-sdet-software-development-engineer-in-test"
+  "miratech|full stack engineer (java and angular)": {
+    "firstSeen": "2026-07-14T08:37:28.383Z",
+    "title": "Full Stack Engineer (Java and Angular)",
+    "company": "Miratech",
+    "url": "https://himalayas.app/companies/miratech/jobs/full-stack-engineer-java-and-angular-2250024338"
   },
-  "startale|senior quality assurance engineer (trading)": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
-    "title": "Senior Quality Assurance Engineer (Trading)",
-    "company": "Startale",
-    "url": "https://himalayas.app/companies/startale/jobs/senior-quality-assurance-engineer-trading"
+  "thrivecart|quality assurance engineer": {
+    "firstSeen": "2026-07-14T08:37:28.383Z",
+    "title": "Quality Assurance Engineer",
+    "company": "ThriveCart",
+    "url": "https://himalayas.app/companies/thrivecart/jobs/quality-assurance-engineer"
   },
   "marchex|ui engineer": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
+    "firstSeen": "2026-07-14T10:40:32.476Z",
     "title": "UI Engineer",
     "company": "Marchex",
     "url": "https://himalayas.app/companies/marchex/jobs/ui-engineer"
   },
   "penn interactive|web developer, casino": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
+    "firstSeen": "2026-07-14T10:40:32.476Z",
     "title": "Web Developer, Casino",
     "company": "Penn Interactive",
     "url": "https://himalayas.app/companies/penn-interactive/jobs/web-developer-casino"
   },
   "valsoft corporation|ai developer - dutch speaking": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
+    "firstSeen": "2026-07-14T10:40:32.476Z",
     "title": "AI Developer - Dutch Speaking",
     "company": "Valsoft Corporation",
     "url": "https://himalayas.app/companies/valsoft-corporation/jobs/ai-developer-dutch-speaking"
   },
-  "thrivecart|quality assurance engineer": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
-    "title": "Quality Assurance Engineer",
-    "company": "ThriveCart",
-    "url": "https://himalayas.app/companies/thrivecart/jobs/quality-assurance-engineer"
-  },
   "ishir|senior software development engineer in test (sdet)- contract opportunity": {
-    "firstSeen": "2026-07-14T12:51:54.388Z",
+    "firstSeen": "2026-07-14T10:40:32.476Z",
     "title": "Senior Software Development Engineer in Test (SDET)- Contract Opportunity",
     "company": "ISHIR",
     "url": "https://himalayas.app/companies/ishir/jobs/senior-software-development-engineer-in-test-sdet-contract-opportunity"
+  },
+  "moniepoint|senior associate - test automation & tools development engineer": {
+    "firstSeen": "2026-07-14T10:40:32.476Z",
+    "title": "Senior Associate  - Test Automation & Tools Development Engineer",
+    "company": "Moniepoint",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4924934101"
+  },
+  "omada health|senior software engineer, assurance": {
+    "firstSeen": "2026-07-14T10:40:32.476Z",
+    "title": "Senior Software Engineer, Assurance",
+    "company": "Omada Health",
+    "url": "https://job-boards.greenhouse.io/omadahealth/jobs/7997294"
+  },
+  "bloomerang|sr. software engineer (tech lead)": {
+    "firstSeen": "2026-07-14T10:40:32.476Z",
+    "title": "Sr. Software Engineer (Tech Lead)",
+    "company": " Bloomerang",
+    "url": "https://job-boards.greenhouse.io/bloomerang/jobs/4679137005"
+  },
+  "software mind|[8fc] quality assurance engineer - sdet": {
+    "firstSeen": "2026-07-14T10:40:32.476Z",
+    "title": "[8FC] Quality Assurance Engineer - SDET",
+    "company": "Software Mind",
+    "url": "https://jobs.smartrecruiters.com/SoftwareMind/744000130698679--8fc-quality-assurance-engineer-sdet"
+  },
+  "software mind|[8pv] senior qa automation engineer (playwright)": {
+    "firstSeen": "2026-07-14T10:40:32.476Z",
+    "title": "[8PV] Senior QA Automation Engineer (Playwright)",
+    "company": "Software Mind",
+    "url": "https://jobs.smartrecruiters.com/SoftwareMind/744000129042955--8pv-senior-qa-automation-engineer-playwright-"
+  },
+  "sprypoint|senior sdet (software development engineer in test)": {
+    "firstSeen": "2026-07-14T14:29:56.694Z",
+    "title": "Senior SDET (Software Development Engineer in Test)",
+    "company": "SpryPoint",
+    "url": "https://himalayas.app/companies/sprypoint/jobs/senior-sdet-software-development-engineer-in-test"
+  },
+  "startale|senior quality assurance engineer (trading)": {
+    "firstSeen": "2026-07-14T14:29:56.694Z",
+    "title": "Senior Quality Assurance Engineer (Trading)",
+    "company": "Startale",
+    "url": "https://himalayas.app/companies/startale/jobs/senior-quality-assurance-engineer-trading"
+  },
+  "storyblok|senior frontend engineer ii": {
+    "firstSeen": "2026-07-14T14:29:56.694Z",
+    "title": "Senior Frontend Engineer II",
+    "company": "Storyblok",
+    "url": "https://www.storyblok.com/job?gh_jid=4927256101"
+  },
+  "xsolla|senior frontend software developer": {
+    "firstSeen": "2026-07-14T14:29:56.694Z",
+    "title": "Senior Frontend Software Developer",
+    "company": "xsolla",
+    "url": "https://jobs.lever.co/xsolla/747317a2-6c34-4edb-ad12-9b40de51fdfc"
+  },
+  "xsolla|tech lead – frontend platform team": {
+    "firstSeen": "2026-07-14T14:29:56.694Z",
+    "title": "Tech Lead – Frontend Platform Team",
+    "company": "xsolla",
+    "url": "https://jobs.lever.co/xsolla/0596a991-0649-40dc-9812-ba482219b1a1"
   }
 }

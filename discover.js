@@ -20,6 +20,7 @@ const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "data");
 const BOARDS_FILE = path.join(DATA_DIR, "boards.json");
 const PROBED_FILE = path.join(DATA_DIR, "probed.json");
+const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, "config.json"), "utf8"));
 const CONCURRENCY = 16;
 const UA = { "User-Agent": "Mozilla/5.0 (job-tracker discovery; personal use)" };
 
@@ -45,7 +46,9 @@ async function status(url) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 15000);
   try {
-    const res = await fetch(url, { headers: UA, signal: ctl.signal });
+    // manual redirect: bamboohr.com 302s non-existent slugs to its marketing
+    // homepage (a real 200), which would otherwise false-positive as "exists"
+    const res = await fetch(url, { headers: UA, signal: ctl.signal, redirect: "manual" });
     // drain minimal body so sockets are reusable
     res.body?.cancel?.();
     return res.status;
@@ -132,19 +135,25 @@ const PROBES = {
   greenhouse: s => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs`,
   lever: s => `https://api.lever.co/v0/postings/${s}?mode=json&limit=1`,
   recruitee: s => `https://${s}.recruitee.com/api/offers/`,
+  smartrecruiters: s => `https://api.smartrecruiters.com/v1/companies/${s}/postings?limit=1`,
+  workable: s => `https://apply.workable.com/api/v1/widget/accounts/${s}`, // GET-only probe; list endpoint is POST
+  bamboohr: s => `https://${s}.bamboohr.com/careers/list`,
 };
 
-// ---- vector 3: Common Crawl subdomain enumeration (full Recruitee directory) ----
+// ---- vector 3: Common Crawl enumeration (full directories, like we did for Recruitee) ----
 
-async function harvestCommonCrawl(boards, added) {
+async function ccIndexId() {
   const info = await getJSON("https://index.commoncrawl.org/collinfo.json");
-  const index = info[0].id;
-  console.log(`  using index ${index}`);
+  return info[0].id;
+}
+
+// subdomain-per-company ATSes (recruitee, bamboohr): *.{host} -> slug is the subdomain
+async function harvestCommonCrawlSubdomain(index, host, ats, boards, added, blockedSlugs) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 300000);
   try {
     const res = await fetch(
-      `https://index.commoncrawl.org/${index}-index?url=*.recruitee.com&output=json&fl=url&collapse=urlkey:45`,
+      `https://index.commoncrawl.org/${index}-index?url=*.${host}&output=json&fl=url&collapse=urlkey:45`,
       { headers: UA, signal: ctl.signal }
     );
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -152,13 +161,72 @@ async function harvestCommonCrawl(boards, added) {
     for (const line of body.trim().split("\n")) {
       try {
         const h = new URL(JSON.parse(line).url).hostname;
-        if (!h.endsWith(".recruitee.com")) continue;
-        const slug = h.replace(".recruitee.com", "").toLowerCase();
-        if (/^(www|api|app|assets|blog|help|support|status|docs|careers)$/.test(slug)) continue;
-        if (/^[a-z0-9][a-z0-9-]{1,62}$/.test(slug)) addBoard(boards, "recruitee", slug, added);
+        if (!h.endsWith(`.${host}`)) continue;
+        const slug = h.replace(`.${host}`, "").toLowerCase();
+        if (blockedSlugs.test(slug)) continue;
+        if (/^[a-z0-9][a-z0-9-]{1,62}$/.test(slug)) addBoard(boards, ats, slug, added);
       } catch { /* skip malformed lines */ }
     }
   } finally { clearTimeout(t); }
+}
+
+// path-per-company ATSes (workable): {host}/{slug}/... -> slug is the first path segment
+async function harvestCommonCrawlPath(index, hostPath, ats, boards, added, blockedSlugs) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 300000);
+  try {
+    const res = await fetch(
+      `https://index.commoncrawl.org/${index}-index?url=${hostPath}&output=json&fl=url&collapse=urlkey:30`,
+      { headers: UA, signal: ctl.signal }
+    );
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const body = await res.text();
+    for (const line of body.trim().split("\n")) {
+      try {
+        const u = new URL(JSON.parse(line).url);
+        const m = u.pathname.match(/^\/([a-z0-9-]{2,63})\//i);
+        if (!m) continue;
+        const slug = m[1].toLowerCase();
+        if (blockedSlugs.test(slug)) continue;
+        addBoard(boards, ats, slug, added);
+      } catch { /* skip malformed lines */ }
+    }
+  } finally { clearTimeout(t); }
+}
+
+const SUBDOMAIN_BLOCKLIST = /^(www|api|app|assets|blog|help|support|status|docs|careers)$/;
+const WORKABLE_PATH_BLOCKLIST = /^(api|widget|j|jobs|apply|static|assets)$/;
+
+async function harvestCommonCrawl(boards, added) {
+  const index = await ccIndexId();
+  console.log(`  using index ${index}`);
+  // each source's own try/catch: a timeout on one (Common Crawl's index
+  // server is flaky under large queries) must not skip the others
+  const sources = [
+    ["recruitee", () => harvestCommonCrawlSubdomain(index, "recruitee.com", "recruitee", boards, added, SUBDOMAIN_BLOCKLIST)],
+    ["bamboohr", () => harvestCommonCrawlSubdomain(index, "bamboohr.com", "bamboohr", boards, added, SUBDOMAIN_BLOCKLIST)],
+    ["workable", () => harvestCommonCrawlPath(index, "apply.workable.com/*", "workable", boards, added, WORKABLE_PATH_BLOCKLIST)],
+  ];
+  for (const [name, run] of sources) {
+    try {
+      await run();
+      console.log(`  ${name} done; boards so far: ${added.size}`);
+    } catch (e) {
+      console.error(`  ${name} failed: ${e.message}`);
+    }
+  }
+}
+
+// SmartRecruiters' postings API returns HTTP 200 with totalFound:0 for ANY
+// slug, real or fake — a plain status check can't tell them apart. Only
+// count it valid if it actually has current postings (also the only case
+// where the board is useful to us). Never cached as invalid on failure:
+// totalFound:0 doesn't distinguish "fake company" from "real, no roles today".
+async function smartRecruitersValid(url) {
+  try {
+    const j = await getJSON(url);
+    return (j.totalFound || 0) > 0;
+  } catch { return false; }
 }
 
 async function probeCompanies(companies, boards, probed, added) {
@@ -174,6 +242,14 @@ async function probeCompanies(companies, boards, probed, added) {
       for (const ats of atses) {
         const key = `${ats}/${slug}`;
         if (known.has(key) || probed[key]) continue;
+        if (ats === "smartrecruiters") {
+          if (await smartRecruitersValid(PROBES[ats](slug))) {
+            addBoard(boards, ats, slug, added);
+            known.add(key);
+            return;
+          }
+          continue;
+        }
         const code = await status(PROBES[ats](slug));
         if (code === 200) {
           addBoard(boards, ats, slug, added);
@@ -187,21 +263,25 @@ async function probeCompanies(companies, boards, probed, added) {
   });
 }
 
+const ALL_ATSES = Object.keys(PROBES);
+
 async function main() {
-  const boards = loadJSON(BOARDS_FILE, { greenhouse: [], lever: [], ashby: [], invalid: [] });
+  const boards = loadJSON(BOARDS_FILE, Object.fromEntries(ALL_ATSES.map(a => [a, []])));
+  for (const ats of ALL_ATSES) boards[ats] = boards[ats] || [];
+  boards.invalid = boards.invalid || [];
   const probed = loadJSON(PROBED_FILE, {});
   const added = new Set();
-  const before = { ...Object.fromEntries(["greenhouse", "lever", "ashby", "recruitee"].map(a => [a, (boards[a] || []).length])) };
+  const before = Object.fromEntries(ALL_ATSES.map(a => [a, (boards[a] || []).length]));
 
   console.log("[1/3] Harvesting HN 'Who is hiring' threads (last 6 months)...");
   try { await harvestHN(boards, added); } catch (e) { console.error("  HN harvest failed:", e.message); }
   saveJSON(BOARDS_FILE, boards);
 
-  console.log("[2/3] Enumerating *.recruitee.com from Common Crawl...");
+  console.log("[2/3] Enumerating Recruitee/BambooHR/Workable company directories from Common Crawl...");
   try { await harvestCommonCrawl(boards, added); } catch (e) { console.error("  Common Crawl failed:", e.message); }
   saveJSON(BOARDS_FILE, boards);
 
-  console.log("[3/3] Probing YC companies (isHiring) against Ashby/Greenhouse/Lever/Recruitee...");
+  console.log("[3/3] Probing YC companies (isHiring) against all ATSes...");
   try {
     const yc = await getJSON("https://yc-oss.github.io/api/companies/all.json");
     const hiring = yc.filter(c => c.isHiring && c.status !== "Inactive");
@@ -209,10 +289,21 @@ async function main() {
     await probeCompanies(hiring, boards, probed, added);
   } catch (e) { console.error("  YC probe failed:", e.message); }
 
+  // some ATSes (bamboohr) have far more customers than we can poll within a
+  // practical run time — cap them, keeping earlier-discovered entries first
+  // (HN threads, then Common Crawl, then YC probing, in that append order)
+  for (const ats of ALL_ATSES) {
+    const cap = CONFIG[ats]?.maxBoards;
+    if (cap && boards[ats].length > cap) {
+      console.log(`  capping ${ats} at ${cap} boards (had ${boards[ats].length})`);
+      boards[ats] = boards[ats].slice(0, cap);
+    }
+  }
+
   saveJSON(BOARDS_FILE, boards);
   saveJSON(PROBED_FILE, probed);
-  const after = Object.fromEntries(["greenhouse", "lever", "ashby", "recruitee"].map(a => [a, (boards[a] || []).length]));
-  console.log(`Done. +${added.size} boards. greenhouse ${before.greenhouse}->${after.greenhouse}, lever ${before.lever}->${after.lever}, ashby ${before.ashby}->${after.ashby}, recruitee ${before.recruitee}->${after.recruitee}`);
+  const after = Object.fromEntries(ALL_ATSES.map(a => [a, (boards[a] || []).length]));
+  console.log(`Done. +${added.size} boards. ` + ALL_ATSES.map(a => `${a} ${before[a]}->${after[a]}`).join(", "));
 }
 
 main().catch(e => { console.error("Fatal:", e); process.exit(1); });

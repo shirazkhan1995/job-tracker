@@ -43,18 +43,34 @@ async function getJSON(url, opts = {}) {
   for (let attempt = 0; ; attempt++) {
     const ctl = new AbortController();
     const t = setTimeout(() => ctl.abort(), CONFIG.requestTimeoutMs);
+    // hard backstop, independent of AbortController: in practice a connection
+    // can sit with data received-but-unread past the abort deadline (observed
+    // against a Cloudflare-fronted host under load) without res.json() ever
+    // rejecting. This guarantees getJSON always settles.
+    let hardTimer;
+    const hardDeadline = new Promise((_, reject) => {
+      hardTimer = setTimeout(() => reject(new Error("hard-timeout (unresponsive after abort)")), CONFIG.requestTimeoutMs + 15000);
+    });
     try {
-      const res = await fetch(url, { headers: UA, signal: ctl.signal, ...opts });
-      if ((res.status === 429 || res.status === 503) && attempt < 3) {
-        res.body?.cancel?.();
-        const retryAfter = Number(res.headers.get("retry-after")) * 1000 || 0;
+      const attemptOnce = (async () => {
+        const res = await fetch(url, { headers: UA, signal: ctl.signal, ...opts });
+        if ((res.status === 429 || res.status === 503) && attempt < 3) {
+          res.body?.cancel?.();
+          return { retry: true, res };
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return { retry: false, data: await res.json() };
+      })();
+      const result = await Promise.race([attemptOnce, hardDeadline]);
+      if (result.retry) {
+        const retryAfter = Number(result.res.headers.get("retry-after")) * 1000 || 0;
         await sleep(Math.min(retryAfter || 1500 * 2 ** attempt + Math.random() * 500, 20000));
         continue;
       }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.json();
+      return result.data;
     } finally {
       clearTimeout(t);
+      clearTimeout(hardTimer);
     }
   }
 }
@@ -310,6 +326,9 @@ const DEFAULT_BOARDS = {
     "clerk", "cursor", "deel", "docker", "elevenlabs", "linear", "notion",
     "openai", "posthog", "qawolf", "ramp", "replit", "sierra", "supabase", "vanta",
   ],
+  smartrecruiters: ["bosch", "deltatre", "gympass", "servicenow", "visa"],
+  workable: [],
+  bamboohr: [],
   invalid: [],
 };
 
@@ -398,6 +417,102 @@ async function fetchRecruiteeBoard(slug, errors) {
   } catch (e) { errors.push(`recruitee/${slug}: ${e.message}`); return []; }
 }
 
+// SmartRecruiters, Workable and BambooHR only include full descriptions on a
+// per-posting detail endpoint, so each board fetch here is list + N detail
+// calls. Keep detail-fetch concurrency modest (shared with pool() default is
+// too aggressive for hundreds of small companies polled every run).
+const DETAIL_FETCH_CONCURRENCY = 5;
+
+async function fetchSmartRecruitersBoard(slug, errors) {
+  try {
+    const postings = [];
+    let offset = 0;
+    for (;;) {
+      const j = await getJSON(`https://api.smartrecruiters.com/v1/companies/${slug}/postings?limit=100&offset=${offset}`);
+      postings.push(...(j.content || []));
+      if (!j.content || j.content.length < 100 || postings.length >= (j.totalFound || 0)) break;
+      offset += 100;
+    }
+    return await pool(postings, async p => {
+      try {
+        const d = await getJSON(`https://api.smartrecruiters.com/v1/companies/${slug}/postings/${p.id}`);
+        const sections = d.jobAd?.sections || {};
+        const bodyText = Object.values(sections).map(s => stripHtml(s?.text || "")).join(" ");
+        const locs = [p.location?.city, p.location?.region, p.location?.country].filter(Boolean).join(", ");
+        return {
+          source: `smartrecruiters:${slug}`,
+          company: p.company?.name || slug,
+          title: p.name,
+          url: d.postingUrl || `https://jobs.smartrecruiters.com/${slug}/${p.id}`,
+          location: p.location?.remote ? `Remote; ${locs}` : (locs || "?"),
+          postedAt: Date.parse(p.releasedDate) || null,
+          salary: "",
+          rawHtml: bodyText,
+          text: `${p.name} ${bodyText}`,
+          remoteHint: !!p.location?.remote,
+        };
+      } catch (e) { errors.push(`smartrecruiters/${slug}: ${e.message}`); return null; }
+    }, DETAIL_FETCH_CONCURRENCY).then(rows => rows.filter(Boolean));
+  } catch (e) { errors.push(`smartrecruiters/${slug}: ${e.message}`); return []; }
+}
+
+async function fetchWorkableBoard(slug, errors) {
+  try {
+    const j = await getJSON(`https://apply.workable.com/api/v3/accounts/${slug}/jobs`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: "", location: [], department: [], worktype: [], remote: [] }),
+    });
+    const listed = j.results || [];
+    return await pool(listed, async p => {
+      try {
+        const d = await getJSON(`https://apply.workable.com/api/v1/accounts/${slug}/jobs/${p.shortcode}`);
+        const bodyText = `${stripHtml(d.description)} ${stripHtml(d.requirements)} ${stripHtml(d.benefits)}`;
+        const locs = [p.location?.city, p.location?.region, p.location?.country].filter(Boolean).join(", ");
+        return {
+          source: `workable:${slug}`,
+          company: slug,
+          title: p.title,
+          url: `https://apply.workable.com/${slug}/j/${p.shortcode}/`,
+          location: p.remote ? `Remote; ${locs}` : (locs || "?"),
+          postedAt: Date.parse(p.published) || null,
+          salary: "",
+          rawHtml: bodyText,
+          text: `${p.title} ${bodyText}`,
+          remoteHint: !!p.remote || p.workplace === "remote",
+        };
+      } catch (e) { errors.push(`workable/${slug}: ${e.message}`); return null; }
+    }, DETAIL_FETCH_CONCURRENCY).then(rows => rows.filter(Boolean));
+  } catch (e) { errors.push(`workable/${slug}: ${e.message}`); return []; }
+}
+
+async function fetchBambooHRBoard(slug, errors) {
+  try {
+    const j = await getJSON(`https://${slug}.bamboohr.com/careers/list`);
+    const listed = j.result || [];
+    return await pool(listed, async p => {
+      try {
+        const d = await getJSON(`https://${slug}.bamboohr.com/careers/${p.id}/detail`);
+        const jo = d.result?.jobOpening || {};
+        const bodyText = stripHtml(jo.description);
+        const locs = [jo.location?.city, jo.location?.state].filter(Boolean).join(", ");
+        return {
+          source: `bamboohr:${slug}`,
+          company: slug,
+          title: jo.jobOpeningName || p.jobOpeningName,
+          url: jo.jobOpeningShareUrl || `https://${slug}.bamboohr.com/careers/${p.id}`,
+          location: p.isRemote ? `Remote; ${locs}` : (locs || "?"),
+          postedAt: Date.parse(jo.datePosted) || null,
+          salary: "",
+          rawHtml: bodyText,
+          text: `${jo.jobOpeningName || p.jobOpeningName} ${bodyText}`,
+          remoteHint: !!p.isRemote,
+        };
+      } catch (e) { errors.push(`bamboohr/${slug}: ${e.message}`); return null; }
+    }, DETAIL_FETCH_CONCURRENCY).then(rows => rows.filter(Boolean));
+  } catch (e) { errors.push(`bamboohr/${slug}: ${e.message}`); return []; }
+}
+
 // ---------- board discovery ----------
 
 const BOARD_PATTERNS = [
@@ -407,8 +522,11 @@ const BOARD_PATTERNS = [
   { ats: "ashby", re: /jobs\.ashbyhq\.com\/(?!api)([A-Za-z0-9%_.-]{2,})/g },
   { ats: "ashby", re: /api\.ashbyhq\.com\/posting-api\/job-board\/([A-Za-z0-9%_.-]{2,})/g },
   { ats: "recruitee", re: /([a-z0-9-]{2,})\.recruitee\.com/g },
+  { ats: "smartrecruiters", re: /jobs\.smartrecruiters\.com\/([A-Za-z0-9-]{2,})/g },
+  { ats: "workable", re: /apply\.workable\.com\/([a-z0-9-]{2,})\/j\//g },
+  { ats: "bamboohr", re: /([a-z0-9-]{2,})\.bamboohr\.com/g },
 ];
-const SLUG_BLOCKLIST = new Set(["embed", "job_board", "js", "jobs", "api", "wp-content", "careers", "www"]);
+const SLUG_BLOCKLIST = new Set(["embed", "job_board", "js", "jobs", "api", "wp-content", "careers", "www", "app", "help", "status"]);
 
 function scanForBoards(hay, boards) {
   let found = 0;
@@ -436,11 +554,25 @@ async function probeStatus(url) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 15000);
   try {
-    const res = await fetch(url, { headers: UA, signal: ctl.signal });
+    // manual redirect: some hosts (e.g. bamboohr.com) 302 non-existent slugs
+    // to their marketing homepage (a real 200), which would otherwise read
+    // as a false-positive "board exists"
+    const res = await fetch(url, { headers: UA, signal: ctl.signal, redirect: "manual" });
     res.body?.cancel?.();
     return res.status;
   } catch { return 0; }
   finally { clearTimeout(t); }
+}
+
+// SmartRecruiters' postings API returns HTTP 200 with totalFound:0 for ANY
+// slug, real or fake — a plain status check can't tell them apart. Only
+// count it valid if it actually has current postings (which is also the
+// only case where the board is useful to us).
+async function probeSmartRecruitersValid(url) {
+  try {
+    const j = await getJSON(url);
+    return (j.totalFound || 0) > 0;
+  } catch { return false; }
 }
 
 const PROBE_URLS = {
@@ -448,6 +580,9 @@ const PROBE_URLS = {
   greenhouse: s => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs`,
   lever: s => `https://api.lever.co/v0/postings/${s}?mode=json&limit=1`,
   recruitee: s => `https://${s}.recruitee.com/api/offers/`,
+  smartrecruiters: s => `https://api.smartrecruiters.com/v1/companies/${s}/postings?limit=1`,
+  workable: s => `https://apply.workable.com/api/v1/widget/accounts/${s}`, // GET-only probe; list endpoint is POST
+  bamboohr: s => `https://${s}.bamboohr.com/careers/list`,
 };
 const PROBE_ATSES = Object.keys(PROBE_URLS);
 
@@ -500,6 +635,17 @@ async function probeCompanyNames(jobs, boards, probed) {
       for (const ats of PROBE_ATSES) {
         const key = `${ats}/${slug}`;
         if (known.has(key) || probed[key]) continue;
+        if (ats === "smartrecruiters") {
+          // never cache as invalid: totalFound:0 doesn't distinguish "fake
+          // company" from "real company, no open roles today"
+          if (await probeSmartRecruitersValid(PROBE_URLS[ats](slug))) {
+            boards[ats] = boards[ats] || [];
+            if (!boards[ats].includes(slug)) { boards[ats].push(slug); found++; }
+            known.add(key);
+            return;
+          }
+          continue;
+        }
         const code = await probeStatus(PROBE_URLS[ats](slug));
         if (code === 200) {
           boards[ats] = boards[ats] || [];
@@ -654,30 +800,58 @@ async function main() {
   saveJSON(probedFile, probed);
   console.log(`[2/4] ${aggregatorMatches.length} aggregator matches (${unseenMatches.length} unseen); ${newBoards} new ATS boards discovered.`);
 
+  // some ATSes (bamboohr) have far more customers than fit in a practical
+  // run time — cap them so daily discovery can't slowly regrow past what's
+  // known to complete in reasonable time (see config.json comments)
+  for (const ats of PROBE_ATSES) {
+    const cap = CONFIG[ats]?.maxBoards;
+    if (cap && boards[ats].length > cap) boards[ats] = boards[ats].slice(0, cap);
+  }
+  saveJSON(boardsFile, boards);
+
   const boardTasks = [
     ...boards.greenhouse.map(s => ({ ats: "greenhouse", s })),
     ...boards.lever.map(s => ({ ats: "lever", s })),
     ...boards.ashby.map(s => ({ ats: "ashby", s })),
     ...boards.recruitee.map(s => ({ ats: "recruitee", s })),
+    ...boards.smartrecruiters.map(s => ({ ats: "smartrecruiters", s })),
+    ...boards.workable.map(s => ({ ats: "workable", s })),
+    ...boards.bamboohr.map(s => ({ ats: "bamboohr", s })),
   ];
   console.log(`[3/4] Polling ${boardTasks.length} ATS boards directly...`);
   const boardErrors = [];
-  const boardWorker = ({ ats, s }) =>
-    ats === "greenhouse" ? fetchGreenhouseBoard(s, boardErrors)
-    : ats === "lever" ? fetchLeverBoard(s, boardErrors)
-    : ats === "ashby" ? fetchAshbyBoard(s, boardErrors)
-    : fetchRecruiteeBoard(s, boardErrors);
-  // all recruitee boards share one rate limiter (*.recruitee.com), so they get
-  // a dedicated slow lane while the other ATSes run at full concurrency
-  const recruiteeTasks = boardTasks.filter(t => t.ats === "recruitee");
-  const otherTasks = boardTasks.filter(t => t.ats !== "recruitee");
+  const BOARD_FETCHERS = {
+    greenhouse: fetchGreenhouseBoard,
+    lever: fetchLeverBoard,
+    ashby: fetchAshbyBoard,
+    recruitee: fetchRecruiteeBoard,
+    smartrecruiters: fetchSmartRecruitersBoard,
+    workable: fetchWorkableBoard,
+    bamboohr: fetchBambooHRBoard,
+  };
+  const boardWorker = ({ ats, s }) => BOARD_FETCHERS[ats](s, boardErrors);
+  // recruitee/smartrecruiters/workable share ONE host across every company on
+  // that ATS, so they get their own throttled lane. bamboohr uses per-company
+  // subdomains like greenhouse/lever/ashby, but is very likely Cloudflare-
+  // fronted with rate limiting shared across all customer subdomains — full
+  // concurrency against its ~3500 boards caused connections to stall
+  // (confirmed: server data sitting unread past our timeout). Throttled too.
+  const SLOW_LANES = {
+    recruitee: CONFIG.recruitee,
+    smartrecruiters: CONFIG.smartrecruiters,
+    workable: CONFIG.workable,
+    bamboohr: CONFIG.bamboohr,
+  };
+  const otherTasks = boardTasks.filter(t => !SLOW_LANES[t.ats]);
   const boardJobs = (await Promise.all([
     pool(otherTasks, boardWorker),
-    pool(recruiteeTasks, async task => {
-      const r = await boardWorker(task);
-      await sleep(CONFIG.recruitee.delayMs);
-      return r;
-    }, CONFIG.recruitee.concurrency),
+    ...Object.entries(SLOW_LANES).map(([ats, { concurrency, delayMs }]) =>
+      pool(boardTasks.filter(t => t.ats === ats), async task => {
+        const r = await boardWorker(task);
+        await sleep(delayMs);
+        return r;
+      }, concurrency)
+    ),
   ])).flat(2);
 
   // boards that 404 are dead slugs — remember so we don't retry forever
@@ -770,4 +944,20 @@ async function main() {
   console.log(`[4/4] Done. ${newJobs.length} new matching jobs. Report: reports/${dateStr}.md`);
 }
 
-main().catch(e => { console.error("Fatal:", e); process.exit(1); });
+// Hard ceiling on the whole run: getJSON's own backstop bounds any single
+// request, but this catches any *other* future stall mode (unknown unknowns)
+// so a scheduled run fails fast and visibly instead of hanging until
+// GitHub Actions' 6-hour job timeout.
+// Throttled ATS lanes (recruitee/smartrecruiters/workable/bamboohr) are
+// intentionally slow to avoid rate-limiting; with a 4x-daily schedule and
+// 6-hour gaps between runs, a longer wall clock here is cheap.
+const MAX_RUN_MS = 25 * 60 * 1000;
+const watchdog = setTimeout(() => {
+  console.error(`Fatal: run exceeded ${MAX_RUN_MS / 60000} minutes — exiting so the schedule isn't blocked.`);
+  process.exit(1);
+}, MAX_RUN_MS);
+watchdog.unref();
+
+main()
+  .then(() => clearTimeout(watchdog))
+  .catch(e => { console.error("Fatal:", e); process.exit(1); });
