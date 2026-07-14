@@ -3,7 +3,7 @@ const { sql, authorized, deny } = require("../lib/db");
 module.exports = async (req, res) => {
   if (!authorized(req)) return deny(res);
   const rows = await sql`
-    SELECT j.*, s.seen_at, s.applied_at
+    SELECT j.*, s.seen_at, s.applied_at, s.dismissed_at
     FROM jobs j LEFT JOIN user_state s USING (key)
   `;
   const jobs = rows.map(r => ({
