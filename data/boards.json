@@ -282,7 +282,38 @@
     "remote",
     "offerup",
     "talkspace",
-    "bouldercare"
+    "bouldercare",
+    "neuraflash",
+    "fundraiseup",
+    "name",
+    "arine",
+    "pubnub",
+    "givewell",
+    "torcrobotics",
+    "zupinnovation",
+    "gatherai",
+    "storyblok",
+    "jumio",
+    "neweratechnology",
+    "missionlane",
+    "woolpert",
+    "instridehealth",
+    "quanata",
+    "evio",
+    "exactera",
+    "levanta",
+    "tines",
+    "astound",
+    "pagerduty",
+    "soci",
+    "leaflink",
+    "strongpointpartners",
+    "armstrongtransportgroup",
+    "rushstreetinteractive",
+    "numab",
+    "roofr",
+    "sollishealth",
+    "workithealth"
   ],
   "lever": [
     "aircall",
@@ -390,7 +421,22 @@
     "weloglobal",
     "skyslope",
     "celerion",
-    "viget"
+    "viget",
+    "thinkahead",
+    "ethena",
+    "charitywater",
+    "pointclickcare",
+    "levelup",
+    "coatesgroup",
+    "avertium",
+    "sycurio",
+    "airalo",
+    "colibrigroup",
+    "aledade",
+    "mars-men",
+    "beghouconsulting",
+    "smiledigitalhealth",
+    "z1tech"
   ],
   "ashby": [
     "clerk",
@@ -908,7 +954,9 @@
     "gr8-tech",
     "neon",
     "spreetail",
-    "spring-health"
+    "spring-health",
+    "mercury",
+    "binance"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1647,6 +1695,8 @@
     "proficio",
     "chenmed",
     "incentivio",
-    "channext"
+    "channext",
+    "bakertilly",
+    "edc"
   ]
 }

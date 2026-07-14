@@ -1,40 +1,61 @@
-# Job Tracker Report — 2026-07-13
+# Job Tracker Report — 2026-07-14
 
 > Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 50159 jobs from 1597 sources (1592 ATS boards polled, 37 newly discovered)
+> Scanned: 51439 jobs from 1630 sources (1625 ATS boards polled, 50 newly discovered)
 
-## 💼 New remote matches (6)
+## 💼 New remote matches (11)
 
-### Frontend Engineer, Market Tech (Contract)  — The Motley Fool
-- **Posted:** 2026-07-13 · **Location:** United States - Remote; United States - Remote · **Source:** greenhouse:themotleyfool
+### Test Automation Engineer — Bright Vision Technologies
+- **Posted:** 2026-07-14 · **Location:** United States · **Source:** himalayas
+- **Matched:** playwright, javascript · **Salary:** 120000-150000 USD
+- **Link:** https://himalayas.app/companies/bright-vision-technologies/jobs/test-automation-engineer-7622488820
+
+### Senior principal QA Engineer — name
+- **Posted:** 2026-07-14 · **Location:** Pakistan · **Source:** himalayas
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://himalayas.app/companies/jobs-for-humanity/jobs/senior-principal-qa-engineer
+
+### Senior Software Development Engineer in Test (SDET)- Contract Opportunity — name
+- **Posted:** 2026-07-14 · **Location:** India · **Source:** himalayas
 - **Matched:** playwright, typescript
-- **Link:** https://job-boards.greenhouse.io/themotleyfool/jobs/5163428007
+- **Link:** https://himalayas.app/companies/ishir/jobs/senior-software-development-engineer-in-test-sdet-contract-opportunity
 
-### Lead React Developer (m/w/d) — virtual7 GmbH
-- **Posted:** 2026-07-07 · **Location:** Homeoffice; Berlin; Berlin; Deutschland · **Source:** recruitee:virtual7jobs
+### SDET Engineer – Playwright & API Automation — ISHIR
+- **Posted:** 2026-07-13 · **Location:** India · **Source:** himalayas
 - **Matched:** playwright, typescript
-- **Link:** https://virtual7.de/o/lead-react-developer-mwd-1
+- **Link:** https://himalayas.app/companies/ishir/jobs/sdet-engineer-playwright-api-automation
 
-### Junior QA Engineer with JavaScript — Tiugo Technologies
-- **Posted:** 2026-07-03 · **Location:** Remote job; Warsaw; Mazowieckie; Poland · **Source:** recruitee:tiugotech
-- **Matched:** playwright, javascript, typescript · **Salary:** 7000-10500 PLN
-- **Link:** https://tiugotech.recruitee.com/o/junior-qa-engineer-with-javascript
+### Full Stack Engineer (Java and Angular) — name
+- **Posted:** 2026-07-13 · **Location:** India · **Source:** himalayas
+- **Matched:** playwright, typescript
+- **Link:** https://himalayas.app/companies/miratech/jobs/full-stack-engineer-java-and-angular-2250024338
 
-### QA Engineer I — Precision Medicine Group
-- **Posted:** 2026-07-02 · **Location:** Remote, India; India · **Source:** greenhouse:precisionmedicinegroup
+### Quality Assurance Engineer — name
+- **Posted:** 2026-07-13 · **Location:** United Kingdom · **Source:** himalayas
 - **Matched:** playwright, javascript
-- **Link:** https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6105760004
+- **Link:** https://himalayas.app/companies/thrivecart/jobs/quality-assurance-engineer
 
-###  QA Engineer I — Precision AQ
-- **Posted:** 2026-07-02 · **Location:** Remote, India; India · **Source:** greenhouse:precisionaq
+### Senior AI Test Automation Engineer (SDET) — TD SYNNEX
+- **Posted:** 2026-07-13 · **Location:** Poland · **Source:** himalayas
 - **Matched:** playwright, javascript
-- **Link:** https://job-boards.greenhouse.io/precisionaq/jobs/6105773004
+- **Link:** https://himalayas.app/companies/td-synnex/jobs/senior-ai-test-automation-engineer-sdet
 
-### QA Automation Sênior — Ben Fatto
-- **Posted:** 2026-02-09 · **Location:** Remote job; Remoto - Brasil; São Paulo; Brazil · **Source:** recruitee:benfatto
-- **Matched:** playwright, webdriverio, javascript, typescript
-- **Link:** https://benfatto.recruitee.com/o/qa-automation-senior
+### QA Automation Engineer — Backblaze
+- **Posted:** 2026-07-13 · **Location:** Colombia, Costa Rica · **Source:** himalayas
+- **Matched:** playwright, javascript
+- **Link:** https://himalayas.app/companies/backblaze/jobs/qa-automation-engineer
 
-## ⚠️ Source errors (1 total)
+### Senior Frontend Engineer — LeafLink
+- **Posted:** 2026-06-04 · **Location:** Remote; Remote · **Source:** greenhouse:leaflink
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://job-boards.greenhouse.io/leaflink/jobs/8572952002
 
-- recruitee/lg2: fetch failed
+### Senior QA Engineer — Gather AI
+- **Posted:** 2026-03-03 · **Location:** India - Hyderabad; Hyderabad; Remote - India · **Source:** greenhouse:gatherai
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://job-boards.greenhouse.io/gatherai/jobs/5068507007
+
+### Senior QA Engineer - Europe — Storyblok
+- **Posted:** 2026-01-08 · **Location:** Remote; Remote · **Source:** greenhouse:storyblok
+- **Matched:** playwright, typescript
+- **Link:** https://www.storyblok.com/job?gh_jid=4749653101
