@@ -166,6 +166,18 @@ async function fetchJobicy(errors) {
   return jobs;
 }
 
+// Himalayas occasionally returns a generic placeholder ("name") instead of
+// the real company for confidential/agency listings — fall back to a value
+// derived from the listing URL so unrelated jobs don't collide onto the same
+// normKey (which would incorrectly merge their seen/applied/dismissed state).
+function himalayasCompany(x) {
+  const raw = (x.companyName || "").trim();
+  if (raw && raw.toLowerCase() !== "name" && raw.length >= 2) return raw;
+  const m = (x.applicationLink || x.guid || "").match(/companies\/([a-z0-9-]+)\//i);
+  if (m) return m[1].replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  return `Confidential (${(x.guid || x.applicationLink || "unknown").slice(-8)})`;
+}
+
 async function fetchHimalayas(errors, stopAt) {
   // API returns 20 jobs/page newest-first; page back until `stopAt` (last run
   // time, or the age cutoff on first run), hard-capped to avoid runaway.
@@ -190,7 +202,7 @@ async function fetchHimalayas(errors, stopAt) {
           const restr = Array.isArray(x.locationRestrictions) ? x.locationRestrictions : [];
           jobs.push({
             source: "himalayas",
-            company: x.companyName,
+            company: himalayasCompany(x),
             title: x.title,
             url: x.applicationLink || x.guid,
             location: restr.length ? restr.join(", ") : "Worldwide (no restriction)",
