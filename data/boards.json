@@ -427,7 +427,22 @@
     "siriuspoint",
     "cresta",
     "officespacesoftware",
-    "purestorage"
+    "purestorage",
+    "connectwise",
+    "hanwharenewables",
+    "okx",
+    "distrokid",
+    "blip",
+    "abacusinsights",
+    "codepath",
+    "parachutehealth",
+    "accompanyhealth",
+    "aftership",
+    "gofasti",
+    "neighborsbank",
+    "waymark",
+    "evergreennephrology",
+    "geotab"
   ],
   "lever": [
     "aircall",
@@ -596,7 +611,15 @@
     "contentsquare",
     "businesswire",
     "swapcard",
-    "seven-starling"
+    "seven-starling",
+    "avalerehealth",
+    "hatchit",
+    "egen",
+    "lightedge",
+    "repurposeglobal",
+    "provectus",
+    "sitetracker",
+    "dutch"
   ],
   "ashby": [
     "clerk",
@@ -1133,7 +1156,8 @@
     "miro",
     "purestorage",
     "colibri-group",
-    "egym"
+    "egym",
+    "inovalon"
   ],
   "invalid": [
     "greenhouse/redpandadata",
