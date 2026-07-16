@@ -1,21 +1,13 @@
 # Job Tracker Report — 2026-07-16
 
 > Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 71822 jobs from 2177 sources (2172 ATS boards polled, 105 newly discovered)
+> Scanned: 70781 jobs from 2176 sources (2171 ATS boards polled, 84 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (0)
 
-### Senior AI Engineer – STARLIMS AI Platform — Starlims Corporation
-- **Posted:** 2026-07-15 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, typescript
-- **Link:** https://himalayas.app/companies/starlims-corporation/jobs/senior-ai-engineer-starlims-ai-platform
+_No new matches today._
 
-### Full Stack Engineer — Looi Consulting
-- **Posted:** 2026-07-15 · **Location:** Argentina · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/looi-consulting/jobs/full-stack-engineer
-
-## ⚠️ Source errors (51 total)
+## ⚠️ Source errors (72 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 25 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 26 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 47 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
