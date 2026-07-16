@@ -470,7 +470,23 @@
     "gravwell",
     "practicebetter",
     "outlive",
-    "houseaccount"
+    "houseaccount",
+    "sirum",
+    "dominodatalab",
+    "censys",
+    "earnin",
+    "instride",
+    "wongdoody",
+    "industrialelectricmanufacturing",
+    "nexgencloud",
+    "bennie",
+    "blueroseresearch",
+    "udacity",
+    "qohash",
+    "technergetics",
+    "elitetechnology",
+    "knak",
+    "ethernovia"
   ],
   "lever": [
     "aircall",
@@ -662,7 +678,24 @@
     "bellotalabs",
     "arvor-insurance",
     "hawthorne-health",
-    "sequel-med-tech"
+    "sequel-med-tech",
+    "dronedeploy",
+    "bluelightconsulting",
+    "woodardcurran",
+    "thedispatch",
+    "cloudinary",
+    "superside",
+    "serotonin",
+    "happyco",
+    "filevine",
+    "viseven",
+    "tandems",
+    "cprime",
+    "shakudo",
+    "mindful",
+    "givewell",
+    "inkitt",
+    "princeton10"
   ],
   "ashby": [
     "clerk",
@@ -1200,7 +1233,6 @@
     "purestorage",
     "colibri-group",
     "egym",
-    "inovalon",
     "leland",
     "clera",
     "lavendo",
@@ -1213,7 +1245,8 @@
     "imprint",
     "sahara",
     "infiterra",
-    "amplify"
+    "amplify",
+    "hightouch"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1284,7 +1317,9 @@
     "greenhouse/pineparkhealth",
     "ashby/y-n",
     "workable/10x-3",
-    "workable/adf-medical-services-inc"
+    "workable/adf-medical-services-inc",
+    "ashby/inovalon",
+    "recruitee/morpho"
   ],
   "recruitee": [
     "medmehealth",
@@ -1973,7 +2008,6 @@
     "alinea",
     "escape",
     "coba",
-    "morpho",
     "blank",
     "grip",
     "microampsolutions",
@@ -1981,7 +2015,10 @@
     "reco",
     "kpisolutions",
     "aoglobelife",
-    "upway"
+    "upway",
+    "flyingbisons",
+    "nterra",
+    "pvcase"
   ],
   "smartrecruiters": [
     "clerky",
