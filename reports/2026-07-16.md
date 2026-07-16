@@ -1,14 +1,14 @@
 # Job Tracker Report — 2026-07-16
 
 > Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 70379 jobs from 2184 sources (2179 ATS boards polled, 94 newly discovered)
+> Scanned: 70171 jobs from 2184 sources (2179 ATS boards polled, 97 newly discovered)
 
 ## 💼 New remote matches (1)
 
-### Sr. Software Engineer I  (Remote Eligible in Bulgaria) — Smartsheet
-- **Posted:** 2026-07-16 · **Location:**  -REMOTE, BULGARIA-; Bulgaria · **Source:** greenhouse:smartsheet
-- **Matched:** playwright, typescript
-- **Link:** https://job-boards.greenhouse.io/smartsheet/jobs/8068977
+### Senior QA Engineer — Hometap
+- **Posted:** 2025-07-29 · **Location:** Boston (Remote); Boston, MA; United States - Remote · **Source:** greenhouse:hometap
+- **Matched:** playwright, javascript
+- **Link:** https://job-boards.greenhouse.io/hometap/jobs/4803516007
 
 ## ⚠️ Source errors (85 total)
 
