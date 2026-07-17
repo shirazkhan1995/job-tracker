@@ -1,24 +1,14 @@
 # Job Tracker Report — 2026-07-17
 
 > Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 72373 jobs from 2223 sources (2218 ATS boards polled, 106 newly discovered)
+> Scanned: 72501 jobs from 2228 sources (2223 ATS boards polled, 95 newly discovered)
 
-## 💼 New remote matches (3)
+## 💼 New remote matches (1)
 
-### Sr QA Automation Engineer — Mutual Of Omaha
-- **Posted:** 2026-07-16 · **Location:** Serbia · **Source:** himalayas
-- **Matched:** playwright, javascript · **Salary:** 99000-168000 USD
-- **Link:** https://himalayas.app/companies/mutual-of-omaha/jobs/sr-qa-automation-engineer
-
-### Mid-level Frontend Developer (AEM / CMS Experience) - 6 Months - Octopus by RTG — robusta
-- **Posted:** 2026-07-16 · **Location:** Egypt · **Source:** himalayas
+### Senior Frontend Engineer II - Europe — Storyblok
+- **Posted:** 2026-07-14 · **Location:** Remote; Remote · **Source:** greenhouse:storyblok
 - **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/robusta/jobs/mid-level-frontend-developer-aem-cms-experience-6-months-octopus-by-rtg
-
-### Fullstack Engineer (m/f/d) — Kayzen
-- **Posted:** 2026-07-01 · **Location:** Bangalore, Remote India, Remote EMEA; Kayzen Bengaluru; Kayzen Berlin; Remote Global · **Source:** greenhouse:kayzen
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://job-boards.eu.greenhouse.io/kayzen/jobs/4914237101
+- **Link:** https://www.storyblok.com/job?gh_jid=4927256101
 
 ## ⚠️ Source errors (85 total)
 

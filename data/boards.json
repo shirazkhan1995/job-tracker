@@ -509,7 +509,11 @@
     "folxhealth",
     "opswat",
     "agilityrobotics",
-    "veracyte"
+    "veracyte",
+    "marqeta",
+    "extend",
+    "inspiren",
+    "mast"
   ],
   "lever": [
     "aircall",
@@ -727,7 +731,8 @@
     "standtogether",
     "hypebeast",
     "mcaconnect",
-    "arcadia"
+    "arcadia",
+    "lyrahealth"
   ],
   "ashby": [
     "clerk",
@@ -813,7 +818,6 @@
     "mercor",
     "river",
     "zippymh",
-    "curie",
     "prosper-ai",
     "mubit",
     "dimensional",
@@ -1238,7 +1242,6 @@
     "genesis",
     "cardflight",
     "wiz",
-    "crewbloom",
     "reddit",
     "the-studio",
     "gr8-tech",
@@ -1363,7 +1366,9 @@
     "workable/10x-3",
     "workable/adf-medical-services-inc",
     "ashby/inovalon",
-    "recruitee/morpho"
+    "recruitee/morpho",
+    "ashby/curie",
+    "ashby/crewbloom"
   ],
   "recruitee": [
     "medmehealth",
