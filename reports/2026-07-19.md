@@ -1,111 +1,61 @@
 # Job Tracker Report — 2026-07-19
 
 > Filter: (playwright OR puppeteer OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 82786 jobs from 2328 sources (2323 ATS boards polled, 78 newly discovered)
+> Scanned: 78752 jobs from 2354 sources (2349 ATS boards polled, 80 newly discovered)
 
-## 💼 New remote matches (20)
+## 💼 New remote matches (10)
 
-### Automation Framework Engineer — Bright Vision Technologies
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript · **Salary:** 120000-170000 USD
-- **Link:** https://himalayas.app/companies/bright-vision-technologies/jobs/automation-framework-engineer
+### Développeur (euse) Full-Stack Node.js et React — Irth
+- **Posted:** 2026-07-19 · **Location:** Canada · **Source:** himalayas
+- **Matched:** puppeteer, typescript · **Salary:** 65000-100000 CAD
+- **Link:** https://himalayas.app/companies/irth/jobs/developpeur-euse-full-stack-node-js-et-react
 
-### QA Manager — CoverGo
-- **Posted:** 2026-07-19 · **Location:** Czechia · **Source:** himalayas
-- **Matched:** puppeteer, javascript
-- **Link:** https://himalayas.app/companies/covergo/jobs/qa-manager
+### Staff Android Automation Engineer, Quality Engineering — Airbnb
+- **Posted:** 2026-07-19 · **Location:** Brazil · **Source:** himalayas
+- **Matched:** playwright, javascript, typescript · **Salary:** 35333-44166 BRL
+- **Link:** https://himalayas.app/companies/airbnb/jobs/staff-android-automation-engineer-quality-engineering-9477287666
 
-### AI Platform Testing Engineer - ( Job ID - 23706) — EducoHire
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
+### Senior QA Test Full Stack_ Auto & Manuel — SQLI
+- **Posted:** 2026-07-19 · **Location:** Morocco · **Source:** himalayas
 - **Matched:** playwright, javascript
-- **Link:** https://himalayas.app/companies/educohire/jobs/ai-platform-testing-engineer-job-id-23706
+- **Link:** https://himalayas.app/companies/sqli/jobs/senior-qa-test-full-stack_-auto-manuel-8510414763
 
-### Senior Quality Assurance Engineer — TherapyNotes.com
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript · **Salary:** 95000-125000 USD
-- **Link:** https://himalayas.app/companies/therapynotes-com/jobs/senior-quality-assurance-engineer
+### Sr. Software Engineer, Frontend — Firstup
+- **Posted:** 2026-07-19 · **Location:** United Kingdom · **Source:** himalayas
+- **Matched:** playwright, typescript
+- **Link:** https://himalayas.app/companies/firstup/jobs/sr-software-engineer-frontend-6523398474
 
-### QA Automation Engineer II — Reputation
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/reputation/jobs/qa-automation-engineer-ii
+### Middle/Senior Software Engineer (Frontend) — Devexperts
+- **Posted:** 2026-07-19 · **Location:** Bulgaria · **Source:** himalayas
+- **Matched:** playwright, typescript
+- **Link:** https://himalayas.app/companies/devexperts/jobs/middle-senior-software-engineer-frontend
 
-### Full-Stack Developer (Laravel + Nuxt.js) — JWay Group, Inc.
-- **Posted:** 2026-07-19 · **Location:** Philippines · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/jway-group-inc/jobs/full-stack-developer-laravel-nuxt-js-1021527185
-
-### Senior SDET — Synack
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript · **Salary:** 170000-200000 USD
-- **Link:** https://himalayas.app/companies/synack/jobs/senior-sdet
-
-### QA Automation Engineer — Pavago
+### Staff Software Engineer — Newrich Network
 - **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
 - **Matched:** playwright, typescript
-- **Link:** https://himalayas.app/companies/pavago/jobs/qa-automation-engineer
+- **Link:** https://himalayas.app/companies/newrich-network/jobs/staff-software-engineer
 
-### QA Engineer / Functional & Automation / (Bilingual ES/EN) — VELAIO
-- **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/velaio/jobs/qa-engineer-functional-automation-bilingual-es-en
+### AI QA Engineer (Agentic Testing) — Applaudo Studios
+- **Posted:** 2026-07-19 · **Location:** Colombia · **Source:** himalayas
+- **Matched:** playwright, webdriverio, javascript, typescript
+- **Link:** https://himalayas.app/companies/applaudo-studios/jobs/ai-qa-engineer-agentic-testing
 
-### Senior Shopify Developer — beyondservice GmbH
-- **Posted:** 2026-07-19 · **Location:** Germany · **Source:** himalayas
+### Software Engineer in Test — Harris Global Business Services Inc.
+- **Posted:** 2026-07-19 · **Location:** India · **Source:** himalayas
 - **Matched:** playwright, javascript
-- **Link:** https://himalayas.app/companies/beyondservice-gmbh/jobs/senior-shopify-developer
+- **Link:** https://himalayas.app/companies/harris-global-business-services-inc/jobs/software-engineer-in-test
 
-### Front-end Developer (Mid/Senior) — ADDENDUM
-- **Posted:** 2026-07-19 · **Location:** Lithuania · **Source:** himalayas
-- **Matched:** playwright, typescript · **Salary:** 4500-4500 EUR
-- **Link:** https://himalayas.app/companies/addendum/jobs/front-end-developer-mid-senior-6895330294
-
-### Frontend Developer (React) — Codekeeper
-- **Posted:** 2026-07-19 · **Location:** Romania · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript · **Salary:** 10000-100000 USD
-- **Link:** https://himalayas.app/companies/codekeeper/jobs/frontend-developer-react-9046508529
-
-### Lead QA Developer — AlgaeCal
-- **Posted:** 2026-07-19 · **Location:** Dominican Republic · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/algaecal/jobs/lead-qa-developer
-
-### Quality Assurance Engineer — Mida Technologies
+### Senior Front-End Developer — MENA Alliances
 - **Posted:** 2026-07-19 · **Location:** United States · **Source:** himalayas
 - **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/mida-technologies/jobs/quality-assurance-engineer
+- **Link:** https://himalayas.app/companies/mena-alliances/jobs/senior-front-end-developer
 
-### Senior QA Automation Engineer (Playwright) — Miratech
-- **Posted:** 2026-07-18 · **Location:** Ukraine · **Source:** himalayas
+### Senior Full Stack Developer — CoLab Software
+- **Posted:** 2026-07-14 · **Location:** Canada, Remote; Headquarters; Remote, Canada · **Source:** greenhouse:colabsoftware
 - **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/miratech/jobs/senior-qa-automation-engineer-playwright-3327700238
+- **Link:** https://job-boards.greenhouse.io/colabsoftware/jobs/5348634008
 
-### QA Automation Engineer — Monument Software, Inc.
-- **Posted:** 2026-07-18 · **Location:** Worldwide (no restriction) · **Source:** himalayas
-- **Matched:** playwright, typescript
-- **Link:** https://himalayas.app/companies/monument-software-inc/jobs/qa-automation-engineer
-
-### Senior QA Automation Engineer — Munich Ventures
-- **Posted:** 2026-07-18 · **Location:** Armenia · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/munich-ventures/jobs/senior-qa-automation-engineer
-
-### Test Automation Engineer — B3 Consulting Poland
-- **Posted:** 2026-07-18 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/b3-consulting-poland/jobs/test-automation-engineer
-
-### QA Automation Developer — Bright Vision Technologies
-- **Posted:** 2026-07-18 · **Location:** United States · **Source:** himalayas
-- **Matched:** playwright, javascript · **Salary:** 100000-150000 USD
-- **Link:** https://himalayas.app/companies/bright-vision-technologies/jobs/qa-automation-developer
-
-### Software Engineer Fullstack (Node.js + React) — Softeta
-- **Posted:** 2026-07-18 · **Location:** Poland · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/softeta/jobs/software-engineer-fullstack-node-js-react
-
-## ⚠️ Source errors (29 total)
+## ⚠️ Source errors (35 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 25 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 4 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
+- workable: HTTP 429 — 10 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
