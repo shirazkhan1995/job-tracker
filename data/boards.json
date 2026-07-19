@@ -536,7 +536,15 @@
     "spinnakersupport",
     "broadsign",
     "code3",
-    "csciconsulting"
+    "csciconsulting",
+    "medeanalytics",
+    "atiadvisory",
+    "appspace",
+    "oscar",
+    "performancedevelopmentgroup",
+    "consumeredge",
+    "givedirectly",
+    "crometrics"
   ],
   "lever": [
     "aircall",
@@ -769,7 +777,15 @@
     "trueplatform",
     "rightsideup",
     "teecom",
-    "sanctuary"
+    "sanctuary",
+    "sugarcrm",
+    "panopto",
+    "distro",
+    "robust-ai",
+    "zinier",
+    "refed",
+    "bluecatnetworks",
+    "coalfire"
   ],
   "ashby": [
     "clerk",
@@ -1345,7 +1361,9 @@
     "alternativepayments",
     "keyrock",
     "sanctuary",
-    "block-labs"
+    "block-labs",
+    "complir",
+    "lyric"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2128,7 +2146,14 @@
     "taskus",
     "bsi",
     "salesforce",
-    "codepepper"
+    "codepepper",
+    "parallel",
+    "yuma",
+    "bloom",
+    "sparkles",
+    "theeventacademy",
+    "cityscience",
+    "jeeves"
   ],
   "smartrecruiters": [
     "clerky",
