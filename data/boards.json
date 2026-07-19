@@ -470,7 +470,6 @@
     "gravwell",
     "practicebetter",
     "outlive",
-    "houseaccount",
     "sirum",
     "dominodatalab",
     "censys",
@@ -1438,7 +1437,8 @@
     "ashby/inovalon",
     "recruitee/morpho",
     "ashby/curie",
-    "ashby/crewbloom"
+    "ashby/crewbloom",
+    "greenhouse/houseaccount"
   ],
   "recruitee": [
     "medmehealth",
@@ -2153,7 +2153,9 @@
     "sparkles",
     "theeventacademy",
     "cityscience",
-    "jeeves"
+    "jeeves",
+    "spiralyze",
+    "softgames"
   ],
   "smartrecruiters": [
     "clerky",
