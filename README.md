@@ -1,10 +1,15 @@
 # Job Tracker
 
-Daily tracker for remote jobs matching:
+Daily tracker for remote QA-automation jobs matching:
 
-> **("playwright" OR "puppeteer" OR "webdriverio") AND ("javascript" OR "typescript")**
+> **("playwright" OR "puppeteer" OR "cypress" OR "webdriverio") AND ("javascript" OR "typescript")**
 
-Matching is **case-insensitive** with word boundaries, applied to the job title + full description. Remote jobs only; all open postings qualify regardless of posting age (the date is shown). Location judgment is left to you — the report/UI shows each job's location string.
+Matching is **case-insensitive** with word boundaries, applied to the job title + full description. Remote jobs only; all open postings qualify regardless of posting age (the date is shown).
+
+Three extra filters (`config.json`) narrow this to roles actually worth applying to from India:
+- **Title filter** (`titleKeywords`): the job title itself must read as QA/automation (qa, quality, sdet, test(er/ing), automation) — kills keyword-coincidence matches on Frontend/Fullstack/generic SDE postings that just happen to mention a test tool in their description.
+- **Eligibility filter** (`eligibility.apacHints` / `restrictiveHints`): a best-effort read of the location string — explicit APAC/India/worldwide/global wins; an explicit single non-APAC country or region (US, UK, Canada, Europe, LATAM, Africa, EMEA...) is dropped. Ambiguous strings (bare city names, uncommon countries not on the list) are **not** filtered — location judgment there is still left to you.
+- **Currency filter** (`excludeCurrencies`): drops postings whose salary is explicitly denominated in INR.
 
 The web UI (Vercel) supports per-job and **bulk** actions: mark seen (automatic on click), applied, or "not gonna apply" (dismissed). State lives in Neon Postgres, synced across devices.
 
@@ -37,7 +42,7 @@ Greenhouse / Lever / Ashby have **no global search API** — they only expose pe
 
 | Path | Purpose |
 |---|---|
-| `config.json` | keywords, age window, worldwide terms, paging caps |
+| `config.json` | keywords, title/eligibility/currency filters, age window, paging caps |
 | `data/seen.json` | jobs already reported (keyed by company+title) |
 | `data/boards.json` | auto-growing ATS board list — add slugs by hand any time |
 | `data/state.json` | last run timestamp |

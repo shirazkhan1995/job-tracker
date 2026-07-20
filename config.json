@@ -3,6 +3,7 @@
     "anyOf": [
       "playwright",
       "puppeteer",
+      "cypress",
       "webdriverio",
       "webdriver.io",
       "wdio"
@@ -14,6 +15,28 @@
       ]
     ]
   },
+  "titleKeywords": [
+    "qa", "quality", "sdet", "test", "tester", "testing", "automation"
+  ],
+  "eligibility": {
+    "apacHints": [
+      "india", "apac", "asia pacific", "asia-pacific", "asia",
+      "singapore", "japan", "tokyo", "korea", "seoul", "china",
+      "hong kong", "taiwan", "taipei", "philippines", "manila",
+      "vietnam", "thailand", "bangkok", "malaysia", "kuala lumpur",
+      "indonesia", "jakarta", "australia", "sydney", "melbourne",
+      "new zealand", "auckland", "pakistan", "bangladesh", "sri lanka",
+      "nepal", "worldwide", "global", "anywhere"
+    ],
+    "restrictiveHints": [
+      "united states", "usa", "u.s.", "us only", "canada",
+      "united kingdom", "uk only", "europe", "european union", "eu",
+      "germany", "france", "spain", "italy", "netherlands", "poland",
+      "ireland", "latam", "latin america", "brazil", "mexico",
+      "colombia", "argentina", "africa", "emea"
+    ]
+  },
+  "excludeCurrencies": ["INR"],
   "maxAgeDays": 60,
   "himalayas": {
     "maxPages": 400

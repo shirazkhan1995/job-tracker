@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /**
- * Job tracker: finds remote jobs matching
- *   ("playwright" OR "puppeteer" OR "cypress") AND ("javascript" OR "typescript")
- * across global remote-job APIs (Remotive, Jobicy, Himalayas, RemoteOK), and
- * auto-discovers Greenhouse / Lever / Ashby boards from matched jobs, which it
- * then polls directly on every subsequent run.
+ * Job tracker: finds remote QA-automation jobs matching config.json's
+ * keyword filter (tech keywords AND JS/TS), restricted to postings whose
+ * title reads as a QA/automation role and whose location isn't restricted
+ * to a non-APAC single country/region, across global remote-job APIs
+ * (Remotive, Jobicy, Himalayas, RemoteOK, WeWorkRemotely), and auto-discovers
+ * Greenhouse / Lever / Ashby / etc. boards from matched jobs, which it then
+ * polls directly on every subsequent run.
  *
  * Matching is case-INsensitive with word boundaries.
  *
@@ -107,6 +109,9 @@ function stripHtml(s) {
 function termRegex(term) {
   const esc = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return new RegExp(`(?<![A-Za-z0-9])${esc}(?![A-Za-z0-9])`, "i");
+}
+function anyTermMatch(text, terms) {
+  return terms.some(t => termRegex(t).test(text));
 }
 const ANY_OF = CONFIG.keywords.anyOf.map(t => ({ t, re: termRegex(t) }));
 const ALL_OF = CONFIG.keywords.allOf.map(group => group.map(t => ({ t, re: termRegex(t) })));
@@ -683,6 +688,25 @@ async function discoverBoards(jobs, boards, errors) {
 
 // ---------- filtering ----------
 
+// Location strings are free text from a dozen different sources ("United
+// States - Remote", "Pune 🇮🇳", "APAC", "Remote (USA)"...) so this is a best-
+// effort heuristic, not a geo lookup: an explicit APAC/worldwide mention
+// wins; otherwise an explicit single non-APAC country/region excludes;
+// anything unrecognized is let through rather than silently dropped.
+function isAPACEligible(location) {
+  const hay = location || "";
+  if (anyTermMatch(hay, CONFIG.eligibility?.apacHints || [])) return true;
+  if (anyTermMatch(hay, CONFIG.eligibility?.restrictiveHints || [])) return false;
+  return true;
+}
+
+function passesCurrency(job) {
+  const excluded = CONFIG.excludeCurrencies || [];
+  if (!job.salary || !excluded.length) return true;
+  if (/₹/.test(job.salary)) return false;
+  return !anyTermMatch(job.salary, excluded);
+}
+
 function classify(job) {
   const matched = matchKeywords(job.text);
   if (!matched) return null;
@@ -691,6 +715,12 @@ function classify(job) {
   const isAggregator = !job.source.includes(":"); // ATS board sources are "ats:slug"
   const isRemote = isAggregator || job.remoteHint || /remote|anywhere/i.test(job.location);
   if (!isRemote) return null;
+  // title must read as a QA/automation role — keyword matches on generic
+  // Frontend/Fullstack/SDE postings that merely mention a test tool in their
+  // description are not roles the user is targeting
+  if (CONFIG.titleKeywords?.length && !anyTermMatch(job.title, CONFIG.titleKeywords)) return null;
+  if (!isAPACEligible(job.location)) return null;
+  if (!passesCurrency(job)) return null;
   return { ...job, matched: [...new Set(matched)] };
 }
 
