@@ -90,10 +90,8 @@
     ],
     "salary": "",
     "postedAt": 1783850704000,
-    "worldwide": true,
-    "relocation": false,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-13T20:28:40.016Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -213,8 +211,8 @@
     "postedAt": 1783703672000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "k15t|senior software engineer - support & ai automation (m/w/d)": {
     "key": "k15t|senior software engineer - support & ai automation (m/w/d)",
@@ -332,8 +330,8 @@
     "postedAt": 1779726234000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "webflow|senior software engineer, fullstack": {
     "key": "webflow|senior software engineer, fullstack",
@@ -351,8 +349,8 @@
     "postedAt": 1759415767000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "embrace|ui & sdk web engineer": {
     "key": "embrace|ui & sdk web engineer",
@@ -370,8 +368,8 @@
     "postedAt": 1749758774000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "mesh|senior qa automation engineer": {
     "key": "mesh|senior qa automation engineer",
@@ -391,8 +389,8 @@
     "postedAt": 1777011809000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "sporty group|frontend engineer": {
     "key": "sporty group|frontend engineer",
@@ -409,8 +407,8 @@
     "postedAt": 1768407411000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "sporty group|frontend engineering team lead": {
     "key": "sporty group|frontend engineering team lead",
@@ -427,8 +425,8 @@
     "postedAt": 1778596894000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "sporty group|frontend engineer (latin america)": {
     "key": "sporty group|frontend engineer (latin america)",
@@ -445,8 +443,8 @@
     "postedAt": 1772825661000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "smithrx|senior staff automation engineer": {
     "key": "smithrx|senior staff automation engineer",
@@ -457,13 +455,14 @@
     "source": "greenhouse:smithrx",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781207279000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -501,7 +500,7 @@
     "salary": "",
     "postedAt": 1783310650234,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -581,8 +580,8 @@
     "postedAt": 1775503193106,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tractian|software development engineer in test (sdet)": {
     "key": "tractian|software development engineer in test (sdet)",
@@ -593,13 +592,14 @@
     "source": "lever:tractian",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1773869201160,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -618,8 +618,8 @@
     "postedAt": 1782419776740,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "kong|senior software development engineer in test": {
     "key": "kong|senior software development engineer in test",
@@ -638,8 +638,8 @@
     "postedAt": 1780506330025,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "overview|engineering intern": {
     "key": "overview|engineering intern",
@@ -657,8 +657,8 @@
     "postedAt": 1779070921824,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "verto|senior qa engineer": {
     "key": "verto|senior qa engineer",
@@ -674,7 +674,7 @@
     "salary": "",
     "postedAt": 1780393506018,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -713,8 +713,8 @@
     "postedAt": 1780937957143,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "zip|senior qa engineer": {
     "key": "zip|senior qa engineer",
@@ -725,12 +725,13 @@
     "source": "ashby:zip",
     "matched": [
       "playwright",
+      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1782140925322,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -743,13 +744,14 @@
     "source": "ashby:vapi",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "$180K – $280K • Offers Equity",
     "postedAt": 1779391596119,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -768,8 +770,8 @@
     "postedAt": 1713971450400,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|software engineer [新卒採用]": {
     "key": "tailor|software engineer [新卒採用]",
@@ -786,8 +788,8 @@
     "postedAt": 1713972898689,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|backend engineer": {
     "key": "tailor|backend engineer",
@@ -804,8 +806,8 @@
     "postedAt": 1713973567574,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|backend engineer（業務委託）": {
     "key": "tailor|backend engineer（業務委託）",
@@ -822,8 +824,8 @@
     "postedAt": 1714003217397,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|frontend engineer （業務委託）": {
     "key": "tailor|frontend engineer （業務委託）",
@@ -840,8 +842,8 @@
     "postedAt": 1714003351847,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|frontend engineer": {
     "key": "tailor|frontend engineer",
@@ -858,8 +860,8 @@
     "postedAt": 1714003502301,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|ai engineer": {
     "key": "tailor|ai engineer",
@@ -876,8 +878,8 @@
     "postedAt": 1714004490238,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|sre (site reliability engineer)": {
     "key": "tailor|sre (site reliability engineer)",
@@ -894,8 +896,8 @@
     "postedAt": 1714004875942,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|sre (site reliability engineer) [業務委託]": {
     "key": "tailor|sre (site reliability engineer) [業務委託]",
@@ -912,8 +914,8 @@
     "postedAt": 1714004933952,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|software engineer [インターンシップ]": {
     "key": "tailor|software engineer [インターンシップ]",
@@ -930,8 +932,8 @@
     "postedAt": 1715562858979,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|project manager": {
     "key": "tailor|project manager",
@@ -948,8 +950,8 @@
     "postedAt": 1743644887568,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|software engineer, application [業務委託]": {
     "key": "tailor|software engineer, application [業務委託]",
@@ -966,8 +968,8 @@
     "postedAt": 1742361679015,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|scrum master": {
     "key": "tailor|scrum master",
@@ -984,8 +986,8 @@
     "postedAt": 1762822881187,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|agile coach": {
     "key": "tailor|agile coach",
@@ -1002,8 +1004,8 @@
     "postedAt": 1764914704602,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|forward deployed engineer (福岡)": {
     "key": "tailor|forward deployed engineer (福岡)",
@@ -1020,8 +1022,8 @@
     "postedAt": 1776908946308,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tailor|シニアバイリンガルソフトウェアエンジニア（日英）": {
     "key": "tailor|シニアバイリンガルソフトウェアエンジニア（日英）",
@@ -1038,8 +1040,8 @@
     "postedAt": 1779846614049,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "weave|senior frontend engineer": {
     "key": "weave|senior frontend engineer",
@@ -1077,8 +1079,8 @@
     "postedAt": 1773522941722,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "reacher|software engineer - latam": {
     "key": "reacher|software engineer - latam",
@@ -1095,8 +1097,8 @@
     "postedAt": 1773523147366,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior software development engineer in test (sdet/ai) - real estate - mexico (remote)": {
     "key": "truelogic|senior software development engineer in test (sdet/ai) - real estate - mexico (remote)",
@@ -1114,8 +1116,8 @@
     "postedAt": 1781795636327,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior software development engineer in test (sdet/ai) - real estate - dominican republic (remote)": {
     "key": "truelogic|senior software development engineer in test (sdet/ai) - real estate - dominican republic (remote)",
@@ -1127,12 +1129,13 @@
     "matched": [
       "playwright",
       "puppeteer",
+      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795715092,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1151,8 +1154,8 @@
     "postedAt": 1780082450919,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior full-stack engineer (typescript/ai automation) - real estate - latam": {
     "key": "truelogic|senior full-stack engineer (typescript/ai automation) - real estate - latam",
@@ -1169,8 +1172,8 @@
     "postedAt": 1779992329769,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior full-stack engineer (typescript/ai automation) - real estate - brazil (remote)": {
     "key": "truelogic|senior full-stack engineer (typescript/ai automation) - real estate - brazil (remote)",
@@ -1186,7 +1189,7 @@
     "salary": "",
     "postedAt": 1784066260342,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1206,8 +1209,8 @@
     "postedAt": 1781795243173,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior software development engineer in test (sdet/ai) - real estate - colombia (remote)": {
     "key": "truelogic|senior software development engineer in test (sdet/ai) - real estate - colombia (remote)",
@@ -1219,12 +1222,13 @@
     "matched": [
       "playwright",
       "puppeteer",
+      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795587528,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1238,12 +1242,13 @@
     "matched": [
       "playwright",
       "puppeteer",
+      "cypress",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1781795672293,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1264,8 +1269,8 @@
     "postedAt": 1782219655683,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior software development engineer in test (sdet) - ecommerce - dr (remote)": {
     "key": "truelogic|senior software development engineer in test (sdet) - ecommerce - dr (remote)",
@@ -1276,6 +1281,7 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
+      "cypress",
       "webdriverio",
       "javascript",
       "typescript"
@@ -1283,7 +1289,7 @@
     "salary": "",
     "postedAt": 1782219791084,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1296,6 +1302,7 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
+      "cypress",
       "webdriverio",
       "javascript",
       "typescript"
@@ -1303,7 +1310,7 @@
     "salary": "",
     "postedAt": 1782219813960,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1324,8 +1331,8 @@
     "postedAt": 1782219838768,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "truelogic|senior software development engineer in test (sdet) - ecommerce - colombia (remote)": {
     "key": "truelogic|senior software development engineer in test (sdet) - ecommerce - colombia (remote)",
@@ -1336,6 +1343,7 @@
     "source": "ashby:truelogic",
     "matched": [
       "playwright",
+      "cypress",
       "webdriverio",
       "javascript",
       "typescript"
@@ -1343,7 +1351,7 @@
     "salary": "",
     "postedAt": 1782219872601,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1356,13 +1364,14 @@
     "source": "ashby:airapps",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "€47K – €59K",
     "postedAt": 1776357202298,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1395,13 +1404,14 @@
     "source": "ashby:airapps",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "€44K – €56K",
     "postedAt": 1776432655202,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1459,8 +1469,8 @@
     "postedAt": 1770706950000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "backblaze external website|qa automation engineer": {
     "key": "backblaze external website|qa automation engineer",
@@ -1477,8 +1487,8 @@
     "postedAt": 1778530170000,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "backblaze external website|sr. qa automation engineer": {
     "key": "backblaze external website|sr. qa automation engineer",
@@ -1572,8 +1582,8 @@
     "postedAt": 1780693223000,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "jumpcloud|senior quality engineer - india": {
     "key": "jumpcloud|senior quality engineer - india",
@@ -1610,8 +1620,8 @@
     "postedAt": 1780007717376,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "3pillarglobal|senior quality assurance engineer": {
     "key": "3pillarglobal|senior quality assurance engineer",
@@ -1629,8 +1639,8 @@
     "postedAt": 1783028705856,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "esri|product engineer ii – web services": {
     "key": "esri|product engineer ii – web services",
@@ -1648,8 +1658,8 @@
     "postedAt": 1778535795000,
     "firstSeenAt": "2026-07-13T21:34:02.361Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "affirm|software engineer ii, backend (test infra)": {
     "key": "affirm|software engineer ii, backend (test infra)",
@@ -1666,8 +1676,8 @@
     "postedAt": 1783689907000,
     "firstSeenAt": "2026-07-13T21:34:02.361Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tether operations limited|senior qa engineer (100% remote worldwide)": {
     "key": "tether operations limited|senior qa engineer (100% remote worldwide)",
@@ -1685,25 +1695,26 @@
     "postedAt": 1780490216000,
     "firstSeenAt": "2026-07-13T21:34:02.361Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tether operations limited|senior qa engineer (100% remote)": {
     "key": "tether operations limited|senior qa engineer (100% remote)",
     "title": "Senior QA Engineer (100% Remote)",
     "company": "Tether Operations Limited",
-    "url": "https://careers.tether.io/o/senior-qa-engineer-100-remote-22",
-    "location": "Remote job; Rio de Janeiro; Rio de Janeiro; Brazil",
+    "url": "https://careers.tether.io/o/senior-qa-engineer-100-remote-21",
+    "location": "Remote job; Bangalore; Karnātaka; India",
     "source": "recruitee:tether",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1780331151000,
+    "postedAt": 1780331136000,
     "firstSeenAt": "2026-07-13T21:34:02.361Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1722,8 +1733,8 @@
     "postedAt": 1783978622000,
     "firstSeenAt": "2026-07-13T21:46:41.104Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "precision aq| qa engineer i": {
     "key": "precision aq| qa engineer i",
@@ -1734,12 +1745,13 @@
     "source": "greenhouse:precisionaq",
     "matched": [
       "playwright",
+      "cypress",
       "javascript"
     ],
     "salary": "",
     "postedAt": 1782966248000,
     "firstSeenAt": "2026-07-13T21:46:41.104Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1752,12 +1764,13 @@
     "source": "greenhouse:precisionmedicinegroup",
     "matched": [
       "playwright",
+      "cypress",
       "javascript"
     ],
     "salary": "",
     "postedAt": 1782966250000,
     "firstSeenAt": "2026-07-13T21:46:41.104Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1778,8 +1791,8 @@
     "postedAt": 1770644984000,
     "firstSeenAt": "2026-07-13T21:46:41.104Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "tiugo technologies|junior qa engineer with javascript": {
     "key": "tiugo technologies|junior qa engineer with javascript",
@@ -1797,8 +1810,8 @@
     "postedAt": 1783074054000,
     "firstSeenAt": "2026-07-13T21:46:41.104Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "virtual7 gmbh|lead react developer (m/w/d)": {
     "key": "virtual7 gmbh|lead react developer (m/w/d)",
@@ -1978,7 +1991,7 @@
     "salary": "",
     "postedAt": 1772576550000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -1996,7 +2009,7 @@
     "salary": "",
     "postedAt": 1767877128000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2016,8 +2029,8 @@
     "postedAt": 1780590491000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "ishir|senior qe automation engineer – sap commerce (hybris pricing)- contract opportun": {
     "key": "ishir|senior qe automation engineer – sap commerce (hybris pricing)- contract opportun",
@@ -2073,8 +2086,8 @@
     "postedAt": 1773839889000,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "trellis|qa engineer (remote)": {
     "key": "trellis|qa engineer (remote)",
@@ -2090,7 +2103,7 @@
     "salary": "",
     "postedAt": 1781897204477,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2109,8 +2122,8 @@
     "postedAt": 1777660971421,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "peek|senior quality engineer- ai augmented": {
     "key": "peek|senior quality engineer- ai augmented",
@@ -2127,8 +2140,8 @@
     "postedAt": 1779899594393,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "miratech|full stack engineer (java and angular)": {
     "key": "miratech|full stack engineer (java and angular)",
@@ -2340,13 +2353,14 @@
     "source": "greenhouse:moniepoint",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1783927311000,
     "firstSeenAt": "2026-07-14T10:40:32.477Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2365,8 +2379,8 @@
     "postedAt": 1781296699000,
     "firstSeenAt": "2026-07-14T10:40:32.477Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "bloomerang|sr. software engineer (tech lead)": {
     "key": "bloomerang|sr. software engineer (tech lead)",
@@ -2384,8 +2398,8 @@
     "postedAt": 1774893674000,
     "firstSeenAt": "2026-07-14T10:40:32.477Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "software mind|[8fc] quality assurance engineer - sdet": {
     "key": "software mind|[8fc] quality assurance engineer - sdet",
@@ -2496,8 +2510,8 @@
     "postedAt": 1780422389166,
     "firstSeenAt": "2026-07-14T14:29:56.695Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "xsolla|tech lead – frontend platform team": {
     "key": "xsolla|tech lead – frontend platform team",
@@ -2514,8 +2528,8 @@
     "postedAt": 1764798020657,
     "firstSeenAt": "2026-07-14T14:29:56.695Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "sequoia connect|sdet team lead": {
     "key": "sequoia connect|sdet team lead",
@@ -2645,8 +2659,8 @@
     "postedAt": 1765384996000,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "startale group|senior quality assurance engineer (trading)": {
     "key": "startale group|senior quality assurance engineer (trading)",
@@ -2657,13 +2671,14 @@
     "source": "greenhouse:startale",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1775490479000,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2676,12 +2691,13 @@
     "source": "greenhouse:buzzsolutions",
     "matched": [
       "playwright",
+      "cypress",
       "javascript"
     ],
     "salary": "",
     "postedAt": 1771367181000,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2700,8 +2716,8 @@
     "postedAt": 1783344410046,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "amplify|software engineer": {
     "key": "amplify|software engineer",
@@ -2718,8 +2734,8 @@
     "postedAt": 1783344452468,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "1kosmos|test automation engineer": {
     "key": "1kosmos|test automation engineer",
@@ -2754,7 +2770,7 @@
     "salary": "",
     "postedAt": 1783094008000,
     "firstSeenAt": "2026-07-15T18:42:28.286Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -2773,8 +2789,8 @@
     "postedAt": 1769014241000,
     "firstSeenAt": "2026-07-15T18:42:28.286Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "starlims corporation|senior ai engineer – starlims ai platform": {
     "key": "starlims corporation|senior ai engineer – starlims ai platform",
@@ -2828,8 +2844,8 @@
     "postedAt": 1784199930000,
     "firstSeenAt": "2026-07-16T13:07:47.242Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "hometap|senior qa engineer": {
     "key": "hometap|senior qa engineer",
@@ -2846,8 +2862,8 @@
     "postedAt": 1753818785000,
     "firstSeenAt": "2026-07-16T18:47:55.301Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "mutual of omaha|sr qa automation engineer": {
     "key": "mutual of omaha|sr qa automation engineer",
@@ -2921,8 +2937,8 @@
     "postedAt": 1784036060000,
     "firstSeenAt": "2026-07-17T07:39:54.065Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "hostaway|senior frontend engineer - 100% remote - emea": {
     "key": "hostaway|senior frontend engineer - 100% remote - emea",
@@ -2940,8 +2956,8 @@
     "postedAt": 1784284155000,
     "firstSeenAt": "2026-07-17T12:49:23.583Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "kayzen|senior fullstack engineer (m/f/d)": {
     "key": "kayzen|senior fullstack engineer (m/f/d)",
@@ -2959,8 +2975,8 @@
     "postedAt": 1782900359000,
     "firstSeenAt": "2026-07-17T18:40:04.779Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "airbnb|staff web automation engineer, quality engineering": {
     "key": "airbnb|staff web automation engineer, quality engineering",
@@ -2978,8 +2994,8 @@
     "postedAt": 1762449219000,
     "firstSeenAt": "2026-07-18T01:00:54.221Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "firstup|sr. software engineer, frontend (uk)": {
     "key": "firstup|sr. software engineer, frontend (uk)",
@@ -2996,8 +3012,8 @@
     "postedAt": 1776459006076,
     "firstSeenAt": "2026-07-18T01:00:54.221Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "careerswift|quality assurance engineer": {
     "key": "careerswift|quality assurance engineer",
@@ -3212,12 +3228,13 @@
     "source": "himalayas",
     "matched": [
       "puppeteer",
+      "cypress",
       "javascript"
     ],
     "salary": "",
     "postedAt": 1784516317000,
     "firstSeenAt": "2026-07-19T12:33:26.829Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -3738,8 +3755,8 @@
     "postedAt": 1784043014000,
     "firstSeenAt": "2026-07-19T18:32:22.067Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "peoplegrove|automation qa engineer": {
     "key": "peoplegrove|automation qa engineer",
@@ -3750,13 +3767,14 @@
     "source": "lever:peoplegrove",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1607589666002,
     "firstSeenAt": "2026-07-20T01:10:27.152Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -3862,13 +3880,14 @@
     "source": "greenhouse:startale",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
     "postedAt": 1784535822000,
     "firstSeenAt": "2026-07-20T08:30:26.956Z",
-    "lastSeenAt": "2026-07-20T19:20:17.131Z",
+    "lastSeenAt": "2026-07-20T20:58:33.051Z",
     "active": true,
     "expiredAt": null
   },
@@ -3888,8 +3907,8 @@
     "postedAt": 1784535161000,
     "firstSeenAt": "2026-07-20T08:30:26.956Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "stora|senior software engineer (product)": {
     "key": "stora|senior software engineer (product)",
@@ -3906,8 +3925,8 @@
     "postedAt": 1770812167454,
     "firstSeenAt": "2026-07-20T08:30:26.956Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "stora|software engineer ii - product (multiple roles)": {
     "key": "stora|software engineer ii - product (multiple roles)",
@@ -3924,8 +3943,8 @@
     "postedAt": 1770812207166,
     "firstSeenAt": "2026-07-20T08:30:26.956Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   },
   "somnio software|senior full-stack engineer (react/clojure for analytics platform)": {
     "key": "somnio software|senior full-stack engineer (react/clojure for analytics platform)",
@@ -3943,7 +3962,7 @@
     "postedAt": 1778246996000,
     "firstSeenAt": "2026-07-20T13:30:47.875Z",
     "lastSeenAt": "2026-07-20T19:20:17.131Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-07-20T20:58:33.051Z"
   }
 }
