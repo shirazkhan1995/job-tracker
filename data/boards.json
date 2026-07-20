@@ -285,7 +285,6 @@
     "neuraflash",
     "fundraiseup",
     "name",
-    "arine",
     "pubnub",
     "givewell",
     "torcrobotics",
@@ -579,7 +578,8 @@
     "goodwaygroup",
     "orcristtechnologies",
     "shakepay",
-    "afresh"
+    "afresh",
+    "globalizationpartners"
   ],
   "lever": [
     "aircall",
@@ -1514,7 +1514,8 @@
     "recruitee/morpho",
     "ashby/curie",
     "ashby/crewbloom",
-    "greenhouse/houseaccount"
+    "greenhouse/houseaccount",
+    "greenhouse/arine"
   ],
   "recruitee": [
     "medmehealth",
