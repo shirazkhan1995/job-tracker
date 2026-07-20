@@ -700,11 +700,18 @@ function isAPACEligible(location) {
   return true;
 }
 
-function passesCurrency(job) {
+function passesCurrency(salary) {
   const excluded = CONFIG.excludeCurrencies || [];
-  if (!job.salary || !excluded.length) return true;
-  if (/₹/.test(job.salary)) return false;
-  return !anyTermMatch(job.salary, excluded);
+  if (!salary || !excluded.length) return true;
+  if (/₹/.test(salary)) return false;
+  return !anyTermMatch(salary, excluded);
+}
+
+// title must read as a QA/automation role — keyword matches on generic
+// Frontend/Fullstack/SDE postings that merely mention a test tool in their
+// description are not roles the user is targeting
+function titleMatchesRole(title) {
+  return !CONFIG.titleKeywords?.length || anyTermMatch(title || "", CONFIG.titleKeywords);
 }
 
 function classify(job) {
@@ -715,12 +722,9 @@ function classify(job) {
   const isAggregator = !job.source.includes(":"); // ATS board sources are "ats:slug"
   const isRemote = isAggregator || job.remoteHint || /remote|anywhere/i.test(job.location);
   if (!isRemote) return null;
-  // title must read as a QA/automation role — keyword matches on generic
-  // Frontend/Fullstack/SDE postings that merely mention a test tool in their
-  // description are not roles the user is targeting
-  if (CONFIG.titleKeywords?.length && !anyTermMatch(job.title, CONFIG.titleKeywords)) return null;
+  if (!titleMatchesRole(job.title)) return null;
   if (!isAPACEligible(job.location)) return null;
-  if (!passesCurrency(job)) return null;
+  if (!passesCurrency(job.salary)) return null;
   return { ...job, matched: [...new Set(matched)] };
 }
 
@@ -952,6 +956,19 @@ async function main() {
       e.active = false;
       e.expiredAt = nowIso;
     }
+  }
+  // retroactively re-check every still-active entry against the current
+  // title/eligibility/currency filters. Board sources are fully re-polled
+  // every run so `classify()` already caught these above; aggregator
+  // sources (Himalayas etc.) are only paged incrementally forward from the
+  // last run, so an old entry that predates a filter change would otherwise
+  // sit here as "active" for up to AGGREGATOR_TTL_MS with nothing to force
+  // it out.
+  for (const e of Object.values(jobsDb)) {
+    if (!e.active) continue;
+    if (titleMatchesRole(e.title) && isAPACEligible(e.location) && passesCurrency(e.salary)) continue;
+    e.active = false;
+    e.expiredAt = e.expiredAt || nowIso;
   }
   saveJSON(jobsDbFile, jobsDb);
 
