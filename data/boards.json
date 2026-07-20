@@ -570,7 +570,15 @@
     "tenstorrent",
     "zocdoc",
     "calendly",
-    "simplisafe"
+    "simplisafe",
+    "sagent",
+    "thinkacademyus",
+    "natera",
+    "broadwayventures",
+    "convera",
+    "goodwaygroup",
+    "orcristtechnologies",
+    "shakepay"
   ],
   "lever": [
     "aircall",
@@ -834,7 +842,13 @@
     "peoplegrove",
     "oxylabs",
     "eleks",
-    "moonpay"
+    "moonpay",
+    "docsumo",
+    "regrello",
+    "insiderone",
+    "luxurypresence",
+    "athennian",
+    "envelio"
   ],
   "ashby": [
     "clerk",
@@ -1418,7 +1432,12 @@
     "eastwoodcleef",
     "upguard",
     "venn",
-    "doctolib"
+    "doctolib",
+    "ourritual",
+    "rootglobal",
+    "stora",
+    "afresh",
+    "deeter-analytics"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2217,7 +2236,8 @@
     "elockers",
     "corex",
     "didglobal",
-    "singularitysales"
+    "singularitysales",
+    "evolvedigital"
   ],
   "smartrecruiters": [
     "clerky",
