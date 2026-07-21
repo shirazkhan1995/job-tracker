@@ -585,7 +585,9 @@
     "thenuclearcompany",
     "aplayers",
     "aestudio",
-    "blinkhealth"
+    "blinkhealth",
+    "iterable",
+    "boldin"
   ],
   "lever": [
     "aircall",
@@ -860,7 +862,8 @@
     "doxel",
     "voltus",
     "valiantys",
-    "firemon"
+    "firemon",
+    "carbonhealth"
   ],
   "ashby": [
     "clerk",
@@ -1453,7 +1456,10 @@
     "iterable",
     "genki",
     "carbonhealth",
-    "receptive"
+    "receptive",
+    "allarahealth",
+    "interrahealth",
+    "g2i"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2257,7 +2263,8 @@
     "evolvedigital",
     "quooker",
     "somniosoftware",
-    "nucsai"
+    "nucsai",
+    "deuna"
   ],
   "smartrecruiters": [
     "clerky",
