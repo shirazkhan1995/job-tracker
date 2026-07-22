@@ -587,7 +587,17 @@
     "aestudio",
     "blinkhealth",
     "iterable",
-    "boldin"
+    "boldin",
+    "thrivedigital",
+    "ethos",
+    "misfitsmarket",
+    "mobentertainment",
+    "later",
+    "cherryventures",
+    "breezeway",
+    "verantos",
+    "zestai",
+    "midihealth"
   ],
   "lever": [
     "aircall",
@@ -863,7 +873,17 @@
     "voltus",
     "valiantys",
     "firemon",
-    "carbonhealth"
+    "carbonhealth",
+    "penumbrainc",
+    "quantummetric",
+    "lodgify",
+    "certik",
+    "bee-talents",
+    "mainspringenergy",
+    "oddin",
+    "findem",
+    "activecampaign",
+    "sakon"
   ],
   "ashby": [
     "clerk",
@@ -1459,7 +1479,10 @@
     "receptive",
     "allarahealth",
     "interrahealth",
-    "g2i"
+    "g2i",
+    "planet",
+    "vercel",
+    "artificial"
   ],
   "invalid": [
     "greenhouse/redpandadata",
