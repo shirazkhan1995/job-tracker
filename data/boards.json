@@ -341,7 +341,6 @@
     "instabase",
     "subsplash",
     "alphasense",
-    "refinedscience",
     "bold",
     "launchdarkly",
     "amplitude",
@@ -597,7 +596,8 @@
     "breezeway",
     "verantos",
     "zestai",
-    "midihealth"
+    "midihealth",
+    "audioeye"
   ],
   "lever": [
     "aircall",
@@ -1489,7 +1489,9 @@
     "pandektes",
     "safelease",
     "pavebank",
-    "fyxer"
+    "fyxer",
+    "sosafe",
+    "localstack"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1566,7 +1568,8 @@
     "ashby/curie",
     "ashby/crewbloom",
     "greenhouse/houseaccount",
-    "greenhouse/arine"
+    "greenhouse/arine",
+    "greenhouse/refinedscience"
   ],
   "recruitee": [
     "medmehealth",
