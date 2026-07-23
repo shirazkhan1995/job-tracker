@@ -618,7 +618,14 @@
     "autotrader",
     "gropyus",
     "higherlogic",
-    "nift"
+    "nift",
+    "ecoatmgazelle",
+    "opensesame",
+    "sleepdoctor",
+    "smetennessee",
+    "platformscience",
+    "cti",
+    "sfox"
   ],
   "lever": [
     "aircall",
@@ -911,7 +918,13 @@
     "unstructuredtechnologies",
     "digitalfish",
     "swiftconnect",
-    "remedyproductstudio"
+    "remedyproductstudio",
+    "revinate",
+    "digitalmediamanagement",
+    "minted",
+    "shieldai",
+    "raya",
+    "upguard"
   ],
   "ashby": [
     "clerk",
@@ -1345,7 +1358,6 @@
     "salespatriot",
     "weave",
     "hud",
-    "olive",
     "pave-robotics",
     "solidroad",
     "infinite",
@@ -1598,7 +1610,8 @@
     "ashby/crewbloom",
     "greenhouse/houseaccount",
     "greenhouse/arine",
-    "greenhouse/refinedscience"
+    "greenhouse/refinedscience",
+    "ashby/olive"
   ],
   "recruitee": [
     "medmehealth",
