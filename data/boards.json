@@ -633,7 +633,11 @@
     "quince",
     "specterops",
     "invivyd",
-    "commonthreadcollective"
+    "commonthreadcollective",
+    "inflect",
+    "herselfhealth",
+    "sidecarhealth",
+    "twochairs"
   ],
   "lever": [
     "aircall",
@@ -934,7 +938,10 @@
     "raya",
     "upguard",
     "williamsburglearning",
-    "wepclinical"
+    "wepclinical",
+    "soum",
+    "applydigital",
+    "enablecomp"
   ],
   "ashby": [
     "clerk",
@@ -1543,7 +1550,11 @@
     "sosafe",
     "localstack",
     "hargreaveslansdown",
-    "visier"
+    "visier",
+    "reactivemarkets",
+    "blackbox-strategies",
+    "tolken",
+    "passage"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2361,7 +2372,8 @@
     "spro",
     "betterme",
     "teveo",
-    "allshoretalent"
+    "allshoretalent",
+    "goodrec"
   ],
   "smartrecruiters": [
     "clerky",
