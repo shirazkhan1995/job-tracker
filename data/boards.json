@@ -390,7 +390,6 @@
     "earnest",
     "kiavi",
     "sayari",
-    "qcentrix",
     "crashplan",
     "temporaltechnologies",
     "genea",
@@ -625,7 +624,16 @@
     "smetennessee",
     "platformscience",
     "cti",
-    "sfox"
+    "sfox",
+    "oportun",
+    "ylopo",
+    "montu",
+    "beaconbiosignals",
+    "excella",
+    "quince",
+    "specterops",
+    "invivyd",
+    "commonthreadcollective"
   ],
   "lever": [
     "aircall",
@@ -924,7 +932,9 @@
     "minted",
     "shieldai",
     "raya",
-    "upguard"
+    "upguard",
+    "williamsburglearning",
+    "wepclinical"
   ],
   "ashby": [
     "clerk",
@@ -1532,7 +1542,8 @@
     "fyxer",
     "sosafe",
     "localstack",
-    "hargreaveslansdown"
+    "hargreaveslansdown",
+    "visier"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1611,7 +1622,8 @@
     "greenhouse/houseaccount",
     "greenhouse/arine",
     "greenhouse/refinedscience",
-    "ashby/olive"
+    "ashby/olive",
+    "greenhouse/qcentrix"
   ],
   "recruitee": [
     "medmehealth",
@@ -2347,7 +2359,9 @@
     "julhietsterwen",
     "speedlinehub",
     "spro",
-    "betterme"
+    "betterme",
+    "teveo",
+    "allshoretalent"
   ],
   "smartrecruiters": [
     "clerky",
