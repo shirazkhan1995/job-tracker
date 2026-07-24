@@ -941,7 +941,9 @@
     "wepclinical",
     "soum",
     "applydigital",
-    "enablecomp"
+    "enablecomp",
+    "gomaterials",
+    "outsourcedstaff"
   ],
   "ashby": [
     "clerk",
@@ -2373,7 +2375,9 @@
     "betterme",
     "teveo",
     "allshoretalent",
-    "goodrec"
+    "goodrec",
+    "timedoctor",
+    "finnpartners"
   ],
   "smartrecruiters": [
     "clerky",
