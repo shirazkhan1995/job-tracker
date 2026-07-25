@@ -623,7 +623,6 @@
     "sleepdoctor",
     "smetennessee",
     "platformscience",
-    "cti",
     "sfox",
     "oportun",
     "ylopo",
@@ -663,7 +662,9 @@
     "immunefi",
     "zenbusiness",
     "juullabs",
-    "follettsoftware"
+    "follettsoftware",
+    "leadingeducators",
+    "maplighttherapeutics"
   ],
   "lever": [
     "aircall",
@@ -1590,7 +1591,11 @@
     "tolken",
     "passage",
     "fyst",
-    "intrinsic"
+    "intrinsic",
+    "dualentry",
+    "claritypediatrics",
+    "percona",
+    "kojo"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1671,7 +1676,8 @@
     "greenhouse/refinedscience",
     "ashby/olive",
     "greenhouse/qcentrix",
-    "recruitee/salesforce"
+    "recruitee/salesforce",
+    "greenhouse/cti"
   ],
   "recruitee": [
     "medmehealth",
@@ -2412,7 +2418,13 @@
     "goodrec",
     "timedoctor",
     "finnpartners",
-    "instagrid"
+    "instagrid",
+    "yopeso",
+    "lansweeper",
+    "allyourbi",
+    "makersite",
+    "skmgroup",
+    "mgid"
   ],
   "smartrecruiters": [
     "clerky",
