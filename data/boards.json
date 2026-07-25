@@ -637,7 +637,33 @@
     "inflect",
     "herselfhealth",
     "sidecarhealth",
-    "twochairs"
+    "twochairs",
+    "metalab",
+    "finitestate",
+    "armada",
+    "renewedvision",
+    "honehealth",
+    "cloudbeds",
+    "halcyon",
+    "momsmeals",
+    "onemedical",
+    "netcraft",
+    "hanwhaenergyusa",
+    "chronograph",
+    "scoutai",
+    "toast",
+    "aksia",
+    "observeai",
+    "sbenergy",
+    "forafinancial",
+    "inmarket",
+    "aift",
+    "cordance",
+    "reactivate",
+    "immunefi",
+    "zenbusiness",
+    "juullabs",
+    "follettsoftware"
   ],
   "lever": [
     "aircall",
@@ -943,7 +969,13 @@
     "applydigital",
     "enablecomp",
     "gomaterials",
-    "outsourcedstaff"
+    "outsourcedstaff",
+    "matrix-technologies",
+    "arbitrum-opco",
+    "fundrise",
+    "pigment",
+    "ux-woman",
+    "revhealth"
   ],
   "ashby": [
     "clerk",
@@ -1556,7 +1588,9 @@
     "reactivemarkets",
     "blackbox-strategies",
     "tolken",
-    "passage"
+    "passage",
+    "fyst",
+    "intrinsic"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1636,7 +1670,8 @@
     "greenhouse/arine",
     "greenhouse/refinedscience",
     "ashby/olive",
-    "greenhouse/qcentrix"
+    "greenhouse/qcentrix",
+    "recruitee/salesforce"
   ],
   "recruitee": [
     "medmehealth",
@@ -2343,7 +2378,6 @@
     "astrolabs",
     "taskus",
     "bsi",
-    "salesforce",
     "codepepper",
     "parallel",
     "yuma",
