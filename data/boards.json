@@ -667,7 +667,10 @@
     "maplighttherapeutics",
     "capacity",
     "openenergytransition",
-    "sage"
+    "sage",
+    "simscale",
+    "mcs",
+    "ritual"
   ],
   "lever": [
     "aircall",
@@ -980,7 +983,8 @@
     "pigment",
     "ux-woman",
     "revhealth",
-    "waabi"
+    "waabi",
+    "healthmark-group"
   ],
   "ashby": [
     "clerk",
@@ -1599,7 +1603,12 @@
     "dualentry",
     "claritypediatrics",
     "percona",
-    "kojo"
+    "kojo",
+    "kivo-health",
+    "innate",
+    "ace-1-media",
+    "tradeify",
+    "gradera"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2433,7 +2442,10 @@
     "heilindelectronicseurope",
     "echogloballogistics",
     "gateway",
-    "sofatutor"
+    "sofatutor",
+    "spark",
+    "sleep21",
+    "avow"
   ],
   "smartrecruiters": [
     "clerky",
