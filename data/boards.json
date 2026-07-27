@@ -674,7 +674,8 @@
     "athinkingape",
     "flipp",
     "nansen",
-    "akersystems"
+    "akersystems",
+    "wing"
   ],
   "lever": [
     "aircall",
@@ -1094,7 +1095,6 @@
     "deepl",
     "upvest",
     "prelude",
-    "mobasi",
     "coreflow",
     "griffin",
     "cradlebio",
@@ -1699,7 +1699,8 @@
     "greenhouse/qcentrix",
     "recruitee/salesforce",
     "greenhouse/cti",
-    "ashby/circle"
+    "ashby/circle",
+    "ashby/mobasi"
   ],
   "recruitee": [
     "medmehealth",
