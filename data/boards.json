@@ -716,7 +716,27 @@
     "indigo",
     "rebuildmanufacturing",
     "revero",
-    "jetbrains"
+    "jetbrains",
+    "holderconstruction",
+    "descript",
+    "lastpass",
+    "tekion",
+    "theoccunetcompany",
+    "elationhealth",
+    "railsware",
+    "earlymedical",
+    "cleo",
+    "rvohealth",
+    "eleoshealth",
+    "beyondfinance",
+    "shifttechnology",
+    "pathai",
+    "imply",
+    "nearform",
+    "sanmar",
+    "redcellpartners",
+    "cortica",
+    "lucidsoftware"
   ],
   "lever": [
     "aircall",
@@ -1048,7 +1068,13 @@
     "evergreenstrategygroup",
     "logically",
     "railroad19",
-    "neon"
+    "neon",
+    "soraschools",
+    "starcompliance",
+    "ezcater",
+    "launchsquad",
+    "90seconds",
+    "theathletic"
   ],
   "ashby": [
     "clerk",
@@ -1673,7 +1699,10 @@
     "gradera",
     "moneyhash",
     "button",
-    "lumin-digital"
+    "lumin-digital",
+    "pearmill",
+    "maple",
+    "thinkific"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1758,7 +1787,8 @@
     "greenhouse/cti",
     "ashby/circle",
     "ashby/mobasi",
-    "lever/headlight"
+    "lever/headlight",
+    "greenhouse/kasaliving"
   ],
   "recruitee": [
     "medmehealth",
