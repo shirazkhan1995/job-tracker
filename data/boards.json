@@ -102,7 +102,6 @@
     "nabis",
     "alpaca",
     "prolific",
-    "embrace",
     "pairteam",
     "recidiviz",
     "pulley",
@@ -736,7 +735,8 @@
     "sanmar",
     "redcellpartners",
     "cortica",
-    "lucidsoftware"
+    "lucidsoftware",
+    "thinkific"
   ],
   "lever": [
     "aircall",
@@ -1788,7 +1788,8 @@
     "ashby/circle",
     "ashby/mobasi",
     "lever/headlight",
-    "greenhouse/kasaliving"
+    "greenhouse/kasaliving",
+    "greenhouse/embrace"
   ],
   "recruitee": [
     "medmehealth",

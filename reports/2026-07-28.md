@@ -1,19 +1,11 @@
 # Job Tracker Report — 2026-07-28
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 87439 jobs from 2693 sources (2688 ATS boards polled, 119 newly discovered)
+> Scanned: 87858 jobs from 2693 sources (2688 ATS boards polled, 109 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (0)
 
-### Senior Quality Assurance Specialist – Automation — BoomBit
-- **Posted:** 2026-07-27 · **Location:** Costa Rica · **Source:** himalayas
-- **Matched:** playwright, cypress, webdriverio, javascript, typescript
-- **Link:** https://himalayas.app/companies/boombit/jobs/senior-quality-assurance-specialist-automation
-
-### QA Engineer — Railsware
-- **Posted:** 2026-04-22 · **Location:** remote; Remote · **Source:** greenhouse:railsware
-- **Matched:** playwright, typescript
-- **Link:** https://job-boards.eu.greenhouse.io/railsware/jobs/4847495101
+_No new matches today._
 
 ## ⚠️ Source errors (86 total)
 
