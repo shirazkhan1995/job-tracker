@@ -1171,7 +1171,6 @@
     "checkly",
     "evervault",
     "honey homes",
-    "fractional-ai",
     "mechanize",
     "workwhilejobs",
     "homevision",
@@ -1713,7 +1712,10 @@
     "whiskeylibrary",
     "quorum",
     "crossjoin-solutions",
-    "gradient-labs"
+    "gradient-labs",
+    "blockworks",
+    "5bluesoftware",
+    "menlo"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1803,7 +1805,8 @@
     "greenhouse/embrace",
     "lever/voodoo",
     "lever/vergegenomics",
-    "greenhouse/mast"
+    "greenhouse/mast",
+    "ashby/fractional-ai"
   ],
   "recruitee": [
     "medmehealth",
