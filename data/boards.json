@@ -1078,7 +1078,8 @@
     "90seconds",
     "theathletic",
     "fanatee",
-    "openx"
+    "openx",
+    "ppmi"
   ],
   "ashby": [
     "clerk",
@@ -1715,7 +1716,10 @@
     "gradient-labs",
     "blockworks",
     "5bluesoftware",
-    "menlo"
+    "menlo",
+    "headway",
+    "icon",
+    "slate"
   ],
   "invalid": [
     "greenhouse/redpandadata",
