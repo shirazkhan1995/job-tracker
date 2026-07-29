@@ -1,31 +1,13 @@
 # Job Tracker Report — 2026-07-29
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 88142 jobs from 2708 sources (2703 ATS boards polled, 78 newly discovered)
+> Scanned: 86626 jobs from 2713 sources (2708 ATS boards polled, 84 newly discovered)
 
-## 💼 New remote matches (4)
+## 💼 New remote matches (0)
 
-### Software Development Engineer in Test (SDET) — Kodify Media Group
-- **Posted:** 2026-07-28 · **Location:** Australia, Canada, France, Germany, India, Netherlands, Spain, Sweden, United Kingdom, United States · **Source:** himalayas
-- **Matched:** playwright, cypress, webdriverio, javascript, typescript
-- **Link:** https://himalayas.app/companies/kodify-media-group/jobs/software-development-engineer-in-test-sdet
+_No new matches today._
 
-### Test Automation Engineer — SAP Fioneer
-- **Posted:** 2026-07-28 · **Location:** Romania · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/sapfioneer/jobs/test-automation-engineer
-
-### QA Automation Engineer - (100% remote Worldwide - UTC+7/+9) — Bitfinex
-- **Posted:** 2026-07-01 · **Location:** Remote job; Budapest; Budapest; Hungary · **Source:** recruitee:bitfinex
-- **Matched:** cypress, javascript, typescript
-- **Link:** https://careers.bitfinex.com/o/qa-automation-engineer-100-remote-worldwide-utc79-6
-
-### Senior Software Development Engineer in Test — Unifonic
-- **Posted:** 2026-02-09 · **Location:** Remote job; Cairo; Al Qāhirah; Egypt · **Source:** recruitee:unifonic
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://jobs.unifonic.com/o/senior-software-development-engineer-in-test
-
-## ⚠️ Source errors (48 total)
+## ⚠️ Source errors (68 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 22 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 42 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run

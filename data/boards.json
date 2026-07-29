@@ -508,7 +508,6 @@
     "marqeta",
     "extend",
     "inspiren",
-    "mast",
     "bybit",
     "cybermediatechnologies",
     "striveworks",
@@ -740,7 +739,8 @@
     "hicuityhealth",
     "axon",
     "entrupy",
-    "skillsoft"
+    "skillsoft",
+    "alnylampharmaceuticals"
   ],
   "lever": [
     "aircall",
@@ -1708,7 +1708,12 @@
     "maple",
     "thinkific",
     "willow-health",
-    "simetrik"
+    "simetrik",
+    "coursecareers",
+    "whiskeylibrary",
+    "quorum",
+    "crossjoin-solutions",
+    "gradient-labs"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1797,7 +1802,8 @@
     "greenhouse/kasaliving",
     "greenhouse/embrace",
     "lever/voodoo",
-    "lever/vergegenomics"
+    "lever/vergegenomics",
+    "greenhouse/mast"
   ],
   "recruitee": [
     "medmehealth",
@@ -2565,7 +2571,8 @@
     "scholarshipowl",
     "studentmedicover",
     "digitalforms",
-    "bitfinex"
+    "bitfinex",
+    "labordeearles"
   ],
   "smartrecruiters": [
     "clerky",
