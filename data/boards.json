@@ -745,7 +745,13 @@
     "penninteractive",
     "osano",
     "icon",
-    "azuritypharmaceuticals"
+    "azuritypharmaceuticals",
+    "life360",
+    "hubspot",
+    "tanium",
+    "careerteam",
+    "10alabs",
+    "oncoverycare"
   ],
   "lever": [
     "aircall",
@@ -1086,7 +1092,10 @@
     "openx",
     "ppmi",
     "slate",
-    "numeris"
+    "numeris",
+    "jetbrains",
+    "trustyou",
+    "bioagilytix"
   ],
   "ashby": [
     "clerk",
@@ -1727,7 +1736,11 @@
     "headway",
     "icon",
     "slate",
-    "tango"
+    "tango",
+    "talkdesk",
+    "latitude",
+    "icounter",
+    "fluency"
   ],
   "invalid": [
     "greenhouse/redpandadata",
