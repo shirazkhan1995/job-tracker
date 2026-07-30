@@ -751,7 +751,14 @@
     "tanium",
     "careerteam",
     "10alabs",
-    "oncoverycare"
+    "oncoverycare",
+    "monks",
+    "pagerhealth",
+    "pansophiclearning",
+    "gofundme",
+    "verramobility",
+    "thatsnomoonentertainment",
+    "latitude"
   ],
   "lever": [
     "aircall",
@@ -1095,7 +1102,9 @@
     "numeris",
     "jetbrains",
     "trustyou",
-    "bioagilytix"
+    "bioagilytix",
+    "plexus",
+    "muttdata"
   ],
   "ashby": [
     "clerk",
@@ -1529,7 +1538,6 @@
     "hud",
     "pave-robotics",
     "solidroad",
-    "infinite",
     "afterquery",
     "harperinsure",
     "mercura",
@@ -1740,7 +1748,8 @@
     "talkdesk",
     "latitude",
     "icounter",
-    "fluency"
+    "fluency",
+    "oviva"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1831,7 +1840,8 @@
     "lever/voodoo",
     "lever/vergegenomics",
     "greenhouse/mast",
-    "ashby/fractional-ai"
+    "ashby/fractional-ai",
+    "ashby/infinite"
   ],
   "recruitee": [
     "medmehealth",
