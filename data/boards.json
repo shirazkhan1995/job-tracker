@@ -1110,7 +1110,9 @@
     "trustyou",
     "bioagilytix",
     "plexus",
-    "muttdata"
+    "muttdata",
+    "altarum",
+    "farfetch"
   ],
   "ashby": [
     "clerk",
@@ -1756,7 +1758,9 @@
     "fluency",
     "oviva",
     "melio",
-    "everbridge"
+    "everbridge",
+    "starbridge",
+    "nomos"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2621,7 +2625,8 @@
     "labordeearles",
     "novakidschool",
     "4allportal",
-    "tms"
+    "tms",
+    "altiussearchgroup"
   ],
   "smartrecruiters": [
     "clerky",
