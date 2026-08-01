@@ -139,7 +139,6 @@
     "helium",
     "osmosis",
     "mesh",
-    "attune",
     "bloom",
     "icarus",
     "mantis",
@@ -344,7 +343,6 @@
     "launchdarkly",
     "amplitude",
     "radar",
-    "reach",
     "nanonets",
     "kalshi",
     "ready",
@@ -577,7 +575,6 @@
     "afresh",
     "globalizationpartners",
     "tebra",
-    "capellaspace",
     "thenuclearcompany",
     "aplayers",
     "aestudio",
@@ -1861,7 +1858,10 @@
     "greenhouse/mast",
     "ashby/fractional-ai",
     "ashby/infinite",
-    "ashby/miso"
+    "ashby/miso",
+    "greenhouse/attune",
+    "greenhouse/reach",
+    "greenhouse/capellaspace"
   ],
   "recruitee": [
     "medmehealth",
