@@ -765,7 +765,9 @@
     "auterion",
     "flovisionsolutions",
     "digible",
-    "sparksoftcorporation"
+    "sparksoftcorporation",
+    "hearcom",
+    "propiolanguageservices"
   ],
   "lever": [
     "aircall",
@@ -1113,7 +1115,10 @@
     "plexus",
     "muttdata",
     "altarum",
-    "farfetch"
+    "farfetch",
+    "gr0",
+    "investorflow",
+    "merklescience"
   ],
   "ashby": [
     "clerk",
@@ -1761,7 +1766,9 @@
     "melio",
     "everbridge",
     "starbridge",
-    "nomos"
+    "nomos",
+    "sondermind",
+    "swap"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2629,7 +2636,8 @@
     "tms",
     "altiussearchgroup",
     "corenglish",
-    "icon"
+    "icon",
+    "fixico"
   ],
   "smartrecruiters": [
     "clerky",
