@@ -1784,7 +1784,8 @@
     "nomos",
     "sondermind",
     "swap",
-    "allen-control-systems"
+    "allen-control-systems",
+    "partsbase"
   ],
   "invalid": [
     "greenhouse/redpandadata",
