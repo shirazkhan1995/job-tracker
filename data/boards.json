@@ -797,7 +797,18 @@
     "mindgrub",
     "globalli",
     "radiclehealth",
-    "muckrack"
+    "muckrack",
+    "commvault",
+    "branch",
+    "trexsolutions",
+    "rise8",
+    "affinitiv",
+    "reproductivefreedomforall",
+    "syndigo",
+    "waymo",
+    "kickstarter",
+    "talent",
+    "pointwild"
   ],
   "lever": [
     "aircall",
@@ -1162,7 +1173,9 @@
     "ambirobotics",
     "adlook",
     "mactores",
-    "tinybird"
+    "tinybird",
+    "rubyplay",
+    "extremenetworks"
   ],
   "ashby": [
     "clerk",
@@ -1816,7 +1829,8 @@
     "allen-control-systems",
     "partsbase",
     "opentable",
-    "raft"
+    "raft",
+    "miaplaza"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3002,7 +3016,8 @@
     "zerofy",
     "zorgdomein",
     "debthammer",
-    "lucidrealitylabs"
+    "lucidrealitylabs",
+    "jumpfactor"
   ],
   "smartrecruiters": [
     "clerky",
