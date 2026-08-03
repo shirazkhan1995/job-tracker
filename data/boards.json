@@ -786,7 +786,18 @@
     "typeface",
     "banyansoftware",
     "unlockhealth",
-    "neo4j"
+    "neo4j",
+    "straightarrownews",
+    "rfsmart",
+    "intrinsicfirm",
+    "knit",
+    "apothecom",
+    "goodsservices",
+    "goop",
+    "mindgrub",
+    "globalli",
+    "radiclehealth",
+    "muckrack"
   ],
   "lever": [
     "aircall",
@@ -1148,7 +1159,10 @@
     "kcasbio",
     "agiloft",
     "vivenu",
-    "ambirobotics"
+    "ambirobotics",
+    "adlook",
+    "mactores",
+    "tinybird"
   ],
   "ashby": [
     "clerk",
@@ -1801,7 +1815,8 @@
     "swap",
     "allen-control-systems",
     "partsbase",
-    "opentable"
+    "opentable",
+    "raft"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2985,7 +3000,9 @@
     "zeotap",
     "zerofriction",
     "zerofy",
-    "zorgdomein"
+    "zorgdomein",
+    "debthammer",
+    "lucidrealitylabs"
   ],
   "smartrecruiters": [
     "clerky",
