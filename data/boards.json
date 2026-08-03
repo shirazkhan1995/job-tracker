@@ -715,7 +715,6 @@
     "holderconstruction",
     "descript",
     "lastpass",
-    "tekion",
     "theoccunetcompany",
     "elationhealth",
     "railsware",
@@ -808,7 +807,17 @@
     "waymo",
     "kickstarter",
     "talent",
-    "pointwild"
+    "pointwild",
+    "baton",
+    "dialpad",
+    "cybersheath",
+    "rhymetec",
+    "gradle",
+    "assetliving",
+    "align",
+    "raft",
+    "usergems",
+    "purposemed"
   ],
   "lever": [
     "aircall",
@@ -1175,7 +1184,9 @@
     "mactores",
     "tinybird",
     "rubyplay",
-    "extremenetworks"
+    "extremenetworks",
+    "virtualitics",
+    "levelai"
   ],
   "ashby": [
     "clerk",
@@ -1830,7 +1841,9 @@
     "partsbase",
     "opentable",
     "raft",
-    "miaplaza"
+    "miaplaza",
+    "tonicai",
+    "everis"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1973,7 +1986,8 @@
     "recruitee/wingassistant",
     "recruitee/writeofpassage",
     "recruitee/yarukiswitchgroup",
-    "recruitee/tinybeans"
+    "recruitee/tinybeans",
+    "greenhouse/tekion"
   ],
   "recruitee": [
     "medmehealth",
@@ -3017,7 +3031,8 @@
     "zorgdomein",
     "debthammer",
     "lucidrealitylabs",
-    "jumpfactor"
+    "jumpfactor",
+    "fridayrecruitment"
   ],
   "smartrecruiters": [
     "clerky",
