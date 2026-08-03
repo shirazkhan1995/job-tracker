@@ -776,7 +776,17 @@
     "neurahealth",
     "carrotfertility",
     "treasuryprime",
-    "relativity"
+    "relativity",
+    "aippublishing",
+    "zaviant",
+    "caylent",
+    "koboldmetals",
+    "alphalion",
+    "zenoti",
+    "typeface",
+    "banyansoftware",
+    "unlockhealth",
+    "neo4j"
   ],
   "lever": [
     "aircall",
@@ -1133,7 +1143,12 @@
     "instrument",
     "zeneducate",
     "emburse",
-    "olo"
+    "olo",
+    "sysdig",
+    "kcasbio",
+    "agiloft",
+    "vivenu",
+    "ambirobotics"
   ],
   "ashby": [
     "clerk",
@@ -1785,7 +1800,8 @@
     "sondermind",
     "swap",
     "allen-control-systems",
-    "partsbase"
+    "partsbase",
+    "opentable"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1927,7 +1943,8 @@
     "recruitee/wellabe",
     "recruitee/wingassistant",
     "recruitee/writeofpassage",
-    "recruitee/yarukiswitchgroup"
+    "recruitee/yarukiswitchgroup",
+    "recruitee/tinybeans"
   ],
   "recruitee": [
     "medmehealth",
@@ -2493,7 +2510,6 @@
     "thesalescentre",
     "thirdway",
     "timeoutstiftungggmbh",
-    "tinybeans",
     "tiugotech",
     "tkhomesolutions",
     "tlrbv",
