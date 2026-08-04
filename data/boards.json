@@ -505,7 +505,6 @@
     "veracyte",
     "marqeta",
     "extend",
-    "inspiren",
     "bybit",
     "cybermediatechnologies",
     "striveworks",
@@ -824,7 +823,19 @@
     "studioscience",
     "granum",
     "babylist",
-    "heliosx"
+    "heliosx",
+    "canopyworks",
+    "impact",
+    "wheelhousedmg",
+    "melio",
+    "mercyforanimals",
+    "collectively",
+    "coherehealth",
+    "aegisventures",
+    "consensys",
+    "bluewaterthinking",
+    "praxisprecisionmedicines",
+    "sonicwall"
   ],
   "lever": [
     "aircall",
@@ -1197,7 +1208,14 @@
     "casino-cash-trac",
     "crypto-banter",
     "everbridge",
-    "idealistconsulting"
+    "idealistconsulting",
+    "gausslabs",
+    "eleostech",
+    "solidcore",
+    "recast-software",
+    "keyloop",
+    "trueml",
+    "deputy"
   ],
   "ashby": [
     "clerk",
@@ -1854,7 +1872,10 @@
     "raft",
     "miaplaza",
     "tonicai",
-    "everis"
+    "everis",
+    "proxima-fusion",
+    "prior-labs",
+    "caribou"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -1998,7 +2019,8 @@
     "recruitee/writeofpassage",
     "recruitee/yarukiswitchgroup",
     "recruitee/tinybeans",
-    "greenhouse/tekion"
+    "greenhouse/tekion",
+    "greenhouse/inspiren"
   ],
   "recruitee": [
     "medmehealth",
@@ -3043,7 +3065,8 @@
     "debthammer",
     "lucidrealitylabs",
     "jumpfactor",
-    "fridayrecruitment"
+    "fridayrecruitment",
+    "easypost"
   ],
   "smartrecruiters": [
     "clerky",
