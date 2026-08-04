@@ -346,7 +346,6 @@
     "nanonets",
     "kalshi",
     "ready",
-    "spade",
     "latent",
     "onyx",
     "momentic",
@@ -836,7 +835,8 @@
     "bluewaterthinking",
     "praxisprecisionmedicines",
     "sonicwall",
-    "caribou"
+    "caribou",
+    "swordhealth"
   ],
   "lever": [
     "aircall",
@@ -1877,7 +1877,8 @@
     "proxima-fusion",
     "prior-labs",
     "caribou",
-    "deepsetai"
+    "deepsetai",
+    "forus"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2022,7 +2023,8 @@
     "recruitee/yarukiswitchgroup",
     "recruitee/tinybeans",
     "greenhouse/tekion",
-    "greenhouse/inspiren"
+    "greenhouse/inspiren",
+    "greenhouse/spade"
   ],
   "recruitee": [
     "medmehealth",
