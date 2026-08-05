@@ -767,7 +767,6 @@
     "sharebite",
     "pirkeybarberpllc",
     "shopfully",
-    "sps",
     "mcghealth",
     "rockbot",
     "neurahealth",
@@ -836,7 +835,13 @@
     "praxisprecisionmedicines",
     "sonicwall",
     "caribou",
-    "swordhealth"
+    "swordhealth",
+    "brightcoreenergy",
+    "disco",
+    "onestream",
+    "podean",
+    "str",
+    "oasishealthpartners"
   ],
   "lever": [
     "aircall",
@@ -1878,7 +1883,10 @@
     "prior-labs",
     "caribou",
     "deepsetai",
-    "forus"
+    "forus",
+    "buspatrol",
+    "upside",
+    "sunday"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2024,7 +2032,8 @@
     "recruitee/tinybeans",
     "greenhouse/tekion",
     "greenhouse/inspiren",
-    "greenhouse/spade"
+    "greenhouse/spade",
+    "greenhouse/sps"
   ],
   "recruitee": [
     "medmehealth",
