@@ -592,7 +592,6 @@
     "firstprinciples",
     "acquia",
     "fivetran",
-    "root",
     "sproutsocial",
     "computergeneratedsolutions",
     "origisenergy",
@@ -834,7 +833,6 @@
     "praxisprecisionmedicines",
     "sonicwall",
     "caribou",
-    "swordhealth",
     "brightcoreenergy",
     "disco",
     "onestream",
@@ -844,7 +842,12 @@
     "nexus",
     "generalassembly",
     "dendreon",
-    "wonderschool"
+    "wonderschool",
+    "metroveincenters",
+    "growthloop",
+    "koalafi",
+    "workwize",
+    "celigo"
   ],
   "lever": [
     "aircall",
@@ -1227,7 +1230,10 @@
     "deputy",
     "packagex",
     "techery",
-    "editorialist"
+    "editorialist",
+    "gushwork",
+    "meetingtomorrow",
+    "kraken"
   ],
   "ashby": [
     "clerk",
@@ -2048,7 +2054,9 @@
     "greenhouse/inspiren",
     "greenhouse/spade",
     "greenhouse/sps",
-    "greenhouse/ready"
+    "greenhouse/ready",
+    "greenhouse/root",
+    "greenhouse/swordhealth"
   ],
   "recruitee": [
     "medmehealth",
@@ -3096,7 +3104,8 @@
     "fridayrecruitment",
     "easypost",
     "impact",
-    "upside"
+    "upside",
+    "atlys"
   ],
   "smartrecruiters": [
     "clerky",
