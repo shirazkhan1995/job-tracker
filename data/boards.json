@@ -345,7 +345,6 @@
     "radar",
     "nanonets",
     "kalshi",
-    "ready",
     "latent",
     "onyx",
     "momentic",
@@ -841,7 +840,11 @@
     "onestream",
     "podean",
     "str",
-    "oasishealthpartners"
+    "oasishealthpartners",
+    "nexus",
+    "generalassembly",
+    "dendreon",
+    "wonderschool"
   ],
   "lever": [
     "aircall",
@@ -1221,7 +1224,10 @@
     "recast-software",
     "keyloop",
     "trueml",
-    "deputy"
+    "deputy",
+    "packagex",
+    "techery",
+    "editorialist"
   ],
   "ashby": [
     "clerk",
@@ -1886,7 +1892,15 @@
     "forus",
     "buspatrol",
     "upside",
-    "sunday"
+    "sunday",
+    "maincode",
+    "kraken",
+    "magicschool",
+    "atlys",
+    "hercules",
+    "curvionblue",
+    "gotphoto",
+    "propelus"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2033,7 +2047,8 @@
     "greenhouse/tekion",
     "greenhouse/inspiren",
     "greenhouse/spade",
-    "greenhouse/sps"
+    "greenhouse/sps",
+    "greenhouse/ready"
   ],
   "recruitee": [
     "medmehealth",
@@ -3080,7 +3095,8 @@
     "jumpfactor",
     "fridayrecruitment",
     "easypost",
-    "impact"
+    "impact",
+    "upside"
   ],
   "smartrecruiters": [
     "clerky",

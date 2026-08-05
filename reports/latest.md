@@ -1,21 +1,13 @@
 # Job Tracker Report — 2026-08-05
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 95722 jobs from 3164 sources (3159 ATS boards polled, 68 newly discovered)
+> Scanned: 95767 jobs from 3179 sources (3174 ATS boards polled, 76 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (0)
 
-### Automation QA Engineer (Lead) — AlgaeCal
-- **Posted:** 2026-08-04 · **Location:** Anywhere in the World · **Source:** weworkremotely
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://weworkremotely.com/remote-jobs/algaecal-automation-qa-engineer-lead
+_No new matches today._
 
-### IT Ops Automation Engineer  — buspatrol
-- **Posted:** 2026-06-29 · **Location:** TX - Austin · **Source:** ashby:buspatrol
-- **Matched:** playwright, typescript · **Salary:** $70K – $80K
-- **Link:** https://jobs.ashbyhq.com/buspatrol/955f0762-92b1-4489-b03a-b7a92d055c67
-
-## ⚠️ Source errors (64 total)
+## ⚠️ Source errors (86 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 38 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 60 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
