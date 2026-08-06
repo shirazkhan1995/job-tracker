@@ -847,7 +847,9 @@
     "growthloop",
     "koalafi",
     "workwize",
-    "celigo"
+    "celigo",
+    "doximity",
+    "venturatravel"
   ],
   "lever": [
     "aircall",
@@ -1111,7 +1113,6 @@
     "eleks",
     "moonpay",
     "docsumo",
-    "regrello",
     "insiderone",
     "luxurypresence",
     "athennian",
@@ -1907,7 +1908,8 @@
     "hercules",
     "curvionblue",
     "gotphoto",
-    "propelus"
+    "propelus",
+    "kepler"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2057,7 +2059,9 @@
     "greenhouse/sps",
     "greenhouse/ready",
     "greenhouse/root",
-    "greenhouse/swordhealth"
+    "greenhouse/swordhealth",
+    "lever/regrello",
+    "recruitee/impact"
   ],
   "recruitee": [
     "medmehealth",
@@ -3104,10 +3108,11 @@
     "jumpfactor",
     "fridayrecruitment",
     "easypost",
-    "impact",
     "upside",
     "atlys",
-    "workwize"
+    "workwize",
+    "projecty",
+    "hydrosat"
   ],
   "smartrecruiters": [
     "clerky",
