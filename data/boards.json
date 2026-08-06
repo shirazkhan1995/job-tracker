@@ -245,7 +245,6 @@
     "jusbrasil",
     "actpowerservices",
     "donorbox",
-    "iherb",
     "protaratherapeutics",
     "bluestaq",
     "avepoint",
@@ -849,7 +848,9 @@
     "workwize",
     "celigo",
     "doximity",
-    "venturatravel"
+    "venturatravel",
+    "bishopfox",
+    "guidepoint"
   ],
   "lever": [
     "aircall",
@@ -1235,7 +1236,9 @@
     "gushwork",
     "meetingtomorrow",
     "kraken",
-    "vesync"
+    "vesync",
+    "aeva",
+    "rewtechnology"
   ],
   "ashby": [
     "clerk",
@@ -2061,7 +2064,8 @@
     "greenhouse/root",
     "greenhouse/swordhealth",
     "lever/regrello",
-    "recruitee/impact"
+    "recruitee/impact",
+    "greenhouse/iherb"
   ],
   "recruitee": [
     "medmehealth",
@@ -3112,7 +3116,11 @@
     "atlys",
     "workwize",
     "projecty",
-    "hydrosat"
+    "hydrosat",
+    "cloudsmiths",
+    "optios",
+    "tornatoroyj",
+    "paralucent"
   ],
   "smartrecruiters": [
     "clerky",

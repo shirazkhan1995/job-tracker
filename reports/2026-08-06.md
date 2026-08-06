@@ -1,13 +1,16 @@
 # Job Tracker Report — 2026-08-06
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 95501 jobs from 3192 sources (3187 ATS boards polled, 60 newly discovered)
+> Scanned: 95884 jobs from 3198 sources (3193 ATS boards polled, 82 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### QA Analyst / Software Tester (Tier 2 Support – Release & Defect Validation) (PL 827) — Paralucent
+- **Posted:** 2026-03-11 · **Location:** Remote job; Hyderabad; Andhra Pradesh; India · **Source:** recruitee:paralucent
+- **Matched:** playwright, typescript
+- **Link:** https://careers.paralucent.com/o/qa-analyst-software-tester-tier-2-support-release-defect-validation-pl-827
 
 ## ⚠️ Source errors (86 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 60 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 60 boards (e.g. 1000heads, 10xbanking, 1global); will retry next run
