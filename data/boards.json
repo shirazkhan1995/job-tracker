@@ -850,7 +850,11 @@
     "doximity",
     "venturatravel",
     "bishopfox",
-    "guidepoint"
+    "guidepoint",
+    "fastly",
+    "murj",
+    "terniumrevenuecyclemanagement",
+    "prisma"
   ],
   "lever": [
     "aircall",
@@ -1238,7 +1242,8 @@
     "kraken",
     "vesync",
     "aeva",
-    "rewtechnology"
+    "rewtechnology",
+    "bounteous"
   ],
   "ashby": [
     "clerk",
@@ -1842,7 +1847,6 @@
     "sosafe",
     "localstack",
     "hargreaveslansdown",
-    "visier",
     "reactivemarkets",
     "blackbox-strategies",
     "tolken",
@@ -1912,7 +1916,8 @@
     "curvionblue",
     "gotphoto",
     "propelus",
-    "kepler"
+    "kepler",
+    "zego"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2065,7 +2070,8 @@
     "greenhouse/swordhealth",
     "lever/regrello",
     "recruitee/impact",
-    "greenhouse/iherb"
+    "greenhouse/iherb",
+    "ashby/visier"
   ],
   "recruitee": [
     "medmehealth",
@@ -3120,7 +3126,9 @@
     "cloudsmiths",
     "optios",
     "tornatoroyj",
-    "paralucent"
+    "paralucent",
+    "intuitionstaffing",
+    "azumuta"
   ],
   "smartrecruiters": [
     "clerky",
