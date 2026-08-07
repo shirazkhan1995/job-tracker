@@ -1,31 +1,16 @@
 # Job Tracker Report — 2026-08-07
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 96765 jobs from 3213 sources (3208 ATS boards polled, 79 newly discovered)
+> Scanned: 97108 jobs from 3223 sources (3218 ATS boards polled, 91 newly discovered)
 
-## 💼 New remote matches (4)
+## 💼 New remote matches (1)
 
-### QA Automation Engineer — Top Employers Institute
-- **Posted:** 2026-08-06 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/top-employers-institute/jobs/qa-automation-engineer
-
-### Senior QA Software Developer (Remote First) — zensurance
-- **Posted:** 2026-08-06 · **Location:** Toronto, ON; Toronto, ON; CA · **Source:** lever:zensurance
-- **Matched:** playwright, cypress, webdriverio, javascript, typescript
-- **Link:** https://jobs.lever.co/zensurance/f1935404-7e5e-43f9-8eca-af69250eb684
-
-### QA Engineer — Huzzle
-- **Posted:** 2026-08-06 · **Location:** Pakistan · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://himalayas.app/companies/huzzle/jobs/qa-engineer
-
-### Senior QA Engineer (TS) — BCD Travel
+### QA Automation Architect / Automation Framework Engineer — HeadSpin
 - **Posted:** 2026-08-06 · **Location:** Worldwide (no restriction) · **Source:** himalayas
-- **Matched:** playwright, typescript
-- **Link:** https://himalayas.app/companies/bcd-travel/jobs/senior-qa-engineer-ts
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://himalayas.app/companies/headspin/jobs/qa-automation-architect-automation-framework-engineer
 
-## ⚠️ Source errors (86 total)
+## ⚠️ Source errors (44 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 60 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 18 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
