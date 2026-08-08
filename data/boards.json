@@ -885,7 +885,15 @@
     "productpeople",
     "airspace",
     "bswift",
-    "nuvalent"
+    "nuvalent",
+    "ispottv",
+    "gummicube",
+    "peptilogics",
+    "convenientmd",
+    "smaamerica",
+    "newsela",
+    "alu",
+    "spotme"
   ],
   "lever": [
     "aircall",
@@ -1277,7 +1285,12 @@
     "bounteous",
     "tala",
     "ansira",
-    "appsamurai"
+    "appsamurai",
+    "yardzen",
+    "teamsnap",
+    "brooksrunning",
+    "flare",
+    "placemakr"
   ],
   "ashby": [
     "clerk",
@@ -1950,7 +1963,8 @@
     "propelus",
     "kepler",
     "zego",
-    "arca"
+    "arca",
+    "hashgraph"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3167,7 +3181,8 @@
     "jumpseller",
     "tunymedia",
     "uscloud",
-    "barrickgoldcorporation"
+    "barrickgoldcorporation",
+    "thetraineecompany"
   ],
   "smartrecruiters": [
     "clerky",
