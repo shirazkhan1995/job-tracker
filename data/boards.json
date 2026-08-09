@@ -905,7 +905,11 @@
     "1800contacts",
     "sustainabletalent",
     "gmrmarketing",
-    "dlhcorporation"
+    "dlhcorporation",
+    "kaseya",
+    "form3",
+    "fortrobotics",
+    "minio"
   ],
   "lever": [
     "aircall",
@@ -1308,7 +1312,13 @@
     "biodigital",
     "pyka",
     "immutable",
-    "apcoholdings"
+    "apcoholdings",
+    "halosbodycams",
+    "salvohealth",
+    "stackblitz",
+    "blackbirdinteractive",
+    "commoncause",
+    "sapiosciences"
   ],
   "ashby": [
     "clerk",
@@ -1982,7 +1992,8 @@
     "kepler",
     "zego",
     "arca",
-    "hashgraph"
+    "hashgraph",
+    "clarity"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3203,7 +3214,9 @@
     "thetraineecompany",
     "synera",
     "viderity",
-    "superp"
+    "superp",
+    "trustflight",
+    "anywherenow"
   ],
   "smartrecruiters": [
     "clerky",
