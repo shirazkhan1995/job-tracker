@@ -909,7 +909,15 @@
     "kaseya",
     "form3",
     "fortrobotics",
-    "minio"
+    "minio",
+    "splice",
+    "healthjoy",
+    "virtru",
+    "dentalxchange",
+    "trgscreen",
+    "kallesgroup",
+    "learnlux",
+    "bettinghero"
   ],
   "lever": [
     "aircall",
@@ -1318,7 +1326,11 @@
     "stackblitz",
     "blackbirdinteractive",
     "commoncause",
-    "sapiosciences"
+    "sapiosciences",
+    "serverfarm",
+    "chownow",
+    "truv",
+    "signup-expert"
   ],
   "ashby": [
     "clerk",
@@ -1993,7 +2005,9 @@
     "zego",
     "arca",
     "hashgraph",
-    "clarity"
+    "clarity",
+    "moonshot",
+    "hoyoverse"
   ],
   "invalid": [
     "greenhouse/redpandadata",
