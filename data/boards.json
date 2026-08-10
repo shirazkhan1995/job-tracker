@@ -923,7 +923,11 @@
     "gruns",
     "hoyoverse",
     "civicnation",
-    "future"
+    "future",
+    "industriouslabs",
+    "ruggable",
+    "wilsonelser",
+    "shift5"
   ],
   "lever": [
     "aircall",
@@ -2015,7 +2019,8 @@
     "hashgraph",
     "clarity",
     "moonshot",
-    "hoyoverse"
+    "hoyoverse",
+    "snyk"
   ],
   "invalid": [
     "greenhouse/redpandadata",
