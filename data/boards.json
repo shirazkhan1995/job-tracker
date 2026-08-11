@@ -329,7 +329,6 @@
     "resilience",
     "memic",
     "nebius",
-    "cerebral",
     "clinchoice",
     "pathrobotics",
     "cadwell",
@@ -953,7 +952,8 @@
     "540",
     "shapercapital",
     "acilearning",
-    "tekmetric"
+    "tekmetric",
+    "akuity"
   ],
   "lever": [
     "aircall",
@@ -1388,7 +1388,8 @@
     "finn",
     "deleteme",
     "dlocal",
-    "mamamoney"
+    "mamamoney",
+    "greenlight"
   ],
   "ashby": [
     "clerk",
@@ -1881,7 +1882,6 @@
     "truelogic",
     "everai",
     "joko",
-    "airapps",
     "ignition",
     "superplane",
     "stickermule",
@@ -2226,7 +2226,9 @@
     "greenhouse/iherb",
     "ashby/visier",
     "ashby/aviator",
-    "ashby/trove"
+    "ashby/trove",
+    "greenhouse/cerebral",
+    "ashby/airapps"
   ],
   "recruitee": [
     "medmehealth",
