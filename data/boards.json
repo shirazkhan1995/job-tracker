@@ -947,7 +947,11 @@
     "yes",
     "optimamedical",
     "bungie",
-    "eleviassociates"
+    "eleviassociates",
+    "veniceai",
+    "guildgaragegroup",
+    "540",
+    "shapercapital"
   ],
   "lever": [
     "aircall",
@@ -1375,7 +1379,14 @@
     "koalahealth",
     "ifeel",
     "padsplit",
-    "terrascend"
+    "terrascend",
+    "koombea",
+    "wisecode",
+    "spreedly",
+    "finn",
+    "deleteme",
+    "dlocal",
+    "mamamoney"
   ],
   "ashby": [
     "clerk",
@@ -2053,7 +2064,9 @@
     "clarity",
     "moonshot",
     "hoyoverse",
-    "snyk"
+    "snyk",
+    "what3words",
+    "quartermaster"
   ],
   "invalid": [
     "greenhouse/redpandadata",
