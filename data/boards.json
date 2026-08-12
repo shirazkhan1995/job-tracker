@@ -954,7 +954,8 @@
     "acilearning",
     "tekmetric",
     "akuity",
-    "memx"
+    "memx",
+    "aceable"
   ],
   "lever": [
     "aircall",
@@ -1390,7 +1391,8 @@
     "deleteme",
     "dlocal",
     "mamamoney",
-    "greenlight"
+    "greenlight",
+    "advancedagrilytics"
   ],
   "ashby": [
     "clerk",
@@ -2071,7 +2073,8 @@
     "what3words",
     "quartermaster",
     "greenlight",
-    "shield-ai"
+    "shield-ai",
+    "ema"
   ],
   "invalid": [
     "greenhouse/redpandadata",
