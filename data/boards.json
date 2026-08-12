@@ -959,7 +959,10 @@
     "houserx",
     "shopmy",
     "taskrabbit",
-    "berkadia"
+    "berkadia",
+    "affirmedrxpbc",
+    "nonprofitfinancefund",
+    "jahnelgroup"
   ],
   "lever": [
     "aircall",
@@ -1398,7 +1401,9 @@
     "greenlight",
     "advancedagrilytics",
     "infstones",
-    "planner5d"
+    "planner5d",
+    "civitech",
+    "zimperium"
   ],
   "ashby": [
     "clerk",
@@ -2079,7 +2084,8 @@
     "quartermaster",
     "greenlight",
     "shield-ai",
-    "ema"
+    "ema",
+    "rebuy"
   ],
   "invalid": [
     "greenhouse/redpandadata",
