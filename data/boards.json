@@ -955,7 +955,11 @@
     "tekmetric",
     "akuity",
     "memx",
-    "aceable"
+    "aceable",
+    "houserx",
+    "shopmy",
+    "taskrabbit",
+    "berkadia"
   ],
   "lever": [
     "aircall",
@@ -1392,7 +1396,9 @@
     "dlocal",
     "mamamoney",
     "greenlight",
-    "advancedagrilytics"
+    "advancedagrilytics",
+    "infstones",
+    "planner5d"
   ],
   "ashby": [
     "clerk",
@@ -1840,7 +1846,6 @@
     "morpho",
     "eloquentai",
     "pingo",
-    "prox",
     "dedalus-labs",
     "mangodesk",
     "agentmail",
@@ -2232,7 +2237,8 @@
     "ashby/aviator",
     "ashby/trove",
     "greenhouse/cerebral",
-    "ashby/airapps"
+    "ashby/airapps",
+    "ashby/prox"
   ],
   "recruitee": [
     "medmehealth",
@@ -3308,7 +3314,9 @@
     "12build",
     "wphaton",
     "knuddels",
-    "talent"
+    "talent",
+    "momentumdata",
+    "grupoespiral"
   ],
   "smartrecruiters": [
     "clerky",
