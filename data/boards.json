@@ -965,7 +965,11 @@
     "jahnelgroup",
     "dv01",
     "concentric",
-    "rtbhouse"
+    "rtbhouse",
+    "hearst",
+    "americanmarketingassociation",
+    "impinj",
+    "pacaso"
   ],
   "lever": [
     "aircall",
@@ -1252,7 +1256,6 @@
     "kinsta",
     "offchainlabs",
     "slangai",
-    "unstructuredtechnologies",
     "digitalfish",
     "swiftconnect",
     "remedyproductstudio",
@@ -1394,7 +1397,6 @@
     "ifeel",
     "padsplit",
     "terrascend",
-    "koombea",
     "wisecode",
     "spreedly",
     "finn",
@@ -1409,7 +1411,10 @@
     "zimperium",
     "promiserobotics",
     "collabora",
-    "kavak"
+    "kavak",
+    "translifeline",
+    "merlinlabs",
+    "reviverx"
   ],
   "ashby": [
     "clerk",
@@ -2091,7 +2096,8 @@
     "greenlight",
     "shield-ai",
     "ema",
-    "rebuy"
+    "rebuy",
+    "hamstergarage"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2251,7 +2257,9 @@
     "greenhouse/cerebral",
     "ashby/airapps",
     "ashby/prox",
-    "recruitee/betterme"
+    "recruitee/betterme",
+    "lever/unstructuredtechnologies",
+    "lever/koombea"
   ],
   "recruitee": [
     "medmehealth",
