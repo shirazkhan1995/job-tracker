@@ -962,7 +962,10 @@
     "berkadia",
     "affirmedrxpbc",
     "nonprofitfinancefund",
-    "jahnelgroup"
+    "jahnelgroup",
+    "dv01",
+    "concentric",
+    "rtbhouse"
   ],
   "lever": [
     "aircall",
@@ -1403,7 +1406,10 @@
     "infstones",
     "planner5d",
     "civitech",
-    "zimperium"
+    "zimperium",
+    "promiserobotics",
+    "collabora",
+    "kavak"
   ],
   "ashby": [
     "clerk",
@@ -2244,7 +2250,8 @@
     "ashby/trove",
     "greenhouse/cerebral",
     "ashby/airapps",
-    "ashby/prox"
+    "ashby/prox",
+    "recruitee/betterme"
   ],
   "recruitee": [
     "medmehealth",
@@ -2977,7 +2984,6 @@
     "julhietsterwen",
     "speedlinehub",
     "spro",
-    "betterme",
     "teveo",
     "allshoretalent",
     "goodrec",
