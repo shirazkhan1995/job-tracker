@@ -978,7 +978,10 @@
     "regscale",
     "caringcom",
     "meritamerica",
-    "headlandsresearch"
+    "headlandsresearch",
+    "energage",
+    "nationalallianceforpubliccharterschools",
+    "nerostechnologies"
   ],
   "lever": [
     "aircall",
@@ -1425,7 +1428,10 @@
     "patchmypc",
     "gate",
     "skio",
-    "loadsmart"
+    "loadsmart",
+    "swordhealth",
+    "neuron7",
+    "zencore"
   ],
   "ashby": [
     "clerk",
@@ -2108,7 +2114,8 @@
     "ema",
     "rebuy",
     "hamstergarage",
-    "breatheforchange"
+    "breatheforchange",
+    "berlitz"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3352,7 +3359,8 @@
     "talent",
     "momentumdata",
     "grupoespiral",
-    "kanzleibrands"
+    "kanzleibrands",
+    "kalibrate"
   ],
   "smartrecruiters": [
     "clerky",
