@@ -981,7 +981,11 @@
     "headlandsresearch",
     "energage",
     "nationalallianceforpubliccharterschools",
-    "nerostechnologies"
+    "nerostechnologies",
+    "privatehealthmanagement",
+    "jukeboxhealth",
+    "conga",
+    "pacvue"
   ],
   "lever": [
     "aircall",
@@ -1431,7 +1435,12 @@
     "loadsmart",
     "swordhealth",
     "neuron7",
-    "zencore"
+    "zencore",
+    "fiscalnote",
+    "verygoodsecurity",
+    "telligen",
+    "insomniacookies",
+    "giddyup"
   ],
   "ashby": [
     "clerk",
@@ -2115,7 +2124,8 @@
     "rebuy",
     "hamstergarage",
     "breatheforchange",
-    "berlitz"
+    "berlitz",
+    "firstprinciples"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2281,7 +2291,8 @@
     "lever/belong",
     "lever/stackblitz",
     "greenhouse/10xgenomics",
-    "ashby/hargreaveslansdown"
+    "ashby/hargreaveslansdown",
+    "recruitee/projectivegroup"
   ],
   "recruitee": [
     "medmehealth",
@@ -3252,7 +3263,6 @@
     "preciamolen",
     "premiersystems1",
     "prijsvrijvakanties",
-    "projectivegroup",
     "propertyone",
     "provisioniam",
     "pwrpackinternational",
