@@ -750,7 +750,6 @@
     "thatsnomoonentertainment",
     "latitude",
     "fluency",
-    "10xgenomics",
     "federato",
     "auterion",
     "flovisionsolutions",
@@ -977,7 +976,9 @@
     "prove",
     "triplewhale",
     "regscale",
-    "caringcom"
+    "caringcom",
+    "meritamerica",
+    "headlandsresearch"
   ],
   "lever": [
     "aircall",
@@ -1420,7 +1421,11 @@
     "kavak",
     "translifeline",
     "merlinlabs",
-    "reviverx"
+    "reviverx",
+    "patchmypc",
+    "gate",
+    "skio",
+    "loadsmart"
   ],
   "ashby": [
     "clerk",
@@ -2019,7 +2024,6 @@
     "fyxer",
     "sosafe",
     "localstack",
-    "hargreaveslansdown",
     "reactivemarkets",
     "blackbox-strategies",
     "tolken",
@@ -2268,7 +2272,9 @@
     "lever/unstructuredtechnologies",
     "lever/koombea",
     "lever/belong",
-    "lever/stackblitz"
+    "lever/stackblitz",
+    "greenhouse/10xgenomics",
+    "ashby/hargreaveslansdown"
   ],
   "recruitee": [
     "medmehealth",
@@ -3345,7 +3351,8 @@
     "knuddels",
     "talent",
     "momentumdata",
-    "grupoespiral"
+    "grupoespiral",
+    "kanzleibrands"
   ],
   "smartrecruiters": [
     "clerky",
