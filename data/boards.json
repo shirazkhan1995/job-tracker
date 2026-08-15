@@ -993,7 +993,13 @@
     "brandwatch",
     "musc",
     "candid",
-    "missionhealthcare"
+    "missionhealthcare",
+    "prokidney",
+    "medsien",
+    "bloomreach",
+    "moonshot",
+    "truehold",
+    "raptortechnologies"
   ],
   "lever": [
     "aircall",
@@ -2135,7 +2141,9 @@
     "hamstergarage",
     "breatheforchange",
     "berlitz",
-    "firstprinciples"
+    "firstprinciples",
+    "maintainx",
+    "roadrunner"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3385,7 +3393,10 @@
     "qoria",
     "resourcefultalentgroup",
     "improvado",
-    "intandem"
+    "intandem",
+    "seitenbau",
+    "eleven",
+    "cctalent"
   ],
   "smartrecruiters": [
     "clerky",
