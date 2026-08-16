@@ -999,7 +999,12 @@
     "bloomreach",
     "moonshot",
     "truehold",
-    "raptortechnologies"
+    "raptortechnologies",
+    "learningnetwork",
+    "choreo",
+    "lighthouse",
+    "realchemistry",
+    "roadrunner"
   ],
   "lever": [
     "aircall",
@@ -2147,7 +2152,8 @@
     "maintainx",
     "roadrunner",
     "epistemix",
-    "ssi"
+    "ssi",
+    "crosswalk-health"
   ],
   "invalid": [
     "greenhouse/redpandadata",
