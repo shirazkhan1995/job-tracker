@@ -1022,7 +1022,13 @@
     "a1msolutions",
     "mainstreethealth",
     "submer",
-    "northbeam"
+    "northbeam",
+    "m9solutions",
+    "teachinglab",
+    "valohealth",
+    "onxmaps",
+    "acadiapharmaceuticals",
+    "campminder"
   ],
   "lever": [
     "aircall",
@@ -1253,7 +1259,6 @@
     "trueplatform",
     "rightsideup",
     "teecom",
-    "sanctuary",
     "sugarcrm",
     "panopto",
     "distro",
@@ -1332,7 +1337,6 @@
     "revhealth",
     "waabi",
     "healthmark-group",
-    "tradeify",
     "valdera",
     "startengine",
     "havenparkcommunities",
@@ -1492,7 +1496,8 @@
     "cologix",
     "kpler",
     "finix",
-    "summithq"
+    "summithq",
+    "sierraclub"
   ],
   "ashby": [
     "clerk",
@@ -2184,7 +2189,8 @@
     "ssi",
     "crosswalk-health",
     "sentra",
-    "point-wild"
+    "point-wild",
+    "sarjai"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2351,7 +2357,9 @@
     "lever/stackblitz",
     "greenhouse/10xgenomics",
     "ashby/hargreaveslansdown",
-    "recruitee/projectivegroup"
+    "recruitee/projectivegroup",
+    "lever/sanctuary",
+    "lever/tradeify"
   ],
   "recruitee": [
     "medmehealth",
