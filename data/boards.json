@@ -419,7 +419,6 @@
     "officespacesoftware",
     "purestorage",
     "connectwise",
-    "hanwharenewables",
     "okx",
     "distrokid",
     "blip",
@@ -636,7 +635,6 @@
     "momsmeals",
     "onemedical",
     "netcraft",
-    "hanwhaenergyusa",
     "chronograph",
     "scoutai",
     "toast",
@@ -939,7 +937,6 @@
     "mirumpharmaceuticals",
     "daymarkhealth",
     "ooma",
-    "hanwhadatacenters",
     "mixpanel",
     "ennoblecare",
     "yes",
@@ -2359,7 +2356,10 @@
     "ashby/hargreaveslansdown",
     "recruitee/projectivegroup",
     "lever/sanctuary",
-    "lever/tradeify"
+    "lever/tradeify",
+    "greenhouse/hanwharenewables",
+    "greenhouse/hanwhaenergyusa",
+    "greenhouse/hanwhadatacenters"
   ],
   "recruitee": [
     "medmehealth",
