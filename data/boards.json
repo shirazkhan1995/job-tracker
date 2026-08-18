@@ -341,7 +341,6 @@
     "launchdarkly",
     "amplitude",
     "radar",
-    "nanonets",
     "kalshi",
     "latent",
     "onyx",
@@ -548,7 +547,6 @@
     "welbehealth",
     "ardentmc",
     "ciq",
-    "underdogfantasy",
     "thrive",
     "d2l",
     "kettle",
@@ -2363,7 +2361,9 @@
     "greenhouse/hanwharenewables",
     "greenhouse/hanwhaenergyusa",
     "greenhouse/hanwhadatacenters",
-    "greenhouse/softexpert"
+    "greenhouse/softexpert",
+    "greenhouse/nanonets",
+    "greenhouse/underdogfantasy"
   ],
   "recruitee": [
     "medmehealth",
