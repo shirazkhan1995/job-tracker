@@ -915,7 +915,6 @@
     "learnlux",
     "bettinghero",
     "roadie",
-    "softexpert",
     "gruns",
     "hoyoverse",
     "civicnation",
@@ -2190,7 +2189,8 @@
     "sentra",
     "point-wild",
     "sarjai",
-    "sybill-ai"
+    "sybill-ai",
+    "fs-studio"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2362,7 +2362,8 @@
     "lever/tradeify",
     "greenhouse/hanwharenewables",
     "greenhouse/hanwhaenergyusa",
-    "greenhouse/hanwhadatacenters"
+    "greenhouse/hanwhadatacenters",
+    "greenhouse/softexpert"
   ],
   "recruitee": [
     "medmehealth",
