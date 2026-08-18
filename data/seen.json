@@ -1726,5 +1726,17 @@
     "title": "Director, SDET",
     "company": "HighLevel",
     "url": "https://himalayas.app/companies/highlevel/jobs/director-sdet"
+  },
+  "scholarshipowl|qa engineer": {
+    "firstSeen": "2026-08-18T06:00:58.004Z",
+    "title": "QA Engineer",
+    "company": "ScholarshipOwl",
+    "url": "https://himalayas.app/companies/scholarshipowl/jobs/qa-engineer"
+  },
+  "scholarshipowl|qa engineer mobile": {
+    "firstSeen": "2026-08-18T06:00:58.004Z",
+    "title": "QA Engineer Mobile",
+    "company": "ScholarshipOwl",
+    "url": "https://himalayas.app/companies/scholarshipowl/jobs/qa-engineer-mobile"
   }
 }

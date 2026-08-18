@@ -1026,7 +1026,8 @@
     "onxmaps",
     "acadiapharmaceuticals",
     "campminder",
-    "extenteam"
+    "extenteam",
+    "juvare"
   ],
   "lever": [
     "aircall",
@@ -2188,7 +2189,8 @@
     "crosswalk-health",
     "sentra",
     "point-wild",
-    "sarjai"
+    "sarjai",
+    "sybill-ai"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3449,7 +3451,8 @@
     "cctalent",
     "infoprolearning",
     "virtualidentity",
-    "bibliu"
+    "bibliu",
+    "protagene"
   ],
   "smartrecruiters": [
     "clerky",
