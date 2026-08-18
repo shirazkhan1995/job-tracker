@@ -424,7 +424,6 @@
     "abacusinsights",
     "codepath",
     "parachutehealth",
-    "accompanyhealth",
     "aftership",
     "gofasti",
     "neighborsbank",
@@ -1493,7 +1492,8 @@
     "kpler",
     "finix",
     "summithq",
-    "sierraclub"
+    "sierraclub",
+    "highspot"
   ],
   "ashby": [
     "clerk",
@@ -2188,7 +2188,8 @@
     "point-wild",
     "sarjai",
     "sybill-ai",
-    "fs-studio"
+    "fs-studio",
+    "somethings"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2363,7 +2364,8 @@
     "greenhouse/hanwhadatacenters",
     "greenhouse/softexpert",
     "greenhouse/nanonets",
-    "greenhouse/underdogfantasy"
+    "greenhouse/underdogfantasy",
+    "greenhouse/accompanyhealth"
   ],
   "recruitee": [
     "medmehealth",
@@ -3453,7 +3455,8 @@
     "infoprolearning",
     "virtualidentity",
     "bibliu",
-    "protagene"
+    "protagene",
+    "amperecloud"
   ],
   "smartrecruiters": [
     "clerky",
