@@ -1061,7 +1061,10 @@
     "octus",
     "blacksky",
     "fluxon",
-    "datacamp"
+    "datacamp",
+    "digicert",
+    "atbay",
+    "linqia"
   ],
   "lever": [
     "aircall",
@@ -2425,7 +2428,8 @@
     "greenhouse/underdogfantasy",
     "greenhouse/accompanyhealth",
     "greenhouse/cherryventures",
-    "lever/petvisor"
+    "lever/petvisor",
+    "recruitee/makersite"
   ],
   "recruitee": [
     "medmehealth",
@@ -3167,7 +3171,6 @@
     "yopeso",
     "lansweeper",
     "allyourbi",
-    "makersite",
     "skmgroup",
     "mgid",
     "eleken",
@@ -3519,7 +3522,8 @@
     "amperecloud",
     "wimexgruppe",
     "bamboohr",
-    "qualifyze"
+    "qualifyze",
+    "pur"
   ],
   "smartrecruiters": [
     "clerky",
