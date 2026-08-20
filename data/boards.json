@@ -1059,7 +1059,9 @@
     "komodohealth",
     "brightsign",
     "octus",
-    "blacksky"
+    "blacksky",
+    "fluxon",
+    "datacamp"
   ],
   "lever": [
     "aircall",
@@ -1310,7 +1312,6 @@
     "eastern-communications",
     "unlimit",
     "leantaas",
-    "petvisor",
     "verifiable",
     "cority",
     "redbee",
@@ -1545,7 +1546,8 @@
     "base-flowa",
     "atmosera",
     "vrchat",
-    "promenade"
+    "promenade",
+    "revefi"
   ],
   "ashby": [
     "clerk",
@@ -2244,7 +2246,8 @@
     "somethings",
     "rowan",
     "koyfin",
-    "spear-ai"
+    "spear-ai",
+    "verint"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2421,7 +2424,8 @@
     "greenhouse/nanonets",
     "greenhouse/underdogfantasy",
     "greenhouse/accompanyhealth",
-    "greenhouse/cherryventures"
+    "greenhouse/cherryventures",
+    "lever/petvisor"
   ],
   "recruitee": [
     "medmehealth",
