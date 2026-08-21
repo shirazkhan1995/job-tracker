@@ -1072,7 +1072,12 @@
     "sparetech",
     "ascendhealthcare",
     "finyard",
-    "manatee"
+    "manatee",
+    "ltse",
+    "chargepoint",
+    "decisions",
+    "masterclass",
+    "easyship"
   ],
   "lever": [
     "aircall",
@@ -1562,7 +1567,9 @@
     "parnalllaw",
     "allegiantair",
     "profoundresearch",
-    "bizlibrary"
+    "bizlibrary",
+    "coderpad",
+    "d2l"
   ],
   "ashby": [
     "clerk",
