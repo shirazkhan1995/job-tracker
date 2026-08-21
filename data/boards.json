@@ -1068,7 +1068,11 @@
     "logos",
     "unframe",
     "shipmonk",
-    "infotrust"
+    "infotrust",
+    "sparetech",
+    "ascendhealthcare",
+    "finyard",
+    "manatee"
   ],
   "lever": [
     "aircall",
@@ -1555,7 +1559,10 @@
     "vrchat",
     "promenade",
     "revefi",
-    "parnalllaw"
+    "parnalllaw",
+    "allegiantair",
+    "profoundresearch",
+    "bizlibrary"
   ],
   "ashby": [
     "clerk",
@@ -2256,7 +2263,9 @@
     "koyfin",
     "spear-ai",
     "verint",
-    "tavily"
+    "tavily",
+    "close",
+    "marble"
   ],
   "invalid": [
     "greenhouse/redpandadata",
