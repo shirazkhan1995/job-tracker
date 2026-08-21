@@ -1066,7 +1066,9 @@
     "atbay",
     "linqia",
     "logos",
-    "unframe"
+    "unframe",
+    "shipmonk",
+    "infotrust"
   ],
   "lever": [
     "aircall",
@@ -1552,7 +1554,8 @@
     "atmosera",
     "vrchat",
     "promenade",
-    "revefi"
+    "revefi",
+    "parnalllaw"
   ],
   "ashby": [
     "clerk",
@@ -2252,7 +2255,8 @@
     "rowan",
     "koyfin",
     "spear-ai",
-    "verint"
+    "verint",
+    "tavily"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3529,7 +3533,10 @@
     "jimmytechnologies",
     "dcfverlag",
     "enomyc",
-    "sessionmedia"
+    "sessionmedia",
+    "luscii",
+    "ciq",
+    "donna"
   ],
   "smartrecruiters": [
     "clerky",
