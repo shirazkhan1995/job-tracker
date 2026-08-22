@@ -1077,7 +1077,10 @@
     "chargepoint",
     "decisions",
     "masterclass",
-    "easyship"
+    "easyship",
+    "lafayettesquare",
+    "velir",
+    "kalepa"
   ],
   "lever": [
     "aircall",
@@ -2272,7 +2275,8 @@
     "verint",
     "tavily",
     "close",
-    "marble"
+    "marble",
+    "ceezer"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3552,7 +3556,8 @@
     "sessionmedia",
     "luscii",
     "ciq",
-    "donna"
+    "donna",
+    "capacity"
   ],
   "smartrecruiters": [
     "clerky",
