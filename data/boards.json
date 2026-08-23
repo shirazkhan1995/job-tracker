@@ -1083,7 +1083,14 @@
     "kalepa",
     "dragos",
     "purple",
-    "tealmedia"
+    "tealmedia",
+    "pinterest",
+    "inizio",
+    "codeandtheory",
+    "ultimagenomics",
+    "akoya",
+    "standardmetrics",
+    "fronteracare"
   ],
   "lever": [
     "aircall",
@@ -1577,7 +1584,12 @@
     "coderpad",
     "d2l",
     "culdesac",
-    "conviction"
+    "conviction",
+    "continuumglobal",
+    "resiliencelab",
+    "belkins",
+    "vana",
+    "noodle"
   ],
   "ashby": [
     "clerk",
@@ -1866,7 +1878,6 @@
     "tailor",
     "blee",
     "novig",
-    "windmill",
     "chariot",
     "juicebox",
     "tank-payments",
@@ -2462,7 +2473,8 @@
     "greenhouse/accompanyhealth",
     "greenhouse/cherryventures",
     "lever/petvisor",
-    "recruitee/makersite"
+    "recruitee/makersite",
+    "ashby/windmill"
   ],
   "recruitee": [
     "medmehealth",
