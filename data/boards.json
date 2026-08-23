@@ -1575,7 +1575,9 @@
     "profoundresearch",
     "bizlibrary",
     "coderpad",
-    "d2l"
+    "d2l",
+    "culdesac",
+    "conviction"
   ],
   "ashby": [
     "clerk",
@@ -2279,7 +2281,9 @@
     "tavily",
     "close",
     "marble",
-    "ceezer"
+    "ceezer",
+    "rivet",
+    "haladir"
   ],
   "invalid": [
     "greenhouse/redpandadata",
