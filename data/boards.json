@@ -1038,7 +1038,6 @@
     "amwell",
     "valerahealth",
     "celonis",
-    "accreditedlabs",
     "motivity",
     "margaux",
     "nordicnaturals",
@@ -2491,7 +2490,8 @@
     "lever/petvisor",
     "recruitee/makersite",
     "ashby/windmill",
-    "ashby/latitude"
+    "ashby/latitude",
+    "greenhouse/accreditedlabs"
   ],
   "recruitee": [
     "medmehealth",
@@ -3596,7 +3596,9 @@
     "capacity",
     "miebachconsulting",
     "flextrade",
-    "voltairegroup"
+    "voltairegroup",
+    "newlawbusinessmodel",
+    "waracle"
   ],
   "smartrecruiters": [
     "clerky",
