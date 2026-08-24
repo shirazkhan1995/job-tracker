@@ -2239,7 +2239,6 @@
     "slate",
     "tango",
     "talkdesk",
-    "latitude",
     "icounter",
     "fluency",
     "oviva",
@@ -2491,7 +2490,8 @@
     "greenhouse/cherryventures",
     "lever/petvisor",
     "recruitee/makersite",
-    "ashby/windmill"
+    "ashby/windmill",
+    "ashby/latitude"
   ],
   "recruitee": [
     "medmehealth",
@@ -3595,7 +3595,8 @@
     "donna",
     "capacity",
     "miebachconsulting",
-    "flextrade"
+    "flextrade",
+    "voltairegroup"
   ],
   "smartrecruiters": [
     "clerky",
