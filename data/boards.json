@@ -1658,7 +1658,10 @@
     "mechanicalorchard",
     "1inch",
     "relay",
-    "modernanimal"
+    "modernanimal",
+    "lendbuzz",
+    "heyjane",
+    "regenxbio"
   ],
   "ashby": [
     "clerk",
@@ -2366,7 +2369,8 @@
     "canopy",
     "relay",
     "hook",
-    "turnkey"
+    "turnkey",
+    "graphite"
   ],
   "invalid": [
     "greenhouse/redpandadata",
