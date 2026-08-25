@@ -1,23 +1,14 @@
 # Job Tracker Report — 2026-08-25
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 107353 jobs from 3679 sources (3674 ATS boards polled, 107 newly discovered)
+> Scanned: 108146 jobs from 3701 sources (3696 ATS boards polled, 87 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (0)
 
-### Software Development Engineer in Test (SDET), Vault  — Keeper Security
-- **Posted:** 2026-08-21 · **Location:** Remote, US; Remote, US · **Source:** greenhouse:keepersecurity
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/keepersecurity/jobs/4378237009
+_No new matches today._
 
-### Senior SDET, PAM — Keeper Security
-- **Posted:** 2026-08-04 · **Location:** Remote, US; Remote, US · **Source:** greenhouse:keepersecurity
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/keepersecurity/jobs/4355051009
-
-## ⚠️ Source errors (73 total)
+## ⚠️ Source errors (69 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- recruitee: fetch failed — 40 boards (e.g. admindagency, adstronauts, blueskygroup); will retry next run
-- workable: HTTP 429 — 6 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
+- workable: HTTP 429 — 42 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
 - recruitee/epicdata: HTTP 403

@@ -1130,7 +1130,27 @@
     "current",
     "goldenpetbrands",
     "zoominfo",
-    "seatgeek"
+    "seatgeek",
+    "collahealth",
+    "ursamajor",
+    "offshorelaunch",
+    "redventures",
+    "expel",
+    "imafinancialgroup",
+    "jamf",
+    "auviknetworks",
+    "numa",
+    "cbcs",
+    "crossnokaye",
+    "modernanimal",
+    "healthesystems",
+    "dbeaver",
+    "klaxoon",
+    "suki",
+    "beyond",
+    "walkersands",
+    "fivesky",
+    "bryantparkconsulting"
   ],
   "lever": [
     "aircall",
@@ -1635,7 +1655,8 @@
     "betr",
     "liatrio",
     "mechanicalorchard",
-    "1inch"
+    "1inch",
+    "relay"
   ],
   "ashby": [
     "clerk",
@@ -2342,7 +2363,8 @@
     "haladir",
     "canopy",
     "relay",
-    "hook"
+    "hook",
+    "turnkey"
   ],
   "invalid": [
     "greenhouse/redpandadata",
