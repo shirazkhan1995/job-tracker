@@ -2207,7 +2207,6 @@
     "vclusterlabs",
     "m-kopa",
     "conetic-group",
-    "marqeta",
     "extend",
     "inspiren",
     "lyrahealth",
@@ -2553,7 +2552,8 @@
     "ashby/windmill",
     "ashby/latitude",
     "greenhouse/accreditedlabs",
-    "greenhouse/nectar"
+    "greenhouse/nectar",
+    "ashby/marqeta"
   ],
   "recruitee": [
     "medmehealth",
