@@ -1,22 +1,18 @@
 # Job Tracker Report — 2026-08-27
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 108356 jobs from 3709 sources (3704 ATS boards polled, 64 newly discovered)
+> Scanned: 107542 jobs from 3710 sources (3705 ATS boards polled, 70 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (1)
 
-### Senior Quality Assurance Automation Engineer — Stellus Rx
-- **Posted:** 2026-08-26 · **Location:** Peru · **Source:** himalayas
-- **Matched:** cypress, javascript
-- **Link:** https://himalayas.app/companies/stellus-rx/jobs/senior-quality-assurance-automation-engineer
+### Senior Software Test Engineer — quartermaster
+- **Posted:** 2026-08-27 · **Location:** Arlington, VA; New York, NY · **Source:** ashby:quartermaster
+- **Matched:** playwright, cypress, javascript, typescript · **Salary:** $210K – $230K • Offers Equity
+- **Link:** https://jobs.ashbyhq.com/quartermaster/bd854052-6868-4a44-934a-3d7ff12d6eba
 
-### Senior QA Specialist — Experlogix
-- **Posted:** 2026-08-26 · **Location:** Belgium · **Source:** himalayas
-- **Matched:** cypress, typescript
-- **Link:** https://himalayas.app/companies/experlogix/jobs/senior-qa-specialist
-
-## ⚠️ Source errors (33 total)
+## ⚠️ Source errors (29 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 6 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable/1000heads: HTTP 429
+- workable/10xbanking: HTTP 429
 - recruitee/epicdata: HTTP 403
