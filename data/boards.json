@@ -1151,7 +1151,8 @@
     "walkersands",
     "fivesky",
     "bryantparkconsulting",
-    "jellyvision"
+    "jellyvision",
+    "braveheartbio"
   ],
   "lever": [
     "aircall",
@@ -1545,7 +1546,6 @@
     "flare",
     "placemakr",
     "megaport",
-    "canopyservicing",
     "biodigital",
     "pyka",
     "immutable",
@@ -1661,7 +1661,8 @@
     "modernanimal",
     "lendbuzz",
     "heyjane",
-    "regenxbio"
+    "regenxbio",
+    "mantra"
   ],
   "ashby": [
     "clerk",
@@ -2553,7 +2554,8 @@
     "ashby/latitude",
     "greenhouse/accreditedlabs",
     "greenhouse/nectar",
-    "ashby/marqeta"
+    "ashby/marqeta",
+    "lever/canopyservicing"
   ],
   "recruitee": [
     "medmehealth",
@@ -3660,7 +3662,8 @@
     "flextrade",
     "voltairegroup",
     "newlawbusinessmodel",
-    "waracle"
+    "waracle",
+    "deepdsg"
   ],
   "smartrecruiters": [
     "clerky",
