@@ -1185,7 +1185,16 @@
     "millerremick",
     "scanner",
     "counterparthealth",
-    "boldscience"
+    "boldscience",
+    "cippc",
+    "nimbus",
+    "accreditedlabs",
+    "vetto",
+    "altisales",
+    "itftherapeutics",
+    "butterflynetwork",
+    "dscout",
+    "empowerpharmacy"
   ],
   "lever": [
     "aircall",
@@ -1703,7 +1712,10 @@
     "mazars",
     "quincus",
     "anomali",
-    "crossing-minds"
+    "crossing-minds",
+    "havenpoint-health",
+    "charter-impact",
+    "xage-security"
   ],
   "ashby": [
     "clerk",
@@ -2409,7 +2421,9 @@
     "graphite",
     "novo",
     "sisense",
-    "plasma"
+    "plasma",
+    "playson",
+    "doppel"
   ],
   "invalid": [
     "greenhouse/redpandadata",
