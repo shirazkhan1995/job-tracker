@@ -115,7 +115,6 @@
     "gigs",
     "prospa",
     "shepherd",
-    "joinforage",
     "niraenergy",
     "bolster",
     "dots",
@@ -149,7 +148,6 @@
     "upstart",
     "starfaceworld",
     "fortisgames",
-    "hyphenconnect",
     "aura",
     "liquibase",
     "hugeinc",
@@ -232,7 +230,6 @@
     "whogivesacrap",
     "twinhealth",
     "accelschools",
-    "cardflight",
     "merceradvisors",
     "rcxsports",
     "zscaler",
@@ -1182,7 +1179,13 @@
     "amperity",
     "springboard",
     "anteriad",
-    "sociallyin"
+    "sociallyin",
+    "budderfly",
+    "nix",
+    "millerremick",
+    "scanner",
+    "counterparthealth",
+    "boldscience"
   ],
   "lever": [
     "aircall",
@@ -1697,7 +1700,10 @@
     "gagezero",
     "omnisend",
     "viabill",
-    "mazars"
+    "mazars",
+    "quincus",
+    "anomali",
+    "crossing-minds"
   ],
   "ashby": [
     "clerk",
@@ -1952,7 +1958,6 @@
     "kodex",
     "double",
     "bree",
-    "warpbuild",
     "formance",
     "oneschema",
     "aleph",
@@ -2597,7 +2602,11 @@
     "ashby/tolken",
     "recruitee/humwork",
     "greenhouse/temporaltechnologies",
-    "recruitee/proficio"
+    "recruitee/proficio",
+    "greenhouse/joinforage",
+    "greenhouse/hyphenconnect",
+    "greenhouse/cardflight",
+    "ashby/warpbuild"
   ],
   "recruitee": [
     "medmehealth",
