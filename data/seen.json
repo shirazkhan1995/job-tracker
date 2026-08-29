@@ -1870,5 +1870,17 @@
     "title": "Test Automation Engineer",
     "company": "Newel Health",
     "url": "https://himalayas.app/companies/newel-health/jobs/test-automation-engineer"
+  },
+  "sqli|qa automation back front (selenium/java & playwright/typescript)": {
+    "firstSeen": "2026-08-29T04:22:24.466Z",
+    "title": "QA Automation Back Front (Selenium/Java & Playwright/Typescript)",
+    "company": "SQLI",
+    "url": "https://himalayas.app/companies/sqli/jobs/qa-automation-back-front-selenium-java-playwright-typescript"
+  },
+  "kestra technologies|qa engineer": {
+    "firstSeen": "2026-08-29T04:22:24.466Z",
+    "title": "QA Engineer",
+    "company": "Kestra Technologies",
+    "url": "https://himalayas.app/companies/kestra-technologies/jobs/qa-engineer-6503849793"
   }
 }

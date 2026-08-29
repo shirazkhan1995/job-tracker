@@ -381,7 +381,6 @@
     "kiavi",
     "sayari",
     "crashplan",
-    "temporaltechnologies",
     "genea",
     "freshprints",
     "eqtcorporation",
@@ -1178,7 +1177,12 @@
     "banza",
     "vantagescore",
     "altruist",
-    "spire"
+    "spire",
+    "amplemarket",
+    "amperity",
+    "springboard",
+    "anteriad",
+    "sociallyin"
   ],
   "lever": [
     "aircall",
@@ -1691,7 +1695,9 @@
     "mantra",
     "fintual",
     "gagezero",
-    "omnisend"
+    "omnisend",
+    "viabill",
+    "mazars"
   ],
   "ashby": [
     "clerk",
@@ -2589,7 +2595,9 @@
     "ashby/fort",
     "ashby/spring-health",
     "ashby/tolken",
-    "recruitee/humwork"
+    "recruitee/humwork",
+    "greenhouse/temporaltechnologies",
+    "recruitee/proficio"
   ],
   "recruitee": [
     "medmehealth",
@@ -3256,7 +3264,6 @@
     "accenture",
     "sintmaartenskliniek",
     "davidjosephcompany",
-    "proficio",
     "chenmed",
     "incentivio",
     "channext",
@@ -3699,7 +3706,8 @@
     "deepdsg",
     "clarity",
     "avatechnologies",
-    "innovationroundtable"
+    "innovationroundtable",
+    "amsaccelerateit"
   ],
   "smartrecruiters": [
     "clerky",
