@@ -1196,7 +1196,11 @@
     "dscout",
     "empowerpharmacy",
     "ifit",
-    "spektrum"
+    "spektrum",
+    "ecosio",
+    "semafor",
+    "summittherapeutics",
+    "neuehealth"
   ],
   "lever": [
     "aircall",
@@ -2428,7 +2432,8 @@
     "sisense",
     "plasma",
     "playson",
-    "doppel"
+    "doppel",
+    "playbook"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3736,7 +3741,8 @@
     "avatechnologies",
     "innovationroundtable",
     "amsaccelerateit",
-    "zoi"
+    "zoi",
+    "nimble"
   ],
   "smartrecruiters": [
     "clerky",
