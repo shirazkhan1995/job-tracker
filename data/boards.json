@@ -1200,7 +1200,13 @@
     "ecosio",
     "semafor",
     "summittherapeutics",
-    "neuehealth"
+    "neuehealth",
+    "humanagency",
+    "ians",
+    "evergreenaction",
+    "apartmentlife",
+    "cakeai",
+    "somethingspecialstudios"
   ],
   "lever": [
     "aircall",
@@ -1724,7 +1730,8 @@
     "xage-security",
     "vivo-care",
     "ellevationeducation",
-    "canvasmedical"
+    "canvasmedical",
+    "abovelending"
   ],
   "ashby": [
     "clerk",
@@ -3742,7 +3749,8 @@
     "innovationroundtable",
     "amsaccelerateit",
     "zoi",
-    "nimble"
+    "nimble",
+    "ifit"
   ],
   "smartrecruiters": [
     "clerky",
