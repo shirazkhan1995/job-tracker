@@ -1210,7 +1210,9 @@
     "nexaminds",
     "theprincetonreview",
     "southworks",
-    "appviewx"
+    "appviewx",
+    "nksecuritiesresearch",
+    "hologram"
   ],
   "lever": [
     "aircall",
@@ -1735,7 +1737,8 @@
     "vivo-care",
     "ellevationeducation",
     "canvasmedical",
-    "abovelending"
+    "abovelending",
+    "cdcfoundation"
   ],
   "ashby": [
     "clerk",
@@ -2445,7 +2448,9 @@
     "playson",
     "doppel",
     "playbook",
-    "gainsight"
+    "gainsight",
+    "swoop",
+    "casa"
   ],
   "invalid": [
     "greenhouse/redpandadata",
