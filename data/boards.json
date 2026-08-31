@@ -2444,7 +2444,8 @@
     "plasma",
     "playson",
     "doppel",
-    "playbook"
+    "playbook",
+    "gainsight"
   ],
   "invalid": [
     "greenhouse/redpandadata",
