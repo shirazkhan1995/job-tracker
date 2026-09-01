@@ -1212,7 +1212,10 @@
     "southworks",
     "appviewx",
     "nksecuritiesresearch",
-    "hologram"
+    "hologram",
+    "privacy",
+    "aptitude8",
+    "lumahealth"
   ],
   "lever": [
     "aircall",
@@ -1475,7 +1478,6 @@
     "docsumo",
     "insiderone",
     "luxurypresence",
-    "athennian",
     "envelio",
     "deuna",
     "doxel",
@@ -1739,7 +1741,9 @@
     "canvasmedical",
     "abovelending",
     "cdcfoundation",
-    "nxtthingrpo"
+    "nxtthingrpo",
+    "clicktime",
+    "momsmeals"
   ],
   "ashby": [
     "clerk",
@@ -2649,7 +2653,8 @@
     "greenhouse/joinforage",
     "greenhouse/hyphenconnect",
     "greenhouse/cardflight",
-    "ashby/warpbuild"
+    "ashby/warpbuild",
+    "lever/athennian"
   ],
   "recruitee": [
     "medmehealth",
