@@ -182,7 +182,6 @@
     "nmi",
     "fleetio",
     "monzo",
-    "clickhouse",
     "trove",
     "companycam",
     "generatebiomedicines",
@@ -643,7 +642,6 @@
     "maplighttherapeutics",
     "capacity",
     "openenergytransition",
-    "sage",
     "simscale",
     "mcs",
     "ritual",
@@ -1216,7 +1214,9 @@
     "aptitude8",
     "lumahealth",
     "imagineworldwide",
-    "charterschoolgrowthfund"
+    "charterschoolgrowthfund",
+    "knock",
+    "stackadapt"
   ],
   "lever": [
     "aircall",
@@ -1746,7 +1746,9 @@
     "clicktime",
     "momsmeals",
     "buildingswell",
-    "picus"
+    "picus",
+    "watchguard",
+    "pexa"
   ],
   "ashby": [
     "clerk",
@@ -2461,7 +2463,8 @@
     "casa",
     "leap",
     "knock",
-    "canvas-medical"
+    "canvas-medical",
+    "smarkets"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2660,7 +2663,9 @@
     "greenhouse/cardflight",
     "ashby/warpbuild",
     "lever/athennian",
-    "greenhouse/marqeta"
+    "greenhouse/marqeta",
+    "greenhouse/clickhouse",
+    "greenhouse/sage"
   ],
   "recruitee": [
     "medmehealth",
