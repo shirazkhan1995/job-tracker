@@ -490,7 +490,6 @@
     "opswat",
     "agilityrobotics",
     "veracyte",
-    "marqeta",
     "extend",
     "bybit",
     "cybermediatechnologies",
@@ -1215,7 +1214,9 @@
     "hologram",
     "privacy",
     "aptitude8",
-    "lumahealth"
+    "lumahealth",
+    "imagineworldwide",
+    "charterschoolgrowthfund"
   ],
   "lever": [
     "aircall",
@@ -1743,7 +1744,9 @@
     "cdcfoundation",
     "nxtthingrpo",
     "clicktime",
-    "momsmeals"
+    "momsmeals",
+    "buildingswell",
+    "picus"
   ],
   "ashby": [
     "clerk",
@@ -2456,7 +2459,9 @@
     "gainsight",
     "swoop",
     "casa",
-    "leap"
+    "leap",
+    "knock",
+    "canvas-medical"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2654,7 +2659,8 @@
     "greenhouse/hyphenconnect",
     "greenhouse/cardflight",
     "ashby/warpbuild",
-    "lever/athennian"
+    "lever/athennian",
+    "greenhouse/marqeta"
   ],
   "recruitee": [
     "medmehealth",
