@@ -1,7 +1,7 @@
 # Job Tracker Report — 2026-09-01
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 109030 jobs from 3811 sources (3806 ATS boards polled, 144 newly discovered)
+> Scanned: 112470 jobs from 3816 sources (3811 ATS boards polled, 148 newly discovered)
 
 ## 💼 New remote matches (0)
 

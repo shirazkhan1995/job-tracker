@@ -1216,7 +1216,11 @@
     "imagineworldwide",
     "charterschoolgrowthfund",
     "knock",
-    "stackadapt"
+    "stackadapt",
+    "discord",
+    "wikimedia",
+    "upgrade",
+    "t2systems"
   ],
   "lever": [
     "aircall",
@@ -1748,7 +1752,9 @@
     "buildingswell",
     "picus",
     "watchguard",
-    "pexa"
+    "pexa",
+    "loftorbital",
+    "biocatch"
   ],
   "ashby": [
     "clerk",
@@ -2464,7 +2470,8 @@
     "leap",
     "knock",
     "canvas-medical",
-    "smarkets"
+    "smarkets",
+    "chariotclaims"
   ],
   "invalid": [
     "greenhouse/redpandadata",
