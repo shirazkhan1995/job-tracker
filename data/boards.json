@@ -2688,7 +2688,8 @@
     "greenhouse/clickhouse",
     "greenhouse/sage",
     "ashby/amplitude",
-    "greenhouse/thrivecart"
+    "greenhouse/thrivecart",
+    "recruitee/happyco"
   ],
   "recruitee": [
     "medmehealth",
@@ -3384,7 +3385,6 @@
     "flyingbisons",
     "nterra",
     "pvcase",
-    "happyco",
     "trackman",
     "indg",
     "curotec",
