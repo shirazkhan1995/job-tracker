@@ -1224,7 +1224,8 @@
     "blackcanyonconsulting",
     "mattermost",
     "attentive",
-    "lightspeedsystems"
+    "lightspeedsystems",
+    "coreweave"
   ],
   "lever": [
     "aircall",
@@ -1760,7 +1761,9 @@
     "loftorbital",
     "biocatch",
     "incorta",
-    "arsiem"
+    "arsiem",
+    "rai",
+    "florence"
   ],
   "ashby": [
     "clerk",
@@ -2479,7 +2482,10 @@
     "chariotclaims",
     "tolmo",
     "productgenius",
-    "aiuc"
+    "aiuc",
+    "artificialanalysis",
+    "latchbio",
+    "revinate"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3798,7 +3804,8 @@
     "exp1consulting",
     "lvhglobal",
     "upgrade",
-    "mgiconsultants"
+    "mgiconsultants",
+    "vidiq"
   ],
   "smartrecruiters": [
     "clerky",
