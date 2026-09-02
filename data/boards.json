@@ -1022,7 +1022,6 @@
     "pipe17",
     "digitalextremes",
     "klscottassociates",
-    "thrivecart",
     "corelight",
     "thefarmersdog",
     "solutionsbytext",
@@ -2485,7 +2484,8 @@
     "aiuc",
     "artificialanalysis",
     "latchbio",
-    "revinate"
+    "revinate",
+    "reframesystems"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2687,7 +2687,8 @@
     "greenhouse/marqeta",
     "greenhouse/clickhouse",
     "greenhouse/sage",
-    "ashby/amplitude"
+    "ashby/amplitude",
+    "greenhouse/thrivecart"
   ],
   "recruitee": [
     "medmehealth",
@@ -3805,7 +3806,8 @@
     "lvhglobal",
     "upgrade",
     "mgiconsultants",
-    "vidiq"
+    "vidiq",
+    "florence"
   ],
   "smartrecruiters": [
     "clerky",
