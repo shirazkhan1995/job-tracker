@@ -1220,7 +1220,11 @@
     "discord",
     "wikimedia",
     "upgrade",
-    "t2systems"
+    "t2systems",
+    "blackcanyonconsulting",
+    "mattermost",
+    "attentive",
+    "lightspeedsystems"
   ],
   "lever": [
     "aircall",
@@ -1754,7 +1758,9 @@
     "watchguard",
     "pexa",
     "loftorbital",
-    "biocatch"
+    "biocatch",
+    "incorta",
+    "arsiem"
   ],
   "ashby": [
     "clerk",
@@ -1878,7 +1884,6 @@
     "parallel",
     "count",
     "axle-careers",
-    "amplitude",
     "sift",
     "rescale",
     "circuithub",
@@ -2471,7 +2476,10 @@
     "knock",
     "canvas-medical",
     "smarkets",
-    "chariotclaims"
+    "chariotclaims",
+    "tolmo",
+    "productgenius",
+    "aiuc"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2672,7 +2680,8 @@
     "lever/athennian",
     "greenhouse/marqeta",
     "greenhouse/clickhouse",
-    "greenhouse/sage"
+    "greenhouse/sage",
+    "ashby/amplitude"
   ],
   "recruitee": [
     "medmehealth",
@@ -3787,7 +3796,9 @@
     "nimble",
     "ifit",
     "exp1consulting",
-    "lvhglobal"
+    "lvhglobal",
+    "upgrade",
+    "mgiconsultants"
   ],
   "smartrecruiters": [
     "clerky",
