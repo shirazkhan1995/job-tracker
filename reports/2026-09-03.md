@@ -1,11 +1,14 @@
 # Job Tracker Report — 2026-09-03
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 110037 jobs from 3846 sources (3841 ATS boards polled, 121 newly discovered)
+> Scanned: 110109 jobs from 3849 sources (3844 ATS boards polled, 95 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### QA Engineer — vestr AG
+- **Posted:** 2026-09-03 · **Location:** Ukraine · **Source:** himalayas
+- **Matched:** playwright, typescript
+- **Link:** https://himalayas.app/companies/vestr-ag/jobs/qa-engineer
 
 ## ⚠️ Source errors (87 total)
 
