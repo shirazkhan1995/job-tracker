@@ -1224,7 +1224,14 @@
     "mattermost",
     "attentive",
     "lightspeedsystems",
-    "coreweave"
+    "coreweave",
+    "neoris",
+    "fourkites",
+    "spoileralert",
+    "alloy",
+    "nysonian",
+    "appodeal",
+    "kapitus"
   ],
   "lever": [
     "aircall",
@@ -1569,7 +1576,6 @@
     "gr0",
     "investorflow",
     "merklescience",
-    "constellation",
     "cimgroup",
     "instrument",
     "zeneducate",
@@ -1762,7 +1768,10 @@
     "incorta",
     "arsiem",
     "rai",
-    "florence"
+    "florence",
+    "blueorigin",
+    "onit",
+    "artera"
   ],
   "ashby": [
     "clerk",
@@ -2485,7 +2494,10 @@
     "artificialanalysis",
     "latchbio",
     "revinate",
-    "reframesystems"
+    "reframesystems",
+    "mastra",
+    "longview",
+    "thoughtworks"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2689,7 +2701,9 @@
     "greenhouse/sage",
     "ashby/amplitude",
     "greenhouse/thrivecart",
-    "recruitee/happyco"
+    "recruitee/happyco",
+    "lever/constellation",
+    "recruitee/skmgroup"
   ],
   "recruitee": [
     "medmehealth",
@@ -3428,7 +3442,6 @@
     "yopeso",
     "lansweeper",
     "allyourbi",
-    "skmgroup",
     "mgid",
     "eleken",
     "heilindelectronicseurope",
