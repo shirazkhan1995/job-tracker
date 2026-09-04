@@ -944,7 +944,6 @@
     "berkadia",
     "affirmedrxpbc",
     "nonprofitfinancefund",
-    "jahnelgroup",
     "dv01",
     "concentric",
     "rtbhouse",
@@ -1247,7 +1246,8 @@
     "applovin",
     "greycroft",
     "wizeline",
-    "stabilityai"
+    "stabilityai",
+    "homeward"
   ],
   "lever": [
     "aircall",
@@ -1789,7 +1789,10 @@
     "onit",
     "artera",
     "bold-orange",
-    "nimbus"
+    "nimbus",
+    "lumivero",
+    "piplabs",
+    "karmacheck"
   ],
   "ashby": [
     "clerk",
@@ -2721,7 +2724,8 @@
     "recruitee/happyco",
     "lever/constellation",
     "recruitee/skmgroup",
-    "ashby/truthsystems"
+    "ashby/truthsystems",
+    "greenhouse/jahnelgroup"
   ],
   "recruitee": [
     "medmehealth",
