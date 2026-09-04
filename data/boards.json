@@ -957,7 +957,6 @@
     "medispend",
     "prove",
     "triplewhale",
-    "regscale",
     "caringcom",
     "meritamerica",
     "headlandsresearch",
@@ -1247,7 +1246,9 @@
     "greycroft",
     "wizeline",
     "stabilityai",
-    "homeward"
+    "homeward",
+    "cipherhealth",
+    "thegoodfoodinstitute"
   ],
   "lever": [
     "aircall",
@@ -2725,7 +2726,8 @@
     "lever/constellation",
     "recruitee/skmgroup",
     "ashby/truthsystems",
-    "greenhouse/jahnelgroup"
+    "greenhouse/jahnelgroup",
+    "greenhouse/regscale"
   ],
   "recruitee": [
     "medmehealth",
