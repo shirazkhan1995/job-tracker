@@ -1240,7 +1240,14 @@
     "matic",
     "coverahealth",
     "ccof",
-    "vixtechnology"
+    "vixtechnology",
+    "doppel",
+    "varicent",
+    "comptechcomputertechnologies",
+    "applovin",
+    "greycroft",
+    "wizeline",
+    "stabilityai"
   ],
   "lever": [
     "aircall",
@@ -2230,7 +2237,6 @@
     "dedalus-labs",
     "mangodesk",
     "agentmail",
-    "truthsystems",
     "careswift",
     "bootloop",
     "comena",
@@ -2714,7 +2720,8 @@
     "greenhouse/thrivecart",
     "recruitee/happyco",
     "lever/constellation",
-    "recruitee/skmgroup"
+    "recruitee/skmgroup",
+    "ashby/truthsystems"
   ],
   "recruitee": [
     "medmehealth",
