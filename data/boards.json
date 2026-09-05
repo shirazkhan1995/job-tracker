@@ -1254,7 +1254,8 @@
     "emoneyadvisor",
     "axuall",
     "theoriamedical",
-    "unanet"
+    "unanet",
+    "relationalai"
   ],
   "lever": [
     "aircall",
@@ -1799,7 +1800,9 @@
     "nimbus",
     "lumivero",
     "piplabs",
-    "karmacheck"
+    "karmacheck",
+    "vrify",
+    "spine-media"
   ],
   "ashby": [
     "clerk",
@@ -2210,7 +2213,6 @@
     "finny",
     "simple-ai",
     "dataleap",
-    "bucket-robotics",
     "usul",
     "conductor",
     "telli",
@@ -2525,7 +2527,9 @@
     "mastra",
     "longview",
     "thoughtworks",
-    "cyberstaff"
+    "cyberstaff",
+    "talentpop",
+    "squad"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2735,7 +2739,8 @@
     "ashby/truthsystems",
     "greenhouse/jahnelgroup",
     "greenhouse/regscale",
-    "recruitee/alinea"
+    "recruitee/alinea",
+    "ashby/bucket-robotics"
   ],
   "recruitee": [
     "medmehealth",
@@ -3853,7 +3858,9 @@
     "vidiq",
     "florence",
     "relay",
-    "peoplefinders"
+    "peoplefinders",
+    "naxcon",
+    "landbot"
   ],
   "smartrecruiters": [
     "clerky",
