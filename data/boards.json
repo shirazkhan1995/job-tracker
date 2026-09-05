@@ -1248,7 +1248,13 @@
     "stabilityai",
     "homeward",
     "cipherhealth",
-    "thegoodfoodinstitute"
+    "thegoodfoodinstitute",
+    "homechef",
+    "unlimitedtechnology",
+    "emoneyadvisor",
+    "axuall",
+    "theoriamedical",
+    "unanet"
   ],
   "lever": [
     "aircall",
@@ -2518,7 +2524,8 @@
     "reframesystems",
     "mastra",
     "longview",
-    "thoughtworks"
+    "thoughtworks",
+    "cyberstaff"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2727,7 +2734,8 @@
     "recruitee/skmgroup",
     "ashby/truthsystems",
     "greenhouse/jahnelgroup",
-    "greenhouse/regscale"
+    "greenhouse/regscale",
+    "recruitee/alinea"
   ],
   "recruitee": [
     "medmehealth",
@@ -3409,7 +3417,6 @@
     "assembly",
     "bego",
     "weekday",
-    "alinea",
     "escape",
     "coba",
     "blank",
@@ -3845,7 +3852,8 @@
     "mgiconsultants",
     "vidiq",
     "florence",
-    "relay"
+    "relay",
+    "peoplefinders"
   ],
   "smartrecruiters": [
     "clerky",
