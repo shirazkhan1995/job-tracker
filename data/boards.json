@@ -1269,7 +1269,10 @@
     "jampp",
     "parsleyhealth",
     "nuvem",
-    "catawiki"
+    "catawiki",
+    "ecoworks",
+    "enveritas",
+    "pushpay"
   ],
   "lever": [
     "aircall",
@@ -1825,7 +1828,8 @@
     "yardstick",
     "atlas-financial-services",
     "bostonimaging",
-    "meds"
+    "meds",
+    "leadershipconnect"
   ],
   "ashby": [
     "clerk",
@@ -4059,7 +4063,9 @@
     "zinssermuehle",
     "zintri",
     "kinly",
-    "emergentsoftware"
+    "emergentsoftware",
+    "limeflight",
+    "shortpoint"
   ],
   "smartrecruiters": [
     "clerky",
