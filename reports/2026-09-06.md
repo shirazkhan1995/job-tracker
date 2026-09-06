@@ -1,14 +1,14 @@
 # Job Tracker Report — 2026-09-06
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 110837 jobs from 3892 sources (3887 ATS boards polled, 107 newly discovered)
+> Scanned: 112854 jobs from 4068 sources (4063 ATS boards polled, 51 newly discovered)
 
 ## 💼 New remote matches (0)
 
 _No new matches today._
 
-## ⚠️ Source errors (70 total)
+## ⚠️ Source errors (73 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 43 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 46 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
 - recruitee/epicdata: HTTP 403
