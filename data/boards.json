@@ -1267,7 +1267,9 @@
     "checkalt",
     "opentable",
     "jampp",
-    "parsleyhealth"
+    "parsleyhealth",
+    "nuvem",
+    "catawiki"
   ],
   "lever": [
     "aircall",
@@ -1820,7 +1822,10 @@
     "scaleway",
     "reekon-tools",
     "erg",
-    "yardstick"
+    "yardstick",
+    "atlas-financial-services",
+    "bostonimaging",
+    "meds"
   ],
   "ashby": [
     "clerk",
@@ -4053,7 +4058,8 @@
     "youngmountain",
     "zinssermuehle",
     "zintri",
-    "kinly"
+    "kinly",
+    "emergentsoftware"
   ],
   "smartrecruiters": [
     "clerky",
