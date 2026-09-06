@@ -1264,7 +1264,10 @@
     "glydways",
     "vectara",
     "netradyne",
-    "checkalt"
+    "checkalt",
+    "opentable",
+    "jampp",
+    "parsleyhealth"
   ],
   "lever": [
     "aircall",
@@ -1816,7 +1819,8 @@
     "payactiv",
     "scaleway",
     "reekon-tools",
-    "erg"
+    "erg",
+    "yardstick"
   ],
   "ashby": [
     "clerk",
