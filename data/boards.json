@@ -1281,7 +1281,9 @@
     "studiodesigner",
     "thirdbridge",
     "squad",
-    "ggatewayforoutsourcinginformationtechnology"
+    "ggatewayforoutsourcinginformationtechnology",
+    "dataiku",
+    "typeform"
   ],
   "lever": [
     "aircall",
@@ -1837,7 +1839,8 @@
     "meds",
     "leadershipconnect",
     "onceuponafarm",
-    "corebts"
+    "corebts",
+    "adventus"
   ],
   "ashby": [
     "clerk",
@@ -2566,7 +2569,8 @@
     "talentpop",
     "squad",
     "nexos-ai",
-    "valid"
+    "valid",
+    "proxima"
   ],
   "invalid": [
     "greenhouse/redpandadata",
