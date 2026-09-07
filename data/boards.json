@@ -1272,7 +1272,15 @@
     "catawiki",
     "ecoworks",
     "enveritas",
-    "pushpay"
+    "pushpay",
+    "cpm",
+    "elend",
+    "cayuse",
+    "coinme",
+    "amaehealth",
+    "studiodesigner",
+    "thirdbridge",
+    "squad"
   ],
   "lever": [
     "aircall",
@@ -1507,7 +1515,6 @@
     "panopto",
     "distro",
     "robust-ai",
-    "zinier",
     "refed",
     "bluecatnetworks",
     "coalfire",
@@ -1578,7 +1585,6 @@
     "ux-woman",
     "revhealth",
     "waabi",
-    "healthmark-group",
     "valdera",
     "startengine",
     "havenparkcommunities",
@@ -1818,7 +1824,6 @@
     "lumivero",
     "piplabs",
     "karmacheck",
-    "vrify",
     "spine-media",
     "restaurant365",
     "payactiv",
@@ -1829,7 +1834,8 @@
     "atlas-financial-services",
     "bostonimaging",
     "meds",
-    "leadershipconnect"
+    "leadershipconnect",
+    "onceuponafarm"
   ],
   "ashby": [
     "clerk",
@@ -2557,7 +2563,8 @@
     "cyberstaff",
     "talentpop",
     "squad",
-    "nexos-ai"
+    "nexos-ai",
+    "valid"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2786,7 +2793,10 @@
     "recruitee/speedinvestgmbh",
     "recruitee/spingersteuerberater",
     "recruitee/superlist",
-    "recruitee/whatagraph"
+    "recruitee/whatagraph",
+    "lever/zinier",
+    "lever/healthmark-group",
+    "lever/vrify"
   ],
   "recruitee": [
     "medmehealth",
@@ -4065,7 +4075,9 @@
     "kinly",
     "emergentsoftware",
     "limeflight",
-    "shortpoint"
+    "shortpoint",
+    "intento",
+    "crazygames"
   ],
   "smartrecruiters": [
     "clerky",
