@@ -1283,7 +1283,9 @@
     "ggatewayforoutsourcinginformationtechnology",
     "dataiku",
     "typeform",
-    "smugmug"
+    "smugmug",
+    "braze",
+    "servicetrade"
   ],
   "lever": [
     "aircall",
@@ -2572,7 +2574,8 @@
     "valid",
     "proxima",
     "irestore",
-    "fuser"
+    "fuser",
+    "langfuse"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -4087,7 +4090,8 @@
     "shortpoint",
     "intento",
     "crazygames",
-    "devpartners"
+    "devpartners",
+    "tameson"
   ],
   "smartrecruiters": [
     "clerky",

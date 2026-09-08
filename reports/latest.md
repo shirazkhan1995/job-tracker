@@ -1,27 +1,14 @@
 # Job Tracker Report — 2026-09-08
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 113724 jobs from 4085 sources (4080 ATS boards polled, 74 newly discovered)
+> Scanned: 113802 jobs from 4088 sources (4083 ATS boards polled, 87 newly discovered)
 
-## 💼 New remote matches (3)
+## 💼 New remote matches (0)
 
-### QA Automation Engineer (Remote, Full-Time) [HR189] — Smart Working
-- **Posted:** 2026-09-07 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/smart-working/jobs/qa-automation-engineer-remote-full-time-hr189
+_No new matches today._
 
-### Senior Test Automation Engineer IV — openx
-- **Posted:** 2026-09-01 · **Location:** Krakow; Krakow; PL · **Source:** lever:openx
-- **Matched:** playwright, cypress, typescript
-- **Link:** https://jobs.lever.co/openx/af2b2803-3cf9-45b7-94e0-5f6b8d6880a2
-
-### Lead Engineer  - Test Automation & Tools Development — Moniepoint
-- **Posted:** 2026-01-02 · **Location:** Remote, Bangalore; Moniepoint India · **Source:** greenhouse:moniepoint
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.eu.greenhouse.io/moniepoint/jobs/4746475101
-
-## ⚠️ Source errors (37 total)
+## ⚠️ Source errors (75 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 10 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable: HTTP 429 — 48 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
 - recruitee/epicdata: HTTP 403
