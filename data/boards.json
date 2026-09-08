@@ -1203,7 +1203,6 @@
     "somethingspecialstudios",
     "nexaminds",
     "theprincetonreview",
-    "southworks",
     "appviewx",
     "nksecuritiesresearch",
     "hologram",
@@ -2571,7 +2570,9 @@
     "squad",
     "nexos-ai",
     "valid",
-    "proxima"
+    "proxima",
+    "irestore",
+    "fuser"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2803,7 +2804,8 @@
     "recruitee/whatagraph",
     "lever/zinier",
     "lever/healthmark-group",
-    "lever/vrify"
+    "lever/vrify",
+    "greenhouse/southworks"
   ],
   "recruitee": [
     "medmehealth",
@@ -4084,7 +4086,8 @@
     "limeflight",
     "shortpoint",
     "intento",
-    "crazygames"
+    "crazygames",
+    "devpartners"
   ],
   "smartrecruiters": [
     "clerky",

@@ -91,7 +91,7 @@
     "salary": "",
     "postedAt": 1786612505000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -500,7 +500,7 @@
     "salary": "",
     "postedAt": 1783310650234,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -751,7 +751,7 @@
     "salary": "$180K – $280K • Offers Equity",
     "postedAt": 1779391596119,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -1991,7 +1991,7 @@
     "salary": "",
     "postedAt": 1772576550000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -2009,7 +2009,7 @@
     "salary": "",
     "postedAt": 1767877128000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -2103,7 +2103,7 @@
     "salary": "",
     "postedAt": 1781897204477,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -2360,7 +2360,7 @@
     "salary": "",
     "postedAt": 1783927311000,
     "firstSeenAt": "2026-07-14T10:40:32.477Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -2697,7 +2697,7 @@
     "salary": "",
     "postedAt": 1771367181000,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -3328,7 +3328,7 @@
     "salary": "",
     "postedAt": 1784320227000,
     "firstSeenAt": "2026-07-19T12:33:26.829Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -3776,7 +3776,7 @@
     "salary": "",
     "postedAt": 1607589666002,
     "firstSeenAt": "2026-07-20T01:10:27.152Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4001,7 +4001,7 @@
     "salary": "",
     "postedAt": 1782226296318,
     "firstSeenAt": "2026-07-22T13:02:48.826Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4047,7 +4047,7 @@
     "key": "uvation|qa- test engineer",
     "title": "QA- Test Engineer",
     "company": "uvation",
-    "url": "https://himalayas.app/companies/uvation/jobs/qa-test-engineer-2654682665",
+    "url": "https://himalayas.app/companies/uvation/jobs/qa-test-engineer-4646620950",
     "location": "Romania",
     "source": "himalayas",
     "matched": [
@@ -4056,11 +4056,11 @@
       "javascript"
     ],
     "salary": "",
-    "postedAt": 1784874049000,
+    "postedAt": 1788850160000,
     "firstSeenAt": "2026-07-23T18:51:18.634Z",
-    "lastSeenAt": "2026-07-25T07:39:09.330Z",
-    "active": false,
-    "expiredAt": "2026-08-24T12:00:53.017Z"
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
+    "active": true,
+    "expiredAt": null
   },
   "cast|automation test engineer for imaging cloud saas": {
     "key": "cast|automation test engineer for imaging cloud saas",
@@ -4133,7 +4133,7 @@
     "salary": "",
     "postedAt": 1784910756460,
     "firstSeenAt": "2026-07-24T19:03:14.763Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4172,7 +4172,7 @@
     "salary": "",
     "postedAt": 1781191392000,
     "firstSeenAt": "2026-07-25T01:09:14.571Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4326,7 +4326,7 @@
     "salary": "",
     "postedAt": 1776847568000,
     "firstSeenAt": "2026-07-28T08:07:59.478Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4426,7 +4426,7 @@
     "salary": "",
     "postedAt": 1770632370000,
     "firstSeenAt": "2026-07-29T01:01:23.781Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4484,7 +4484,7 @@
     "salary": "",
     "postedAt": 1785341234000,
     "firstSeenAt": "2026-07-29T18:39:31.827Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4597,8 +4597,8 @@
     "postedAt": 1785523956891,
     "firstSeenAt": "2026-07-31T18:59:56.212Z",
     "lastSeenAt": "2026-09-07T20:51:08.091Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-09-08T10:05:06.961Z"
   },
   "kdci|web qa specialist": {
     "key": "kdci|web qa specialist",
@@ -4615,7 +4615,7 @@
     "salary": "",
     "postedAt": 1784535828000,
     "firstSeenAt": "2026-08-02T06:13:13.734Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4807,7 +4807,7 @@
     "salary": "",
     "postedAt": 1782840667000,
     "firstSeenAt": "2026-08-04T08:08:09.152Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4827,7 +4827,7 @@
     "salary": "",
     "postedAt": 1784535822000,
     "firstSeenAt": "2026-08-04T13:21:43.422Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4883,7 +4883,7 @@
     "salary": "",
     "postedAt": 1773212723000,
     "firstSeenAt": "2026-08-06T08:07:27.576Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4961,7 +4961,7 @@
     "salary": "",
     "postedAt": 1786046511734,
     "firstSeenAt": "2026-08-07T01:58:02.663Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -4998,9 +4998,9 @@
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1786221056000,
+    "postedAt": 1788850748000,
     "firstSeenAt": "2026-08-09T04:26:12.432Z",
-    "lastSeenAt": "2026-08-09T06:14:03.943Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5020,8 +5020,8 @@
     "postedAt": 1786220620000,
     "firstSeenAt": "2026-08-09T04:26:12.432Z",
     "lastSeenAt": "2026-08-09T06:14:03.943Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-09-08T10:05:06.961Z"
   },
   "first principles|qa engineer": {
     "key": "first principles|qa engineer",
@@ -5114,7 +5114,7 @@
     "salary": "$3.5K – $4.5K per month • Offers Equity",
     "postedAt": 1783580724518,
     "firstSeenAt": "2026-08-11T06:33:23.868Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5152,7 +5152,7 @@
     "salary": "",
     "postedAt": 1786457518000,
     "firstSeenAt": "2026-08-11T18:30:29.953Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5209,7 +5209,7 @@
     "salary": "",
     "postedAt": 1786393020596,
     "firstSeenAt": "2026-08-13T00:13:04.100Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5264,7 +5264,7 @@
     "salary": "",
     "postedAt": 1786601948000,
     "firstSeenAt": "2026-08-13T07:02:14.077Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5360,8 +5360,8 @@
     "postedAt": 1786897646000,
     "firstSeenAt": "2026-08-16T17:51:40.968Z",
     "lastSeenAt": "2026-09-07T20:51:08.091Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-09-08T10:05:06.961Z"
   },
   "highlevel|director, sdet": {
     "key": "highlevel|director, sdet",
@@ -5512,7 +5512,7 @@
     "salary": "",
     "postedAt": 1781739459000,
     "firstSeenAt": "2026-08-23T11:51:53.950Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5570,7 +5570,7 @@
     "salary": "",
     "postedAt": 1785873277000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5590,7 +5590,7 @@
     "salary": "",
     "postedAt": 1787326857000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -5912,7 +5912,7 @@
     "salary": "",
     "postedAt": 1786142977000,
     "firstSeenAt": "2026-08-29T20:00:41.698Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -6084,7 +6084,7 @@
     "salary": "",
     "postedAt": 1788443796000,
     "firstSeenAt": "2026-09-04T01:16:51.854Z",
-    "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -6131,17 +6131,17 @@
     "key": "clario|sr. engineer, r&d software quality",
     "title": "Sr. Engineer, R&D Software Quality",
     "company": "Clario",
-    "url": "https://himalayas.app/companies/clario/jobs/sr-engineer-r-d-software-quality",
-    "location": "India",
+    "url": "https://himalayas.app/companies/clario/jobs/sr-engineer-r-d-software-quality-3084258446",
+    "location": "Hungary",
     "source": "himalayas",
     "matched": [
       "playwright",
       "javascript"
     ],
     "salary": "",
-    "postedAt": 1788598748000,
+    "postedAt": 1788818684000,
     "firstSeenAt": "2026-09-05T14:03:20.607Z",
-    "lastSeenAt": "2026-09-05T19:24:14.634Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   },
@@ -6181,6 +6181,64 @@
     "postedAt": 1788750354000,
     "firstSeenAt": "2026-09-07T16:42:38.101Z",
     "lastSeenAt": "2026-09-07T20:51:08.091Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "smart working|qa automation engineer (remote, full-time) [hr189]": {
+    "key": "smart working|qa automation engineer (remote, full-time) [hr189]",
+    "title": "QA Automation Engineer (Remote, Full-Time) [HR189]",
+    "company": "Smart Working",
+    "url": "https://himalayas.app/companies/smart-working/jobs/qa-automation-engineer-remote-full-time-hr189",
+    "location": "India",
+    "source": "himalayas",
+    "matched": [
+      "playwright",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1788813054000,
+    "firstSeenAt": "2026-09-08T10:05:06.961Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "moniepoint|lead engineer - test automation & tools development": {
+    "key": "moniepoint|lead engineer - test automation & tools development",
+    "title": "Lead Engineer  - Test Automation & Tools Development",
+    "company": "Moniepoint",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4746475101",
+    "location": "Remote, Bangalore; Moniepoint India",
+    "source": "greenhouse:moniepoint",
+    "matched": [
+      "playwright",
+      "cypress",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1767362916000,
+    "firstSeenAt": "2026-09-08T10:05:06.961Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "openx|senior test automation engineer iv": {
+    "key": "openx|senior test automation engineer iv",
+    "title": "Senior Test Automation Engineer IV",
+    "company": "openx",
+    "url": "https://jobs.lever.co/openx/af2b2803-3cf9-45b7-94e0-5f6b8d6880a2",
+    "location": "Krakow; Krakow; PL",
+    "source": "lever:openx",
+    "matched": [
+      "playwright",
+      "cypress",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1788259427472,
+    "firstSeenAt": "2026-09-08T10:05:06.961Z",
+    "lastSeenAt": "2026-09-08T10:05:06.961Z",
     "active": true,
     "expiredAt": null
   }
