@@ -1286,7 +1286,8 @@
     "smugmug",
     "braze",
     "servicetrade",
-    "northspyre"
+    "northspyre",
+    "journey"
   ],
   "lever": [
     "aircall",
@@ -1691,7 +1692,6 @@
     "signup-expert",
     "pivotenergy",
     "teamshares",
-    "hungerfreeamerica",
     "stockpile",
     "anyroad",
     "bluesight",
@@ -1843,7 +1843,8 @@
     "leadershipconnect",
     "onceuponafarm",
     "corebts",
-    "adventus"
+    "adventus",
+    "brilliant"
   ],
   "ashby": [
     "clerk",
@@ -2810,7 +2811,8 @@
     "lever/healthmark-group",
     "lever/vrify",
     "greenhouse/southworks",
-    "recruitee/jollerconsultinggmbh1"
+    "recruitee/jollerconsultinggmbh1",
+    "lever/hungerfreeamerica"
   ],
   "recruitee": [
     "medmehealth",
