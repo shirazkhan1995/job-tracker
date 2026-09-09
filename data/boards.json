@@ -1846,7 +1846,8 @@
     "brilliant",
     "qualysoft",
     "resilinc",
-    "zushealth"
+    "zushealth",
+    "channelape"
   ],
   "ashby": [
     "clerk",
@@ -2581,7 +2582,8 @@
     "fuser",
     "langfuse",
     "voyant-photonics",
-    "clark"
+    "clark",
+    "zus-health"
   ],
   "invalid": [
     "greenhouse/redpandadata",
