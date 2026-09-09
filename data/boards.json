@@ -675,7 +675,6 @@
     "storycannabis",
     "mantrahealth",
     "apiphani",
-    "trident",
     "athena",
     "infuse",
     "dreemhealth",
@@ -1844,7 +1843,10 @@
     "onceuponafarm",
     "corebts",
     "adventus",
-    "brilliant"
+    "brilliant",
+    "qualysoft",
+    "resilinc",
+    "zushealth"
   ],
   "ashby": [
     "clerk",
@@ -2577,7 +2579,9 @@
     "proxima",
     "irestore",
     "fuser",
-    "langfuse"
+    "langfuse",
+    "voyant-photonics",
+    "clark"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2812,7 +2816,8 @@
     "lever/vrify",
     "greenhouse/southworks",
     "recruitee/jollerconsultinggmbh1",
-    "lever/hungerfreeamerica"
+    "lever/hungerfreeamerica",
+    "greenhouse/trident"
   ],
   "recruitee": [
     "medmehealth",
@@ -4094,7 +4099,9 @@
     "intento",
     "crazygames",
     "devpartners",
-    "tameson"
+    "tameson",
+    "olx",
+    "grantthornton"
   ],
   "smartrecruiters": [
     "clerky",
