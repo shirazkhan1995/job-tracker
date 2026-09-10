@@ -1288,7 +1288,10 @@
     "northspyre",
     "journey",
     "caseinpointconsulting",
-    "nametag"
+    "nametag",
+    "flodesk",
+    "britive",
+    "dexisconsultinggroup"
   ],
   "lever": [
     "aircall",
@@ -1828,7 +1831,6 @@
     "artera",
     "bold-orange",
     "nimbus",
-    "lumivero",
     "piplabs",
     "karmacheck",
     "spine-media",
@@ -1850,7 +1852,8 @@
     "resilinc",
     "zushealth",
     "channelape",
-    "magnopus"
+    "magnopus",
+    "computercare"
   ],
   "ashby": [
     "clerk",
@@ -2822,7 +2825,8 @@
     "greenhouse/southworks",
     "recruitee/jollerconsultinggmbh1",
     "lever/hungerfreeamerica",
-    "greenhouse/trident"
+    "greenhouse/trident",
+    "lever/lumivero"
   ],
   "recruitee": [
     "medmehealth",
