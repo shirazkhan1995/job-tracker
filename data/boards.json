@@ -1298,7 +1298,9 @@
     "movementstrategy",
     "belonghealth",
     "minitab",
-    "thewilshiregroup"
+    "thewilshiregroup",
+    "upstreamusa",
+    "agilysys"
   ],
   "lever": [
     "aircall",
@@ -1865,7 +1867,10 @@
     "kruzeconsulting",
     "airtm",
     "bisnow",
-    "artbio"
+    "artbio",
+    "skygrid",
+    "demiurgestudios",
+    "kepler"
   ],
   "ashby": [
     "clerk",
@@ -2601,7 +2606,8 @@
     "voyant-photonics",
     "clark",
     "zus-health",
-    "anterior"
+    "anterior",
+    "toku"
   ],
   "invalid": [
     "greenhouse/redpandadata",
