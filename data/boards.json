@@ -1862,7 +1862,10 @@
     "magnopus",
     "computercare",
     "lessen",
-    "kruzeconsulting"
+    "kruzeconsulting",
+    "airtm",
+    "bisnow",
+    "artbio"
   ],
   "ashby": [
     "clerk",
@@ -2597,7 +2600,8 @@
     "langfuse",
     "voyant-photonics",
     "clark",
-    "zus-health"
+    "zus-health",
+    "anterior"
   ],
   "invalid": [
     "greenhouse/redpandadata",
