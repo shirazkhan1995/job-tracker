@@ -91,7 +91,7 @@
     "salary": "",
     "postedAt": 1786612505000,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -500,7 +500,7 @@
     "salary": "",
     "postedAt": 1783310650234,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -751,7 +751,7 @@
     "salary": "$180K – $280K • Offers Equity",
     "postedAt": 1779391596119,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -1601,7 +1601,7 @@
     "salary": "",
     "postedAt": 1780613771084,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -1992,7 +1992,7 @@
     "salary": "",
     "postedAt": 1772576550000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -2010,7 +2010,7 @@
     "salary": "",
     "postedAt": 1767877128000,
     "firstSeenAt": "2026-07-14T05:12:09.347Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -2061,15 +2061,16 @@
     "source": "himalayas",
     "matched": [
       "playwright",
+      "cypress",
       "javascript",
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1783989334000,
+    "postedAt": 1789245057000,
     "firstSeenAt": "2026-07-14T07:29:18.614Z",
-    "lastSeenAt": "2026-07-14T18:46:49.585Z",
-    "active": false,
-    "expiredAt": "2026-08-14T00:13:14.288Z"
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
+    "active": true,
+    "expiredAt": null
   },
   "nebius|senior software engineer (agentic search) - scraping": {
     "key": "nebius|senior software engineer (agentic search) - scraping",
@@ -2361,7 +2362,7 @@
     "salary": "",
     "postedAt": 1783927311000,
     "firstSeenAt": "2026-07-14T10:40:32.477Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -3329,7 +3330,7 @@
     "salary": "",
     "postedAt": 1784320227000,
     "firstSeenAt": "2026-07-19T12:33:26.829Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -3777,7 +3778,7 @@
     "salary": "",
     "postedAt": 1607589666002,
     "firstSeenAt": "2026-07-20T01:10:27.152Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4002,7 +4003,7 @@
     "salary": "",
     "postedAt": 1782226296318,
     "firstSeenAt": "2026-07-22T13:02:48.826Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4134,7 +4135,7 @@
     "salary": "",
     "postedAt": 1784910756460,
     "firstSeenAt": "2026-07-24T19:03:14.763Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4173,7 +4174,7 @@
     "salary": "",
     "postedAt": 1781191392000,
     "firstSeenAt": "2026-07-25T01:09:14.571Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4327,7 +4328,7 @@
     "salary": "",
     "postedAt": 1776847568000,
     "firstSeenAt": "2026-07-28T08:07:59.478Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4427,7 +4428,7 @@
     "salary": "",
     "postedAt": 1770632370000,
     "firstSeenAt": "2026-07-29T01:01:23.781Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4485,7 +4486,7 @@
     "salary": "",
     "postedAt": 1789121971000,
     "firstSeenAt": "2026-07-29T18:39:31.827Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4522,7 +4523,7 @@
     "salary": "",
     "postedAt": 1783094008000,
     "firstSeenAt": "2026-07-30T13:12:40.533Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4616,7 +4617,7 @@
     "salary": "",
     "postedAt": 1784535828000,
     "firstSeenAt": "2026-08-02T06:13:13.734Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4808,7 +4809,7 @@
     "salary": "",
     "postedAt": 1782840667000,
     "firstSeenAt": "2026-08-04T08:08:09.152Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4828,7 +4829,7 @@
     "salary": "",
     "postedAt": 1784535822000,
     "firstSeenAt": "2026-08-04T13:21:43.422Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4884,7 +4885,7 @@
     "salary": "",
     "postedAt": 1773212723000,
     "firstSeenAt": "2026-08-06T08:07:27.576Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -4962,7 +4963,7 @@
     "salary": "",
     "postedAt": 1786046511734,
     "firstSeenAt": "2026-08-07T01:58:02.663Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5115,7 +5116,7 @@
     "salary": "$3.5K – $4.5K per month • Offers Equity",
     "postedAt": 1783580724518,
     "firstSeenAt": "2026-08-11T06:33:23.868Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5153,7 +5154,7 @@
     "salary": "",
     "postedAt": 1786457518000,
     "firstSeenAt": "2026-08-11T18:30:29.953Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5210,7 +5211,7 @@
     "salary": "",
     "postedAt": 1786393020596,
     "firstSeenAt": "2026-08-13T00:13:04.100Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5247,8 +5248,8 @@
     "postedAt": 1786563551000,
     "firstSeenAt": "2026-08-13T07:02:14.077Z",
     "lastSeenAt": "2026-08-14T00:13:14.288Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-09-13T01:26:26.209Z"
   },
   "globalli|senior test automation engineer": {
     "key": "globalli|senior test automation engineer",
@@ -5265,7 +5266,7 @@
     "salary": "",
     "postedAt": 1786601948000,
     "firstSeenAt": "2026-08-13T07:02:14.077Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5284,8 +5285,8 @@
     "postedAt": 1786564562000,
     "firstSeenAt": "2026-08-13T12:17:02.766Z",
     "lastSeenAt": "2026-08-14T00:13:14.288Z",
-    "active": true,
-    "expiredAt": null
+    "active": false,
+    "expiredAt": "2026-09-13T01:26:26.209Z"
   },
   "startale|senior software engineer, quality engineering (sdet)": {
     "key": "startale|senior software engineer, quality engineering (sdet)",
@@ -5360,7 +5361,7 @@
     "salary": "",
     "postedAt": 1786897646000,
     "firstSeenAt": "2026-08-16T17:51:40.968Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5513,7 +5514,7 @@
     "salary": "",
     "postedAt": 1781739459000,
     "firstSeenAt": "2026-08-23T11:51:53.950Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5571,7 +5572,7 @@
     "salary": "",
     "postedAt": 1785873277000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5591,7 +5592,7 @@
     "salary": "",
     "postedAt": 1787326857000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -5913,7 +5914,7 @@
     "salary": "",
     "postedAt": 1786142977000,
     "firstSeenAt": "2026-08-29T20:00:41.698Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -6085,7 +6086,7 @@
     "salary": "",
     "postedAt": 1788443796000,
     "firstSeenAt": "2026-09-04T01:16:51.854Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -6220,7 +6221,7 @@
     "salary": "",
     "postedAt": 1767362916000,
     "firstSeenAt": "2026-09-08T10:05:06.961Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -6239,7 +6240,7 @@
     "salary": "",
     "postedAt": 1788259427472,
     "firstSeenAt": "2026-09-08T10:05:06.961Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   },
@@ -6336,7 +6337,7 @@
     "salary": "",
     "postedAt": 1789134929206,
     "firstSeenAt": "2026-09-11T15:14:48.755Z",
-    "lastSeenAt": "2026-09-12T19:39:45.386Z",
+    "lastSeenAt": "2026-09-13T01:26:26.209Z",
     "active": true,
     "expiredAt": null
   }
