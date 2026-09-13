@@ -1315,7 +1315,9 @@
     "upshop",
     "staffbase",
     "inkind",
-    "pressable"
+    "pressable",
+    "sparxlearning",
+    "hungryroot"
   ],
   "lever": [
     "aircall",
@@ -1891,7 +1893,8 @@
     "pushpress",
     "scholarrock",
     "houzz",
-    "publicgoods"
+    "publicgoods",
+    "policyme"
   ],
   "ashby": [
     "clerk",
