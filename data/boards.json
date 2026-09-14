@@ -1900,7 +1900,8 @@
     "policyme",
     "lunaphysicaltherapy",
     "pendulum",
-    "stevenstransport"
+    "stevenstransport",
+    "appfollow"
   ],
   "ashby": [
     "clerk",
@@ -2878,7 +2879,8 @@
     "lever/hungerfreeamerica",
     "greenhouse/trident",
     "lever/lumivero",
-    "ashby/deepnote"
+    "ashby/deepnote",
+    "recruitee/corenglish"
   ],
   "recruitee": [
     "medmehealth",
@@ -3643,7 +3645,6 @@
     "4allportal",
     "tms",
     "altiussearchgroup",
-    "corenglish",
     "icon",
     "fixico",
     "11bitstudios",
