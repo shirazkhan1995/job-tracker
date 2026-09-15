@@ -116,7 +116,6 @@
     "prospa",
     "shepherd",
     "niraenergy",
-    "bolster",
     "dots",
     "beam",
     "agency",
@@ -1182,7 +1181,6 @@
     "cippc",
     "nimbus",
     "accreditedlabs",
-    "vetto",
     "altisales",
     "itftherapeutics",
     "butterflynetwork",
@@ -1236,7 +1234,6 @@
     "matic",
     "coverahealth",
     "ccof",
-    "vixtechnology",
     "doppel",
     "varicent",
     "comptechcomputertechnologies",
@@ -1905,7 +1902,28 @@
     "ibility",
     "ciellos",
     "assist-world",
-    "commercearchitects"
+    "commercearchitects",
+    "advocate",
+    "zocks",
+    "gofluent",
+    "markham",
+    "enveda",
+    "apryse",
+    "novara",
+    "pocketfm",
+    "sprymethods",
+    "aifi",
+    "skillerszone",
+    "termgrid",
+    "cruxocm",
+    "sigma-squared",
+    "shyftlabs",
+    "brainchildbio",
+    "atrium-therapeutics",
+    "copilotkit",
+    "qwoted",
+    "state-policy-network",
+    "thrive-financial"
   ],
   "ashby": [
     "clerk",
@@ -2644,7 +2662,9 @@
     "toku",
     "revstone",
     "phantom",
-    "beyondreachlabs"
+    "beyondreachlabs",
+    "harmonic",
+    "propel"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2884,7 +2904,10 @@
     "lever/lumivero",
     "ashby/deepnote",
     "recruitee/corenglish",
-    "ashby/finvest"
+    "ashby/finvest",
+    "greenhouse/bolster",
+    "greenhouse/vetto",
+    "greenhouse/vixtechnology"
   ],
   "recruitee": [
     "medmehealth",
