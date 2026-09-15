@@ -1317,7 +1317,8 @@
     "hungryroot",
     "startree",
     "pendo",
-    "9thwayinsignia"
+    "9thwayinsignia",
+    "logicgate"
   ],
   "lever": [
     "aircall",
@@ -1923,7 +1924,12 @@
     "copilotkit",
     "qwoted",
     "state-policy-network",
-    "thrive-financial"
+    "thrive-financial",
+    "tusker",
+    "horizon-blue-aba",
+    "humble-robotics",
+    "metabase",
+    "gridline"
   ],
   "ashby": [
     "clerk",
@@ -2664,7 +2670,8 @@
     "phantom",
     "beyondreachlabs",
     "harmonic",
-    "propel"
+    "propel",
+    "outschool"
   ],
   "invalid": [
     "greenhouse/redpandadata",
