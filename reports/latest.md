@@ -1,14 +1,14 @@
 # Job Tracker Report — 2026-09-16
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 115256 jobs from 4209 sources (4204 ATS boards polled, 137 newly discovered)
+> Scanned: 115417 jobs from 4211 sources (4206 ATS boards polled, 143 newly discovered)
 
 ## 💼 New remote matches (1)
 
-### Lead, Test Automation & Tools — Moniepoint
-- **Posted:** 2026-09-16 · **Location:** Remote, Poland; Moniepoint India · **Source:** greenhouse:moniepoint
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.eu.greenhouse.io/moniepoint/jobs/4977839101
+### Automation Tester — Sparksoft Corporation
+- **Posted:** 2026-09-16 · **Location:** Remote/Hybrid if local to Maryland; Columbia, MD · **Source:** greenhouse:sparksoftcorporation
+- **Matched:** playwright, javascript
+- **Link:** https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5221704007
 
 ## ⚠️ Source errors (27 total)
 

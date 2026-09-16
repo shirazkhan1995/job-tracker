@@ -15,7 +15,6 @@
     "instacart",
     "mongodb",
     "okta",
-    "postman",
     "reddit",
     "remotecom",
     "saucelabs",
@@ -1946,7 +1945,8 @@
     "magnetforensics",
     "modernlife",
     "fantasy",
-    "nimbletalent"
+    "nimbletalent",
+    "harmony"
   ],
   "ashby": [
     "clerk",
@@ -2934,7 +2934,9 @@
     "greenhouse/bolster",
     "greenhouse/vetto",
     "greenhouse/vixtechnology",
-    "lever/calstart"
+    "lever/calstart",
+    "greenhouse/postman",
+    "recruitee/finnpartners"
   ],
   "recruitee": [
     "medmehealth",
@@ -3667,7 +3669,6 @@
     "allshoretalent",
     "goodrec",
     "timedoctor",
-    "finnpartners",
     "instagrid",
     "yopeso",
     "lansweeper",
@@ -4223,7 +4224,8 @@
     "decoded",
     "limehome",
     "saga",
-    "quality"
+    "quality",
+    "duravermeer"
   ],
   "smartrecruiters": [
     "clerky",
