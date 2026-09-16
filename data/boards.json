@@ -1318,7 +1318,8 @@
     "startree",
     "pendo",
     "9thwayinsignia",
-    "logicgate"
+    "logicgate",
+    "torq"
   ],
   "lever": [
     "aircall",
@@ -1447,7 +1448,6 @@
     "trellis",
     "doonails",
     "primeexecutiveoffice",
-    "calstart",
     "goodleap",
     "mendix",
     "hive",
@@ -1929,7 +1929,13 @@
     "horizon-blue-aba",
     "humble-robotics",
     "metabase",
-    "gridline"
+    "gridline",
+    "melitagroup",
+    "amanotes",
+    "wilburlabs",
+    "infobase",
+    "baunfire",
+    "cherre"
   ],
   "ashby": [
     "clerk",
@@ -2914,7 +2920,8 @@
     "ashby/finvest",
     "greenhouse/bolster",
     "greenhouse/vetto",
-    "greenhouse/vixtechnology"
+    "greenhouse/vixtechnology",
+    "lever/calstart"
   ],
   "recruitee": [
     "medmehealth",
@@ -4202,7 +4209,8 @@
     "procivisag",
     "decoded",
     "limehome",
-    "saga"
+    "saga",
+    "quality"
   ],
   "smartrecruiters": [
     "clerky",
