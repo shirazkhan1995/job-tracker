@@ -1322,7 +1322,10 @@
     "torq",
     "slice",
     "perryhealth",
-    "netdocuments"
+    "netdocuments",
+    "strike",
+    "focalsystems",
+    "espresa"
   ],
   "lever": [
     "aircall",
@@ -1942,7 +1945,8 @@
     "prilenia",
     "magnetforensics",
     "modernlife",
-    "fantasy"
+    "fantasy",
+    "nimbletalent"
   ],
   "ashby": [
     "clerk",
@@ -2685,7 +2689,8 @@
     "harmonic",
     "propel",
     "outschool",
-    "echo"
+    "echo",
+    "harmony"
   ],
   "invalid": [
     "greenhouse/redpandadata",
