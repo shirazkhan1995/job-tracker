@@ -1319,7 +1319,10 @@
     "pendo",
     "9thwayinsignia",
     "logicgate",
-    "torq"
+    "torq",
+    "slice",
+    "perryhealth",
+    "netdocuments"
   ],
   "lever": [
     "aircall",
@@ -1935,7 +1938,11 @@
     "wilburlabs",
     "infobase",
     "baunfire",
-    "cherre"
+    "cherre",
+    "prilenia",
+    "magnetforensics",
+    "modernlife",
+    "fantasy"
   ],
   "ashby": [
     "clerk",
@@ -2677,7 +2684,8 @@
     "beyondreachlabs",
     "harmonic",
     "propel",
-    "outschool"
+    "outschool",
+    "echo"
   ],
   "invalid": [
     "greenhouse/redpandadata",
