@@ -2353,7 +2353,6 @@
     "pulse",
     "conveo",
     "clearly-ai",
-    "saturn",
     "anara",
     "david-ai",
     "zeit-ai",
@@ -2942,7 +2941,9 @@
     "greenhouse/vixtechnology",
     "lever/calstart",
     "greenhouse/postman",
-    "recruitee/finnpartners"
+    "recruitee/finnpartners",
+    "ashby/saturn",
+    "recruitee/spiralyze"
   ],
   "recruitee": [
     "medmehealth",
@@ -3651,7 +3652,6 @@
     "theeventacademy",
     "cityscience",
     "jeeves",
-    "spiralyze",
     "softgames",
     "foxelligroup",
     "conlab",
