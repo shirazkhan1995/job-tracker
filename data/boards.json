@@ -1329,7 +1329,8 @@
     "memoryblue",
     "octave",
     "qualio",
-    "btgpactual"
+    "btgpactual",
+    "medeloop"
   ],
   "lever": [
     "aircall",
@@ -1952,7 +1953,9 @@
     "fantasy",
     "nimbletalent",
     "harmony",
-    "theblacktux"
+    "theblacktux",
+    "biointellisense",
+    "nomihealth"
   ],
   "ashby": [
     "clerk",
@@ -2423,7 +2426,6 @@
     "cardboard",
     "diligencesquared",
     "polymath",
-    "hex",
     "humanarchive",
     "tsenta",
     "vela",
@@ -2520,7 +2522,6 @@
     "stora",
     "afresh",
     "deeter-analytics",
-    "iterable",
     "genki",
     "carbonhealth",
     "receptive",
@@ -2617,7 +2618,6 @@
     "what3words",
     "quartermaster",
     "greenlight",
-    "shield-ai",
     "ema",
     "rebuy",
     "hamstergarage",
@@ -2943,7 +2943,10 @@
     "greenhouse/postman",
     "recruitee/finnpartners",
     "ashby/saturn",
-    "recruitee/spiralyze"
+    "recruitee/spiralyze",
+    "ashby/hex",
+    "ashby/iterable",
+    "ashby/shield-ai"
   ],
   "recruitee": [
     "medmehealth",
@@ -4234,7 +4237,12 @@
     "duravermeer",
     "thepeoplebrandingcompany",
     "commonland",
-    "klantcontactdiensten"
+    "klantcontactdiensten",
+    "paragonpartners",
+    "nearfieldinstruments",
+    "profitap",
+    "heyharper",
+    "pioneertitleagency"
   ],
   "smartrecruiters": [
     "clerky",
