@@ -1,16 +1,14 @@
 # Job Tracker Report — 2026-09-18
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 118953 jobs from 4230 sources (4225 ATS boards polled, 140 newly discovered)
+> Scanned: 117699 jobs from 4233 sources (4228 ATS boards polled, 145 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### Quality Engineer — Coverflex
-- **Posted:** 2026-09-18 · **Location:** Portugal · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript · **Salary:** 38000-58000 EUR
-- **Link:** https://himalayas.app/companies/coverflex/jobs/quality-engineer
+_No new matches today._
 
-## ⚠️ Source errors (27 total)
+## ⚠️ Source errors (40 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
+- workable: HTTP 429 — 13 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
 - recruitee/epicdata: HTTP 403

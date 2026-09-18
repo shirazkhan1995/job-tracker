@@ -1960,7 +1960,12 @@
     "nomihealth",
     "britecore",
     "perrknight",
-    "gorh"
+    "gorh",
+    "nibiru",
+    "entefy",
+    "gopuff",
+    "iru",
+    "hush"
   ],
   "ashby": [
     "clerk",
@@ -2619,7 +2624,6 @@
     "clarity",
     "moonshot",
     "hoyoverse",
-    "snyk",
     "what3words",
     "quartermaster",
     "greenlight",
@@ -2954,7 +2958,8 @@
     "ashby/shield-ai",
     "greenhouse/instabase",
     "greenhouse/nerdy",
-    "greenhouse/berkadia"
+    "greenhouse/berkadia",
+    "ashby/snyk"
   ],
   "recruitee": [
     "medmehealth",
@@ -4251,7 +4256,8 @@
     "profitap",
     "heyharper",
     "pioneertitleagency",
-    "testerwork"
+    "testerwork",
+    "matresearch"
   ],
   "smartrecruiters": [
     "clerky",
