@@ -326,7 +326,6 @@
     "cadwell",
     "strivepharmacy",
     "pantheon",
-    "instabase",
     "subsplash",
     "alphasense",
     "bold",
@@ -500,7 +499,6 @@
     "healios",
     "tia",
     "via",
-    "nerdy",
     "ebanx",
     "hut8",
     "freenome",
@@ -938,7 +936,6 @@
     "houserx",
     "shopmy",
     "taskrabbit",
-    "berkadia",
     "affirmedrxpbc",
     "nonprofitfinancefund",
     "dv01",
@@ -1330,7 +1327,12 @@
     "octave",
     "qualio",
     "btgpactual",
-    "medeloop"
+    "medeloop",
+    "sureify",
+    "enterrasolutions",
+    "litify",
+    "carbondirect",
+    "nortal"
   ],
   "lever": [
     "aircall",
@@ -1955,7 +1957,10 @@
     "harmony",
     "theblacktux",
     "biointellisense",
-    "nomihealth"
+    "nomihealth",
+    "britecore",
+    "perrknight",
+    "gorh"
   ],
   "ashby": [
     "clerk",
@@ -2946,7 +2951,10 @@
     "recruitee/spiralyze",
     "ashby/hex",
     "ashby/iterable",
-    "ashby/shield-ai"
+    "ashby/shield-ai",
+    "greenhouse/instabase",
+    "greenhouse/nerdy",
+    "greenhouse/berkadia"
   ],
   "recruitee": [
     "medmehealth",
@@ -4242,7 +4250,8 @@
     "nearfieldinstruments",
     "profitap",
     "heyharper",
-    "pioneertitleagency"
+    "pioneertitleagency",
+    "testerwork"
   ],
   "smartrecruiters": [
     "clerky",
