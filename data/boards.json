@@ -1332,7 +1332,10 @@
     "enterrasolutions",
     "litify",
     "carbondirect",
-    "nortal"
+    "nortal",
+    "sothebys",
+    "spauldingridge",
+    "openup"
   ],
   "lever": [
     "aircall",
@@ -1965,7 +1968,10 @@
     "entefy",
     "gopuff",
     "iru",
-    "hush"
+    "hush",
+    "bluecoding",
+    "stardog",
+    "fuellabs"
   ],
   "ashby": [
     "clerk",
@@ -2704,7 +2710,8 @@
     "propel",
     "outschool",
     "echo",
-    "harmony"
+    "harmony",
+    "jito-labs"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2959,7 +2966,8 @@
     "greenhouse/instabase",
     "greenhouse/nerdy",
     "greenhouse/berkadia",
-    "ashby/snyk"
+    "ashby/snyk",
+    "recruitee/echogloballogistics"
   ],
   "recruitee": [
     "medmehealth",
@@ -3698,7 +3706,6 @@
     "mgid",
     "eleken",
     "heilindelectronicseurope",
-    "echogloballogistics",
     "gateway",
     "sofatutor",
     "spark",
@@ -4257,7 +4264,10 @@
     "heyharper",
     "pioneertitleagency",
     "testerwork",
-    "matresearch"
+    "matresearch",
+    "nxai",
+    "verticalcompute",
+    "gorh"
   ],
   "smartrecruiters": [
     "clerky",
