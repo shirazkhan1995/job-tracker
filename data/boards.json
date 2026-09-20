@@ -201,7 +201,6 @@
     "nutrafol",
     "66degrees",
     "engine",
-    "janeasystems",
     "starrez",
     "fuseglobalpartners",
     "3cloud",
@@ -1347,7 +1346,11 @@
     "upwork",
     "akko",
     "imubit",
-    "agebold"
+    "agebold",
+    "limrun",
+    "teamrubicon",
+    "wisetack",
+    "gensyn"
   ],
   "lever": [
     "aircall",
@@ -2728,7 +2731,12 @@
     "harmony",
     "jito-labs",
     "pragmatike",
-    "january"
+    "january",
+    "optery",
+    "lingodotdev",
+    "kaizen",
+    "darwin",
+    "publiccloudgroup"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -2985,7 +2993,8 @@
     "greenhouse/berkadia",
     "ashby/snyk",
     "recruitee/echogloballogistics",
-    "greenhouse/kickstarter"
+    "greenhouse/kickstarter",
+    "greenhouse/janeasystems"
   ],
   "recruitee": [
     "medmehealth",
