@@ -1350,7 +1350,8 @@
     "limrun",
     "teamrubicon",
     "wisetack",
-    "gensyn"
+    "gensyn",
+    "bondora"
   ],
   "lever": [
     "aircall",
@@ -2736,7 +2737,8 @@
     "lingodotdev",
     "kaizen",
     "darwin",
-    "publiccloudgroup"
+    "publiccloudgroup",
+    "turing"
   ],
   "invalid": [
     "greenhouse/redpandadata",
