@@ -777,7 +777,6 @@
     "reproductivefreedomforall",
     "syndigo",
     "waymo",
-    "kickstarter",
     "talent",
     "pointwild",
     "baton",
@@ -2985,7 +2984,8 @@
     "greenhouse/nerdy",
     "greenhouse/berkadia",
     "ashby/snyk",
-    "recruitee/echogloballogistics"
+    "recruitee/echogloballogistics",
+    "greenhouse/kickstarter"
   ],
   "recruitee": [
     "medmehealth",
