@@ -1351,7 +1351,8 @@
     "teamrubicon",
     "wisetack",
     "gensyn",
-    "bondora"
+    "bondora",
+    "equummedical"
   ],
   "lever": [
     "aircall",
@@ -2273,7 +2274,6 @@
     "rallyuxr",
     "eventual",
     "julius",
-    "two-dots",
     "realitydefender",
     "tailor",
     "blee",
@@ -3000,7 +3000,8 @@
     "ashby/snyk",
     "recruitee/echogloballogistics",
     "greenhouse/kickstarter",
-    "greenhouse/janeasystems"
+    "greenhouse/janeasystems",
+    "ashby/two-dots"
   ],
   "recruitee": [
     "medmehealth",
@@ -4302,7 +4303,9 @@
     "verticalcompute",
     "gorh",
     "arealytics",
-    "sailer"
+    "sailer",
+    "gravity9",
+    "ennovationhub"
   ],
   "smartrecruiters": [
     "clerky",
