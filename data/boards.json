@@ -1352,7 +1352,9 @@
     "wisetack",
     "gensyn",
     "bondora",
-    "equummedical"
+    "equummedical",
+    "make",
+    "submittable"
   ],
   "lever": [
     "aircall",
@@ -3001,7 +3003,8 @@
     "recruitee/echogloballogistics",
     "greenhouse/kickstarter",
     "greenhouse/janeasystems",
-    "ashby/two-dots"
+    "ashby/two-dots",
+    "recruitee/smartsupp"
   ],
   "recruitee": [
     "medmehealth",
@@ -3510,7 +3513,6 @@
     "skfberlin",
     "skkarriere",
     "skytree",
-    "smartsupp",
     "sobinco",
     "solease",
     "solvinity",
