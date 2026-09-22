@@ -1,17 +1,17 @@
 # Job Tracker Report — 2026-09-22
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 118743 jobs from 4278 sources (4273 ATS boards polled, 137 newly discovered)
+> Scanned: 118272 jobs from 4287 sources (4282 ATS boards polled, 133 newly discovered)
 
 ## 💼 New remote matches (1)
 
-### Senior QA Automation Engineer — Codest Ltd. Company No. 12590542, VAT number: GB363431020
-- **Posted:** 2026-09-21 · **Location:** Worldwide (no restriction) · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript · **Salary:** 18000-21000 PLN
-- **Link:** https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/senior-qa-automation-engineer
+### Senior QA Specialista (Java / Typescript) — Aukro
+- **Posted:** 2026-09-22 · **Location:** Czechia · **Source:** himalayas
+- **Matched:** cypress, typescript
+- **Link:** https://himalayas.app/companies/aukro/jobs/senior-qa-specialista-java-typescript
 
-## ⚠️ Source errors (81 total)
+## ⚠️ Source errors (76 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 54 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
+- workable: HTTP 429 — 49 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
 - recruitee/epicdata: HTTP 403

@@ -1355,7 +1355,14 @@
     "equummedical",
     "make",
     "submittable",
-    "peloton"
+    "peloton",
+    "wayvia",
+    "slingshotaerospace",
+    "crescendohealth",
+    "horizenlabs",
+    "teccweb",
+    "sisco",
+    "rigup"
   ],
   "lever": [
     "aircall",
@@ -2640,7 +2647,6 @@
     "upside",
     "sunday",
     "maincode",
-    "kraken",
     "magicschool",
     "atlys",
     "hercules",
@@ -2745,7 +2751,9 @@
     "publiccloudgroup",
     "turing",
     "bubble",
-    "backbone"
+    "backbone",
+    "pomelo-care",
+    "firsthand"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3005,7 +3013,9 @@
     "greenhouse/kickstarter",
     "greenhouse/janeasystems",
     "ashby/two-dots",
-    "recruitee/smartsupp"
+    "recruitee/smartsupp",
+    "ashby/kraken",
+    "recruitee/relay"
   ],
   "recruitee": [
     "medmehealth",
@@ -4117,7 +4127,6 @@
     "mgiconsultants",
     "vidiq",
     "florence",
-    "relay",
     "peoplefinders",
     "naxcon",
     "landbot",
