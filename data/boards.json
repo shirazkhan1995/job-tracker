@@ -1368,7 +1368,12 @@
     "nisc",
     "openfx",
     "madisonenergyinfrastructure",
-    "lightspeeddms"
+    "lightspeeddms",
+    "blusharkdigital",
+    "healthie",
+    "flourish",
+    "californiapsychics",
+    "hanwharenewables"
   ],
   "lever": [
     "aircall",
@@ -2514,7 +2519,6 @@
     "withflex",
     "paradigmai",
     "mosaic",
-    "workweave",
     "airtable",
     "evolve",
     "lumos",
@@ -3023,7 +3027,8 @@
     "recruitee/smartsupp",
     "ashby/kraken",
     "recruitee/relay",
-    "lever/anyroad"
+    "lever/anyroad",
+    "ashby/workweave"
   ],
   "recruitee": [
     "medmehealth",
