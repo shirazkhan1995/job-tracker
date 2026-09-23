@@ -1362,7 +1362,13 @@
     "horizenlabs",
     "teccweb",
     "sisco",
-    "rigup"
+    "rigup",
+    "corestory",
+    "ameelio",
+    "nisc",
+    "openfx",
+    "madisonenergyinfrastructure",
+    "lightspeeddms"
   ],
   "lever": [
     "aircall",
@@ -1767,7 +1773,6 @@
     "pivotenergy",
     "teamshares",
     "stockpile",
-    "anyroad",
     "bluesight",
     "alltrails",
     "chooose",
@@ -2003,7 +2008,8 @@
     "lifeforce",
     "ans",
     "traackr",
-    "mistplay"
+    "mistplay",
+    "cura"
   ],
   "ashby": [
     "clerk",
@@ -2753,7 +2759,8 @@
     "bubble",
     "backbone",
     "pomelo-care",
-    "firsthand"
+    "firsthand",
+    "medallion"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3015,7 +3022,8 @@
     "ashby/two-dots",
     "recruitee/smartsupp",
     "ashby/kraken",
-    "recruitee/relay"
+    "recruitee/relay",
+    "lever/anyroad"
   ],
   "recruitee": [
     "medmehealth",
@@ -4317,7 +4325,10 @@
     "arealytics",
     "sailer",
     "gravity9",
-    "ennovationhub"
+    "ennovationhub",
+    "acadoro",
+    "thedailywire",
+    "thefactory"
   ],
   "smartrecruiters": [
     "clerky",
