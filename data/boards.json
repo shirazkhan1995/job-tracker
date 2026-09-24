@@ -2764,7 +2764,8 @@
     "backbone",
     "pomelo-care",
     "firsthand",
-    "medallion"
+    "medallion",
+    "crux"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -4337,7 +4338,8 @@
     "nextventures",
     "informationfactory",
     "ggzcentraal",
-    "jetrails"
+    "jetrails",
+    "smed"
   ],
   "smartrecruiters": [
     "clerky",
