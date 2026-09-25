@@ -1376,7 +1376,8 @@
     "hanwharenewables",
     "layerhealth",
     "livecareer",
-    "capitalontap"
+    "capitalontap",
+    "praxis-health"
   ],
   "lever": [
     "aircall",
@@ -2768,7 +2769,9 @@
     "pomelo-care",
     "firsthand",
     "medallion",
-    "crux"
+    "crux",
+    "sidekick",
+    "change"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -4347,7 +4350,15 @@
     "spocket",
     "dawntechnology",
     "altrecht",
-    "joernshealthcare"
+    "joernshealthcare",
+    "accedia",
+    "kodland",
+    "tensquaregames",
+    "filmlagune",
+    "vicentrabv",
+    "popcorngrowth",
+    "keyper",
+    "aiirinnovationsbv"
   ],
   "smartrecruiters": [
     "clerky",
