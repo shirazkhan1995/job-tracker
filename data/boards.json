@@ -2774,7 +2774,9 @@
     "crux",
     "sidekick",
     "change",
-    "brighterly"
+    "brighterly",
+    "generate",
+    "vega"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3040,7 +3042,9 @@
     "lever/anyroad",
     "ashby/workweave",
     "recruitee/deuna",
-    "lever/conduit"
+    "lever/conduit",
+    "recruitee/scala",
+    "recruitee/qualifyze"
   ],
   "recruitee": [
     "medmehealth",
@@ -3788,7 +3792,6 @@
     "itsprodigy",
     "allego",
     "unifonic",
-    "scala",
     "addepto",
     "photoaid",
     "scholarshipowl",
@@ -4122,7 +4125,6 @@
     "amperecloud",
     "wimexgruppe",
     "bamboohr",
-    "qualifyze",
     "pur",
     "jimmytechnologies",
     "dcfverlag",
@@ -4366,7 +4368,10 @@
     "powerprozesse",
     "beterggz",
     "bentivegnasteuerrecht",
-    "pum"
+    "pum",
+    "openvpn",
+    "zira",
+    "brighterly"
   ],
   "smartrecruiters": [
     "clerky",
