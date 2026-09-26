@@ -1,14 +1,11 @@
 # Job Tracker Report — 2026-09-26
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 119554 jobs from 4340 sources (4335 ATS boards polled, 131 newly discovered)
+> Scanned: 120031 jobs from 4342 sources (4337 ATS boards polled, 124 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### QA Engineer - Manual/Visual tester and automation tester — Colonial Surety Company
-- **Posted:** 2026-09-25 · **Location:** Vietnam · **Source:** himalayas
-- **Matched:** webdriverio, javascript, typescript
-- **Link:** https://himalayas.app/companies/colonial-surety-company/jobs/qa-engineer-manual-visual-tester-and-automation-tester
+_No new matches today._
 
 ## ⚠️ Source errors (27 total)
 
