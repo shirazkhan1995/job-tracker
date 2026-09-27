@@ -1,27 +1,21 @@
 # Job Tracker Report — 2026-09-27
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 120542 jobs from 4407 sources (4402 ATS boards polled, 102 newly discovered)
+> Scanned: 119548 jobs from 4408 sources (4403 ATS boards polled, 115 newly discovered)
 
-## 💼 New remote matches (3)
+## 💼 New remote matches (2)
 
-### QA ENGINEERING (AUTOMATIONS) — Study Now
+### Test Automation Engineer — Lingaro
 - **Posted:** 2026-09-27 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript · **Salary:** 780-1300 GBP
-- **Link:** https://himalayas.app/companies/study-now/jobs/qa-engineering-automations
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://himalayas.app/companies/lingaro/jobs/test-automation-engineer-8154551040
 
-### QA Engineer (Manual, Web Platform) — Stellar Tech
-- **Posted:** 2026-09-27 · **Location:** Worldwide (no restriction) · **Source:** himalayas
-- **Matched:** playwright, typescript
-- **Link:** https://himalayas.app/companies/stellar-tech/jobs/qa-engineer-manual-web-platform
-
-### Quality Engineer — Velocix Solutions USA Inc.
+### Software Development Engineer in Test (SDET) — Valsoft Corporation
 - **Posted:** 2026-09-27 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, javascript
-- **Link:** https://himalayas.app/companies/velocix-solutions-usa-inc/jobs/quality-engineer
+- **Matched:** playwright, cypress, javascript, typescript
+- **Link:** https://himalayas.app/companies/valsoft-corporation/jobs/software-development-engineer-in-test-sdet
 
-## ⚠️ Source errors (63 total)
+## ⚠️ Source errors (27 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 36 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
 - recruitee/epicdata: HTTP 403
