@@ -327,7 +327,6 @@
     "alphasense",
     "bold",
     "launchdarkly",
-    "amplitude",
     "radar",
     "kalshi",
     "latent",
@@ -2031,7 +2030,8 @@
     "powdevs",
     "brightmachines",
     "sqaservices",
-    "pditechnologies"
+    "pditechnologies",
+    "trinet"
   ],
   "ashby": [
     "clerk",
@@ -2789,7 +2789,8 @@
     "glide",
     "fernstone",
     "quotewell",
-    "assemble"
+    "assemble",
+    "scout-ai"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3067,7 +3068,8 @@
     "recruitee/vicentrabv",
     "lever/ux-woman",
     "greenhouse/outschool",
-    "ashby/button"
+    "ashby/button",
+    "greenhouse/amplitude"
   ],
   "recruitee": [
     "medmehealth",
@@ -4455,7 +4457,8 @@
     "vandevelde",
     "superformula",
     "openup",
-    "lillydoo"
+    "lillydoo",
+    "nutrisense"
   ],
   "smartrecruiters": [
     "clerky",
