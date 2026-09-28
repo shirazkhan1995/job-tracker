@@ -34,7 +34,6 @@
     "piramidalinc",
     "ionq",
     "thealleninstitute",
-    "outschool",
     "spacex",
     "planetscale",
     "thenewyorktimes",
@@ -2629,7 +2628,6 @@
     "tradeify",
     "gradera",
     "moneyhash",
-    "button",
     "lumin-digital",
     "pearmill",
     "maple",
@@ -3067,7 +3065,9 @@
     "recruitee/browseai",
     "recruitee/dialo",
     "recruitee/vicentrabv",
-    "lever/ux-woman"
+    "lever/ux-woman",
+    "greenhouse/outschool",
+    "ashby/button"
   ],
   "recruitee": [
     "medmehealth",
@@ -4454,7 +4454,8 @@
     "allredi",
     "vandevelde",
     "superformula",
-    "openup"
+    "openup",
+    "lillydoo"
   ],
   "smartrecruiters": [
     "clerky",
