@@ -1387,7 +1387,8 @@
     "silvr",
     "knack",
     "kunumi",
-    "eve"
+    "eve",
+    "payit"
   ],
   "lever": [
     "aircall",
@@ -1687,7 +1688,6 @@
     "arbitrum-opco",
     "fundrise",
     "pigment",
-    "ux-woman",
     "revhealth",
     "waabi",
     "valdera",
@@ -3066,7 +3066,8 @@
     "recruitee/aviasales",
     "recruitee/browseai",
     "recruitee/dialo",
-    "recruitee/vicentrabv"
+    "recruitee/vicentrabv",
+    "lever/ux-woman"
   ],
   "recruitee": [
     "medmehealth",
@@ -4452,7 +4453,8 @@
     "epab",
     "allredi",
     "vandevelde",
-    "superformula"
+    "superformula",
+    "openup"
   ],
   "smartrecruiters": [
     "clerky",
