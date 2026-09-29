@@ -334,7 +334,6 @@
     "momentic",
     "paradigm",
     "axiom",
-    "dispatch",
     "recall",
     "parallel",
     "yuma",
@@ -3069,7 +3068,8 @@
     "greenhouse/outschool",
     "ashby/button",
     "greenhouse/amplitude",
-    "lever/stockpile"
+    "lever/stockpile",
+    "greenhouse/dispatch"
   ],
   "recruitee": [
     "medmehealth",
