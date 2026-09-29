@@ -1384,7 +1384,8 @@
     "knack",
     "kunumi",
     "eve",
-    "payit"
+    "payit",
+    "entersekt"
   ],
   "lever": [
     "aircall",
@@ -2028,7 +2029,10 @@
     "brightmachines",
     "sqaservices",
     "pditechnologies",
-    "trinet"
+    "trinet",
+    "immuta",
+    "bondbrandloyalty",
+    "thesalesfactory"
   ],
   "ashby": [
     "clerk",
@@ -2787,7 +2791,8 @@
     "fernstone",
     "quotewell",
     "assemble",
-    "scout-ai"
+    "scout-ai",
+    "hex"
   ],
   "invalid": [
     "greenhouse/redpandadata",
