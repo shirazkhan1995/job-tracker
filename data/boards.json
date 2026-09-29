@@ -806,7 +806,6 @@
     "caribou",
     "brightcoreenergy",
     "disco",
-    "onestream",
     "podean",
     "str",
     "oasishealthpartners",
@@ -3069,7 +3068,8 @@
     "ashby/button",
     "greenhouse/amplitude",
     "lever/stockpile",
-    "greenhouse/dispatch"
+    "greenhouse/dispatch",
+    "greenhouse/onestream"
   ],
   "recruitee": [
     "medmehealth",
