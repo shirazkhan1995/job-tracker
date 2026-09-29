@@ -1788,7 +1788,6 @@
     "signup-expert",
     "pivotenergy",
     "teamshares",
-    "stockpile",
     "bluesight",
     "alltrails",
     "chooose",
@@ -3069,7 +3068,8 @@
     "lever/ux-woman",
     "greenhouse/outschool",
     "ashby/button",
-    "greenhouse/amplitude"
+    "greenhouse/amplitude",
+    "lever/stockpile"
   ],
   "recruitee": [
     "medmehealth",
@@ -4458,7 +4458,8 @@
     "superformula",
     "openup",
     "lillydoo",
-    "nutrisense"
+    "nutrisense",
+    "psaprofessional"
   ],
   "smartrecruiters": [
     "clerky",
