@@ -1208,7 +1208,6 @@
     "attentive",
     "lightspeedsystems",
     "coreweave",
-    "neoris",
     "fourkites",
     "spoileralert",
     "alloy",
@@ -1380,7 +1379,6 @@
     "eudia",
     "cogentbiosciences",
     "firesprite",
-    "silvr",
     "knack",
     "kunumi",
     "eve",
@@ -2651,7 +2649,6 @@
     "icounter",
     "fluency",
     "oviva",
-    "melio",
     "everbridge",
     "starbridge",
     "nomos",
@@ -2792,7 +2789,8 @@
     "quotewell",
     "assemble",
     "scout-ai",
-    "hex"
+    "hex",
+    "pairs"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3074,7 +3072,10 @@
     "greenhouse/amplitude",
     "lever/stockpile",
     "greenhouse/dispatch",
-    "greenhouse/onestream"
+    "greenhouse/onestream",
+    "greenhouse/neoris",
+    "greenhouse/silvr",
+    "ashby/melio"
   ],
   "recruitee": [
     "medmehealth",
