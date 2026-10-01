@@ -588,7 +588,6 @@
     "ecoatmgazelle",
     "opensesame",
     "sleepdoctor",
-    "smetennessee",
     "platformscience",
     "sfox",
     "oportun",
@@ -654,7 +653,6 @@
     "orioninnovation",
     "rxsense",
     "whitetech",
-    "inovalon",
     "ludiaconsulting",
     "turbineone",
     "pingcap",
@@ -1388,7 +1386,9 @@
     "udemy",
     "rialtic",
     "karbon",
-    "veranahealth"
+    "veranahealth",
+    "zestyai",
+    "obsidiantherapeutics"
   ],
   "lever": [
     "aircall",
@@ -2036,7 +2036,12 @@
     "immuta",
     "bondbrandloyalty",
     "thesalesfactory",
-    "altaml"
+    "altaml",
+    "trevipay",
+    "revenueanalytics",
+    "studypoint",
+    "sonarsource",
+    "oneimpression"
   ],
   "ashby": [
     "clerk",
@@ -3081,7 +3086,9 @@
     "greenhouse/onestream",
     "greenhouse/neoris",
     "greenhouse/silvr",
-    "ashby/melio"
+    "ashby/melio",
+    "greenhouse/smetennessee",
+    "greenhouse/inovalon"
   ],
   "recruitee": [
     "medmehealth",
