@@ -1388,7 +1388,8 @@
     "karbon",
     "veranahealth",
     "zestyai",
-    "obsidiantherapeutics"
+    "obsidiantherapeutics",
+    "momentumfinancialservicesgroup"
   ],
   "lever": [
     "aircall",
@@ -2041,7 +2042,9 @@
     "revenueanalytics",
     "studypoint",
     "sonarsource",
-    "oneimpression"
+    "oneimpression",
+    "curai",
+    "anybotics"
   ],
   "ashby": [
     "clerk",
@@ -2801,7 +2804,8 @@
     "assemble",
     "scout-ai",
     "hex",
-    "pairs"
+    "pairs",
+    "kinetic"
   ],
   "invalid": [
     "greenhouse/redpandadata",
