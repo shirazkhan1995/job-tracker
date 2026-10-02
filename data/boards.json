@@ -48,7 +48,6 @@
     "verkada",
     "humansignal",
     "andurilindustries",
-    "hightouch",
     "avride",
     "protillionbiosciences",
     "lithic",
@@ -1403,7 +1402,14 @@
     "boosta",
     "promiflash",
     "barkleyokrp",
-    "terakeet"
+    "terakeet",
+    "k2spacecorporation",
+    "netlify",
+    "emplifi",
+    "tripledotstudios",
+    "accuweather",
+    "island",
+    "methodcommunications"
   ],
   "lever": [
     "aircall",
@@ -2828,7 +2834,8 @@
     "jupus",
     "growfig",
     "rebar",
-    "diligencevault"
+    "diligencevault",
+    "voladynamics"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3117,7 +3124,9 @@
     "greenhouse/smetennessee",
     "greenhouse/inovalon",
     "ashby/thoughtworks",
-    "ashby/somana"
+    "ashby/somana",
+    "greenhouse/hightouch",
+    "recruitee/grupoespiral"
   ],
   "recruitee": [
     "medmehealth",
@@ -4180,7 +4189,6 @@
     "knuddels",
     "talent",
     "momentumdata",
-    "grupoespiral",
     "kanzleibrands",
     "kalibrate",
     "summit",
