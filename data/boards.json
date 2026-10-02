@@ -1393,7 +1393,11 @@
     "deeplocal",
     "kernelize",
     "scaleops",
-    "avetta"
+    "avetta",
+    "datapao",
+    "vuori",
+    "safariai",
+    "elementbiosciences"
   ],
   "lever": [
     "aircall",
@@ -2049,7 +2053,10 @@
     "oneimpression",
     "curai",
     "anybotics",
-    "robbinsrecruiting"
+    "robbinsrecruiting",
+    "centuria",
+    "projectkittyhawk",
+    "sure"
   ],
   "ashby": [
     "clerk",
@@ -2760,7 +2767,6 @@
     "reframesystems",
     "mastra",
     "longview",
-    "thoughtworks",
     "cyberstaff",
     "talentpop",
     "squad",
@@ -2811,7 +2817,9 @@
     "hex",
     "pairs",
     "kinetic",
-    "cognition"
+    "cognition",
+    "jupus",
+    "growfig"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3098,7 +3106,8 @@
     "greenhouse/silvr",
     "ashby/melio",
     "greenhouse/smetennessee",
-    "greenhouse/inovalon"
+    "greenhouse/inovalon",
+    "ashby/thoughtworks"
   ],
   "recruitee": [
     "medmehealth",
