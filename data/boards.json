@@ -1389,7 +1389,11 @@
     "veranahealth",
     "zestyai",
     "obsidiantherapeutics",
-    "momentumfinancialservicesgroup"
+    "momentumfinancialservicesgroup",
+    "deeplocal",
+    "kernelize",
+    "scaleops",
+    "avetta"
   ],
   "lever": [
     "aircall",
@@ -2044,7 +2048,8 @@
     "sonarsource",
     "oneimpression",
     "curai",
-    "anybotics"
+    "anybotics",
+    "robbinsrecruiting"
   ],
   "ashby": [
     "clerk",
@@ -2805,7 +2810,8 @@
     "scout-ai",
     "hex",
     "pairs",
-    "kinetic"
+    "kinetic",
+    "cognition"
   ],
   "invalid": [
     "greenhouse/redpandadata",
