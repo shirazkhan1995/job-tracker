@@ -232,7 +232,6 @@
     "airship",
     "honor",
     "jusbrasil",
-    "actpowerservices",
     "donorbox",
     "protaratherapeutics",
     "bluestaq",
@@ -1412,7 +1411,18 @@
     "methodcommunications",
     "fingerprint",
     "syllo",
-    "quillbot"
+    "quillbot",
+    "vaynermedia",
+    "qualia",
+    "artofproblemsolving",
+    "hsogroupbv",
+    "res",
+    "codeforamerica",
+    "bitwarden",
+    "dropzoneai",
+    "alarmcom",
+    "growetalents",
+    "climatefirstbank"
   ],
   "lever": [
     "aircall",
@@ -2072,7 +2082,8 @@
     "centuria",
     "projectkittyhawk",
     "sure",
-    "insomniacdesign"
+    "insomniacdesign",
+    "airdna"
   ],
   "ashby": [
     "clerk",
@@ -2841,7 +2852,8 @@
     "voladynamics",
     "onhires",
     "warp",
-    "wealthsimple"
+    "wealthsimple",
+    "secureframe"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3132,7 +3144,8 @@
     "ashby/thoughtworks",
     "ashby/somana",
     "greenhouse/hightouch",
-    "recruitee/grupoespiral"
+    "recruitee/grupoespiral",
+    "greenhouse/actpowerservices"
   ],
   "recruitee": [
     "medmehealth",
@@ -4525,7 +4538,8 @@
     "hypergen",
     "wellis",
     "zackdfilms",
-    "yourpersonalai"
+    "yourpersonalai",
+    "skycellag"
   ],
   "smartrecruiters": [
     "clerky",

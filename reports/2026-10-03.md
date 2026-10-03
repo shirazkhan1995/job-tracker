@@ -1,17 +1,14 @@
 # Job Tracker Report — 2026-10-03
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 121610 jobs from 4464 sources (4459 ATS boards polled, 100 newly discovered)
+> Scanned: 122432 jobs from 4478 sources (4473 ATS boards polled, 111 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### Senior Software Engineer in Test - Tieto Tech Consulting (m/f/d) — Tietoevry
-- **Posted:** 2026-10-02 · **Location:** Bulgaria · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/tietoevry/jobs/senior-software-engineer-in-test-tieto-tech-consulting-m-f-d
+_No new matches today._
 
-## ⚠️ Source errors (79 total)
+## ⚠️ Source errors (28 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 52 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
+- workable/10xbanking: HTTP 429
 - recruitee/epicdata: HTTP 403
