@@ -1427,7 +1427,8 @@
     "technologyadvice",
     "agero",
     "relocity",
-    "strategichr"
+    "strategichr",
+    "gateway"
   ],
   "lever": [
     "aircall",
@@ -2864,7 +2865,9 @@
     "secureframe",
     "talkiatry",
     "carrum-health",
-    "krakentech"
+    "krakentech",
+    "verahealth",
+    "brumby"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3156,11 +3159,12 @@
     "ashby/somana",
     "greenhouse/hightouch",
     "recruitee/grupoespiral",
-    "greenhouse/actpowerservices"
+    "greenhouse/actpowerservices",
+    "recruitee/1x",
+    "recruitee/halodirobotics"
   ],
   "recruitee": [
     "medmehealth",
-    "1x",
     "3vc",
     "60secondstonapoli",
     "8advisory",
@@ -4027,7 +4031,6 @@
     "groupealpena",
     "guidion6",
     "habilians",
-    "halodirobotics",
     "happeo",
     "hausmeisterkrause",
     "headfirst",
