@@ -641,7 +641,6 @@
     "voyagertechnologiesinc",
     "yubico",
     "kellerpostman",
-    "pomelocare",
     "intradiem",
     "thatch",
     "phizenix",
@@ -2867,7 +2866,8 @@
     "carrum-health",
     "krakentech",
     "verahealth",
-    "brumby"
+    "brumby",
+    "footprint"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3161,7 +3161,8 @@
     "recruitee/grupoespiral",
     "greenhouse/actpowerservices",
     "recruitee/1x",
-    "recruitee/halodirobotics"
+    "recruitee/halodirobotics",
+    "greenhouse/pomelocare"
   ],
   "recruitee": [
     "medmehealth",
