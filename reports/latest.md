@@ -1,11 +1,14 @@
 # Job Tracker Report — 2026-10-04
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 122726 jobs from 4495 sources (4490 ATS boards polled, 37 newly discovered)
+> Scanned: 122738 jobs from 4493 sources (4488 ATS boards polled, 105 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### Senior Software Engineer in Test — HealthEdge
+- **Posted:** 2026-10-04 · **Location:** India · **Source:** himalayas
+- **Matched:** cypress, javascript
+- **Link:** https://himalayas.app/companies/healthedge/jobs/senior-software-engineer-in-test
 
 ## ⚠️ Source errors (27 total)
 
