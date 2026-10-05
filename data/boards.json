@@ -312,7 +312,6 @@
     "liveperson",
     "pdq",
     "harbor",
-    "evermore",
     "resilience",
     "memic",
     "nebius",
@@ -831,7 +830,6 @@
     "jadebiosciences",
     "togetherai",
     "quintoandar",
-    "interval",
     "materialbank",
     "jobsforthefuture",
     "calahealth",
@@ -1431,7 +1429,9 @@
     "seenhealth",
     "tripadvisor",
     "vialogic",
-    "spothopper"
+    "spothopper",
+    "aperture",
+    "cleargov"
   ],
   "lever": [
     "aircall",
@@ -2098,7 +2098,8 @@
     "nava",
     "longwall",
     "picktrace",
-    "isee"
+    "isee",
+    "daos-hub"
   ],
   "ashby": [
     "clerk",
@@ -3169,7 +3170,9 @@
     "recruitee/1x",
     "recruitee/halodirobotics",
     "greenhouse/pomelocare",
-    "ashby/corgi"
+    "ashby/corgi",
+    "greenhouse/evermore",
+    "greenhouse/interval"
   ],
   "recruitee": [
     "medmehealth",
@@ -4566,7 +4569,8 @@
     "cactus",
     "julesmoi",
     "teleperformance",
-    "nodeworthy"
+    "nodeworthy",
+    "alexstaffagency"
   ],
   "smartrecruiters": [
     "clerky",
