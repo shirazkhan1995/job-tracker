@@ -1427,7 +1427,11 @@
     "agero",
     "relocity",
     "strategichr",
-    "gateway"
+    "gateway",
+    "seenhealth",
+    "tripadvisor",
+    "vialogic",
+    "spothopper"
   ],
   "lever": [
     "aircall",
@@ -2091,7 +2095,10 @@
     "airdna",
     "renofi",
     "candlinspection",
-    "nava"
+    "nava",
+    "longwall",
+    "picktrace",
+    "isee"
   ],
   "ashby": [
     "clerk",
@@ -2484,7 +2491,6 @@
     "sagecare",
     "phonely",
     "domu",
-    "corgi",
     "substrate",
     "anthrogen",
     "kastle",
@@ -3162,7 +3168,8 @@
     "greenhouse/actpowerservices",
     "recruitee/1x",
     "recruitee/halodirobotics",
-    "greenhouse/pomelocare"
+    "greenhouse/pomelocare",
+    "ashby/corgi"
   ],
   "recruitee": [
     "medmehealth",
