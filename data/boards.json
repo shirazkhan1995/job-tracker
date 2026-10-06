@@ -1434,7 +1434,8 @@
     "cleargov",
     "b12",
     "nextiva",
-    "collibra"
+    "collibra",
+    "mks2technologies"
   ],
   "lever": [
     "aircall",
@@ -2101,7 +2102,8 @@
     "longwall",
     "picktrace",
     "isee",
-    "daos-hub"
+    "daos-hub",
+    "rapidai"
   ],
   "ashby": [
     "clerk",
@@ -2693,7 +2695,6 @@
     "kojo",
     "kivo-health",
     "innate",
-    "ace-1-media",
     "tradeify",
     "gradera",
     "moneyhash",
@@ -2877,7 +2878,8 @@
     "verahealth",
     "brumby",
     "footprint",
-    "integrate"
+    "integrate",
+    "vamo"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3176,7 +3178,8 @@
     "ashby/corgi",
     "greenhouse/evermore",
     "greenhouse/interval",
-    "lever/trustyou"
+    "lever/trustyou",
+    "ashby/ace-1-media"
   ],
   "recruitee": [
     "medmehealth",
@@ -4574,7 +4577,12 @@
     "julesmoi",
     "teleperformance",
     "nodeworthy",
-    "alexstaffagency"
+    "alexstaffagency",
+    "dbfinancial",
+    "theacareer",
+    "digitalagentur1",
+    "enjoygaming",
+    "tellent"
   ],
   "smartrecruiters": [
     "clerky",
