@@ -706,7 +706,6 @@
     "icon",
     "azuritypharmaceuticals",
     "life360",
-    "hubspot",
     "tanium",
     "careerteam",
     "10alabs",
@@ -1435,7 +1434,13 @@
     "b12",
     "nextiva",
     "collibra",
-    "mks2technologies"
+    "mks2technologies",
+    "onebullex",
+    "reallygreatreading",
+    "conquer",
+    "genedx",
+    "orium",
+    "primerai"
   ],
   "lever": [
     "aircall",
@@ -2103,7 +2108,9 @@
     "picktrace",
     "isee",
     "daos-hub",
-    "rapidai"
+    "rapidai",
+    "tenna",
+    "quantum-health"
   ],
   "ashby": [
     "clerk",
@@ -2879,7 +2886,9 @@
     "brumby",
     "footprint",
     "integrate",
-    "vamo"
+    "vamo",
+    "coinbase",
+    "buildops"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3179,7 +3188,9 @@
     "greenhouse/evermore",
     "greenhouse/interval",
     "lever/trustyou",
-    "ashby/ace-1-media"
+    "ashby/ace-1-media",
+    "greenhouse/hubspot",
+    "recruitee/openup"
   ],
   "recruitee": [
     "medmehealth",
@@ -4563,7 +4574,6 @@
     "allredi",
     "vandevelde",
     "superformula",
-    "openup",
     "lillydoo",
     "nutrisense",
     "psaprofessional",
@@ -4582,7 +4592,8 @@
     "theacareer",
     "digitalagentur1",
     "enjoygaming",
-    "tellent"
+    "tellent",
+    "cyberarrow"
   ],
   "smartrecruiters": [
     "clerky",
