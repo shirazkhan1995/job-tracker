@@ -1431,7 +1431,10 @@
     "vialogic",
     "spothopper",
     "aperture",
-    "cleargov"
+    "cleargov",
+    "b12",
+    "nextiva",
+    "collibra"
   ],
   "lever": [
     "aircall",
@@ -1762,7 +1765,6 @@
     "slate",
     "numeris",
     "jetbrains",
-    "trustyou",
     "bioagilytix",
     "plexus",
     "muttdata",
@@ -2874,7 +2876,8 @@
     "krakentech",
     "verahealth",
     "brumby",
-    "footprint"
+    "footprint",
+    "integrate"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3172,7 +3175,8 @@
     "greenhouse/pomelocare",
     "ashby/corgi",
     "greenhouse/evermore",
-    "greenhouse/interval"
+    "greenhouse/interval",
+    "lever/trustyou"
   ],
   "recruitee": [
     "medmehealth",
