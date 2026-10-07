@@ -1,15 +1,21 @@
 # Job Tracker Report — 2026-10-07
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 119961 jobs from 4544 sources (4539 ATS boards polled, 129 newly discovered)
+> Scanned: 124385 jobs from 4548 sources (4543 ATS boards polled, 145 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (2)
 
-_No new matches today._
+### QA Automation Engineer (Playwright + Typescript/FinTech Project) — Resourceful Talent Group
+- **Posted:** 2026-10-07 · **Location:** Remote job; Bucharest; București; Romania · **Source:** recruitee:resourcefultalentgroup
+- **Matched:** playwright, typescript
+- **Link:** https://resourcefultalentgroup.recruitee.com/o/qa-automation-engineer-playwright-typescriptfintech-project
 
-## ⚠️ Source errors (48 total)
+### Jr Functional /Automation Tester  — Sparksoft Corporation
+- **Posted:** 2026-10-07 · **Location:** Remote/Onsite if local to Maryland; Columbia, MD · **Source:** greenhouse:sparksoftcorporation
+- **Matched:** playwright, javascript
+- **Link:** https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5259170007
+
+## ⚠️ Source errors (27 total)
 
 - bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 26 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 20 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
-- lever/tsmg: HTTP 500
 - recruitee/epicdata: HTTP 403

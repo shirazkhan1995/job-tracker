@@ -1452,7 +1452,8 @@
     "buynomics",
     "forter",
     "decibelfoundation",
-    "faeththerapeutics"
+    "faeththerapeutics",
+    "ixllearning"
   ],
   "lever": [
     "aircall",
@@ -2124,7 +2125,9 @@
     "quantum-health",
     "crowdhealth",
     "elfbeauty",
-    "kwanso"
+    "kwanso",
+    "kivaconfections",
+    "gettyimages"
   ],
   "ashby": [
     "clerk",
@@ -2798,7 +2801,6 @@
     "rowan",
     "koyfin",
     "spear-ai",
-    "verint",
     "tavily",
     "close",
     "marble",
@@ -2901,10 +2903,10 @@
     "footprint",
     "integrate",
     "vamo",
-    "coinbase",
     "buildops",
     "emora-health",
-    "ladder"
+    "ladder",
+    "bluedot"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3207,7 +3209,9 @@
     "ashby/ace-1-media",
     "greenhouse/hubspot",
     "recruitee/openup",
-    "lever/suger"
+    "lever/suger",
+    "ashby/verint",
+    "ashby/coinbase"
   ],
   "recruitee": [
     "medmehealth",
@@ -4616,7 +4620,8 @@
     "bbht",
     "zigchain",
     "ancientgaming",
-    "majorleaguehacking"
+    "majorleaguehacking",
+    "ziaconsulting"
   ],
   "smartrecruiters": [
     "clerky",
