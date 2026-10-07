@@ -1448,7 +1448,11 @@
     "jfrog",
     "squarespace",
     "truconsulting",
-    "foundry"
+    "foundry",
+    "buynomics",
+    "forter",
+    "decibelfoundation",
+    "faeththerapeutics"
   ],
   "lever": [
     "aircall",
@@ -1510,7 +1514,6 @@
     "getzuma",
     "strongcompute",
     "nango",
-    "suger",
     "prosper",
     "unusual",
     "mosaic-2",
@@ -2119,7 +2122,9 @@
     "rapidai",
     "tenna",
     "quantum-health",
-    "crowdhealth"
+    "crowdhealth",
+    "elfbeauty",
+    "kwanso"
   ],
   "ashby": [
     "clerk",
@@ -2898,7 +2903,8 @@
     "vamo",
     "coinbase",
     "buildops",
-    "emora-health"
+    "emora-health",
+    "ladder"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3200,7 +3206,8 @@
     "lever/trustyou",
     "ashby/ace-1-media",
     "greenhouse/hubspot",
-    "recruitee/openup"
+    "recruitee/openup",
+    "lever/suger"
   ],
   "recruitee": [
     "medmehealth",
