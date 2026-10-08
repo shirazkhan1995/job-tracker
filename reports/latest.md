@@ -1,14 +1,11 @@
 # Job Tracker Report — 2026-10-08
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 124124 jobs from 4548 sources (4543 ATS boards polled, 129 newly discovered)
+> Scanned: 124247 jobs from 4550 sources (4545 ATS boards polled, 130 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### Software QA & Automation Engineer — Flatgigs
-- **Posted:** 2026-10-07 · **Location:** Pakistan · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://himalayas.app/companies/flatgigs/jobs/software-qa-automation-engineer
+_No new matches today._
 
 ## ⚠️ Source errors (87 total)
 
