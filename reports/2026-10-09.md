@@ -1,19 +1,14 @@
 # Job Tracker Report — 2026-10-09
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 124245 jobs from 4553 sources (4548 ATS boards polled, 122 newly discovered)
+> Scanned: 124964 jobs from 4559 sources (4554 ATS boards polled, 125 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (1)
 
-### Senior SDET - Automation — Srijan Technologies
-- **Posted:** 2026-10-08 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://himalayas.app/companies/srijan-technologies/jobs/senior-sdet-automation
-
-### Quality Assurance Manager — Judi Health
-- **Posted:** 2026-09-15 · **Location:** Remote; Remote · **Source:** greenhouse:judihealth
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/judihealth/jobs/5424758008
+### QA Automation Engineer (Remote, Full-Time) [HR217] — Smart Working
+- **Posted:** 2026-10-09 · **Location:** India · **Source:** himalayas
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://himalayas.app/companies/smart-working/jobs/qa-automation-engineer-remote-full-time-hr217
 
 ## ⚠️ Source errors (27 total)
 
