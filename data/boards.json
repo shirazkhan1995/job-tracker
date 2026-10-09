@@ -2137,7 +2137,8 @@
     "gettyimages",
     "accesssoftek",
     "behaviorcaretherapy",
-    "maquettevirtuelle"
+    "maquettevirtuelle",
+    "brighthire"
   ],
   "ashby": [
     "clerk",
@@ -2248,7 +2249,6 @@
     "flux",
     "office-hours",
     "vitalize",
-    "verge-genomics",
     "withdaydream",
     "meticulous",
     "nango",
@@ -3225,7 +3225,8 @@
     "lever/suger",
     "ashby/verint",
     "ashby/coinbase",
-    "ashby/cranston"
+    "ashby/cranston",
+    "ashby/verge-genomics"
   ],
   "recruitee": [
     "medmehealth",

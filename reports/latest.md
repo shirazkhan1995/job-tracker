@@ -1,14 +1,11 @@
 # Job Tracker Report — 2026-10-09
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 124964 jobs from 4559 sources (4554 ATS boards polled, 125 newly discovered)
+> Scanned: 125173 jobs from 4560 sources (4555 ATS boards polled, 129 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### QA Automation Engineer (Remote, Full-Time) [HR217] — Smart Working
-- **Posted:** 2026-10-09 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://himalayas.app/companies/smart-working/jobs/qa-automation-engineer-remote-full-time-hr217
+_No new matches today._
 
 ## ⚠️ Source errors (27 total)
 
