@@ -1462,7 +1462,10 @@
     "ujet",
     "clariness",
     "peaktechnologies",
-    "arionkoder"
+    "arionkoder",
+    "voxmedia",
+    "onlocation",
+    "nayya"
   ],
   "lever": [
     "aircall",
@@ -2141,7 +2144,8 @@
     "behaviorcaretherapy",
     "maquettevirtuelle",
     "brighthire",
-    "cfgi"
+    "cfgi",
+    "insify"
   ],
   "ashby": [
     "clerk",
@@ -2920,7 +2924,8 @@
     "iceye",
     "omni",
     "snowflake",
-    "monarchmoney"
+    "monarchmoney",
+    "mati-carbon"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3229,7 +3234,9 @@
     "ashby/cranston",
     "ashby/verge-genomics",
     "ashby/count",
-    "ashby/miaplaza"
+    "ashby/miaplaza",
+    "recruitee/lassnerkarriere",
+    "recruitee/olx"
   ],
   "recruitee": [
     "medmehealth",
@@ -3565,7 +3572,6 @@
     "kybunjoyaretail",
     "lammhr",
     "landlifecompany",
-    "lassnerkarriere",
     "layerscaleadvisory",
     "learned",
     "leaseabike",
@@ -4500,7 +4506,6 @@
     "crazygames",
     "devpartners",
     "tameson",
-    "olx",
     "grantthornton",
     "bfg",
     "procivisag",
