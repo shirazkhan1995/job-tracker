@@ -1461,7 +1461,8 @@
     "gruve",
     "ujet",
     "clariness",
-    "peaktechnologies"
+    "peaktechnologies",
+    "arionkoder"
   ],
   "lever": [
     "aircall",
@@ -2260,7 +2261,6 @@
     "unto-labs",
     "cleric",
     "parallel",
-    "count",
     "axle-careers",
     "sift",
     "rescale",
@@ -2763,7 +2763,6 @@
     "partsbase",
     "opentable",
     "raft",
-    "miaplaza",
     "tonicai",
     "everis",
     "proxima-fusion",
@@ -3227,7 +3226,9 @@
     "ashby/verint",
     "ashby/coinbase",
     "ashby/cranston",
-    "ashby/verge-genomics"
+    "ashby/verge-genomics",
+    "ashby/count",
+    "ashby/miaplaza"
   ],
   "recruitee": [
     "medmehealth",
