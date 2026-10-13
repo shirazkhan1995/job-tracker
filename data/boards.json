@@ -1503,7 +1503,8 @@
     "akunacapital",
     "enformion",
     "arbitalhealth",
-    "tavily"
+    "tavily",
+    "glooko"
   ],
   "lever": [
     "aircall",
@@ -1755,7 +1756,6 @@
     "mitratech",
     "versapay",
     "peoplegrove",
-    "oxylabs",
     "eleks",
     "moonpay",
     "docsumo",
@@ -2974,7 +2974,8 @@
     "klarify",
     "found",
     "chapter-2",
-    "verkada"
+    "verkada",
+    "uniti"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3288,7 +3289,8 @@
     "recruitee/olx",
     "lever/fresha",
     "lever/chooose",
-    "ashby/paires"
+    "ashby/paires",
+    "lever/oxylabs"
   ],
   "recruitee": [
     "medmehealth",
