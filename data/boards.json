@@ -1501,7 +1501,9 @@
     "openzeppelin",
     "guidewheel",
     "akunacapital",
-    "enformion"
+    "enformion",
+    "arbitalhealth",
+    "tavily"
   ],
   "lever": [
     "aircall",
@@ -1737,7 +1739,6 @@
     "bluecatnetworks",
     "coalfire",
     "metawealth",
-    "fresha",
     "arootah",
     "dnb",
     "convergentresearch",
@@ -1903,7 +1904,6 @@
     "teamshares",
     "bluesight",
     "alltrails",
-    "chooose",
     "influ2",
     "commonlit",
     "portcast",
@@ -2188,7 +2188,8 @@
     "animocabrands",
     "amberelectric",
     "patsnap",
-    "elk-marketing"
+    "elk-marketing",
+    "paralleldomain"
   ],
   "ashby": [
     "clerk",
@@ -2759,7 +2760,6 @@
     "artificial",
     "mymoneymatters",
     "paradox",
-    "paires",
     "pandektes",
     "safelease",
     "pavebank",
@@ -3285,7 +3285,10 @@
     "ashby/count",
     "ashby/miaplaza",
     "recruitee/lassnerkarriere",
-    "recruitee/olx"
+    "recruitee/olx",
+    "lever/fresha",
+    "lever/chooose",
+    "ashby/paires"
   ],
   "recruitee": [
     "medmehealth",
