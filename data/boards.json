@@ -1510,7 +1510,9 @@
     "lendingtree",
     "gemini",
     "payoneer",
-    "sagebionetworks"
+    "sagebionetworks",
+    "gocardless",
+    "skedda"
   ],
   "lever": [
     "aircall",

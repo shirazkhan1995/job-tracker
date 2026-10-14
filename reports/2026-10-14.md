@@ -1,11 +1,14 @@
 # Job Tracker Report — 2026-10-14
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 126421 jobs from 4627 sources (4622 ATS boards polled, 107 newly discovered)
+> Scanned: 126464 jobs from 4629 sources (4624 ATS boards polled, 105 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### Software QA Engineer — First Advantage
+- **Posted:** 2026-10-14 · **Location:** India · **Source:** himalayas
+- **Matched:** wdio, javascript
+- **Link:** https://himalayas.app/companies/first-advantage/jobs/software-qa-engineer-715133906
 
 ## ⚠️ Source errors (35 total)
 
