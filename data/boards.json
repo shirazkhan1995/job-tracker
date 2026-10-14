@@ -329,7 +329,6 @@
     "latent",
     "onyx",
     "momentic",
-    "paradigm",
     "axiom",
     "recall",
     "parallel",
@@ -1512,7 +1511,11 @@
     "payoneer",
     "sagebionetworks",
     "gocardless",
-    "skedda"
+    "skedda",
+    "reflective",
+    "everlane",
+    "imre",
+    "ridgeline"
   ],
   "lever": [
     "aircall",
@@ -2198,7 +2201,8 @@
     "patsnap",
     "elk-marketing",
     "paralleldomain",
-    "enable"
+    "enable",
+    "optionmetrics"
   ],
   "ashby": [
     "clerk",
@@ -2984,7 +2988,8 @@
     "found",
     "chapter-2",
     "verkada",
-    "uniti"
+    "uniti",
+    "osnational"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3299,7 +3304,8 @@
     "lever/fresha",
     "lever/chooose",
     "ashby/paires",
-    "lever/oxylabs"
+    "lever/oxylabs",
+    "greenhouse/paradigm"
   ],
   "recruitee": [
     "medmehealth",
