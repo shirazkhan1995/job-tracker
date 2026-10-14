@@ -1505,7 +1505,12 @@
     "arbitalhealth",
     "tavily",
     "glooko",
-    "bitpanda"
+    "bitpanda",
+    "aperiatechnologies",
+    "lendingtree",
+    "gemini",
+    "payoneer",
+    "sagebionetworks"
   ],
   "lever": [
     "aircall",
@@ -2190,7 +2195,8 @@
     "amberelectric",
     "patsnap",
     "elk-marketing",
-    "paralleldomain"
+    "paralleldomain",
+    "enable"
   ],
   "ashby": [
     "clerk",
@@ -4705,7 +4711,8 @@
     "cerbaresearch",
     "mindtech",
     "patsnap",
-    "pebble"
+    "pebble",
+    "victronenergybv"
   ],
   "smartrecruiters": [
     "clerky",
