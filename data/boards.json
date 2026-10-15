@@ -1521,7 +1521,13 @@
     "tactacam",
     "liquidpersonnel",
     "heritageholdings",
-    "patch"
+    "patch",
+    "bayasystems",
+    "futurhealth",
+    "onenergy",
+    "classpass",
+    "scoutmotors",
+    "redwoodmaterials"
   ],
   "lever": [
     "aircall",
@@ -3317,7 +3323,8 @@
     "lever/oxylabs",
     "greenhouse/paradigm",
     "greenhouse/remotecom",
-    "greenhouse/companycam"
+    "greenhouse/companycam",
+    "recruitee/avatechnologies"
   ],
   "recruitee": [
     "medmehealth",
@@ -4410,7 +4417,6 @@
     "waracle",
     "deepdsg",
     "clarity",
-    "avatechnologies",
     "innovationroundtable",
     "amsaccelerateit",
     "zoi",
@@ -4732,7 +4738,9 @@
     "mindtech",
     "patsnap",
     "pebble",
-    "victronenergybv"
+    "victronenergybv",
+    "fourth",
+    "realitygames"
   ],
   "smartrecruiters": [
     "clerky",
