@@ -16,7 +16,6 @@
     "mongodb",
     "okta",
     "reddit",
-    "remotecom",
     "saucelabs",
     "smartbear",
     "stripe",
@@ -178,7 +177,6 @@
     "fleetio",
     "monzo",
     "trove",
-    "companycam",
     "generatebiomedicines",
     "coalition",
     "eclinicalsolutions",
@@ -1517,7 +1515,11 @@
     "imre",
     "ridgeline",
     "godaddy",
-    "aechelontechnology"
+    "aechelontechnology",
+    "hopehospiceandhealthservices",
+    "simpplr",
+    "tactacam",
+    "liquidpersonnel"
   ],
   "lever": [
     "aircall",
@@ -3308,7 +3310,9 @@
     "lever/chooose",
     "ashby/paires",
     "lever/oxylabs",
-    "greenhouse/paradigm"
+    "greenhouse/paradigm",
+    "greenhouse/remotecom",
+    "greenhouse/companycam"
   ],
   "recruitee": [
     "medmehealth",
