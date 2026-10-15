@@ -1519,7 +1519,9 @@
     "hopehospiceandhealthservices",
     "simpplr",
     "tactacam",
-    "liquidpersonnel"
+    "liquidpersonnel",
+    "heritageholdings",
+    "patch"
   ],
   "lever": [
     "aircall",
@@ -2207,7 +2209,10 @@
     "paralleldomain",
     "enable",
     "optionmetrics",
-    "nfq"
+    "nfq",
+    "blueland",
+    "odaseva",
+    "diversified-automation"
   ],
   "ashby": [
     "clerk",
