@@ -265,7 +265,6 @@
     "talkspace",
     "bouldercare",
     "neuraflash",
-    "fundraiseup",
     "name",
     "givewell",
     "torcrobotics",
@@ -1527,7 +1526,9 @@
     "classpass",
     "scoutmotors",
     "redwoodmaterials",
-    "konovo"
+    "konovo",
+    "ivxhealth",
+    "intersystems"
   ],
   "lever": [
     "aircall",
@@ -3328,7 +3329,8 @@
     "greenhouse/remotecom",
     "greenhouse/companycam",
     "recruitee/avatechnologies",
-    "greenhouse/navierai"
+    "greenhouse/navierai",
+    "greenhouse/fundraiseup"
   ],
   "recruitee": [
     "medmehealth",
