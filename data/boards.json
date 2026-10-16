@@ -124,7 +124,6 @@
     "diligent",
     "flex",
     "feanixbiotechnologies",
-    "navierai",
     "newton",
     "tempo",
     "spaceium",
@@ -2221,7 +2220,8 @@
     "odaseva",
     "diversified-automation",
     "weride",
-    "spear"
+    "spear",
+    "synapticure"
   ],
   "ashby": [
     "clerk",
@@ -3327,7 +3327,8 @@
     "greenhouse/paradigm",
     "greenhouse/remotecom",
     "greenhouse/companycam",
-    "recruitee/avatechnologies"
+    "recruitee/avatechnologies",
+    "greenhouse/navierai"
   ],
   "recruitee": [
     "medmehealth",
@@ -4743,7 +4744,8 @@
     "pebble",
     "victronenergybv",
     "fourth",
-    "realitygames"
+    "realitygames",
+    "unitycommunications"
   ],
   "smartrecruiters": [
     "clerky",
