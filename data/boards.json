@@ -1528,7 +1528,11 @@
     "konovo",
     "ivxhealth",
     "intersystems",
-    "whitespace"
+    "whitespace",
+    "axonius",
+    "attaintalent",
+    "flumehealth",
+    "onestream"
   ],
   "lever": [
     "aircall",
@@ -2222,7 +2226,9 @@
     "diversified-automation",
     "weride",
     "spear",
-    "synapticure"
+    "synapticure",
+    "innodata",
+    "cin7"
   ],
   "ashby": [
     "clerk",
@@ -2664,7 +2670,6 @@
     "agentmail",
     "bootloop",
     "comena",
-    "solva",
     "flai",
     "interface",
     "idler",
@@ -3009,7 +3014,8 @@
     "chapter-2",
     "verkada",
     "uniti",
-    "osnational"
+    "osnational",
+    "foundation"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3331,7 +3337,8 @@
     "recruitee/avatechnologies",
     "greenhouse/navierai",
     "greenhouse/fundraiseup",
-    "greenhouse/webflow"
+    "greenhouse/webflow",
+    "ashby/solva"
   ],
   "recruitee": [
     "medmehealth",
