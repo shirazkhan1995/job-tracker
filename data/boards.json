@@ -1535,7 +1535,16 @@
     "sparkfund",
     "circleci",
     "orbisoperations",
-    "homeheartflorida"
+    "homeheartflorida",
+    "turing",
+    "greenlightguru",
+    "partnerize",
+    "apaleo",
+    "khanacademy",
+    "vega",
+    "assetreality",
+    "salesloft",
+    "thrivemarket"
   ],
   "lever": [
     "aircall",
@@ -3018,7 +3027,8 @@
     "verkada",
     "uniti",
     "osnational",
-    "foundation"
+    "foundation",
+    "nextroll"
   ],
   "invalid": [
     "greenhouse/redpandadata",
