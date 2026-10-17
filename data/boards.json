@@ -887,7 +887,6 @@
     "pointdigitalfinance",
     "soligent",
     "huntress",
-    "1uphealth",
     "suvoda",
     "kodiaksolutions",
     "assetwatch",
@@ -1532,7 +1531,11 @@
     "axonius",
     "attaintalent",
     "flumehealth",
-    "onestream"
+    "onestream",
+    "sparkfund",
+    "circleci",
+    "orbisoperations",
+    "homeheartflorida"
   ],
   "lever": [
     "aircall",
@@ -2228,7 +2231,8 @@
     "spear",
     "synapticure",
     "innodata",
-    "cin7"
+    "cin7",
+    "catena-clearing"
   ],
   "ashby": [
     "clerk",
@@ -2890,7 +2894,6 @@
     "sentra",
     "point-wild",
     "sarjai",
-    "sybill-ai",
     "fs-studio",
     "somethings",
     "rowan",
@@ -3338,7 +3341,9 @@
     "greenhouse/navierai",
     "greenhouse/fundraiseup",
     "greenhouse/webflow",
-    "ashby/solva"
+    "ashby/solva",
+    "greenhouse/1uphealth",
+    "ashby/sybill-ai"
   ],
   "recruitee": [
     "medmehealth",
