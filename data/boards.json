@@ -1047,7 +1047,6 @@
     "inizio",
     "codeandtheory",
     "ultimagenomics",
-    "akoya",
     "standardmetrics",
     "fronteracare",
     "alamarbiosciences",
@@ -1550,7 +1549,9 @@
     "asg",
     "flipside",
     "creativefabrica",
-    "apptronik"
+    "apptronik",
+    "singlefile",
+    "blueprinttestprep"
   ],
   "lever": [
     "aircall",
@@ -2780,7 +2781,6 @@
     "inspiren",
     "lyrahealth",
     "mast",
-    "collider",
     "wonderly",
     "partyhat",
     "ispeedtolead",
@@ -3361,7 +3361,9 @@
     "greenhouse/webflow",
     "ashby/solva",
     "greenhouse/1uphealth",
-    "ashby/sybill-ai"
+    "ashby/sybill-ai",
+    "greenhouse/akoya",
+    "ashby/collider"
   ],
   "recruitee": [
     "medmehealth",
@@ -4783,7 +4785,8 @@
     "inovex",
     "roxhealth",
     "affidea",
-    "viepeople"
+    "viepeople",
+    "goodwall"
   ],
   "smartrecruiters": [
     "clerky",
