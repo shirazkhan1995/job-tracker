@@ -1552,7 +1552,9 @@
     "apptronik",
     "singlefile",
     "blueprinttestprep",
-    "doma"
+    "doma",
+    "livefront",
+    "formativgroup"
   ],
   "lever": [
     "aircall",
@@ -3037,7 +3039,8 @@
     "uniti",
     "osnational",
     "foundation",
-    "nextroll"
+    "nextroll",
+    "amboss"
   ],
   "invalid": [
     "greenhouse/redpandadata",
