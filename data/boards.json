@@ -724,7 +724,6 @@
     "pirkeybarberpllc",
     "shopfully",
     "mcghealth",
-    "rockbot",
     "neurahealth",
     "carrotfertility",
     "treasuryprime",
@@ -829,7 +828,6 @@
     "eucalyptus",
     "taxreliefadvocates",
     "gradientai",
-    "onestudyteam",
     "extrahopnetworks",
     "guardz",
     "oculartherapeutix",
@@ -1561,7 +1559,8 @@
     "prospectus",
     "sterlingtonpllc",
     "phoenixtechnologiesag",
-    "equalexperts"
+    "equalexperts",
+    "archera"
   ],
   "lever": [
     "aircall",
@@ -2685,7 +2684,6 @@
     "harperinsure",
     "mercura",
     "ambral",
-    "blaxel",
     "minerva",
     "auctor",
     "claim-health",
@@ -3049,7 +3047,8 @@
     "nextroll",
     "amboss",
     "cas",
-    "quilter"
+    "quilter",
+    "aveni"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3381,7 +3380,10 @@
     "greenhouse/scoutai",
     "lever/t5datacenters",
     "lever/infstones",
-    "recruitee/elfinsolutions"
+    "recruitee/elfinsolutions",
+    "greenhouse/rockbot",
+    "greenhouse/onestudyteam",
+    "ashby/blaxel"
   ],
   "recruitee": [
     "medmehealth",
@@ -4802,7 +4804,9 @@
     "roxhealth",
     "affidea",
     "viepeople",
-    "goodwall"
+    "goodwall",
+    "odsolutions",
+    "adikteev"
   ],
   "smartrecruiters": [
     "clerky",
