@@ -605,7 +605,6 @@
     "onemedical",
     "netcraft",
     "chronograph",
-    "scoutai",
     "toast",
     "aksia",
     "observeai",
@@ -1558,7 +1557,11 @@
     "flash",
     "dotmatics",
     "cloudsek",
-    "praxis"
+    "praxis",
+    "prospectus",
+    "sterlingtonpllc",
+    "phoenixtechnologiesag",
+    "equalexperts"
   ],
   "lever": [
     "aircall",
@@ -1763,7 +1766,6 @@
     "givewell",
     "inkitt",
     "princeton10",
-    "t5datacenters",
     "coderio",
     "ttecdigital",
     "basis",
@@ -1973,7 +1975,6 @@
     "mamamoney",
     "greenlight",
     "advancedagrilytics",
-    "infstones",
     "planner5d",
     "civitech",
     "zimperium",
@@ -3376,7 +3377,11 @@
     "ashby/sybill-ai",
     "greenhouse/akoya",
     "ashby/collider",
-    "recruitee/mavienextgmbh"
+    "recruitee/mavienextgmbh",
+    "greenhouse/scoutai",
+    "lever/t5datacenters",
+    "lever/infstones",
+    "recruitee/elfinsolutions"
   ],
   "recruitee": [
     "medmehealth",
@@ -4749,7 +4754,6 @@
     "ecomtrading",
     "ecovisaustria1",
     "egeria",
-    "elfinsolutions",
     "elmenus",
     "endterengineeringgmbh",
     "epab",
