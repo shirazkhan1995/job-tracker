@@ -1201,7 +1201,6 @@
     "springfertility",
     "foresightmentalhealth",
     "matic",
-    "coverahealth",
     "ccof",
     "doppel",
     "varicent",
@@ -1567,7 +1566,9 @@
     "empowerbrands",
     "premiertruckrental",
     "pulmovant",
-    "huddleup"
+    "huddleup",
+    "propertyleads",
+    "figure"
   ],
   "lever": [
     "aircall",
@@ -3522,7 +3523,8 @@
     "bamboohr/allpressespresso",
     "bamboohr/allthings",
     "bamboohr/allsouls",
-    "bamboohr/allyconstruction"
+    "bamboohr/allyconstruction",
+    "greenhouse/coverahealth"
   ],
   "recruitee": [
     "medmehealth",
@@ -4946,7 +4948,8 @@
     "goodwall",
     "odsolutions",
     "adikteev",
-    "bluequo"
+    "bluequo",
+    "erschaffedichneu"
   ],
   "smartrecruiters": [
     "clerky",
@@ -5057,6 +5060,7 @@
     "alabamasolutions",
     "alden",
     "alexandergroup",
-    "algarvewatersport"
+    "algarvewatersport",
+    "sdggroup"
   ]
 }
