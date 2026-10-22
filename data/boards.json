@@ -1330,7 +1330,6 @@
     "submittable",
     "peloton",
     "wayvia",
-    "slingshotaerospace",
     "crescendohealth",
     "horizenlabs",
     "teccweb",
@@ -3526,7 +3525,8 @@
     "bamboohr/allsouls",
     "bamboohr/allyconstruction",
     "greenhouse/coverahealth",
-    "greenhouse/neighborsbank"
+    "greenhouse/neighborsbank",
+    "greenhouse/slingshotaerospace"
   ],
   "recruitee": [
     "medmehealth",
@@ -5070,6 +5070,8 @@
     "techinsights",
     "gravityteam",
     "xtb",
-    "connection"
+    "connection",
+    "offchainlabs",
+    "smartcare"
   ]
 }
