@@ -1568,7 +1568,11 @@
     "propertyleads",
     "figure",
     "commercetools",
-    "authenticx"
+    "authenticx",
+    "hyperproof",
+    "gremlin",
+    "castrol",
+    "alphasights"
   ],
   "lever": [
     "aircall",
@@ -2273,7 +2277,8 @@
     "max-retail",
     "symplicity",
     "docusign",
-    "integrate"
+    "integrate",
+    "floqast"
   ],
   "ashby": [
     "clerk",
@@ -3065,7 +3070,9 @@
     "aveni",
     "covera-health",
     "figure",
-    "astronomer"
+    "astronomer",
+    "fundingo",
+    "superpower"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -4954,7 +4961,8 @@
     "adikteev",
     "bluequo",
     "erschaffedichneu",
-    "spreadgroup"
+    "spreadgroup",
+    "riozorg"
   ],
   "smartrecruiters": [
     "clerky",
@@ -5077,6 +5085,9 @@
     "smartcare",
     "whogivesacrap",
     "wex",
-    "acclaro"
+    "acclaro",
+    "consilio",
+    "versaterm",
+    "bionews"
   ]
 }
