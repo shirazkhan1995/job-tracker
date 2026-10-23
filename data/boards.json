@@ -363,7 +363,6 @@
     "genea",
     "freshprints",
     "eqtcorporation",
-    "gigaenergy",
     "oasissecurity",
     "datadog",
     "inspiraeducation",
@@ -1571,7 +1570,9 @@
     "castrol",
     "alphasights",
     "guidelighthealth",
-    "ithaka"
+    "ithaka",
+    "nationalbusinesscapital",
+    "lyft"
   ],
   "lever": [
     "aircall",
@@ -2280,7 +2281,8 @@
     "floqast",
     "nphub",
     "networkconnex",
-    "proxima"
+    "proxima",
+    "keepsafe"
   ],
   "ashby": [
     "clerk",
@@ -3073,7 +3075,8 @@
     "figure",
     "astronomer",
     "fundingo",
-    "superpower"
+    "superpower",
+    "shibumi"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3541,7 +3544,9 @@
     "greenhouse/primerai",
     "ashby/hyperspell",
     "greenhouse/taxreliefadvocates",
-    "greenhouse/welcomelend"
+    "greenhouse/welcomelend",
+    "workable/33usa",
+    "greenhouse/gigaenergy"
   ],
   "recruitee": [
     "medmehealth",
@@ -5002,7 +5007,6 @@
     "1valet",
     "2-1-1-big-bend",
     "257",
-    "33usa",
     "360dialog-gmbh",
     "3degrees",
     "4th-and-reckless",
@@ -5147,6 +5151,37 @@
     "securelending",
     "thexperiential",
     "emptor",
-    "97thfloor"
+    "97thfloor",
+    "mercyurgentcare",
+    "cxm",
+    "sortitt",
+    "talixo",
+    "corcym",
+    "elyoninternational",
+    "sailgp",
+    "chainstack",
+    "netfoundry",
+    "mobilizegreen",
+    "akinox",
+    "phoenixteam",
+    "leadexsystems",
+    "explorance",
+    "theconsultantagency",
+    "veriday",
+    "avnan",
+    "pvm",
+    "rougecare",
+    "operative",
+    "orases",
+    "vamonosit",
+    "xohealth",
+    "olivejune",
+    "jewishnewssyndicate",
+    "healthpreneur",
+    "cybba",
+    "mvrdigital",
+    "readycomputing",
+    "senstar",
+    "rangercollege"
   ]
 }
