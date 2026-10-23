@@ -1426,7 +1426,6 @@
     "conquer",
     "genedx",
     "orium",
-    "primerai",
     "manifest",
     "oliveragency",
     "external",
@@ -1572,7 +1571,8 @@
     "hyperproof",
     "gremlin",
     "castrol",
-    "alphasights"
+    "alphasights",
+    "guidelighthealth"
   ],
   "lever": [
     "aircall",
@@ -2278,7 +2278,8 @@
     "symplicity",
     "docusign",
     "integrate",
-    "floqast"
+    "floqast",
+    "nphub"
   ],
   "ashby": [
     "clerk",
@@ -2359,7 +2360,6 @@
     "airops",
     "baseten",
     "comity",
-    "hyperspell",
     "higharc",
     "mercor",
     "river",
@@ -3536,7 +3536,9 @@
     "greenhouse/coverahealth",
     "greenhouse/neighborsbank",
     "greenhouse/slingshotaerospace",
-    "recruitee/cloudsmiths"
+    "recruitee/cloudsmiths",
+    "greenhouse/primerai",
+    "ashby/hyperspell"
   ],
   "recruitee": [
     "medmehealth",
@@ -4962,7 +4964,8 @@
     "bluequo",
     "erschaffedichneu",
     "spreadgroup",
-    "riozorg"
+    "riozorg",
+    "cosun"
   ],
   "smartrecruiters": [
     "clerky",
@@ -5088,6 +5091,29 @@
     "acclaro",
     "consilio",
     "versaterm",
-    "bionews"
+    "bionews",
+    "vidizmo",
+    "alviere",
+    "niricson",
+    "trideca",
+    "justo",
+    "prescientsecurity",
+    "ezblockchain",
+    "stellartech",
+    "ninjaone",
+    "freixenetcopestick",
+    "binarystream",
+    "blanclabs",
+    "wishpond",
+    "chiefoutsiders",
+    "addigy",
+    "correlationone",
+    "collectors",
+    "bluprintx",
+    "cexio",
+    "moniepoint",
+    "pcbconnect",
+    "karat",
+    "siliconranch"
   ]
 }
