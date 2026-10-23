@@ -825,7 +825,6 @@
     "calahealth",
     "able",
     "eucalyptus",
-    "taxreliefadvocates",
     "gradientai",
     "extrahopnetworks",
     "guardz",
@@ -1059,7 +1058,6 @@
     "avathon",
     "trellahealth",
     "bestpass",
-    "welcomelend",
     "webstacks",
     "levio",
     "route06",
@@ -1572,7 +1570,8 @@
     "gremlin",
     "castrol",
     "alphasights",
-    "guidelighthealth"
+    "guidelighthealth",
+    "ithaka"
   ],
   "lever": [
     "aircall",
@@ -2279,7 +2278,9 @@
     "docusign",
     "integrate",
     "floqast",
-    "nphub"
+    "nphub",
+    "networkconnex",
+    "proxima"
   ],
   "ashby": [
     "clerk",
@@ -3538,7 +3539,9 @@
     "greenhouse/slingshotaerospace",
     "recruitee/cloudsmiths",
     "greenhouse/primerai",
-    "ashby/hyperspell"
+    "ashby/hyperspell",
+    "greenhouse/taxreliefadvocates",
+    "greenhouse/welcomelend"
   ],
   "recruitee": [
     "medmehealth",
@@ -5114,6 +5117,36 @@
     "moniepoint",
     "pcbconnect",
     "karat",
-    "siliconranch"
+    "siliconranch",
+    "globalinitiative",
+    "ayoroasimmons",
+    "xtrm",
+    "brighttax",
+    "prismstudio",
+    "betwarrior",
+    "linkupteletherapy",
+    "pjilaw",
+    "belovedhospice",
+    "mythictalent",
+    "ethicrithm",
+    "endlessaccess",
+    "freshprints",
+    "level9virtual",
+    "americandatanetwork",
+    "agenticdream",
+    "komodor",
+    "fivejars",
+    "roveconcepts",
+    "buddle",
+    "frostsullivan",
+    "cypfer",
+    "freschesolutions",
+    "aerialcanvas",
+    "marrinadecisions",
+    "rollee",
+    "securelending",
+    "thexperiential",
+    "emptor",
+    "97thfloor"
   ]
 }
