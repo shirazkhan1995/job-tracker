@@ -1,21 +1,14 @@
 # Job Tracker Report — 2026-10-24
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 130743 jobs from 4736 sources (4731 ATS boards polled, 150 newly discovered)
+> Scanned: 130540 jobs from 4736 sources (4731 ATS boards polled, 102 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (0)
 
-### LATAM Senior QA Automation Engineer  — Praxent
-- **Posted:** 2026-10-21 · **Location:** Remote - International ; International · **Source:** greenhouse:praxent
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/praxent/jobs/8040233003
+_No new matches today._
 
-### LATAM QA Automation Engineer(s) — Praxent
-- **Posted:** 2026-05-12 · **Location:** Remote - International · **Source:** greenhouse:praxent
-- **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://job-boards.greenhouse.io/praxent/jobs/7732249003
+## ⚠️ Source errors (86 total)
 
-## ⚠️ Source errors (26 total)
-
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 25 boards (e.g. 2050partners, 383project, 7digital); will retry next run
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 25 boards (e.g. 7digital, 2050partners, 383project); will retry next run
+- workable: HTTP 429 — 60 boards (e.g. 10xbanking, 1000heads, 1global); will retry next run
 - recruitee/epicdata: HTTP 403
