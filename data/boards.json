@@ -1576,7 +1576,10 @@
     "praxent",
     "ubiquiti",
     "aviary",
-    "controlplane"
+    "controlplane",
+    "uplift",
+    "wallstreetprep",
+    "outrider"
   ],
   "lever": [
     "aircall",
@@ -2290,7 +2293,8 @@
     "commonfuture",
     "draslovka",
     "swissborg",
-    "getlabs"
+    "getlabs",
+    "velo3d"
   ],
   "ashby": [
     "clerk",
@@ -3086,7 +3090,8 @@
     "superpower",
     "shibumi",
     "terranova",
-    "digacore"
+    "digacore",
+    "tenor"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3556,7 +3561,14 @@
     "greenhouse/taxreliefadvocates",
     "greenhouse/welcomelend",
     "workable/33usa",
-    "greenhouse/gigaenergy"
+    "greenhouse/gigaenergy",
+    "recruitee/123",
+    "recruitee/allourkin",
+    "recruitee/applications",
+    "recruitee/assistme",
+    "recruitee/beelivery",
+    "recruitee/brompton",
+    "recruitee/bume"
   ],
   "recruitee": [
     "medmehealth",
@@ -4983,7 +4995,37 @@
     "erschaffedichneu",
     "spreadgroup",
     "riozorg",
-    "cosun"
+    "cosun",
+    "abbategastrogmbh",
+    "advancedforcesgroup",
+    "aftershoot",
+    "againbio",
+    "agriplace1",
+    "airsave",
+    "amdax",
+    "amsta",
+    "apolloventures",
+    "avedo",
+    "avencell",
+    "baeckereiburger",
+    "bakkersteamservicesbv",
+    "bartimeus",
+    "befood",
+    "benqeuropebv",
+    "beslistnl",
+    "bluelakefineartscamp",
+    "bogestraag",
+    "bridgefund",
+    "bukowaakt",
+    "bunq",
+    "bwkduisburggmbh",
+    "careyn",
+    "causalens",
+    "cce",
+    "ccgroupcareers",
+    "centumtns",
+    "centumts",
+    "change"
   ],
   "smartrecruiters": [
     "clerky",
