@@ -1573,7 +1573,10 @@
     "ithaka",
     "nationalbusinesscapital",
     "lyft",
-    "praxent"
+    "praxent",
+    "ubiquiti",
+    "aviary",
+    "controlplane"
   ],
   "lever": [
     "aircall",
@@ -2285,7 +2288,9 @@
     "proxima",
     "keepsafe",
     "commonfuture",
-    "draslovka"
+    "draslovka",
+    "swissborg",
+    "getlabs"
   ],
   "ashby": [
     "clerk",
@@ -3080,7 +3085,8 @@
     "fundingo",
     "superpower",
     "shibumi",
-    "terranova"
+    "terranova",
+    "digacore"
   ],
   "invalid": [
     "greenhouse/redpandadata",
