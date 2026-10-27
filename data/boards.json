@@ -1604,7 +1604,9 @@
     "saigroup",
     "squishable",
     "nextdoor",
-    "crowellmoring"
+    "crowellmoring",
+    "missionnorth",
+    "unitriteam"
   ],
   "lever": [
     "aircall",
@@ -3092,7 +3094,6 @@
     "footprint",
     "integrate",
     "vamo",
-    "buildops",
     "emora-health",
     "ladder",
     "bluedot",
@@ -3125,7 +3126,8 @@
     "digacore",
     "tenor",
     "owner",
-    "inherent"
+    "inherent",
+    "kled-ai"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3602,7 +3604,8 @@
     "recruitee/assistme",
     "recruitee/beelivery",
     "recruitee/brompton",
-    "recruitee/bume"
+    "recruitee/bume",
+    "ashby/buildops"
   ],
   "recruitee": [
     "medmehealth",
@@ -5060,7 +5063,8 @@
     "centumtns",
     "centumts",
     "change",
-    "phished"
+    "phished",
+    "lindy"
   ],
   "smartrecruiters": [
     "clerky",
