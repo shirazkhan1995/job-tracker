@@ -3611,7 +3611,8 @@
     "recruitee/brompton",
     "recruitee/bume",
     "ashby/buildops",
-    "greenhouse/decisions"
+    "greenhouse/decisions",
+    "recruitee/optios"
   ],
   "recruitee": [
     "medmehealth",
@@ -4644,7 +4645,6 @@
     "workwize",
     "projecty",
     "hydrosat",
-    "optios",
     "tornatoroyj",
     "paralucent",
     "intuitionstaffing",
@@ -5072,7 +5072,8 @@
     "phished",
     "lindy",
     "polars",
-    "qblox"
+    "qblox",
+    "legalfly"
   ],
   "smartrecruiters": [
     "clerky",
