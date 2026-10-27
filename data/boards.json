@@ -1028,7 +1028,6 @@
     "manatee",
     "ltse",
     "chargepoint",
-    "decisions",
     "masterclass",
     "easyship",
     "lafayettesquare",
@@ -1606,7 +1605,10 @@
     "nextdoor",
     "crowellmoring",
     "missionnorth",
-    "unitriteam"
+    "unitriteam",
+    "crystaldynamics",
+    "nasuni",
+    "beelinemedicines"
   ],
   "lever": [
     "aircall",
@@ -3605,7 +3607,8 @@
     "recruitee/beelivery",
     "recruitee/brompton",
     "recruitee/bume",
-    "ashby/buildops"
+    "ashby/buildops",
+    "greenhouse/decisions"
   ],
   "recruitee": [
     "medmehealth",
@@ -5064,7 +5067,8 @@
     "centumts",
     "change",
     "phished",
-    "lindy"
+    "lindy",
+    "polars"
   ],
   "smartrecruiters": [
     "clerky",
