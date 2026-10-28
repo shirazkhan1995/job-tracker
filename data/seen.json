@@ -2566,5 +2566,17 @@
     "title": "Senior SDET Manager",
     "company": "HighLevel",
     "url": "https://himalayas.app/companies/highlevel/jobs/senior-sdet-manager?utm_source=api"
+  },
+  "simr|software test engineer": {
+    "firstSeen": "2026-10-28T21:57:22.176Z",
+    "title": "Software Test Engineer",
+    "company": "Simr",
+    "url": "https://himalayas.app/companies/simr/jobs/software-test-engineer?utm_source=api"
+  },
+  "tasq staffing solutions|mid-level sdet (wfh)": {
+    "firstSeen": "2026-10-28T21:57:22.176Z",
+    "title": "Mid-level SDET (WFH)",
+    "company": "TASQ Staffing Solutions",
+    "url": "https://himalayas.app/companies/tasq-staffing-solutions/jobs/mid-level-sdet-wfh?utm_source=api"
   }
 }

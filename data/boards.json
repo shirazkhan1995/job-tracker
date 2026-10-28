@@ -174,7 +174,6 @@
     "nmi",
     "fleetio",
     "monzo",
-    "trove",
     "generatebiomedicines",
     "coalition",
     "eclinicalsolutions",
@@ -1613,7 +1612,8 @@
     "phiture",
     "step",
     "verve",
-    "sylogist"
+    "sylogist",
+    "altscore"
   ],
   "lever": [
     "aircall",
@@ -2370,7 +2370,6 @@
     "radical-numerics",
     "kog",
     "runway-ml",
-    "lago",
     "pear-vc",
     "9-mothers",
     "complement",
@@ -2438,7 +2437,6 @@
     "deepl",
     "upvest",
     "prelude",
-    "coreflow",
     "griffin",
     "cradlebio",
     "nectar-social",
@@ -3137,7 +3135,8 @@
     "owner",
     "inherent",
     "leantech",
-    "lemon-io"
+    "lemon-io",
+    "level"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3618,7 +3617,11 @@
     "ashby/buildops",
     "greenhouse/decisions",
     "recruitee/optios",
-    "ashby/kled-ai"
+    "ashby/kled-ai",
+    "greenhouse/trove",
+    "ashby/lago",
+    "ashby/coreflow",
+    "recruitee/ifit"
   ],
   "recruitee": [
     "medmehealth",
@@ -4712,7 +4715,6 @@
     "amsaccelerateit",
     "zoi",
     "nimble",
-    "ifit",
     "exp1consulting",
     "lvhglobal",
     "upgrade",
