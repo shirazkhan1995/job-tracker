@@ -1612,7 +1612,8 @@
     "givelify",
     "phiture",
     "step",
-    "verve"
+    "verve",
+    "sylogist"
   ],
   "lever": [
     "aircall",
@@ -3135,8 +3136,8 @@
     "tenor",
     "owner",
     "inherent",
-    "kled-ai",
-    "leantech"
+    "leantech",
+    "lemon-io"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3616,7 +3617,8 @@
     "recruitee/bume",
     "ashby/buildops",
     "greenhouse/decisions",
-    "recruitee/optios"
+    "recruitee/optios",
+    "ashby/kled-ai"
   ],
   "recruitee": [
     "medmehealth",
