@@ -611,7 +611,6 @@
     "aift",
     "cordance",
     "reactivate",
-    "immunefi",
     "zenbusiness",
     "juullabs",
     "follettsoftware",
@@ -807,7 +806,6 @@
     "fastly",
     "murj",
     "terniumrevenuecyclemanagement",
-    "prisma",
     "thinkofus",
     "baringa",
     "kasa",
@@ -1614,7 +1612,9 @@
     "verve",
     "sylogist",
     "altscore",
-    "silversky"
+    "silversky",
+    "timeleft",
+    "apiiro"
   ],
   "lever": [
     "aircall",
@@ -2338,7 +2338,10 @@
     "coingecko",
     "gpdq",
     "didomi",
-    "cxtsoftware"
+    "cxtsoftware",
+    "dilitrust",
+    "fly",
+    "theinformationlab"
   ],
   "ashby": [
     "clerk",
@@ -2610,7 +2613,6 @@
     "fleek",
     "broccoli",
     "govdash",
-    "blink",
     "rallyuxr",
     "eventual",
     "julius",
@@ -3137,7 +3139,8 @@
     "inherent",
     "leantech",
     "lemon-io",
-    "level"
+    "level",
+    "verda"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3622,7 +3625,10 @@
     "greenhouse/trove",
     "ashby/lago",
     "ashby/coreflow",
-    "recruitee/ifit"
+    "recruitee/ifit",
+    "greenhouse/immunefi",
+    "greenhouse/prisma",
+    "ashby/blink"
   ],
   "recruitee": [
     "medmehealth",
@@ -5083,7 +5089,13 @@
     "polars",
     "qblox",
     "legalfly",
-    "consulting1x1"
+    "consulting1x1",
+    "alliedglobal",
+    "negativdesign",
+    "autopilot",
+    "stermedia",
+    "tbibankro",
+    "mindfulsouls"
   ],
   "smartrecruiters": [
     "clerky",
