@@ -500,7 +500,7 @@
     "salary": "",
     "postedAt": 1783310650234,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -1601,7 +1601,7 @@
     "salary": "",
     "postedAt": 1780613771084,
     "firstSeenAt": "2026-07-13T20:28:40.016Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -2743,20 +2743,20 @@
   "1kosmos|test automation engineer": {
     "key": "1kosmos|test automation engineer",
     "title": "Test Automation Engineer",
-    "company": "1kosmos",
-    "url": "https://apply.workable.com/1kosmos/j/86C8993ACA/",
-    "location": "Remote; India",
-    "source": "workable:1kosmos",
+    "company": "1Kosmos",
+    "url": "https://himalayas.app/companies/1kosmos/jobs/test-automation-engineer?utm_source=api",
+    "location": "India",
+    "source": "himalayas",
     "matched": [
       "playwright",
       "javascript"
     ],
     "salary": "",
-    "postedAt": 1771459200000,
+    "postedAt": 1793293477000,
     "firstSeenAt": "2026-07-15T07:32:59.904Z",
-    "lastSeenAt": "2026-09-21T11:05:50.662Z",
-    "active": false,
-    "expiredAt": "2026-09-21T21:17:05.729Z"
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
+    "active": true,
+    "expiredAt": null
   },
   "jumio|sde iv - qa": {
     "key": "jumio|sde iv - qa",
@@ -3332,7 +3332,7 @@
     "salary": "",
     "postedAt": 1784320227000,
     "firstSeenAt": "2026-07-19T12:33:26.829Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4007,7 +4007,7 @@
     "salary": "",
     "postedAt": 1782226296318,
     "firstSeenAt": "2026-07-22T13:02:48.826Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4178,7 +4178,7 @@
     "salary": "",
     "postedAt": 1781191392000,
     "firstSeenAt": "2026-07-25T01:09:14.571Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4432,7 +4432,7 @@
     "salary": "",
     "postedAt": 1770632370000,
     "firstSeenAt": "2026-07-29T01:01:23.781Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4527,7 +4527,7 @@
     "salary": "",
     "postedAt": 1783094008000,
     "firstSeenAt": "2026-07-30T13:12:40.533Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4621,7 +4621,7 @@
     "salary": "",
     "postedAt": 1784535828000,
     "firstSeenAt": "2026-08-02T06:13:13.734Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -4833,7 +4833,7 @@
     "salary": "",
     "postedAt": 1784535822000,
     "firstSeenAt": "2026-08-04T13:21:43.422Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5158,7 +5158,7 @@
     "salary": "",
     "postedAt": 1786457518000,
     "firstSeenAt": "2026-08-11T18:30:29.953Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5270,7 +5270,7 @@
     "salary": "",
     "postedAt": 1786601948000,
     "firstSeenAt": "2026-08-13T07:02:14.077Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5365,7 +5365,7 @@
     "salary": "",
     "postedAt": 1786897646000,
     "firstSeenAt": "2026-08-16T17:51:40.968Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5576,7 +5576,7 @@
     "salary": "",
     "postedAt": 1785873277000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5916,7 +5916,7 @@
     "salary": "",
     "postedAt": 1786142977000,
     "firstSeenAt": "2026-08-29T20:00:41.698Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -5943,7 +5943,7 @@
     "key": "ai sqaured|qa engineer",
     "title": "QA Engineer",
     "company": "AI Sqaured",
-    "url": "https://himalayas.app/companies/ai-sqaured/jobs/qa-engineer",
+    "url": "https://himalayas.app/companies/ai-sqaured/jobs/qa-engineer?utm_source=api",
     "location": "India",
     "source": "himalayas",
     "matched": [
@@ -5952,11 +5952,11 @@
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1788067577000,
+    "postedAt": 1793293437000,
     "firstSeenAt": "2026-08-30T09:09:05.291Z",
-    "lastSeenAt": "2026-08-30T10:41:36.212Z",
-    "active": false,
-    "expiredAt": "2026-09-29T11:36:11.010Z"
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
+    "active": true,
+    "expiredAt": null
   },
   "imaginary cloud|senior quality assurance engineer": {
     "key": "imaginary cloud|senior quality assurance engineer",
@@ -6476,7 +6476,7 @@
     "salary": "",
     "postedAt": 1789588914000,
     "firstSeenAt": "2026-09-16T20:26:44.745Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -6494,7 +6494,7 @@
     "salary": "",
     "postedAt": 1773212723000,
     "firstSeenAt": "2026-09-17T15:42:58.349Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -6553,7 +6553,7 @@
     "salary": "",
     "postedAt": 1757540180000,
     "firstSeenAt": "2026-09-19T19:36:11.358Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -6574,7 +6574,7 @@
     "salary": "",
     "postedAt": 1760543210000,
     "firstSeenAt": "2026-09-19T19:36:11.358Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -6748,7 +6748,7 @@
     "salary": "",
     "postedAt": 1792902011000,
     "firstSeenAt": "2026-09-24T20:46:09.713Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -6956,7 +6956,7 @@
     "salary": "",
     "postedAt": 1775490479000,
     "firstSeenAt": "2026-09-28T22:43:43.162Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7013,7 +7013,7 @@
     "salary": "$235K – $260K • Offers Equity • Multiple Ranges",
     "postedAt": 1789566226972,
     "firstSeenAt": "2026-09-29T21:37:02.772Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7220,7 +7220,7 @@
     "salary": "",
     "postedAt": 1720450042000,
     "firstSeenAt": "2026-10-06T21:55:29.063Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7294,7 +7294,7 @@
     "salary": "",
     "postedAt": 1791399636000,
     "firstSeenAt": "2026-10-08T22:25:43.900Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7473,7 +7473,7 @@
     "key": "tether operations limited|automation qa engineer (qvac) (100% remote)",
     "title": "Automation QA Engineer (QVAC) (100% remote)",
     "company": "Tether Operations Limited",
-    "url": "https://careers.tether.io/o/automation-qa-engineer-qvac-100-remote-eg",
+    "url": "https://tether.recruitee.com/o/automation-qa-engineer-qvac-100-remote-eg",
     "location": "Remote job; Cairo; Al Qalyūbīyah; Egypt",
     "source": "recruitee:tether",
     "matched": [
@@ -7485,7 +7485,7 @@
     "salary": "",
     "postedAt": 1792002570000,
     "firstSeenAt": "2026-10-14T21:00:18.281Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7542,7 +7542,7 @@
     "salary": "",
     "postedAt": 1792055328000,
     "firstSeenAt": "2026-10-15T15:47:57.949Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7637,7 +7637,7 @@
     "salary": "",
     "postedAt": 1787239081000,
     "firstSeenAt": "2026-10-18T14:52:19.092Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7696,7 +7696,7 @@
     "salary": "",
     "postedAt": 1792077049000,
     "firstSeenAt": "2026-10-20T02:07:36.104Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7715,7 +7715,7 @@
     "salary": "",
     "postedAt": 1791481355000,
     "firstSeenAt": "2026-10-20T02:07:36.104Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7771,7 +7771,7 @@
     "salary": "",
     "postedAt": 1772106293000,
     "firstSeenAt": "2026-10-21T10:35:59.142Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7809,7 +7809,7 @@
     "salary": "",
     "postedAt": 1792618155000,
     "firstSeenAt": "2026-10-22T01:49:21.855Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7828,7 +7828,7 @@
     "salary": "",
     "postedAt": 1792654661752,
     "firstSeenAt": "2026-10-22T10:35:13.460Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7854,7 +7854,7 @@
     "key": "kapitus|qe automation engineer",
     "title": "QE Automation Engineer",
     "company": "Kapitus",
-    "url": "https://job-boards.greenhouse.io/kapitus/jobs/4464744009",
+    "url": "https://job-boards.greenhouse.io/kapitus/jobs/4464626009",
     "location": "Virginia - Remote, Maryland - Hybrid, Washington DC- Hybrid; Arlington, VA; Toronto, ON",
     "source": "greenhouse:kapitus",
     "matched": [
@@ -7863,9 +7863,9 @@
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1792798845000,
+    "postedAt": 1792705680000,
     "firstSeenAt": "2026-10-23T01:53:39.965Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7904,7 +7904,7 @@
     "salary": "",
     "postedAt": 1792726728000,
     "firstSeenAt": "2026-10-23T10:31:32.833Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7923,7 +7923,7 @@
     "salary": "",
     "postedAt": 1792770454000,
     "firstSeenAt": "2026-10-23T15:56:34.916Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7960,7 +7960,7 @@
     "salary": "",
     "postedAt": 1792706809510,
     "firstSeenAt": "2026-10-23T20:42:17.400Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -7980,7 +7980,7 @@
     "salary": "",
     "postedAt": 1778602679000,
     "firstSeenAt": "2026-10-24T01:58:01.645Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -8000,7 +8000,7 @@
     "salary": "",
     "postedAt": 1792607378000,
     "firstSeenAt": "2026-10-24T01:58:01.645Z",
-    "lastSeenAt": "2026-10-29T11:48:03.081Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   },
@@ -8116,6 +8116,42 @@
     "postedAt": 1793232666000,
     "firstSeenAt": "2026-10-29T02:47:59.753Z",
     "lastSeenAt": "2026-10-29T02:47:59.753Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "nagarro|associate staff engineer(automation qa)": {
+    "key": "nagarro|associate staff engineer(automation qa)",
+    "title": "Associate Staff Engineer(Automation QA)",
+    "company": "Nagarro",
+    "url": "https://himalayas.app/companies/nagarro/jobs/associate-staff-engineer-automation-qa?utm_source=api",
+    "location": "China",
+    "source": "himalayas",
+    "matched": [
+      "playwright",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1793303194000,
+    "firstSeenAt": "2026-10-29T22:03:22.926Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "storyblok|senior qa engineer_foundations & enablement team - europe": {
+    "key": "storyblok|senior qa engineer_foundations & enablement team - europe",
+    "title": "Senior QA Engineer_Foundations & Enablement Team - Europe",
+    "company": "Storyblok",
+    "url": "https://www.storyblok.com/job?gh_jid=4749653101",
+    "location": "Remote; Remote",
+    "source": "greenhouse:storyblok",
+    "matched": [
+      "playwright",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1767877128000,
+    "firstSeenAt": "2026-10-29T22:03:22.926Z",
+    "lastSeenAt": "2026-10-29T22:03:22.926Z",
     "active": true,
     "expiredAt": null
   }

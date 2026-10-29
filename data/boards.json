@@ -1614,7 +1614,8 @@
     "altscore",
     "silversky",
     "timeleft",
-    "apiiro"
+    "apiiro",
+    "versprite"
   ],
   "lever": [
     "aircall",
@@ -2341,7 +2342,10 @@
     "cxtsoftware",
     "dilitrust",
     "fly",
-    "theinformationlab"
+    "theinformationlab",
+    "paralleladvisors",
+    "wise-integration",
+    "mojave-energy-systems"
   ],
   "ashby": [
     "clerk",
@@ -3038,7 +3042,6 @@
     "longview",
     "cyberstaff",
     "talentpop",
-    "squad",
     "nexos-ai",
     "valid",
     "proxima",
@@ -3140,7 +3143,8 @@
     "leantech",
     "lemon-io",
     "level",
-    "verda"
+    "verda",
+    "company"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3628,7 +3632,10 @@
     "recruitee/ifit",
     "greenhouse/immunefi",
     "greenhouse/prisma",
-    "ashby/blink"
+    "ashby/blink",
+    "ashby/squad",
+    "recruitee/seitenbau",
+    "recruitee/nearfieldinstruments"
   ],
   "recruitee": [
     "medmehealth",
@@ -4692,7 +4699,6 @@
     "resourcefultalentgroup",
     "improvado",
     "intandem",
-    "seitenbau",
     "eleven",
     "cctalent",
     "infoprolearning",
@@ -4905,7 +4911,6 @@
     "commonland",
     "klantcontactdiensten",
     "paragonpartners",
-    "nearfieldinstruments",
     "profitap",
     "heyharper",
     "pioneertitleagency",
