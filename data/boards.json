@@ -415,7 +415,6 @@
     "getwellnetwork",
     "lush",
     "startale",
-    "insightassurance",
     "buzzsolutions",
     "stratainformationgroup",
     "karat",
@@ -1618,7 +1617,8 @@
     "versprite",
     "fronterahealth",
     "candidly",
-    "fender"
+    "fender",
+    "company"
   ],
   "lever": [
     "aircall",
@@ -3639,7 +3639,8 @@
     "ashby/squad",
     "recruitee/seitenbau",
     "recruitee/nearfieldinstruments",
-    "lever/cloudwalk"
+    "lever/cloudwalk",
+    "greenhouse/insightassurance"
   ],
   "recruitee": [
     "medmehealth",
@@ -5104,7 +5105,8 @@
     "autopilot",
     "stermedia",
     "tbibankro",
-    "mindfulsouls"
+    "mindfulsouls",
+    "persoperm"
   ],
   "smartrecruiters": [
     "clerky",
