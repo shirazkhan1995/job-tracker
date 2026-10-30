@@ -404,7 +404,6 @@
     "evergreennephrology",
     "geotab",
     "ciazumano",
-    "valtech",
     "smarterdx",
     "nozominetworks",
     "wolt",
@@ -2475,7 +2474,6 @@
     "radar",
     "ycombinator",
     "cambly",
-    "tempo",
     "new-story",
     "snapmagic",
     "reach",
@@ -2878,7 +2876,6 @@
     "ispeedtolead",
     "omadaai",
     "featherlessai",
-    "tilt",
     "teton",
     "atominvest",
     "salesape-ai",
@@ -3640,7 +3637,11 @@
     "recruitee/seitenbau",
     "recruitee/nearfieldinstruments",
     "lever/cloudwalk",
-    "greenhouse/insightassurance"
+    "greenhouse/insightassurance",
+    "greenhouse/valtech",
+    "ashby/tempo",
+    "ashby/tilt",
+    "recruitee/clickables"
   ],
   "recruitee": [
     "medmehealth",
@@ -4990,7 +4991,6 @@
     "chaos",
     "chg",
     "chgcareers",
-    "clickables",
     "clockwise",
     "companiongroupltd",
     "compelson",
@@ -5106,7 +5106,10 @@
     "stermedia",
     "tbibankro",
     "mindfulsouls",
-    "persoperm"
+    "persoperm",
+    "qinx",
+    "flowfactor",
+    "romanmayer"
   ],
   "smartrecruiters": [
     "clerky",
