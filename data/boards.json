@@ -1615,7 +1615,10 @@
     "silversky",
     "timeleft",
     "apiiro",
-    "versprite"
+    "versprite",
+    "fronterahealth",
+    "candidly",
+    "fender"
   ],
   "lever": [
     "aircall",
@@ -1701,7 +1704,6 @@
     "makpar",
     "foodsmart",
     "okendo",
-    "cloudwalk",
     "sophos",
     "aeratechnology",
     "bolster",
@@ -3144,7 +3146,8 @@
     "lemon-io",
     "level",
     "verda",
-    "company"
+    "company",
+    "refoldai"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3635,7 +3638,8 @@
     "ashby/blink",
     "ashby/squad",
     "recruitee/seitenbau",
-    "recruitee/nearfieldinstruments"
+    "recruitee/nearfieldinstruments",
+    "lever/cloudwalk"
   ],
   "recruitee": [
     "medmehealth",
