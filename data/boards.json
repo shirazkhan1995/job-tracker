@@ -1625,7 +1625,8 @@
     "connectionshealthsolutions",
     "spyretherapeutics",
     "forwardnetworks",
-    "cranialtechnologies"
+    "cranialtechnologies",
+    "atoms"
   ],
   "lever": [
     "aircall",
@@ -3653,7 +3654,8 @@
     "greenhouse/valtech",
     "ashby/tempo",
     "ashby/tilt",
-    "recruitee/clickables"
+    "recruitee/clickables",
+    "recruitee/astrolabs"
   ],
   "recruitee": [
     "medmehealth",
@@ -4347,7 +4349,6 @@
     "trackman",
     "indg",
     "curotec",
-    "astrolabs",
     "taskus",
     "bsi",
     "codepepper",
@@ -5121,7 +5122,8 @@
     "persoperm",
     "qinx",
     "flowfactor",
-    "romanmayer"
+    "romanmayer",
+    "medica"
   ],
   "smartrecruiters": [
     "clerky",

@@ -1,18 +1,15 @@
-# Job Tracker Report — 2026-10-31
+# Job Tracker Report — 2026-11-01
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 133236 jobs from 4854 sources (4849 ATS boards polled, 119 newly discovered)
+> Scanned: 133421 jobs from 4856 sources (4851 ATS boards polled, 126 newly discovered)
 
-## 💼 New remote matches (1)
+## 💼 New remote matches (0)
 
-### Senior SDET (Manual + Playwright Automation) — Deque Systems
-- **Posted:** 2026-10-31 · **Location:** India · **Source:** himalayas
-- **Matched:** playwright, puppeteer, cypress, webdriverio, javascript, typescript
-- **Link:** https://himalayas.app/companies/deque-systems/jobs/senior-sdet-manual-playwright-automation?utm_source=api
+_No new matches today._
 
-## ⚠️ Source errors (30 total)
+## ⚠️ Source errors (41 total)
 
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 383project, 7digital, 2050partners); will retry next run
-- lever/filevine: HTTP 502
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 7digital, 2050partners, 383project); will retry next run
+- workable: HTTP 429 — 12 boards (e.g. 1000heads, 10xbanking, 1915-south-ashley); will retry next run
 - recruitee/epicdata: HTTP 403
 - recruitee/airsave: HTTP 403
