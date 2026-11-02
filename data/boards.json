@@ -1632,10 +1632,10 @@
     "pandvil",
     "parametrix",
     "stok",
-    "c3integratedsolutions"
+    "c3integratedsolutions",
+    "ays"
   ],
   "lever": [
-    "aircall",
     "binance",
     "nium",
     "spotify",
@@ -2367,7 +2367,8 @@
     "evry-health",
     "waremalcomb",
     "turvo",
-    "brightbee"
+    "brightbee",
+    "glenmede"
   ],
   "ashby": [
     "clerk",
@@ -3666,7 +3667,8 @@
     "ashby/tempo",
     "ashby/tilt",
     "recruitee/clickables",
-    "recruitee/astrolabs"
+    "recruitee/astrolabs",
+    "lever/aircall"
   ],
   "recruitee": [
     "medmehealth",
