@@ -1635,7 +1635,9 @@
     "c3integratedsolutions",
     "ays",
     "americanequityinvestmentlifeinsurancecompany",
-    "mochihealth"
+    "mochihealth",
+    "voxel51",
+    "employerdirecthealthcare"
   ],
   "lever": [
     "binance",
@@ -2371,7 +2373,8 @@
     "turvo",
     "brightbee",
     "glenmede",
-    "listo"
+    "listo",
+    "auw"
   ],
   "ashby": [
     "clerk",
@@ -3174,7 +3177,9 @@
     "corvera",
     "guild",
     "envoy",
-    "level-ai"
+    "level-ai",
+    "creditgenie",
+    "equall"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -5142,7 +5147,8 @@
     "flowfactor",
     "romanmayer",
     "medica",
-    "expertsinsideag"
+    "expertsinsideag",
+    "companisto"
   ],
   "smartrecruiters": [
     "clerky",
