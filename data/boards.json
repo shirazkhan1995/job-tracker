@@ -341,7 +341,6 @@
     "galileo",
     "refurbed",
     "pingidentity",
-    "overstory",
     "educate",
     "imi",
     "mercury",
@@ -621,7 +620,6 @@
     "ritual",
     "athinkingape",
     "flipp",
-    "nansen",
     "akersystems",
     "wing",
     "voyagertechnologiesinc",
@@ -1637,7 +1635,8 @@
     "americanequityinvestmentlifeinsurancecompany",
     "mochihealth",
     "voxel51",
-    "employerdirecthealthcare"
+    "employerdirecthealthcare",
+    "propublica"
   ],
   "lever": [
     "binance",
@@ -1888,7 +1887,6 @@
     "peoplegrove",
     "eleks",
     "moonpay",
-    "docsumo",
     "insiderone",
     "luxurypresence",
     "envelio",
@@ -3179,7 +3177,8 @@
     "envoy",
     "level-ai",
     "creditgenie",
-    "equall"
+    "equall",
+    "reap"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3678,7 +3677,10 @@
     "ashby/tilt",
     "recruitee/clickables",
     "recruitee/astrolabs",
-    "lever/aircall"
+    "lever/aircall",
+    "greenhouse/overstory",
+    "greenhouse/nansen",
+    "lever/docsumo"
   ],
   "recruitee": [
     "medmehealth",
@@ -5148,7 +5150,8 @@
     "romanmayer",
     "medica",
     "expertsinsideag",
-    "companisto"
+    "companisto",
+    "comms8"
   ],
   "smartrecruiters": [
     "clerky",
