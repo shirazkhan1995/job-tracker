@@ -1,17 +1,19 @@
 # Job Tracker Report — 2026-11-04
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 132974 jobs from 4885 sources (4880 ATS boards polled, 76 newly discovered)
+> Scanned: 133502 jobs from 4886 sources (4881 ATS boards polled, 118 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### Senior SDET — Sparksoft Corporation
+- **Posted:** 2026-11-04 · **Location:** Remote/Hybrid if local to Maryland; Columbia, MD · **Source:** greenhouse:sparksoftcorporation
+- **Matched:** playwright, javascript, typescript
+- **Link:** https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5281598007
 
-## ⚠️ Source errors (32 total)
+## ⚠️ Source errors (31 total)
 
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- lever/kraken123: HTTP 502
-- lever/coderpad: HTTP 500
-- lever/lyrahealth: HTTP 500
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 383project, 2050partners, 7digital); will retry next run
+- lever/magnetforensics: HTTP 502
 - recruitee/epicdata: HTTP 403
+- recruitee/mittwaldcmservicegmbhcokg: HTTP 403
 - recruitee/airsave: HTTP 403

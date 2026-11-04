@@ -710,7 +710,6 @@
     "sparksoftcorporation",
     "hearcom",
     "propiolanguageservices",
-    "allencontrolsystems",
     "archer",
     "sharebite",
     "pirkeybarberpllc",
@@ -1639,7 +1638,8 @@
     "propublica",
     "evergreenservicesgroup",
     "sofi",
-    "hashgraph"
+    "hashgraph",
+    "upbound"
   ],
   "lever": [
     "binance",
@@ -3684,7 +3684,9 @@
     "lever/aircall",
     "greenhouse/overstory",
     "greenhouse/nansen",
-    "lever/docsumo"
+    "lever/docsumo",
+    "greenhouse/allencontrolsystems",
+    "recruitee/frisbii"
   ],
   "recruitee": [
     "medmehealth",
@@ -3898,7 +3900,6 @@
     "forwardearth",
     "framestore",
     "francophoniecarrieres",
-    "frisbii",
     "funex",
     "futurewhiz",
     "gain",
