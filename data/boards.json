@@ -1642,7 +1642,9 @@
     "valtech",
     "onnitlabs",
     "blumira",
-    "arco"
+    "arco",
+    "valimail",
+    "luno"
   ],
   "lever": [
     "binance",
@@ -2380,7 +2382,9 @@
     "listo",
     "auw",
     "lever",
-    "onboarded"
+    "onboarded",
+    "angellist",
+    "adeptid"
   ],
   "ashby": [
     "clerk",
@@ -3014,7 +3018,6 @@
     "zego",
     "arca",
     "hashgraph",
-    "clarity",
     "moonshot",
     "hoyoverse",
     "what3words",
@@ -3188,7 +3191,8 @@
     "equall",
     "reap",
     "alchemy",
-    "fulcrum"
+    "fulcrum",
+    "paid"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3694,7 +3698,8 @@
     "greenhouse/allencontrolsystems",
     "recruitee/frisbii",
     "greenhouse/gr8tech",
-    "greenhouse/crescendohealth"
+    "greenhouse/crescendohealth",
+    "ashby/clarity"
   ],
   "recruitee": [
     "medmehealth",
@@ -5167,7 +5172,8 @@
     "comms8",
     "sourcingunicorns",
     "biztechlawyers",
-    "clearly"
+    "clearly",
+    "highrollertechnologies"
   ],
   "smartrecruiters": [
     "clerky",
