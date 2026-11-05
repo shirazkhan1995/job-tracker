@@ -1639,7 +1639,11 @@
     "evergreenservicesgroup",
     "sofi",
     "hashgraph",
-    "upbound"
+    "upbound",
+    "ceros",
+    "valtech",
+    "onnitlabs",
+    "blumira"
   ],
   "lever": [
     "binance",
@@ -3182,7 +3186,8 @@
     "level-ai",
     "creditgenie",
     "equall",
-    "reap"
+    "reap",
+    "alchemy"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -5158,7 +5163,8 @@
     "companisto",
     "comms8",
     "sourcingunicorns",
-    "biztechlawyers"
+    "biztechlawyers",
+    "clearly"
   ],
   "smartrecruiters": [
     "clerky",
