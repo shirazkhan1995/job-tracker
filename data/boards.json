@@ -223,7 +223,6 @@
     "zscaler",
     "yipitdata",
     "arrayeducation",
-    "gr8tech",
     "airship",
     "honor",
     "jusbrasil",
@@ -1318,7 +1317,6 @@
     "submittable",
     "peloton",
     "wayvia",
-    "crescendohealth",
     "horizenlabs",
     "teccweb",
     "sisco",
@@ -1643,7 +1641,8 @@
     "ceros",
     "valtech",
     "onnitlabs",
-    "blumira"
+    "blumira",
+    "arco"
   ],
   "lever": [
     "binance",
@@ -2380,7 +2379,8 @@
     "glenmede",
     "listo",
     "auw",
-    "lever"
+    "lever",
+    "onboarded"
   ],
   "ashby": [
     "clerk",
@@ -3187,7 +3187,8 @@
     "creditgenie",
     "equall",
     "reap",
-    "alchemy"
+    "alchemy",
+    "fulcrum"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3691,7 +3692,9 @@
     "greenhouse/nansen",
     "lever/docsumo",
     "greenhouse/allencontrolsystems",
-    "recruitee/frisbii"
+    "recruitee/frisbii",
+    "greenhouse/gr8tech",
+    "greenhouse/crescendohealth"
   ],
   "recruitee": [
     "medmehealth",
