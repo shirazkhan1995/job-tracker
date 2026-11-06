@@ -239,7 +239,6 @@
     "newsweek",
     "affirm",
     "oshihealth",
-    "parloa",
     "knowbe4",
     "srsacquiom",
     "rdstation",
@@ -1402,7 +1401,6 @@
     "vialogic",
     "spothopper",
     "aperture",
-    "cleargov",
     "b12",
     "nextiva",
     "collibra",
@@ -1648,7 +1646,8 @@
     "keenfootwear",
     "gigfinesse",
     "veramed",
-    "pubnub"
+    "pubnub",
+    "capco"
   ],
   "lever": [
     "binance",
@@ -3199,7 +3198,8 @@
     "reap",
     "alchemy",
     "fulcrum",
-    "paid"
+    "paid",
+    "3ive"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3706,7 +3706,15 @@
     "recruitee/frisbii",
     "greenhouse/gr8tech",
     "greenhouse/crescendohealth",
-    "ashby/clarity"
+    "ashby/clarity",
+    "greenhouse/parloa",
+    "greenhouse/cleargov",
+    "recruitee/nstxl",
+    "recruitee/upway",
+    "recruitee/teveo",
+    "recruitee/codelessinteractivellc",
+    "recruitee/cactus",
+    "recruitee/againbio"
   ],
   "recruitee": [
     "medmehealth",
@@ -4373,7 +4381,6 @@
     "channext",
     "bakertilly",
     "edc",
-    "nstxl",
     "tab",
     "reframe",
     "arq",
@@ -4392,7 +4399,6 @@
     "reco",
     "kpisolutions",
     "aoglobelife",
-    "upway",
     "flyingbisons",
     "nterra",
     "pvcase",
@@ -4427,7 +4433,6 @@
     "julhietsterwen",
     "speedlinehub",
     "spro",
-    "teveo",
     "allshoretalent",
     "goodrec",
     "timedoctor",
@@ -4827,7 +4832,6 @@
     "bushburgpropertiesinc",
     "bwhhotelsemea",
     "centraleinnovation",
-    "codelessinteractivellc",
     "congreshotelliege",
     "consultdss",
     "crop",
@@ -5086,7 +5090,6 @@
     "yourpersonalai",
     "skycellag",
     "approvalmax",
-    "cactus",
     "julesmoi",
     "teleperformance",
     "nodeworthy",
@@ -5130,7 +5133,6 @@
     "abbategastrogmbh",
     "advancedforcesgroup",
     "aftershoot",
-    "againbio",
     "agriplace1",
     "airsave",
     "amdax",
