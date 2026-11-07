@@ -3731,7 +3731,8 @@
     "recruitee/devpartners",
     "recruitee/hypergen",
     "recruitee/approvalmax",
-    "recruitee/autopilot"
+    "recruitee/autopilot",
+    "recruitee/clarity"
   ],
   "recruitee": [
     "medmehealth",
@@ -4803,7 +4804,6 @@
     "newlawbusinessmodel",
     "waracle",
     "deepdsg",
-    "clarity",
     "innovationroundtable",
     "amsaccelerateit",
     "zoi",
