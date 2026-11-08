@@ -500,7 +500,7 @@
     "salary": "",
     "postedAt": 1783310650234,
     "firstSeenAt": "2026-07-13T20:22:16.820Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -3332,7 +3332,7 @@
     "salary": "",
     "postedAt": 1784320227000,
     "firstSeenAt": "2026-07-19T12:33:26.829Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4007,7 +4007,7 @@
     "salary": "",
     "postedAt": 1782226296318,
     "firstSeenAt": "2026-07-22T13:02:48.826Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4053,8 +4053,8 @@
     "key": "uvation|qa- test engineer",
     "title": "QA- Test Engineer",
     "company": "uvation",
-    "url": "https://himalayas.app/companies/uvation/jobs/qa-test-engineer-3501398813",
-    "location": "Serbia",
+    "url": "https://himalayas.app/companies/uvation/jobs/qa-test-engineer-9459703495?utm_source=api",
+    "location": "India",
     "source": "himalayas",
     "matched": [
       "playwright",
@@ -4062,11 +4062,11 @@
       "javascript"
     ],
     "salary": "",
-    "postedAt": 1788898380000,
+    "postedAt": 1794079974000,
     "firstSeenAt": "2026-07-23T18:51:18.634Z",
-    "lastSeenAt": "2026-09-09T01:30:39.541Z",
-    "active": false,
-    "expiredAt": "2026-10-09T03:08:48.117Z"
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
+    "active": true,
+    "expiredAt": null
   },
   "cast|automation test engineer for imaging cloud saas": {
     "key": "cast|automation test engineer for imaging cloud saas",
@@ -4139,7 +4139,7 @@
     "salary": "",
     "postedAt": 1784910756460,
     "firstSeenAt": "2026-07-24T19:03:14.763Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4178,7 +4178,7 @@
     "salary": "",
     "postedAt": 1781191392000,
     "firstSeenAt": "2026-07-25T01:09:14.571Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4432,7 +4432,7 @@
     "salary": "",
     "postedAt": 1770632370000,
     "firstSeenAt": "2026-07-29T01:01:23.781Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4621,7 +4621,7 @@
     "salary": "",
     "postedAt": 1784535828000,
     "firstSeenAt": "2026-08-02T06:13:13.734Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -4833,7 +4833,7 @@
     "salary": "",
     "postedAt": 1784535822000,
     "firstSeenAt": "2026-08-04T13:21:43.422Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -5158,7 +5158,7 @@
     "salary": "",
     "postedAt": 1786457518000,
     "firstSeenAt": "2026-08-11T18:30:29.953Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -5270,7 +5270,7 @@
     "salary": "",
     "postedAt": 1786601948000,
     "firstSeenAt": "2026-08-13T07:02:14.077Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -5576,7 +5576,7 @@
     "salary": "",
     "postedAt": 1785873277000,
     "firstSeenAt": "2026-08-25T06:04:12.114Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -6476,7 +6476,7 @@
     "salary": "",
     "postedAt": 1789588914000,
     "firstSeenAt": "2026-09-16T20:26:44.745Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -6494,7 +6494,7 @@
     "salary": "",
     "postedAt": 1773212723000,
     "firstSeenAt": "2026-09-17T15:42:58.349Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -6540,8 +6540,8 @@
     "key": "akko|senior software developer in test (sdet)",
     "title": "Senior Software Developer in Test (SDET)  ",
     "company": "AKKO",
-    "url": "https://job-boards.greenhouse.io/akko/jobs/4607748005",
-    "location": "Bengalura, India; Remote",
+    "url": "https://job-boards.greenhouse.io/akko/jobs/4607753005",
+    "location": "Pune, India; Remote",
     "source": "greenhouse:akko",
     "matched": [
       "playwright",
@@ -6551,9 +6551,9 @@
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1757540180000,
+    "postedAt": 1757540181000,
     "firstSeenAt": "2026-09-19T19:36:11.358Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -6574,7 +6574,7 @@
     "salary": "",
     "postedAt": 1760543210000,
     "firstSeenAt": "2026-09-19T19:36:11.358Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -6956,7 +6956,7 @@
     "salary": "",
     "postedAt": 1775490479000,
     "firstSeenAt": "2026-09-28T22:43:43.162Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7013,7 +7013,7 @@
     "salary": "$235K – $260K • Offers Equity • Multiple Ranges",
     "postedAt": 1789566226972,
     "firstSeenAt": "2026-09-29T21:37:02.772Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7220,7 +7220,7 @@
     "salary": "",
     "postedAt": 1720450042000,
     "firstSeenAt": "2026-10-06T21:55:29.063Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7485,7 +7485,7 @@
     "salary": "",
     "postedAt": 1792002570000,
     "firstSeenAt": "2026-10-14T21:00:18.281Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7542,7 +7542,7 @@
     "salary": "",
     "postedAt": 1792055328000,
     "firstSeenAt": "2026-10-15T15:47:57.949Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7637,7 +7637,7 @@
     "salary": "",
     "postedAt": 1787239081000,
     "firstSeenAt": "2026-10-18T14:52:19.092Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7696,7 +7696,7 @@
     "salary": "",
     "postedAt": 1792077049000,
     "firstSeenAt": "2026-10-20T02:07:36.104Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7715,7 +7715,7 @@
     "salary": "",
     "postedAt": 1791481355000,
     "firstSeenAt": "2026-10-20T02:07:36.104Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7771,7 +7771,7 @@
     "salary": "",
     "postedAt": 1772106293000,
     "firstSeenAt": "2026-10-21T10:35:59.142Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7828,7 +7828,7 @@
     "salary": "",
     "postedAt": 1792654661752,
     "firstSeenAt": "2026-10-22T10:35:13.460Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7854,7 +7854,7 @@
     "key": "kapitus|qe automation engineer",
     "title": "QE Automation Engineer",
     "company": "Kapitus",
-    "url": "https://job-boards.greenhouse.io/kapitus/jobs/4464751009",
+    "url": "https://job-boards.greenhouse.io/kapitus/jobs/4464744009",
     "location": "Virginia - Remote, Maryland - Hybrid, Washington DC- Hybrid; Arlington, VA; Toronto, ON",
     "source": "greenhouse:kapitus",
     "matched": [
@@ -7863,9 +7863,9 @@
       "typescript"
     ],
     "salary": "",
-    "postedAt": 1792798858000,
+    "postedAt": 1792798845000,
     "firstSeenAt": "2026-10-23T01:53:39.965Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7904,7 +7904,7 @@
     "salary": "",
     "postedAt": 1792726728000,
     "firstSeenAt": "2026-10-23T10:31:32.833Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7923,7 +7923,7 @@
     "salary": "",
     "postedAt": 1792770454000,
     "firstSeenAt": "2026-10-23T15:56:34.916Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7960,7 +7960,7 @@
     "salary": "",
     "postedAt": 1792706809510,
     "firstSeenAt": "2026-10-23T20:42:17.400Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -7980,7 +7980,7 @@
     "salary": "",
     "postedAt": 1778602679000,
     "firstSeenAt": "2026-10-24T01:58:01.645Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8151,7 +8151,7 @@
     "salary": "",
     "postedAt": 1767877128000,
     "firstSeenAt": "2026-10-29T22:03:22.926Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8190,7 +8190,7 @@
     "salary": "",
     "postedAt": 1793379948769,
     "firstSeenAt": "2026-10-30T21:46:55.870Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8270,7 +8270,7 @@
     "salary": "",
     "postedAt": 1793373542313,
     "firstSeenAt": "2026-11-02T13:51:21.582Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8289,7 +8289,7 @@
     "salary": "",
     "postedAt": 1793810347000,
     "firstSeenAt": "2026-11-04T22:53:24.832Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8309,7 +8309,7 @@
     "salary": "",
     "postedAt": 1793889592000,
     "firstSeenAt": "2026-11-05T22:54:01.011Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8329,7 +8329,7 @@
     "salary": "",
     "postedAt": 1793889588000,
     "firstSeenAt": "2026-11-06T13:15:22.140Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   },
@@ -8348,7 +8348,27 @@
     "salary": "",
     "postedAt": 1790263910566,
     "firstSeenAt": "2026-11-06T13:15:22.140Z",
-    "lastSeenAt": "2026-11-07T21:08:22.388Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
+    "active": true,
+    "expiredAt": null
+  },
+  "hr ways|sqa engineer - automation (remote - night shift | pakistan | pkr salary)": {
+    "key": "hr ways|sqa engineer - automation (remote - night shift | pakistan | pkr salary)",
+    "title": "SQA Engineer - Automation (Remote - Night Shift | Pakistan | PKR Salary)",
+    "company": "HR Ways",
+    "url": "https://himalayas.app/companies/hr-ways/jobs/sqa-engineer-automation-remote-night-shift-pakistan-pkr-salary?utm_source=api",
+    "location": "Pakistan",
+    "source": "himalayas",
+    "matched": [
+      "playwright",
+      "cypress",
+      "javascript",
+      "typescript"
+    ],
+    "salary": "",
+    "postedAt": 1794079904000,
+    "firstSeenAt": "2026-11-08T02:45:41.830Z",
+    "lastSeenAt": "2026-11-08T02:45:41.830Z",
     "active": true,
     "expiredAt": null
   }

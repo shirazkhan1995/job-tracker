@@ -1,17 +1,17 @@
-# Job Tracker Report — 2026-11-07
+# Job Tracker Report — 2026-11-08
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 134641 jobs from 4887 sources (4882 ATS boards polled, 113 newly discovered)
+> Scanned: 134940 jobs from 4879 sources (4874 ATS boards polled, 128 newly discovered)
 
-## 💼 New remote matches (0)
+## 💼 New remote matches (1)
 
-_No new matches today._
+### SQA Engineer - Automation (Remote - Night Shift | Pakistan | PKR Salary) — HR Ways
+- **Posted:** 2026-11-07 · **Location:** Pakistan · **Source:** himalayas
+- **Matched:** playwright, cypress, javascript, typescript
+- **Link:** https://himalayas.app/companies/hr-ways/jobs/sqa-engineer-automation-remote-night-shift-pakistan-pkr-salary?utm_source=api
 
-## ⚠️ Source errors (91 total)
+## ⚠️ Source errors (29 total)
 
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- workable: HTTP 429 — 60 boards (e.g. 10xbanking, 1000heads, 1915-south-ashley); will retry next run
-- lever/swiftconnect: HTTP 502
-- lever/packagex: HTTP 502
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 27 boards (e.g. 7digital, 383project, 2050partners); will retry next run
 - recruitee/epicdata: HTTP 403
 - recruitee/airsave: HTTP 403
