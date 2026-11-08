@@ -504,7 +504,6 @@
     "rubrik",
     "cabin",
     "druva",
-    "focusfinancialpartners",
     "colabsoftware",
     "tensorops",
     "manscaped",
@@ -1055,7 +1054,6 @@
     "salaryfinance",
     "casechek",
     "strivacity",
-    "escala",
     "rti",
     "keepersecurity",
     "cannondesign",
@@ -1654,7 +1652,10 @@
     "gotutorcorps",
     "thoropass",
     "myome",
-    "satalia"
+    "satalia",
+    "guild",
+    "zenrows",
+    "goodtime"
   ],
   "lever": [
     "binance",
@@ -2397,7 +2398,8 @@
     "adeptid",
     "whereby",
     "futurenow",
-    "too-lost"
+    "too-lost",
+    "blue"
   ],
   "ashby": [
     "clerk",
@@ -3207,7 +3209,10 @@
     "fulcrum",
     "paid",
     "3ive",
-    "column"
+    "column",
+    "fours",
+    "pharos",
+    "infera"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3751,7 +3756,9 @@
     "recruitee/droptica",
     "recruitee/alexstaffagency",
     "recruitee/mindtech",
-    "recruitee/fourth"
+    "recruitee/fourth",
+    "greenhouse/focusfinancialpartners",
+    "greenhouse/escala"
   ],
   "recruitee": [
     "medmehealth",
