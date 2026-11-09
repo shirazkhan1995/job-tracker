@@ -3221,7 +3221,9 @@
     "fours",
     "pharos",
     "infera",
-    "bond-studio-ai"
+    "bond-studio-ai",
+    "liftoff",
+    "nextlinklabs"
   ],
   "invalid": [
     "greenhouse/redpandadata",
