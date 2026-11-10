@@ -1665,7 +1665,8 @@
     "clearwater",
     "rushdownstudios",
     "coderoad",
-    "liftoff"
+    "liftoff",
+    "admios"
   ],
   "lever": [
     "binance",
@@ -2410,7 +2411,8 @@
     "futurenow",
     "too-lost",
     "blue",
-    "performance-architects"
+    "performance-architects",
+    "mcgillstlaurent"
   ],
   "ashby": [
     "clerk",
@@ -2851,7 +2853,6 @@
     "idler",
     "finto",
     "reacher",
-    "fleetline",
     "misolabs",
     "nox-metals",
     "uplane",
@@ -3226,7 +3227,8 @@
     "infera",
     "bond-studio-ai",
     "liftoff",
-    "nextlinklabs"
+    "nextlinklabs",
+    "apadcode"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3780,7 +3782,8 @@
     "recruitee/devgrid",
     "recruitee/improvado",
     "recruitee/capacity",
-    "recruitee/julesmoi"
+    "recruitee/julesmoi",
+    "ashby/fleetline"
   ],
   "recruitee": [
     "medmehealth",
