@@ -535,7 +535,6 @@
     "aplayers",
     "aestudio",
     "blinkhealth",
-    "iterable",
     "boldin",
     "thrivedigital",
     "ethos",
@@ -1672,7 +1671,9 @@
     "avante",
     "calm",
     "cleargov",
-    "edmentum"
+    "edmentum",
+    "thrivecart",
+    "greenpointtechnologies"
   ],
   "lever": [
     "binance",
@@ -2997,7 +2998,6 @@
     "pearmill",
     "maple",
     "thinkific",
-    "willow-health",
     "simetrik",
     "coursecareers",
     "whiskeylibrary",
@@ -3795,7 +3795,10 @@
     "recruitee/crowdsec",
     "recruitee/yourpersonalai",
     "ashby/pingo",
-    "recruitee/gapstars"
+    "recruitee/gapstars",
+    "greenhouse/iterable",
+    "ashby/willow-health",
+    "recruitee/spark"
   ],
   "recruitee": [
     "medmehealth",
@@ -4512,7 +4515,6 @@
     "heilindelectronicseurope",
     "gateway",
     "sofatutor",
-    "spark",
     "sleep21",
     "lespepites",
     "grid",
@@ -5225,7 +5227,9 @@
     "impag",
     "visualfabriq",
     "nomios",
-    "reconext"
+    "reconext",
+    "8westconsulting",
+    "appunite"
   ],
   "smartrecruiters": [
     "clerky",
