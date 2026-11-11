@@ -1667,7 +1667,12 @@
     "coderoad",
     "liftoff",
     "admios",
-    "odinlabs"
+    "odinlabs",
+    "chime",
+    "avante",
+    "calm",
+    "cleargov",
+    "edmentum"
   ],
   "lever": [
     "binance",
@@ -2838,7 +2843,6 @@
     "sygaldry-technologies",
     "morpho",
     "eloquentai",
-    "pingo",
     "dedalus-labs",
     "mangodesk",
     "agentmail",
@@ -3789,7 +3793,9 @@
     "lever/semble",
     "recruitee/rdao",
     "recruitee/crowdsec",
-    "recruitee/yourpersonalai"
+    "recruitee/yourpersonalai",
+    "ashby/pingo",
+    "recruitee/gapstars"
   ],
   "recruitee": [
     "medmehealth",
@@ -4624,7 +4630,6 @@
     "fullcreative",
     "fullorbit",
     "fundamentalhospitality",
-    "gapstars",
     "gemgroup",
     "gerimedica",
     "getransports",
