@@ -2995,7 +2995,6 @@
     "moneyhash",
     "lumin-digital",
     "pearmill",
-    "maple",
     "thinkific",
     "simetrik",
     "coursecareers",
@@ -3800,7 +3799,8 @@
     "ashby/willow-health",
     "recruitee/spark",
     "lever/sprinterhealthhttps",
-    "ashby/cleric"
+    "ashby/cleric",
+    "ashby/maple"
   ],
   "recruitee": [
     "medmehealth",
