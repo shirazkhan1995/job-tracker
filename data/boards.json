@@ -2530,7 +2530,6 @@
     "coram-ai",
     "xdof",
     "unto-labs",
-    "cleric",
     "parallel",
     "axle-careers",
     "sift",
@@ -3228,7 +3227,8 @@
     "bond-studio-ai",
     "liftoff",
     "nextlinklabs",
-    "apadcode"
+    "apadcode",
+    "seconddinner"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3798,7 +3798,9 @@
     "recruitee/gapstars",
     "greenhouse/iterable",
     "ashby/willow-health",
-    "recruitee/spark"
+    "recruitee/spark",
+    "lever/sprinterhealthhttps",
+    "ashby/cleric"
   ],
   "recruitee": [
     "medmehealth",
@@ -5229,7 +5231,8 @@
     "nomios",
     "reconext",
     "8westconsulting",
-    "appunite"
+    "appunite",
+    "virtalent"
   ],
   "smartrecruiters": [
     "clerky",
