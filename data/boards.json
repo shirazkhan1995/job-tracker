@@ -1494,7 +1494,6 @@
     "bayasystems",
     "futurhealth",
     "onenergy",
-    "classpass",
     "scoutmotors",
     "redwoodmaterials",
     "konovo",
@@ -3800,7 +3799,8 @@
     "recruitee/spark",
     "lever/sprinterhealthhttps",
     "ashby/cleric",
-    "ashby/maple"
+    "ashby/maple",
+    "greenhouse/classpass"
   ],
   "recruitee": [
     "medmehealth",
