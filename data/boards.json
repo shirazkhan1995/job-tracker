@@ -1672,7 +1672,8 @@
     "cleargov",
     "edmentum",
     "thrivecart",
-    "greenpointtechnologies"
+    "greenpointtechnologies",
+    "akidolabs"
   ],
   "lever": [
     "binance",
@@ -2413,7 +2414,8 @@
     "blue",
     "performance-architects",
     "mcgillstlaurent",
-    "synergyecp"
+    "synergyecp",
+    "cleanspark"
   ],
   "ashby": [
     "clerk",
@@ -3066,7 +3068,6 @@
     "rowan",
     "koyfin",
     "spear-ai",
-    "tavily",
     "close",
     "marble",
     "ceezer",
@@ -3800,7 +3801,8 @@
     "lever/sprinterhealthhttps",
     "ashby/cleric",
     "ashby/maple",
-    "greenhouse/classpass"
+    "greenhouse/classpass",
+    "ashby/tavily"
   ],
   "recruitee": [
     "medmehealth",
