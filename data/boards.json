@@ -3153,7 +3153,6 @@
     "scout-ai",
     "hex",
     "pairs",
-    "kinetic",
     "cognition",
     "jupus",
     "growfig",
@@ -3810,7 +3809,8 @@
     "ashby/cleric",
     "ashby/maple",
     "greenhouse/classpass",
-    "ashby/tavily"
+    "ashby/tavily",
+    "ashby/kinetic"
   ],
   "recruitee": [
     "medmehealth",
