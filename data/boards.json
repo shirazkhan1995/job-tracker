@@ -1048,7 +1048,6 @@
     "levio",
     "route06",
     "newsrevenuehub",
-    "currenthydro",
     "moonlite",
     "salaryfinance",
     "casechek",
@@ -1675,7 +1674,9 @@
     "greenpointtechnologies",
     "akidolabs",
     "siteline",
-    "labelbox"
+    "labelbox",
+    "preload",
+    "vertalents"
   ],
   "lever": [
     "binance",
@@ -2420,7 +2421,8 @@
     "cleanspark",
     "tendo",
     "mixlab",
-    "energyrecovery"
+    "energyrecovery",
+    "fours"
   ],
   "ashby": [
     "clerk",
@@ -3235,7 +3237,9 @@
     "bonfireanalytics",
     "wayflyer",
     "blacksemiconductor",
-    "atticus"
+    "atticus",
+    "litmus",
+    "nooks"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3811,7 +3815,8 @@
     "ashby/maple",
     "greenhouse/classpass",
     "ashby/tavily",
-    "ashby/kinetic"
+    "ashby/kinetic",
+    "greenhouse/currenthydro"
   ],
   "recruitee": [
     "medmehealth",
