@@ -1680,7 +1680,8 @@
     "buzzfeed",
     "nooks",
     "science37",
-    "dna"
+    "dna",
+    "quinstreet"
   ],
   "lever": [
     "binance",
@@ -2209,7 +2210,6 @@
     "erg",
     "yardstick",
     "atlas-financial-services",
-    "bostonimaging",
     "meds",
     "leadershipconnect",
     "onceuponafarm",
@@ -2428,7 +2428,8 @@
     "energyrecovery",
     "fours",
     "outcomesai",
-    "petdesk"
+    "petdesk",
+    "econstruct"
   ],
   "ashby": [
     "clerk",
@@ -3245,7 +3246,8 @@
     "blacksemiconductor",
     "atticus",
     "litmus",
-    "nooks"
+    "nooks",
+    "vesta"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3823,7 +3825,8 @@
     "ashby/tavily",
     "ashby/kinetic",
     "greenhouse/currenthydro",
-    "recruitee/vpteam"
+    "recruitee/vpteam",
+    "lever/bostonimaging"
   ],
   "recruitee": [
     "medmehealth",
@@ -5256,7 +5259,10 @@
     "appunite",
     "virtalent",
     "leadershippathway",
-    "daniyaltechnologies"
+    "daniyaltechnologies",
+    "3h18",
+    "sfors",
+    "ppg"
   ],
   "smartrecruiters": [
     "clerky",
