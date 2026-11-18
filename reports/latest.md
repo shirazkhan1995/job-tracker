@@ -1,24 +1,30 @@
 # Job Tracker Report — 2026-11-18
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 136889 jobs from 4919 sources (4914 ATS boards polled, 137 newly discovered)
+> Scanned: 136708 jobs from 4918 sources (4913 ATS boards polled, 137 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (3)
 
-### Quality & Automation Platform Engineer — verda
-- **Posted:** 2026-11-17 · **Location:** Helsinki · **Source:** ashby:verda
-- **Matched:** playwright, javascript, typescript
-- **Link:** https://jobs.ashbyhq.com/verda/ef6f991d-cb70-47a6-938c-3d423fdc7f05
+### Test Automation Engineer — ADDENDUM
+- **Posted:** 2026-11-18 · **Location:** Latvia · **Source:** himalayas
+- **Matched:** playwright, cypress, javascript
+- **Link:** https://himalayas.app/companies/addendum/jobs/test-automation-engineer-6188275622?utm_source=api
 
-### QA Automation Engineer — Outside
-- **Posted:** 2026-08-20 · **Location:** Remote; Remote · **Source:** greenhouse:outside
+### 1214 | Senior Agentic QA Engineer — Intetics
+- **Posted:** 2026-11-18 · **Location:** Georgia · **Source:** himalayas
+- **Matched:** playwright, typescript
+- **Link:** https://himalayas.app/companies/intetics/jobs/1214-senior-agentic-qa-engineer?utm_source=api
+
+### Senior SDET (Software Development Engineer in Test) — Bizimply
+- **Posted:** 2026-11-18 · **Location:** Egypt · **Source:** himalayas
 - **Matched:** playwright, cypress, javascript, typescript
-- **Link:** https://www.outsideinc.com/openings?gh_jid=5386498008
+- **Link:** https://himalayas.app/companies/bizimply/jobs/senior-sdet-software-development-engineer-in-test?utm_source=api
 
-## ⚠️ Source errors (32 total)
+## ⚠️ Source errors (34 total)
 
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 28 boards (e.g. 383project, 7digital, 2050partners); will retry next run
-- lever/laminarprojects: HTTP 500
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 29 boards (e.g. 7digital, 2050partners, 383project); will retry next run
+- lever/magnopus: HTTP 500
+- lever/robbinsrecruiting: HTTP 502
 - recruitee/epicdata: HTTP 403
 - recruitee/tensquaregames: HTTP 403
 - recruitee/airsave: HTTP 403

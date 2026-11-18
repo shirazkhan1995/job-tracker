@@ -106,7 +106,6 @@
     "carbonchain",
     "albedo",
     "gather",
-    "gigs",
     "prospa",
     "shepherd",
     "niraenergy",
@@ -3138,7 +3137,6 @@
     "harmonic",
     "propel",
     "outschool",
-    "echo",
     "harmony",
     "jito-labs",
     "pragmatike",
@@ -3832,7 +3830,9 @@
     "recruitee/vpteam",
     "lever/bostonimaging",
     "greenhouse/quip",
-    "ashby/nectar-social"
+    "ashby/nectar-social",
+    "greenhouse/gigs",
+    "ashby/echo"
   ],
   "recruitee": [
     "medmehealth",
@@ -5268,7 +5268,8 @@
     "daniyaltechnologies",
     "3h18",
     "sfors",
-    "ppg"
+    "ppg",
+    "team5pm"
   ],
   "smartrecruiters": [
     "clerky",
