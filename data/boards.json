@@ -253,7 +253,6 @@
     "beamhealthcare",
     "muonspace",
     "uasi",
-    "quip",
     "helloheart",
     "precisionmedicinegroup",
     "remote",
@@ -1681,7 +1680,13 @@
     "nooks",
     "science37",
     "dna",
-    "quinstreet"
+    "quinstreet",
+    "goldencustomercare",
+    "cresteo",
+    "amiralearning",
+    "outside",
+    "southernpovertylawcenter",
+    "avam"
   ],
   "lever": [
     "binance",
@@ -2531,7 +2536,6 @@
     "prelude",
     "griffin",
     "cradlebio",
-    "nectar-social",
     "blueberrypediatrics",
     "sesame",
     "flux",
@@ -3826,7 +3830,9 @@
     "ashby/kinetic",
     "greenhouse/currenthydro",
     "recruitee/vpteam",
-    "lever/bostonimaging"
+    "lever/bostonimaging",
+    "greenhouse/quip",
+    "ashby/nectar-social"
   ],
   "recruitee": [
     "medmehealth",
