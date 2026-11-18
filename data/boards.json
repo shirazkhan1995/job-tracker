@@ -1685,7 +1685,8 @@
     "amiralearning",
     "outside",
     "southernpovertylawcenter",
-    "avam"
+    "avam",
+    "pdi"
   ],
   "lever": [
     "binance",
@@ -2457,7 +2458,6 @@
     "ditto",
     "livekit",
     "duck-duck-go",
-    "norm-ai",
     "category-labs",
     "permitflow",
     "confido",
@@ -3832,7 +3832,10 @@
     "greenhouse/quip",
     "ashby/nectar-social",
     "greenhouse/gigs",
-    "ashby/echo"
+    "ashby/echo",
+    "ashby/norm-ai",
+    "recruitee/lxt",
+    "recruitee/wonderkind"
   ],
   "recruitee": [
     "medmehealth",
@@ -4715,7 +4718,6 @@
     "logex",
     "lovebetter",
     "luckycart",
-    "lxt",
     "mailerlite",
     "mainstream",
     "maritiemmuseumrotterdam",
@@ -4817,7 +4819,6 @@
     "werkenbijvalantic",
     "werkenbijvrr",
     "werkeninleisure",
-    "wonderkind",
     "xalholdinggmbh",
     "xebiacareers",
     "xogene",
