@@ -1690,7 +1690,9 @@
     "electraaero",
     "caliber",
     "litmos",
-    "jazzx-ai"
+    "jazzx-ai",
+    "harrowhealth",
+    "expressflooring"
   ],
   "lever": [
     "binance",
@@ -2437,7 +2439,8 @@
     "fours",
     "outcomesai",
     "petdesk",
-    "econstruct"
+    "econstruct",
+    "securecodewarrior"
   ],
   "ashby": [
     "clerk",
@@ -3145,7 +3148,6 @@
     "pragmatike",
     "january",
     "optery",
-    "lingodotdev",
     "kaizen",
     "darwin",
     "publiccloudgroup",
@@ -3253,7 +3255,8 @@
     "litmus",
     "nooks",
     "vesta",
-    "owl"
+    "owl",
+    "qualtrics"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3840,7 +3843,8 @@
     "ashby/norm-ai",
     "recruitee/lxt",
     "recruitee/wonderkind",
-    "lever/jupe"
+    "lever/jupe",
+    "ashby/lingodotdev"
   ],
   "recruitee": [
     "medmehealth",
