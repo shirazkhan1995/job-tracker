@@ -1686,7 +1686,11 @@
     "outside",
     "southernpovertylawcenter",
     "avam",
-    "pdi"
+    "pdi",
+    "electraaero",
+    "caliber",
+    "litmos",
+    "jazzx-ai"
   ],
   "lever": [
     "binance",
@@ -2302,7 +2306,6 @@
     "bluecoding",
     "stardog",
     "fuellabs",
-    "jupe",
     "lifeforce",
     "ans",
     "traackr",
@@ -3249,7 +3252,8 @@
     "atticus",
     "litmus",
     "nooks",
-    "vesta"
+    "vesta",
+    "owl"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3835,7 +3839,8 @@
     "ashby/echo",
     "ashby/norm-ai",
     "recruitee/lxt",
-    "recruitee/wonderkind"
+    "recruitee/wonderkind",
+    "lever/jupe"
   ],
   "recruitee": [
     "medmehealth",
