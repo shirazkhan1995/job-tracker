@@ -1692,7 +1692,10 @@
     "litmos",
     "jazzx-ai",
     "harrowhealth",
-    "expressflooring"
+    "expressflooring",
+    "scoutspace",
+    "qualtrics",
+    "onapsis"
   ],
   "lever": [
     "binance",
@@ -2440,7 +2443,9 @@
     "outcomesai",
     "petdesk",
     "econstruct",
-    "securecodewarrior"
+    "securecodewarrior",
+    "trackmind",
+    "healthcare"
   ],
   "ashby": [
     "clerk",
@@ -2773,7 +2778,6 @@
     "outset",
     "solveintelligence",
     "fleetworks",
-    "capimoney",
     "campfire",
     "fortuna-health",
     "decodahealth",
@@ -3845,7 +3849,8 @@
     "recruitee/wonderkind",
     "lever/jupe",
     "ashby/lingodotdev",
-    "recruitee/beezzz"
+    "recruitee/beezzz",
+    "ashby/capimoney"
   ],
   "recruitee": [
     "medmehealth",
