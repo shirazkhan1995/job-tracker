@@ -996,7 +996,6 @@
     "stockx",
     "mco",
     "komodohealth",
-    "brightsign",
     "octus",
     "blacksky",
     "fluxon",
@@ -1007,7 +1006,6 @@
     "logos",
     "unframe",
     "shipmonk",
-    "infotrust",
     "sparetech",
     "ascendhealthcare",
     "finyard",
@@ -2449,7 +2447,8 @@
     "econstruct",
     "securecodewarrior",
     "trackmind",
-    "healthcare"
+    "healthcare",
+    "qsic"
   ],
   "ashby": [
     "clerk",
@@ -3264,7 +3263,8 @@
     "nooks",
     "vesta",
     "owl",
-    "qualtrics"
+    "qualtrics",
+    "litmushiring"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3854,7 +3854,9 @@
     "lever/jupe",
     "ashby/lingodotdev",
     "recruitee/beezzz",
-    "ashby/capimoney"
+    "ashby/capimoney",
+    "greenhouse/brightsign",
+    "greenhouse/infotrust"
   ],
   "recruitee": [
     "medmehealth",
@@ -5291,7 +5293,8 @@
     "team5pm",
     "priva",
     "wasabit",
-    "integratedsystemsevents"
+    "integratedsystemsevents",
+    "tecclegroup"
   ],
   "smartrecruiters": [
     "clerky",
