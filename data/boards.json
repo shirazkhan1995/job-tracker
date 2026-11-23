@@ -227,7 +227,6 @@
     "jusbrasil",
     "donorbox",
     "protaratherapeutics",
-    "bluestaq",
     "avepoint",
     "roo",
     "hspgroup",
@@ -561,7 +560,6 @@
     "luxinfusion",
     "lumimeds",
     "autotrader",
-    "gropyus",
     "higherlogic",
     "nift",
     "ecoatmgazelle",
@@ -2447,7 +2445,8 @@
     "securecodewarrior",
     "trackmind",
     "healthcare",
-    "qsic"
+    "qsic",
+    "hopeservices"
   ],
   "ashby": [
     "clerk",
@@ -2481,7 +2480,6 @@
     "runway-ml",
     "pear-vc",
     "9-mothers",
-    "complement",
     "railway",
     "spruceid",
     "solace",
@@ -3860,7 +3858,10 @@
     "lever/warmly",
     "lever/ezcater",
     "lever/ansira",
-    "lever/relay"
+    "lever/relay",
+    "greenhouse/bluestaq",
+    "greenhouse/gropyus",
+    "ashby/complement"
   ],
   "recruitee": [
     "medmehealth",
