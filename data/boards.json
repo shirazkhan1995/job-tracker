@@ -1699,7 +1699,8 @@
     "terrabis",
     "appomni",
     "copilotiq",
-    "pieinsurance"
+    "pieinsurance",
+    "metropublicadjustment"
   ],
   "lever": [
     "binance",
@@ -1910,7 +1911,6 @@
     "lyrahealth",
     "cyara",
     "agile-defense",
-    "warmly",
     "remofirst",
     "everlywell",
     "sambatv",
@@ -2009,7 +2009,6 @@
     "neon",
     "soraschools",
     "starcompliance",
-    "ezcater",
     "launchsquad",
     "90seconds",
     "theathletic",
@@ -2066,7 +2065,6 @@
     "rewtechnology",
     "bounteous",
     "tala",
-    "ansira",
     "appsamurai",
     "yardzen",
     "teamsnap",
@@ -2178,7 +2176,6 @@
     "liatrio",
     "mechanicalorchard",
     "1inch",
-    "relay",
     "modernanimal",
     "lendbuzz",
     "heyjane",
@@ -3859,7 +3856,11 @@
     "ashby/capimoney",
     "greenhouse/brightsign",
     "greenhouse/infotrust",
-    "recruitee/chorusone1"
+    "recruitee/chorusone1",
+    "lever/warmly",
+    "lever/ezcater",
+    "lever/ansira",
+    "lever/relay"
   ],
   "recruitee": [
     "medmehealth",
