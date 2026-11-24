@@ -1,25 +1,34 @@
-# Job Tracker Report — 2026-11-23
+# Job Tracker Report — 2026-11-24
 
 > Filter: (playwright OR puppeteer OR cypress OR webdriverio OR webdriver.io OR wdio) AND (javascript OR typescript) · remote only · all open postings
-> Scanned: 134030 jobs from 4932 sources (4927 ATS boards polled, 122 newly discovered)
+> Scanned: 134038 jobs from 4931 sources (4926 ATS boards polled, 119 newly discovered)
 
-## 💼 New remote matches (2)
+## 💼 New remote matches (4)
 
-### QA Lead — mamamoney
-- **Posted:** 2026-11-23 · **Location:** Cape Town, ZA; Cape Town, ZA; ZA · **Source:** lever:mamamoney
-- **Matched:** cypress, javascript
-- **Link:** https://jobs.lever.co/mamamoney/a8d7511d-3cca-40ab-ad7a-31df104cb27d
+### Semi Sr. - QA Engineer (Data) – E-Learning — truelogic
+- **Posted:** 2026-11-23 · **Location:** Panama · **Source:** ashby:truelogic
+- **Matched:** playwright, typescript
+- **Link:** https://jobs.ashbyhq.com/truelogic/a9bcd70d-d6e9-4a60-beb8-a9527d2bd47a
 
-### Automation QA Engineer — SkyCell AG
-- **Posted:** 2026-11-23 · **Location:** Remote job; Hyderabad; Telangāna; India · **Source:** recruitee:skycellag
-- **Matched:** playwright, javascript
-- **Link:** https://skycellag.recruitee.com/o/automation-qa-engineer
+###  Jr. Semi Sr. - QA Engineer (Data) – E-Learning — truelogic
+- **Posted:** 2026-11-23 · **Location:** Santo Domingo · **Source:** ashby:truelogic
+- **Matched:** playwright, typescript
+- **Link:** https://jobs.ashbyhq.com/truelogic/94b554b5-94db-4bae-b5e3-f8f1f72ead7b
 
-## ⚠️ Source errors (34 total)
+### Jr. Semi Sr. - QA Engineer (Data) – E-Learning — truelogic
+- **Posted:** 2026-11-23 · **Location:** Bogota · **Source:** ashby:truelogic
+- **Matched:** playwright, typescript
+- **Link:** https://jobs.ashbyhq.com/truelogic/21fdc173-b319-4442-9880-35e1e9ad02a1
 
-- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 29 boards (e.g. 2050partners, 383project, 7digital); will retry next run
-- lever/bluelightconsulting: HTTP 500
+### Junior QA Engineer — Snef
+- **Posted:** 2026-11-23 · **Location:** Indonesia · **Source:** himalayas
+- **Matched:** cypress, typescript
+- **Link:** https://himalayas.app/companies/snef/jobs/junior-qa-engineer?utm_source=api
+
+## ⚠️ Source errors (68 total)
+
+- bamboohr: Unexpected token '<', "<!DOCTYPE "... is not valid JSON — 29 boards (e.g. 2050partners, 7digital, 383project); will retry next run
+- greenhouse: HTTP 429 — 36 boards (e.g. manatee, blacksky, unframe); will retry next run
 - recruitee/epicdata: HTTP 403
 - recruitee/tensquaregames: HTTP 403
 - recruitee/airsave: HTTP 403
-- recruitee/nowatch: HTTP 502

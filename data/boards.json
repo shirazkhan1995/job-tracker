@@ -1698,7 +1698,8 @@
     "appomni",
     "copilotiq",
     "pieinsurance",
-    "metropublicadjustment"
+    "metropublicadjustment",
+    "acca"
   ],
   "lever": [
     "binance",
@@ -1833,7 +1834,6 @@
     "beam",
     "newton",
     "epsilon3",
-    "twodots",
     "bloom",
     "2brains",
     "zensurance",
@@ -1953,7 +1953,6 @@
     "voltus",
     "valiantys",
     "firemon",
-    "carbonhealth",
     "penumbrainc",
     "quantummetric",
     "lodgify",
@@ -2067,7 +2066,6 @@
     "yardzen",
     "teamsnap",
     "brooksrunning",
-    "flare",
     "placemakr",
     "megaport",
     "biodigital",
@@ -2215,14 +2213,12 @@
     "nimbus",
     "piplabs",
     "karmacheck",
-    "spine-media",
     "restaurant365",
     "payactiv",
     "scaleway",
     "reekon-tools",
     "erg",
     "yardstick",
-    "atlas-financial-services",
     "meds",
     "leadershipconnect",
     "onceuponafarm",
@@ -2446,7 +2442,8 @@
     "trackmind",
     "healthcare",
     "qsic",
-    "hopeservices"
+    "hopeservices",
+    "hirematch"
   ],
   "ashby": [
     "clerk",
@@ -3861,7 +3858,13 @@
     "lever/relay",
     "greenhouse/bluestaq",
     "greenhouse/gropyus",
-    "ashby/complement"
+    "ashby/complement",
+    "lever/twodots",
+    "lever/carbonhealth",
+    "lever/flare",
+    "lever/spine-media",
+    "lever/atlas-financial-services",
+    "recruitee/snapmagic"
   ],
   "recruitee": [
     "medmehealth",
@@ -4521,7 +4524,6 @@
     "tab",
     "reframe",
     "arq",
-    "snapmagic",
     "soundboks",
     "assembly",
     "bego",
