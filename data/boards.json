@@ -107,7 +107,6 @@
     "albedo",
     "gather",
     "prospa",
-    "shepherd",
     "niraenergy",
     "dots",
     "beam",
@@ -1699,7 +1698,9 @@
     "copilotiq",
     "pieinsurance",
     "metropublicadjustment",
-    "acca"
+    "acca",
+    "bertramcapitalmanagement",
+    "annoai"
   ],
   "lever": [
     "binance",
@@ -3864,7 +3865,8 @@
     "lever/flare",
     "lever/spine-media",
     "lever/atlas-financial-services",
-    "recruitee/snapmagic"
+    "recruitee/snapmagic",
+    "greenhouse/shepherd"
   ],
   "recruitee": [
     "medmehealth",
