@@ -153,7 +153,6 @@
     "customerio",
     "mineralystherapeutics",
     "samsara",
-    "growe",
     "smithrx",
     "eulerity",
     "powerdigitalmarketing",
@@ -1377,7 +1376,6 @@
     "bitwarden",
     "dropzoneai",
     "alarmcom",
-    "growetalents",
     "climatefirstbank",
     "securitize",
     "technologyadvice",
@@ -1636,7 +1634,6 @@
     "veramed",
     "pubnub",
     "capco",
-    "pilotbase",
     "pippintitle",
     "pineadvisorsolutions",
     "gotutorcorps",
@@ -1700,7 +1697,10 @@
     "metropublicadjustment",
     "acca",
     "bertramcapitalmanagement",
-    "annoai"
+    "annoai",
+    "supportingstrategies",
+    "descope",
+    "sumologic"
   ],
   "lever": [
     "binance",
@@ -1727,7 +1727,6 @@
     "skyways",
     "cyngn",
     "heard",
-    "caremessage",
     "getduranta",
     "zoox",
     "quartzy",
@@ -2444,7 +2443,11 @@
     "healthcare",
     "qsic",
     "hopeservices",
-    "hirematch"
+    "hirematch",
+    "graylog",
+    "source",
+    "baselane",
+    "celerocommerce"
   ],
   "ashby": [
     "clerk",
@@ -3082,7 +3085,6 @@
     "firstprinciples",
     "maintainx",
     "roadrunner",
-    "epistemix",
     "ssi",
     "crosswalk-health",
     "sentra",
@@ -3866,7 +3868,12 @@
     "lever/spine-media",
     "lever/atlas-financial-services",
     "recruitee/snapmagic",
-    "greenhouse/shepherd"
+    "greenhouse/shepherd",
+    "greenhouse/growe",
+    "greenhouse/growetalents",
+    "greenhouse/pilotbase",
+    "lever/caremessage",
+    "ashby/epistemix"
   ],
   "recruitee": [
     "medmehealth",
