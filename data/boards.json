@@ -1700,7 +1700,8 @@
     "annoai",
     "supportingstrategies",
     "descope",
-    "sumologic"
+    "sumologic",
+    "kairospower"
   ],
   "lever": [
     "binance",
@@ -2447,7 +2448,8 @@
     "graylog",
     "source",
     "baselane",
-    "celerocommerce"
+    "celerocommerce",
+    "morningbrew"
   ],
   "ashby": [
     "clerk",
@@ -2851,7 +2853,6 @@
     "apolink",
     "bild-ai",
     "flowtel",
-    "axiom",
     "reviserobotics",
     "salespatriot",
     "weave",
@@ -3873,7 +3874,8 @@
     "greenhouse/growetalents",
     "greenhouse/pilotbase",
     "lever/caremessage",
-    "ashby/epistemix"
+    "ashby/epistemix",
+    "ashby/axiom"
   ],
   "recruitee": [
     "medmehealth",
@@ -5310,7 +5312,9 @@
     "wasabit",
     "integratedsystemsevents",
     "tecclegroup",
-    "fonhr"
+    "fonhr",
+    "korfinancial",
+    "smartways"
   ],
   "smartrecruiters": [
     "clerky",
