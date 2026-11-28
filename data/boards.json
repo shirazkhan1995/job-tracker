@@ -1706,7 +1706,8 @@
     "heygen",
     "unbounce",
     "mettel",
-    "billtrust"
+    "billtrust",
+    "shiphawk"
   ],
   "lever": [
     "binance",
@@ -2454,7 +2455,9 @@
     "source",
     "baselane",
     "celerocommerce",
-    "morningbrew"
+    "morningbrew",
+    "wadetrim",
+    "elty"
   ],
   "ashby": [
     "clerk",
@@ -2975,7 +2978,6 @@
     "partyhat",
     "ispeedtolead",
     "omadaai",
-    "featherlessai",
     "teton",
     "atominvest",
     "salesape-ai",
@@ -3267,7 +3269,8 @@
     "vesta",
     "owl",
     "qualtrics",
-    "litmushiring"
+    "litmushiring",
+    "limble"
   ],
   "invalid": [
     "greenhouse/redpandadata",
@@ -3881,7 +3884,8 @@
     "lever/caremessage",
     "ashby/epistemix",
     "ashby/axiom",
-    "greenhouse/phiture"
+    "greenhouse/phiture",
+    "ashby/featherlessai"
   ],
   "recruitee": [
     "medmehealth",
@@ -5322,7 +5326,8 @@
     "korfinancial",
     "smartways",
     "finbyte",
-    "ticketswap"
+    "ticketswap",
+    "ans"
   ],
   "smartrecruiters": [
     "clerky",
